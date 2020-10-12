@@ -1,0 +1,332 @@
+[
+{
+  "word": "hello",
+  "language": "english",
+  "translation": "Hello",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "russian",
+  "translation": "Привет",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "french",
+  "translation": "Bonjour",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "spanish",
+  "translation": "Hola",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "chinese",
+  "translation": "你好",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "arabic",
+  "translation": "مرحبا",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "albanina",
+  "translation": "Përshëndetje",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "armenian",
+  "translation": "Բարեւ Ձեզ",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "bengali",
+  "translation": "হ্যালো",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "bulgarian",
+  "translation": "Здравейте",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "chech",
+  "translation": "Ahoj",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "dutch",
+  "translation": "Hallo",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "estonian",
+  "translation": "Tere",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "fillipino",
+  "translation": "Kamusta",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "finish",
+  "translation": "Hei",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "greek",
+  "translation": "Χαίρετε",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "hebrew",
+  "translation": "שלום",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "hindi",
+  "translation": "हैलो",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "hungarian",
+  "translation": "Szia",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "irish",
+  "translation": "Dia Dhuit",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "italian",
+  "translation": "Ciao",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "korean",
+  "translation": "여보세요",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "kyrgyz",
+  "translation": "Салам",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "lao",
+  "translation": "ສະບາຍດີ",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "latin",
+  "translation": "Salve",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "latvian",
+  "translation": "Sveiki",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "lao",
+  "translation": "ສະບາຍດີ",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "macedonian",
+  "translation": "Здраво",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "malagasy",
+  "translation": "Salama",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "malayalam",
+  "translation": "ഹലോ",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "maltese",
+  "translation": "Bongu",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "maori",
+  "translation": "Kia Ora",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "marathi",
+  "translation": "नमस्कार",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "mongolian",
+  "translation": "Сайн yy",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "myanmar",
+  "translation": "ဟယ်လို",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "odia",
+  "translation": "ନମସ୍କାର",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "pashto",
+  "translation": "سلام",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "persian",
+  "translation": "سلام",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "polish",
+  "translation": "Dzień Dobry",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "portugese",
+  "translation": "Olá",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "punjabi",
+  "translation": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "romanian",
+  "translation": "Salut",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "samoan",
+  "translation": "Talofa",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "shona",
+  "translation": "Mhoro",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "sindhi",
+  "translation": "هيلو",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "sinhala",
+  "translation": "හෙලෝ",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "somali",
+  "translation": "Salaan",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "swahili",
+  "translation": "Habari",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "swedish",
+  "translation": "Hallå",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "tamil",
+  "translation": "வணக்கம்",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "ukrainian",
+  "translation": "Здравствуйте",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "spanish",
+  "translation": "Hola",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "chinese",
+  "translation": "你好",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "arabic",
+  "translation": "مرحبا",
+  "active": false
+},
+{
+  "word": "hello",
+  "language": "albanina",
+  "translation": "Përshëndetje",
+  "active": false
+}
+]

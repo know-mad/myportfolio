@@ -1,0 +1,32 @@
+.logo {
+  height: 80px;
+  width: 80px;
+  /* margin-left: 60px; */
+  background-image: url('../images/logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+/* //// Media Queries //// */
+
+@media screen and (max-width: 320px) {
+	.logo {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 375px) {
+  .logo {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 425px) {
+  .logo {
+		display: none;
+	}
+}
