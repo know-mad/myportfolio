@@ -13,6 +13,7 @@ import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import Quote from '../components/Quote'
 import BlankService from '../components/BlankService'
+import Technologies from '../components/Technologies'
 
 
 
@@ -27,6 +28,7 @@ const IndexPage = () => (
           <Quote />
             <Services />
               <BlankService />
+              <Technologies />
                 <Projects />
                   <Contact />
                     <Footer />

@@ -18,8 +18,10 @@ export default class BlankService extends Component {
         <h1><span style={{color: '#0984e3'}}>Responsive Web Design</span></h1>
         <hr/>
 
+          <h3>Need a website ?</h3>
           <h3>
-            Stuff and things
+            I build websites using the latest technology. Ensuring your
+            website is lightning fast, SEO optimized, and looks great on any device
           </h3>
         </div>
 

@@ -1,0 +1,50 @@
+[
+  {
+    "skill": "HTML 5"
+  },
+  {
+    "skill": "CSS3"
+  },
+  {
+    "skill": "Python"
+  },
+  {
+    "skill": "Javascript"
+  },
+  {
+    "skill": "Node.js"
+  },
+  {
+    "skill": "Express.js"
+  },
+  {
+    "skill": "Django"
+  },
+  {
+    "skill": "Shopify"
+  },
+  {
+    "skill": "Heroku"
+  },
+  {
+    "skill": "Netlify"
+  },
+  {
+    "skill": "REACT"
+  },
+  {
+    "skill": "Wordpress"
+  },
+  {
+    "skill": "PostgreSQL"
+  },
+  {
+    "skill": "Mongo DB"
+  },
+  {
+    "skill": "Git"
+  },
+  {
+    "skill": "Firebase"
+  }
+]
