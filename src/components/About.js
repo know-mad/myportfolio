@@ -23,13 +23,13 @@ export default class About extends Component {
           <h2>Home Base: <span style={{color: '#deac70'}}>New York City</span></h2>
             <img src={statue} alt='statue_of_liberty_icon' width='90' height='90'/>
             <hr/>
-            <h3>I'm a <span style={{color: '#b007a8'}}>full stack software engineer</span> based in New York, New York</h3>
-            <h3>specializing in building
-             clean <span style={{color: '#32ab9c'}}>websites</span>, exceptional <span style={{color: '#0984e3'}}>applications</span>, and everything in between.</h3>
-            <h3>I enjoy creating <span style={{color: '#deac70'}}>software</span> and <span style={{color: '#0984e3'}}>applications</span> that drive technology and
+            <p>I'm a <span style={{color: '#b007a8'}}>full stack software engineer</span> based in New York, New York</p>
+            <p>specializing in building
+             clean <span style={{color: '#32ab9c'}}>websites</span>, exceptional <span style={{color: '#0984e3'}}>applications</span>, and everything in between.</p>
+            <p>I enjoy creating <span style={{color: '#deac70'}}>software</span> and <span style={{color: '#0984e3'}}>applications</span> that drive technology and
             streamline tasks. With over 8 years of <span style={{color: '#b007a8'}}>experience</span> in the <span style={{color: '#32ab9c'}}>technology sector</span>,
             I've worked on enterprise scale client/server systems, <span style={{color: '#deac70'}}>optimized networks</span>, and develop <span style={{color: '#32ab9c'}}>software </span>
-            that's clean and user <span style={{color: '#0984e3'}}>driven</span></h3>
+            that's clean and user <span style={{color: '#0984e3'}}>driven</span></p>
         </div>
 
         <div className='socials-card'>

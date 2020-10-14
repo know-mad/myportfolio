@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 950px;
+  height: 1150px;
   width: 100%;
   background-color: #fff;
   color: #2d3436;
@@ -12,57 +12,14 @@
   /* overflow: hidden; */
 }
 
-.slides {
-  /* position: relative; */
+.projects {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   /* background-color: blue; */
-  /* background-image: url('../assets/trees.jpg'); */
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
-  width: 100%;
-  /* overflow: hidden; */
-  /* z-index: 1; */
-  /* transform: translateX(1000px) */
-}
-
-.left-toggle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 3%;
-  background-color: rgba(0,0,0,0.1);
-}
-
-.right-toggle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 3%;
-  background-color: rgba(0,0,0,0.1);
-}
-
-.left-arrow {
-  height: 60px;
-  width: 100%;
-  background-image: url('../images/left-arrow.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.right-arrow {
-  height: 60px;
-  width: 100%;
-  background-image: url('../images/right-arrow.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  height: 800px;
+  width: 95%;
 }

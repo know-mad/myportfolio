@@ -1,43 +1,31 @@
 import React, { Component } from 'react'
 import './Projects.css'
-import Slide from './Slide'
+import ProjectCard from './ProjectCard'
 
-
-import trees from '../images/trees.jpg'
 import project from '../images/project.svg'
-
-
-
+import trees from '../images/trees.jpg'
+import cotrip from '../images/cotrip.png'
 
 
 
 export default class Projects extends Component {
 
-  handleLeftClick = () => {
-    console.log('left-click')
-  }
-
-  handleRightClick = () => {
-    console.log('right-click')
-  }
 
 
   render(){
-
 
     return(
         <div id='projects-section' className='projects-container'>
           <img src={project} alt='skills_icon' width='90' height='90'/>
           <h1><span style={{color: '#32ab9c'}}>Projects</span></h1>
+          <p>Select a project below to find out its information</p>
 
-          <div className='slides'>
-            <div className='left-toggle'>
-              <div onClick={this.handleLeftClick} className='left-arrow'></div>
-            </div>
-              <Slide />
-            <div className='right-toggle'>
-              <div onClick={this.handleRightClick} className='right-arrow'></div>
-            </div>
+          <div className='projects'>
+            <ProjectCard item={1} image={trees} number={1} info={'Kush API'}/>
+            <ProjectCard item={2} image={cotrip} number={2} info={'CoTrip Application'}/>
+            <ProjectCard item={3} number={3}/>
+            <ProjectCard item={4} number={4}/>
+            <ProjectCard item={5} number={5}/>
           </div>
         </div>
     )

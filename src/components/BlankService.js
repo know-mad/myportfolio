@@ -19,10 +19,10 @@ export default class BlankService extends Component {
         <hr/>
 
           <h3>Need a website ?</h3>
-          <h3>
+          <p>
             I build websites using the latest technology. Ensuring your
             website is lightning fast, SEO optimized, and looks great on any device
-          </h3>
+          </p>
         </div>
 
         <div className='blank-service-detail'>

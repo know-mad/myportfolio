@@ -15,7 +15,7 @@ import netlify from '../images/netlify.svg'
 import react from '../images/react-2.svg'
 import mongo from '../images/mongodb.svg'
 import git from '../images/github-2.svg'
-import wordpress from '../images/wordpress-blue.svg'
+import gatsby from '../images/gatsby-logo.svg'
 import shopify from '../images/shopify-2.svg'
 import firebase from '../images/firebase-1.svg'
 import postgreSQL from '../images/postgresql.svg'
@@ -36,7 +36,7 @@ const photos = [
   react,
   mongo,
   git,
-  wordpress,
+  gatsby,
   shopify,
   firebase,
   postgreSQL
@@ -96,11 +96,11 @@ export default class Technologies extends Component {
             <img src={programming} alt='skills_icon' width='90' height='90'/>
             <h1><span style={{color: '#b007a8'}}>Technologies</span></h1>
             <hr/>
-            <h3>As a <span style={{color: '#b007a8'}}>passionate</span> and curious
+            <p>As a <span style={{color: '#b007a8'}}>passionate</span> and curious
              technologist, I'm always looking to <span style={{color: '#deac70'}}>learn</span> and
-              <span style={{color: '#deac70'}}> build</span> with new technologies</h3>
-            <h3> these are some of the <span style={{color: '#32ab9c'}}>technologies</span> i've
-             been <span style={{color: '#0984e3'}}>working</span> with recently</h3>
+              <span style={{color: '#deac70'}}> build</span> with new technologies</p>
+            <p> these are some of the <span style={{color: '#32ab9c'}}>technologies</span> i've
+             been <span style={{color: '#0984e3'}}>working</span> with recently</p>
           </div>
 
           <div className='technologies-bottom'>
