@@ -5,32 +5,28 @@ import trees from '../images/trees.jpg'
 const ProjectCard = (props) => {
   const [mouseOver, setMouseOver] = useState(false)
 
-  let handleClick = () => {
-    let item = document.getElementById(props.item)
-    console.log(item.id)
-  }
 
 
 
   return (
-    <div
-      onClick={handleClick}
-      onMouseOver={() => setMouseOver(true)}
-      onMouseOut={() => setMouseOver(false)}
-      id={props.item}
-      style={{
-      backgroundImage: `url(${props.image})`,
-      display: 'flex',
-      flexDirection: 'row',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'center',
-      width: '100%',
-      height: '20%',
-      marginBottom: '20px',
-      cursor: 'pointer',
-      boxShadow: '5px 10px 20px rgba(0,0,0,0.4)',
-    }}>
+      <div
+        onClick={props.click}
+        onMouseOver={() => setMouseOver(true)}
+        onMouseOut={() => setMouseOver(false)}
+        id={props.item}
+        style={{
+        backgroundImage: `url(${props.image})`,
+        display: 'flex',
+        flexDirection: 'row',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        width: '90%',
+        height: '15%',
+        marginBottom: '20px',
+        cursor: 'pointer',
+        boxShadow: '5px 10px 20px rgba(0,0,0,0.4)',
+      }}>
 
       <div style={{
         backgroundColor: 'rgba(50, 171, 156)',
@@ -53,7 +49,6 @@ const ProjectCard = (props) => {
         height: '100%',
         width: '90%',
       }}>
-        <h1 style={{color: '#fff'}}>{props.info}</h1>
       </div>
     </div>
   )

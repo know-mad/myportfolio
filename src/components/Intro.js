@@ -22,7 +22,7 @@ export default class Intro extends Component {
       if(num === data.length) {
         num = 0
       }
-    }, 3000)
+    }, 2000)
   }
 
   cycleCursor = () => {

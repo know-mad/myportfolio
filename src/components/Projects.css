@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 1150px;
+  height: 1000px;
   width: 100%;
   background-color: #fff;
   color: #2d3436;
@@ -20,6 +20,18 @@
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 600px;
+  width: 95%;
+}
+
+.single-project {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  justify-content: flex-start;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
   width: 95%;
 }
