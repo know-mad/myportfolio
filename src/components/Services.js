@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import './Services.css'
-import skills from '../images/skills.svg'
 import Card from './Card'
+
+import skills from '../images/skills.svg'
 
 
 export default class Services extends Component {

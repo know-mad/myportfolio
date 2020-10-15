@@ -4,11 +4,10 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 700px;
+  height: 900px;
   width: 100%;
   background-color: #fff;
   color: #2d3436;
-  margin-bottom: 5px;
 }
 
 .technologies {
@@ -19,6 +18,10 @@
   text-align: center;
   width: 50%;
   height: 650px;
+}
+
+.technologies p {
+  font-size: 1.25rem;
 }
 
 .technologies-top {

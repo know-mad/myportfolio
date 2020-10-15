@@ -28,6 +28,10 @@
   margin: 15px;
 }
 
+.about-card p {
+  font-size: 1.25rem;
+}
+
 
 .icons {
   display: flex;

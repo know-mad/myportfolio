@@ -1,23 +1,33 @@
-import React, { Component } from 'react'
-import './Card.css'
+import React, { useState } from 'react'
 
-export default class Card extends Component {
+const Card = (props) => {
+  const [mouseOver, setMouseOver] = useState(false)
 
-  render(){
+
     return(
       <div
       className='card-container'
+      onMouseOver={() => setMouseOver(true)}
+      onMouseOut={() => setMouseOver(false)}
       style={{
-        backgroundColor: this.props.defaultBackground,
-        color: this.props.color,
-        border: this.props.border,
-        height: this.props.height,
-        width: this.props.width,
-        boxShadow: this.props.shadow,
-        backgroundImage: this.props.image
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        textAlign: 'center',
+        margin: '20px 3px 0',
+        backgroundColor: mouseOver ? '#fff' : props.defaultBackground,
+        color: mouseOver ? '#2d3436' : props.color,
+        border: props.border,
+        height: props.height,
+        width: props.width,
+        boxShadow: props.shadow,
+        backgroundImage: props.image,
+        cursor: 'pointer'
         }}>
-        <h4>{this.props.skill}</h4>
+        <h4>{props.skill}</h4>
       </div>
     )
-  }
 }
+
+export default Card

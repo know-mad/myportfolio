@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Projects.css'
+import Card from './Card'
 import ProjectCard from './ProjectCard'
 
 import project from '../images/project.svg'
@@ -49,44 +50,58 @@ export default class Projects extends Component {
 
 
   render(){
-
-    if (this.state.item1) {
       return (
         <div id='projects-section' className='projects-container'>
-          <img src={project} alt='skills_icon' width='90' height='90'/>
-          <h1><span style={{color: '#32ab9c'}}>Projects</span></h1>
-          <p>Select a project below to find out its information</p>
+          <div className='projects-details'>
+            <ProjectCard />
+          </div>
 
-          <div className='single-project'>
-            <h1>This fucking works!</h1>
+          <div className='projects'>
+            <img src={project} alt='skills_icon' width='90' height='90'/>
+            <h1><span style={{color: '#32ab9c'}}>Projects</span></h1>
+            <hr/>
+            <p>Some of the recent projects I've worked on</p>
+            <Card border={'1px solid #32ab9c'}
+                color={'#fff'}
+                defaultBackground={'#32ab9c'}
+                height={'50px'}
+                width={'80%'}
+                shadow={'5px 10px 20px rgba(0,0,0,0.4)'}
+                skill='Aziatic Hair Studio' />
+
+                <Card border={'1px solid #32ab9c'}
+                    color={'#fff'}
+                    defaultBackground={'#32ab9c'}
+                    height={'50px'}
+                    width={'80%'}
+                    shadow={'5px 10px 20px rgba(0,0,0,0.4)'}
+                    skill='Toronto' />
+
+                    <Card border={'1px solid #32ab9c'}
+                        color={'#fff'}
+                        defaultBackground={'#32ab9c'}
+                        height={'50px'}
+                        width={'80%'}
+                        shadow={'5px 10px 20px rgba(0,0,0,0.4)'}
+                        skill='Kush API' />
+
+                        <Card border={'1px solid #32ab9c'}
+                            color={'#fff'}
+                            defaultBackground={'#32ab9c'}
+                            height={'50px'}
+                            width={'80%'}
+                            shadow={'5px 10px 20px rgba(0,0,0,0.4)'}
+                            skill='MERN E-Commerce' />
+
+                            <Card border={'1px solid #32ab9c'}
+                                color={'#fff'}
+                                defaultBackground={'#32ab9c'}
+                                height={'50px'}
+                                width={'80%'}
+                                shadow={'5px 10px 20px rgba(0,0,0,0.4)'}
+                                skill='Portfolio' />
           </div>
         </div>
       )
-
-    } else if (this.state.item2) {
-
-    } else if (this.state.item3) {
-
-    } else if (this.state.item4) {
-
-    } else if (this.state.item5) {
-
-    } else {
-      return(
-          <div id='projects-section' className='projects-container'>
-            <img src={project} alt='skills_icon' width='90' height='90'/>
-            <h1><span style={{color: '#32ab9c'}}>Projects</span></h1>
-            <p>Select a project below to find out its information</p>
-
-            <div className='projects'>
-              <ProjectCard click={this.handleClickOne} item={1} image={barbershop} number={1} info={'Kush API'}/>
-              <ProjectCard click={this.handleClickTwo} item={2} image={cotrip} number={2} info={'CoTrip Application'}/>
-              <ProjectCard click={this.handleClickThree} item={3} image={trees} number={3} info={'Kush API'}/>
-              <ProjectCard click={this.handleClickFour} item={4} image={toronto} number={4}/>
-              <ProjectCard click={this.handleClickFive} item={5} number={5}/>
-            </div>
-          </div>
-      )
-    }
   }
 }

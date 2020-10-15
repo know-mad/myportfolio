@@ -57,8 +57,9 @@ export default class Nav extends Component {
         <div id='list-items' className={this.state.listItems === true ? 'list' : 'list-mobile'}>
             <Link to='about-section' smooth={true} duration={1000}><li>about</li></Link>
               <Link to='services-section' smooth={true} duration={1000}><li>services</li></Link>
-                <Link to='projects-section' smooth={true} duration={1000}><li>projects</li></Link>
-                  <Link to='contact-section' smooth={true} duration={1000}><li>contact</li></Link>
+                <Link to='technologies-section' smooth={true} duration={1000}><li>technologies</li></Link>
+                  <Link to='projects-section' smooth={true} duration={1000}><li>projects</li></Link>
+                    <Link to='contact-section' smooth={true} duration={1000}><li>contact</li></Link>
         </div>
 
           <div onClick={this.toggleNav} className='mobile-menu'>

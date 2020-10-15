@@ -90,7 +90,7 @@ export default class Technologies extends Component {
     })
 
     return(
-      <div className='technologies-container'>
+      <div id='technologies-section' className='technologies-container'>
         <div className='technologies'>
           <div className='technologies-top'>
             <img src={programming} alt='skills_icon' width='90' height='90'/>
@@ -98,8 +98,8 @@ export default class Technologies extends Component {
             <hr/>
             <p>As a <span style={{color: '#b007a8'}}>passionate</span> and curious
              technologist, I'm always looking to <span style={{color: '#deac70'}}>learn</span> and
-              <span style={{color: '#deac70'}}> build</span> with new technologies</p>
-            <p> these are some of the <span style={{color: '#32ab9c'}}>technologies</span> i've
+              <span style={{color: '#deac70'}}> build</span> with new technologies
+             these are some of the <span style={{color: '#32ab9c'}}>technologies</span> i've
              been <span style={{color: '#0984e3'}}>working</span> with recently</p>
           </div>
 

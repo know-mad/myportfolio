@@ -1,0 +1,92 @@
+.single-project {
+  display: flex;
+  flex-direction: column;
+  height: 65%;
+  width: 85%;
+  /* background-color: blue; */
+  border: 1px solid #32ab9c;
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.4);
+}
+
+.single-project-top {
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+  width: 100%;
+  /* background-color: green; */
+}
+
+.project-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2rem;
+  height: 100%;
+  width: 20%;
+  background-color: #32ab9c;
+}
+
+.project-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  /* background-color: purple; */
+}
+
+.project-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  border: 1px solid #32ab9c;
+  /* background-color: red; */
+}
+
+.technologies-used {
+  height: 50%;
+  width: 100%;
+  /* background-color: yellow; */
+}
+
+.technologies-used-top {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #32ab9c;
+  /* background-color: blue; */
+}
+
+.technologies-used-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 70%;
+  width: 100%;
+  border: 1px solid #32ab9c;
+  /* background-color: orange; */
+}
+
+
+
+
+
+
+
+.single-project-bottom {
+  height: 60%;
+  width: 100%;
+  background-image: url('../images/trees.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
