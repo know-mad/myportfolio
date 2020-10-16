@@ -9,6 +9,7 @@ const Card = (props) => {
       className='card-container'
       onMouseOver={() => setMouseOver(true)}
       onMouseOut={() => setMouseOver(false)}
+      onClick={props.click}
       style={{
         display: 'flex',
         flexDirection: 'row',
