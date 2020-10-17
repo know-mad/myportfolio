@@ -176,6 +176,7 @@ export default class Services extends Component {
 
             </div>
             <div className='skills'>
+              <img src={skills} alt='skills_icon' width='90' height='90'/>
               <h1><span style={{color: '#0984e3'}}>Responsive Web Design</span></h1>
               <hr/>
                 <p>
@@ -243,6 +244,7 @@ export default class Services extends Component {
 
           </div>
           <div className='skills'>
+            <img src={skills} alt='skills_icon' width='90' height='90'/>
             <h1><span style={{color: '#0984e3'}}>Software Development</span></h1>
             <hr/>
               <p>
@@ -310,6 +312,7 @@ export default class Services extends Component {
 
           </div>
           <div className='skills'>
+            <img src={skills} alt='skills_icon' width='90' height='90'/>
             <h1><span style={{color: '#0984e3'}}>Web Scraping</span></h1>
             <hr/>
               <p>
@@ -375,6 +378,7 @@ export default class Services extends Component {
 
           </div>
           <div className='skills'>
+            <img src={skills} alt='skills_icon' width='90' height='90'/>
             <h1><span style={{color: '#0984e3'}}>Technology Consulting</span></h1>
             <hr/>
               <p>

@@ -50,10 +50,27 @@ export default class Projects extends Component {
 
 
   render(){
+    if (something goes here) {
+      card =   <ProjectCard
+        number={1} title={'Kush API'}
+        technology1={'Python'}
+        technology2={'Flask'}
+        technology3={'PostgreSQL'}
+        technology4={'PeeWee'}/>
+    }
+
       return (
         <div id='projects-section' className='projects-container'>
           <div className='projects-details'>
-            <ProjectCard />
+
+            // <ProjectCard
+            // number={1} title={'Kush API'}
+            // technology1={'Python'}
+            // technology2={'Flask'}
+            // technology3={'PostgreSQL'}
+            // technology4={'PeeWee'}/>
+            {card}
+
           </div>
 
           <div className='projects'>
