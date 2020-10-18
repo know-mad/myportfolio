@@ -6,10 +6,12 @@ const Card = (props) => {
 
     return(
       <div
+      role='button'
       className='card-container'
       onMouseOver={() => setMouseOver(true)}
       onMouseOut={() => setMouseOver(false)}
       onClick={props.click}
+      id={props.number}
       style={{
         display: 'flex',
         flexDirection: 'row',
