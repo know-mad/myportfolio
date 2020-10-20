@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Intro.css'
-import data from '../images/file.json'
+import data from '../content/file.json'
 
 export default class Intro extends Component {
   constructor(){

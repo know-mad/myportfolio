@@ -21,7 +21,7 @@ import firebase from '../images/firebase-1.svg'
 import postgreSQL from '../images/postgresql.svg'
 
 
-import data from '../images/skill.json'
+import data from '../content/skill.json'
 
 const photos = [
   html,

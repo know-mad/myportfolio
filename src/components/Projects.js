@@ -11,6 +11,7 @@ import toronto from '../images/toronto.png'
 import portfolio from '../images/portfolio.svg'
 import ecommerce from '../images/ecommerce.png'
 
+import data from '../content/projects.json'
 
 
 export default class Projects extends Component {
@@ -88,6 +89,7 @@ export default class Projects extends Component {
   }
 
   render(){
+console.log(data)
 
       let card = <div style={divStyle1}>
       <div style={{opacity: '0'}} className='projects-image-parent'></div>
@@ -108,10 +110,10 @@ export default class Projects extends Component {
         image={barbershop}
         number={2}
         title={'AZ Hair Studio Website'}
-        description={'This is where json stuff will go or graphQL'}
+        description={data[0].description}
         technology1={'HTML5'}
         technology2={'CSS'}
-        technology3={'Javascript'}
+        technology3={'GraphQL'}
         technology4={'REACT'}
         technology5={'Gatsby'}
         technology6={'Netlify'}
@@ -124,6 +126,7 @@ export default class Projects extends Component {
       image={toronto}
       number={2}
       title={'Toronto Website'}
+      description={data[1].description}
       technology1={'HTML5'}
       technology2={'CSS'}
       technology3={'Javascript'}
@@ -135,6 +138,7 @@ export default class Projects extends Component {
         image={simon}
         number={3}
         title={'Simon'}
+        description={data[2].description}
         technology1={'HTML5'}
         technology2={'CSS'}
         technology3={'Javascript'}
@@ -147,6 +151,7 @@ export default class Projects extends Component {
       image={ecommerce}
       number={3}
       title={'MERN E-Commerce Site'}
+      description={data[3].description}
       technology1={'MongoDB'}
       technology2={'Express.js'}
       technology3={'REACT'}
@@ -159,6 +164,7 @@ export default class Projects extends Component {
       image={portfolio}
       number={3}
       title={'Portfolio Site'}
+      description={data[4].description}
       technology1={'HTML5'}
       technology2={'CSS'}
       technology3={'Javascript'}
