@@ -93,3 +93,10 @@
     transform: translateX(100%);
   }
 }
+
+@media screen and (max-width: 320px) {
+  .single-project {
+    display: none;
+    /* fix this later, I'm tired of coding right now */
+  }
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Contact.css'
+import Button from './Button'
 import contact from '../images/contact.svg'
 
 
@@ -18,7 +19,7 @@ export default class Contact extends Component {
           <img src={contact} alt='skills_icon' width='90' height='90'/>
           <h1><span style={{color: '#deac70'}}>Contact Me</span></h1>
             <hr/>
-            <a className='email-link' href='mailto:velezdavid6@gmail.com'>get in touch</a>
+            <Button link={'mailto:velezdavid6@gmail.com'} content={'get in touch'} margin={'50px'} padding={'1rem 1.75rem'}/>
           </div>
           <div className='contact-child'></div>
         </div>

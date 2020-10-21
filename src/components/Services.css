@@ -9,7 +9,7 @@
   color: #2d3436;
 }
 
-.skills {
+.services {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,12 +21,12 @@
   padding-right: 10px;
 }
 
-.skills p {
+.services p {
   font-size: 1.25rem;
 }
 
 
-.skills-details {
+.services-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,47 +40,63 @@
 
 
 @media screen and (max-width: 320px) {
-  .skills-container {
+  .services-container {
     flex-direction: column-reverse;
     height: 1000px;
   }
 
-  .skills {
+  .services {
     width: 100%;
   }
 
-  .skills-details {
+  .services-details {
     width: 100%;
   }
 
 }
 
 @media screen and (max-width: 375px) {
-  .skills-container {
+  .services-container {
     flex-direction: column-reverse;
     height: 1000px;
   }
 
-  .skills {
+  .services {
     width: 100%;
   }
 
-  .skills-details {
+  .services-details {
     width: 100%;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .skills-container {
+  .services-container {
     flex-direction: column-reverse;
     height: 1000px;
   }
 
-  .skills {
+  .services {
     width: 100%;
   }
 
-  .skills-details {
+  .services-details {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services-container {
+    flex-direction: column-reverse;
+    height: 1000px;
+  }
+
+  .services {
+    width: 100%;
+  }
+
+  .services-details {
     width: 100%;
   }
 }

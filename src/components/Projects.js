@@ -5,7 +5,6 @@ import ProjectCard from './ProjectCard'
 
 import project from '../images/project.svg'
 import simon from '../images/simon.jpg'
-import cotrip from '../images/cotrip.png'
 import barbershop from '../images/barbershop.svg'
 import toronto from '../images/toronto.png'
 import portfolio from '../images/portfolio.svg'
@@ -91,7 +90,7 @@ export default class Projects extends Component {
   render(){
 console.log(data)
 
-      let card = <div style={divStyle1}>
+      let card = <div className='projects-details'>
       <div style={{opacity: '0'}} className='projects-image-parent'></div>
         <div style={{backgroundImage: `url(${barbershop})`, opacity: this.state.showFirst ? '1' : '0'}} className='projects-image-first-child'>
           <div style={{backgroundImage: `url(${toronto})`, opacity: this.state.showSecond ? '1' : '0'}} className='projects-image-second-child'>
@@ -167,7 +166,7 @@ console.log(data)
       description={data[4].description}
       technology1={'HTML5'}
       technology2={'CSS'}
-      technology3={'Javascript'}
+      technology3={'GraphQL'}
       technology4={'REACT'}
       technology5={'Gatsby'}
       />
@@ -252,11 +251,6 @@ console.log(data)
         </div>
       )
   }
-}
-
-const divStyle1 = {
-  width: '50%',
-  height: '85%'
 }
 
 const divStyle2 = {

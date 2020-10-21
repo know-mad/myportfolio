@@ -1,5 +1,10 @@
 import React from 'react'
 import './ProjectCard.css'
+import Button from './Button'
+
+
+
+
 
 const ProjectCard = ({
   number,
@@ -79,8 +84,8 @@ const ProjectCard = ({
           <p>{description}</p>
         </div>
         <div style={demoStyle}>
-          <button type="button">Click Me!</button>
-          <button type="button">Click Me!</button>
+          <Button content={'demo'} margin={'-10px'} padding={'0.5rem 1.5rem'}/>
+            <Button content={'github'} margin={'-10px'} padding={'0.5rem 1.5rem'}/>
         </div>
       </div>
     </div>

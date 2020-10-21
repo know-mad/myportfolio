@@ -26,7 +26,8 @@ const Card = (props) => {
         width: props.width,
         boxShadow: props.shadow,
         backgroundImage: props.image,
-        cursor: 'pointer'
+        cursor: 'pointer',
+        borderRadius: '30px'
         }}>
         <h4>{props.skill}</h4>
       </div>

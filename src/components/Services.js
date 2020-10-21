@@ -51,7 +51,7 @@ export default class Services extends Component {
     if (this.state.defaultMode === 1) {
       return(
         <div id='services-section' className='services-container'>
-          <div className='skills-details'>
+          <div className='services-details'>
           <p>Select a service to view more details</p>
           <Card
               border={'1px solid #0984e3'}
@@ -103,7 +103,7 @@ export default class Services extends Component {
                 skill='Technology Consulting' />
 
           </div>
-          <div className='skills'>
+          <div className='services'>
 
               <img src={skills} alt='skills_icon' width='90' height='90'/>
               <h1><span style={{color: '#0984e3'}}>Services</span></h1>
