@@ -88,7 +88,6 @@ export default class Projects extends Component {
   }
 
   render(){
-console.log(data)
 
       let card = <div className='projects-details'>
       <div style={{opacity: '0'}} className='projects-image-parent'></div>
@@ -104,7 +103,7 @@ console.log(data)
 
       </div>
       if (this.state.id == 1) {
-        card = <div style ={divStyle2}>
+        card = <div className='projects-details-2'>
         <ProjectCard
         image={barbershop}
         number={2}
@@ -120,20 +119,20 @@ console.log(data)
         </div>
       }
       else if (this.state.id == 2) {
-      card = <div style ={divStyle2}>
-      <ProjectCard
-      image={toronto}
-      number={2}
-      title={'Toronto Website'}
-      description={data[1].description}
-      technology1={'HTML5'}
-      technology2={'CSS'}
-      technology3={'Javascript'}
-      />
+      card = <div className='projects-details-2'>
+        <ProjectCard
+        image={toronto}
+        number={2}
+        title={'Toronto Website'}
+        description={data[1].description}
+        technology1={'HTML5'}
+        technology2={'CSS'}
+        technology3={'Javascript'}
+        />
       </div>
     } else if (this.state.id == 3) {
-        card = <div style ={divStyle2}>
-        <ProjectCard
+      card = <div className='projects-details-2'>
+      <ProjectCard
         image={simon}
         number={3}
         title={'Simon'}
@@ -145,31 +144,31 @@ console.log(data)
         />
         </div>
     } else if (this.state.id == 4) {
-      card = <div style ={divStyle2}>
-      <ProjectCard
-      image={ecommerce}
-      number={3}
-      title={'MERN E-Commerce Site'}
-      description={data[3].description}
-      technology1={'MongoDB'}
-      technology2={'Express.js'}
-      technology3={'REACT'}
-      technology4={'Node.js'}
-      />
+      card = <div className='projects-details-2'>
+        <ProjectCard
+        image={ecommerce}
+        number={3}
+        title={'MERN E-Commerce Site'}
+        description={data[3].description}
+        technology1={'MongoDB'}
+        technology2={'Express.js'}
+        technology3={'REACT'}
+        technology4={'Node.js'}
+        />
       </div>
     } else if (this.state.id == 5) {
-      card = <div style ={divStyle2}>
-      <ProjectCard
-      image={portfolio}
-      number={3}
-      title={'Portfolio Site'}
-      description={data[4].description}
-      technology1={'HTML5'}
-      technology2={'CSS'}
-      technology3={'GraphQL'}
-      technology4={'REACT'}
-      technology5={'Gatsby'}
-      />
+      card = <div className='projects-details-2'>
+        <ProjectCard
+        image={portfolio}
+        number={3}
+        title={'Portfolio Site'}
+        description={data[4].description}
+        technology1={'HTML5'}
+        technology2={'CSS'}
+        technology3={'GraphQL'}
+        technology4={'REACT'}
+        technology5={'Gatsby'}
+        />
       </div>
     }
 
@@ -251,13 +250,4 @@ console.log(data)
         </div>
       )
   }
-}
-
-const divStyle2 = {
-  display: 'flex',
-  flexDirection: 'column',
-  justifyContent: 'center',
-  alignItems: 'center',
-  width: '50%',
-  height: '85%'
 }

@@ -17,16 +17,6 @@
   background-color: #32ab9c;
 }
 
-.project-number {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-size: 2rem;
-  height: 100%;
-  width: 20%;
-}
 
 .project-description-container {
   display: flex;
@@ -77,9 +67,10 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  width: 200%;
+  width: 100%;
   justify-content: space-between;
   animation: animate 10s linear infinite;
+  /* background-color: orange */
 }
 
 @keyframes animate
@@ -96,7 +87,60 @@
 
 @media screen and (max-width: 320px) {
   .single-project {
-    display: none;
-    /* fix this later, I'm tired of coding right now */
+    height: 100%;
+    width: 100%;
+  }
+
+  .technologies-used-container {
+    font-size: 0.60rem;
+  }
+
+  .project-title {
+    font-size: 0.60rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .single-project {
+    height: 100%;
+    width: 100%;
+  }
+
+  .technologies-used-container {
+    font-size: 0.60rem;
+  }
+
+  .project-title {
+    font-size: 0.60rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .single-project {
+    height: 100%;
+    width: 100%;
+  }
+
+  .technologies-used-container {
+    font-size: 0.60rem;
+  }
+
+  .project-title {
+    font-size: 0.60rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .single-project {
+    height: 100%;
+    width: 100%;
+  }
+
+  .technologies-used-container {
+    font-size: 0.60rem;
+  }
+
+  .project-title {
+    font-size: 0.60rem;
   }
 }

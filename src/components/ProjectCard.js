@@ -35,11 +35,10 @@ const ProjectCard = ({
       justifyContent: 'center',
       alignItems: 'center',
       textAlign: 'center',
-      fontSize: '1.25rem',
+      fontSize: '1rem',
       height: '85%',
       width: '100%',
-      fontWeight: 'bold'
-      // backgroundColor: 'orange'
+      fontWeight: 'bold',
     }
 
     const demoStyle = {

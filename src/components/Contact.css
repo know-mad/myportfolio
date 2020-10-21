@@ -1,5 +1,4 @@
 .contact-container {
-  font-family: 'Orbitron', sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -15,7 +14,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
   width: 50%;
   height: 100%;
 }
@@ -74,10 +72,131 @@
 @media screen and (max-width: 320px) {
   .contact-container {
     flex-direction: column-reverse;
-    height: 1000px;
+    height: 900px;
   }
 
-  .email-link {
-    padding: 1rem 1.25rem;
+  .contact {
+    height: 50%;
   }
+
+  .contact-details {
+    height: 50%;
+    padding: 0px;
+  }
+
+  .contact-parent {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+  }
+
+  .contact-parent:hover {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .contact-child {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .contact-container {
+    flex-direction: column-reverse;
+    height: 900px;
+  }
+
+  .contact {
+    height: 50%;
+  }
+
+  .contact-details {
+    height: 50%;
+    padding: 0px;
+  }
+
+  .contact-parent {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+  }
+
+  .contact-parent:hover {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .contact-child {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .contact-container {
+    flex-direction: column-reverse;
+    height: 900px;
+  }
+
+  .contact {
+    height: 50%;
+  }
+
+  .contact-details {
+    height: 50%;
+    padding: 0px;
+  }
+
+  .contact-parent {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+  }
+
+  .contact-parent:hover {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .contact-child {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container {
+    flex-direction: column-reverse;
+    height: 900px;
+  }
+
+  .contact {
+    height: 50%;
+  }
+
+  .contact-details {
+    padding: 0px;
+    height: 50%;
+  }
+
+  .contact-parent {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+  }
+
+  .contact-parent:hover {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .contact-child {
+    display: none;
+  }
+
 }
