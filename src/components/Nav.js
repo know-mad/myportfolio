@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
-import { Link } from 'react-scroll'
 import './Nav.css'
 import Logo from './Logo'
-
-
+import { Link } from 'react-scroll'
 
 
 export default class Nav extends Component {
@@ -11,36 +9,29 @@ export default class Nav extends Component {
     super()
 
     this.state = {
-      openNav: true,
-      listItems: true
+      openNav: false
     }
   }
 
-
   toggleNav = () => {
     let toggle = this.state.openNav
-    let toggleItems = this.state.listItems
     this.setState({
-      openNav: !toggle,
-      listItems: !toggleItems
+      openNav: !toggle
     })
   }
-
-
 
   componentDidMount(){
     window.addEventListener('scroll', (e) => {
       const isTop = window.scrollY > 700
       const nav = document.getElementById('nav')
-      const items = document.getElementById('list-items')
+      const links = document.getElementById('links')
       if (isTop) {
         nav.classList.add('scrolled')
-        items.classList.add('list-scrolled')
+        links.classList.add('links-scrolled')
       } else {
         nav.classList.remove('scrolled')
-        items.classList.remove('list-scrolled')
+        links.classList.remove('links-scrolled')
       }
-      // console.log(window.scrollY)
     })
   }
 
@@ -51,23 +42,33 @@ export default class Nav extends Component {
 
   render(){
     return(
-      <div id='nav' className='navbar' style={{height: this.state.openNav === true ? '80px' : '200px'}}>
-      <Logo />
-
-        <div id='list-items' className={this.state.listItems === true ? 'list' : 'list-mobile'}>
+      <div id='nav' className='nav' style={{height: this.state.openNav ? '280px' : '80px'}}>
+        <div className='content-container' style={{height: this.state.openNav ? '30%' : '100%'}}>
+          <div className='logo-side'>
+            <Logo />
+          </div>
+          <div id='links' className='links-side'>
           <Link to='about-section' smooth={true} duration={1000}><li>about</li></Link>
             <Link to='services-section' smooth={true} duration={1000}><li>services</li></Link>
               <Link to='technologies-section' smooth={true} duration={1000}><li>technologies</li></Link>
                 <Link to='projects-section' smooth={true} duration={1000}><li>projects</li></Link>
                   <Link to='contact-section' smooth={true} duration={1000}><li>contact</li></Link>
-        </div>
 
-          <div onClick={this.toggleNav} className='mobile-menu'>
-            <span className='bar'></span>
-            <span className='bar'></span>
-            <span className='bar'></span>
+                  <div onClick={this.toggleNav} className='mobile-menu'>
+                    <div className='bar'></div>
+                    <div className='bar'></div>
+                    <div className='bar'></div>
+                  </div>
           </div>
 
+        </div>
+        <div className='mobile-links' style={{display: this.state.openNav ? 'flex' : 'none'}}>
+        <Link to='about-section' smooth={true} duration={1000}><li>about</li></Link>
+          <Link to='services-section' smooth={true} duration={1000}><li>services</li></Link>
+            <Link to='technologies-section' smooth={true} duration={1000}><li>technologies</li></Link>
+              <Link to='projects-section' smooth={true} duration={1000}><li>projects</li></Link>
+                <Link to='contact-section' smooth={true} duration={1000}><li>contact</li></Link>
+        </div>
       </div>
     )
   }

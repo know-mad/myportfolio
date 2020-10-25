@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './About.css'
-import statue from '../images/statue-of-liberty.svg'
+import information from '../images/information.svg'
 import facebook from '../images/facebook.svg'
 import instagram from '../images/instagram.svg'
 import linkedin from '../images/linkedin.svg'
@@ -19,9 +19,8 @@ export default class About extends Component {
     return(
       <div id='about-section' className='about-container'>
         <div className='about-card'>
-          <h3>About Me:</h3>
-          <h2>Home Base: <span style={{color: '#deac70'}}>New York City</span></h2>
-            <img src={statue} alt='statue_of_liberty_icon' width='90' height='90'/>
+            <img src={information} alt='info_icon' width='90' height='90'/>
+            <h1><span style={{color: '#0984e3'}}>About Me</span></h1>
             <hr/>
             <p>I'm a <span style={{color: '#b007a8'}}>full stack software engineer</span> based in NYC
             specializing in building clean <span style={{color: '#32ab9c'}}>websites</span>, exceptional <span style={{color: '#0984e3'}}>applications</span>, and everything in between.
