@@ -11,6 +11,25 @@ body {
 
 hr {
   width: 50%;
-  border: 1px solid;
   margin-top: 20px;
+}
+
+h1 {
+  background: -webkit-linear-gradient(45deg, #0984e3, #b007a8, #32ab9c, #deac70);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: color-change 3s infinite
+}
+
+@keyframes color-change {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
 }

@@ -26,26 +26,344 @@
   align-items: center;
   width: 50%;
   height: 85%;
-  background-color: red;
+  /* background-color: red; */
 }
 
-.single-project {
+.project-theater {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 80%;
   width: 80%;
-  background-color: purple;
+  /* background-color: purple; */
+}
+
+.project-theater-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  /* background-color: orange; */
 }
 
 .laser-horizontal {
   display: flex;
   flex-direction: row;
-  background-color: blue;
-  height: 5px;
+  /* background-color: blue; */
+  overflow: hidden;
+  height: 2px;
   width: 100%;
 }
 
-.technologies-used-bottom {
+.laser-vertical {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
   overflow: hidden;
+  height: 100%;
+  width: 2px;
+}
+
+.laser-top {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #0984e3, #b007a8, #32ab9c, #deac70 );
+  background-size: 100% 100%;
+  -webkit-animation: animate 2s linear infinite;
+  -moz-animation: animate 2s linear infinite;
+  animation: animate 2s linear infinite;
+}
+
+.laser-bottom {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #0984e3, #b007a8, #32ab9c, #deac70 );
+  background-size: 100% 100%;
+  -webkit-animation: animate2 2s linear infinite;
+  -moz-animation: animate2 2s linear infinite;
+  animation: animate2 2s linear infinite;
+}
+
+.laser-left {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, #0984e3, #b007a8, #32ab9c, #deac70 );
+  background-size: 100% 100%;
+  -webkit-animation: animate3 3s linear infinite;
+  -moz-animation: animate3 3s linear infinite;
+  animation: animate3 3s linear infinite;
+}
+
+.laser-right {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, #0984e3, #b007a8, #32ab9c, #deac70 );
+  background-size: 100% 100%;
+  -webkit-animation: animate4 3s linear infinite;
+  -moz-animation: animate4 3s linear infinite;
+  animation: animate4 3s linear infinite;
+}
+
+@-webkit-keyframes animate {
+  0%
+  {
+    transform: translateX(-100%);
+  }
+  100%
+  {
+    transform: translateX(100%);
+  }
+}
+
+@-moz-keyframes animate {
+  0%
+  {
+    transform: translateX(-100%);
+  }
+  100%
+  {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes animate
+{
+  0%
+  {
+    transform: translateX(-100%);
+  }
+  100%
+  {
+    transform: translateX(100%);
+  }
+}
+
+@-webkit-keyframes animate2 {
+  0%
+  {
+    transform: translateX(100%);
+  }
+  100%
+  {
+    transform: translateX(-100%);
+  }
+}
+
+@-moz-keyframes animate2 {
+  0%
+  {
+    transform: translateX(100%);
+  }
+  100%
+  {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes animate2
+{
+  0%
+  {
+    transform: translateX(100%);
+  }
+  100%
+  {
+    transform: translateX(-100%);
+  }
+}
+
+
+@-webkit-keyframes animate3 {
+  0%
+  {
+    transform: translateY(100%);
+  }
+  100%
+  {
+    transform: translateY(-100%);
+  }
+}
+
+@-moz-keyframes animate3 {
+  0%
+  {
+    transform: translateY(100%);
+  }
+  100%
+  {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes animate3
+{
+  0%
+  {
+    transform: translateY(100%);
+  }
+  100%
+  {
+    transform: translateY(-100%);
+  }
+}
+
+@-webkit-keyframes animate4 {
+  0%
+  {
+    transform: translateY(-100%);
+  }
+  100%
+  {
+    transform: translateY(100%);
+  }
+}
+
+@-moz-keyframes animate4 {
+  0%
+  {
+    transform: translateY(-100%);
+  }
+  100%
+  {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes animate4
+{
+  0%
+  {
+    transform: translateY(-100%);
+  }
+  100%
+  {
+    transform: translateY(100%);
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .projects-container {
+    flex-direction: column-reverse;
+    height: 1100px;
+    margin-top: 50px
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .projects-details {
+    width: 100%;
+    height: 70%;
+    justify-content: flex-start;
+  }
+
+  .project-theater {
+    width: 100%;
+    height: 100%;
+  }
+
+  .laser-horizontal {
+    display: none;
+  }
+
+  .laser-vertical {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .projects-container {
+    flex-direction: column-reverse;
+    height: 1100px;
+    margin-top: 50px
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .projects-details {
+    width: 100%;
+    height: 70%;
+    justify-content: flex-start;
+  }
+
+  .project-theater {
+    width: 100%;
+    height: 100%;
+  }
+
+  .laser-horizontal {
+    display: none;
+  }
+
+  .laser-vertical {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .projects-container {
+    flex-direction: column-reverse;
+    height: 1100px;
+    margin-top: 50px
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .projects-details {
+    width: 100%;
+    height: 70%;
+    justify-content: flex-start;
+  }
+
+  .project-theater {
+    width: 100%;
+    height: 100%;
+  }
+
+  .laser-horizontal {
+    display: none;
+  }
+
+  .laser-vertical {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects-container {
+    flex-direction: column-reverse;
+    height: 1100px;
+    margin-top: 50px
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .projects-details {
+    width: 100%;
+    height: 70%;
+    justify-content: flex-start;
+  }
+
+  .project-theater {
+    width: 100%;
+    height: 100%;
+  }
+
+  .laser-horizontal {
+    display: none;
+  }
+
+  .laser-vertical {
+    display: none;
+  }
 }

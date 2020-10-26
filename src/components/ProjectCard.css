@@ -1,11 +1,10 @@
-/* .single-project {
+.single-project {
   color: #fff;
   display: flex;
   flex-direction: column;
-  height: 80%;
-  width: 80%;
+  height: 93%;
+  width: 93%;
   border: 1px solid #32ab9c;
-  box-shadow: 5px 10px 20px rgba(0,0,0,0.4);
 }
 
 
@@ -14,7 +13,6 @@
   flex-direction: row;
   height: 30%;
   width: 100%;
-  background-color: #32ab9c;
 }
 
 
@@ -142,4 +140,4 @@
   .project-title {
     font-size: 0.60rem;
   }
-} */
+}

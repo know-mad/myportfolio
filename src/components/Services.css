@@ -1,4 +1,4 @@
-.services-container {
+.skills-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -8,6 +8,7 @@
   background-color: #fff;
   color: #2d3436;
 }
+
 
 .services {
   display: flex;
@@ -31,8 +32,36 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 50%;
   height: 100%;
+}
+
+.services-theater {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+  width: 60%;
+  /* background-color: purple; */
+}
+
+.services-theater-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.services-theater-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 99%;
+  width: 99%;
 }
 
 

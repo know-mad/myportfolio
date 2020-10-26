@@ -7,7 +7,6 @@ import Button from './Button'
 
 
 const ProjectCard = ({
-  number,
   title,
   technology1,
   technology2,

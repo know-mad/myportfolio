@@ -18,12 +18,7 @@ export default class Projects extends Component {
     super()
 
     this.state = {
-      id: 0,
-      showFirst: false,
-      showSecond: false,
-      showThird: false,
-      showFourth: false,
-      showFifth: false
+      id: 1,
     }
   }
 
@@ -34,87 +29,94 @@ export default class Projects extends Component {
     })
   }
 
-  showItems = () => {
-    let num = 0
-    setInterval(() => {
-      if (num === 1) {
-        this.setState({
-          showFirst: true
-        })
-      } else if (num === 2) {
-        this.setState({
-          showSecond: true
-        })
-      } else if (num === 3) {
-        this.setState({
-          showThird: true
-        })
-      } else if (num === 4) {
-        this.setState({
-          showFourth: true
-        })
-      } else if (num === 5) {
-        this.setState({
-          showFifth: true
-        })
-      } else if (num === 6) {
-        this.setState({
-          showFifth: false
-        })
-      } else if (num === 7) {
-        this.setState({
-          showFourth: false
-        })
-      } else if (num === 8) {
-        this.setState({
-          showThird: false
-        })
-      } else if (num === 9) {
-        this.setState({
-          showSecond: false
-        })
-      } else if (num === 10) {
-        this.setState({
-          showFirst: false
-        })
-        num = 0
-      }
-      num++
-    }, 800)
-  }
-
-  // componentDidMount(){
-  //   this.showItems()
-  // }
-
   render(){
-    let card = <div className='projects-details'>
-          <div className='single-project'>
-            <div className='laser-horizontal'></div>
-            <div className='laser-horizontal'></div>
-          </div>
-        </div>
+    let card = <ProjectCard/>
+
+    if (this.state.id == 1) {
+      card = <ProjectCard
+      title={'AZ Hair Studio Website'}
+      image={barbershop}
+      description={data[0].description}
+      technology1={'HTML5'}
+      technology2={'CSS'}
+      technology3={'REACT'}
+      technology4={'Gatsby.js'}
+      technology5={'Netlify'}
+      />
+    } else if (this.state.id == 2) {
+      card = <ProjectCard
+      title={'Toronto Website'}
+      image={toronto}
+      description={data[1].description}
+      technology1={'HTML5'}
+      technology2={'CSS'}
+      technology3={'REACT'}
+      technology4={'Gatsby.js'}
+      technology5={'Netlify'}
+      />
+    } else if (this.state.id == 3) {
+      card = <ProjectCard
+      title={'Simon'}
+      image={simon}
+      description={data[2].description}
+      technology1={'HTML5'}
+      technology2={'CSS'}
+      technology3={'REACT'}
+      technology4={'Netlify'}
+      />
+    } else if (this.state.id == 4) {
+      card = <ProjectCard
+      title={'MERN E-commerce'}
+      image={ecommerce}
+      description={data[3].description}
+      technology1={'MongoDB'}
+      technology2={'Express.js'}
+      technology3={'REACT'}
+      technology4={'Node.js'}
+      />
+    } else if (this.state.id == 5) {
+      card = <ProjectCard
+      title={'Portfolio Site'}
+      image={portfolio}
+      description={data[4].description}
+      technology1={'HTML5'}
+      technology2={'CSS'}
+      technology3={'REACT'}
+      technology4={'Gatsby.js'}
+      technology5={'Netlify'}
+      />
+    }
 
     return (
         <div id='projects-section' className='projects-container'>
 
-          {card}
+        <div className='projects-details'>
+              <div className='project-theater'>
+                <div className='laser-horizontal'>
+                  <div className='laser-top'></div>
+                </div>
+                  <div className='project-theater-center'>
+                    <div className='laser-vertical'>
+                      <div className='laser-left'></div>
+                    </div>
+
+                    {card}
+
+                    <div className='laser-vertical'>
+                      <div className='laser-right'></div>
+                    </div>
+                  </div>
+                <div className='laser-horizontal'>
+                  <div className='laser-bottom'></div>
+                </div>
+              </div>
+            </div>
 
           <div className='projects'>
             <img src={project} alt='skills_icon' width='90' height='90'/>
             <h1><span style={{color: '#32ab9c'}}>Projects</span></h1>
             <hr/>
             <p>Some of the recent projects I've worked on</p>
-            <Card
-                number={0}
-                click={this.handleClick}
-                border={'1px solid #32ab9c'}
-                color={this.state.id == 0 ? '#2d3436' : '#fff'}
-                defaultBackground={this.state.id == 0 ? '#fff' : '#32ab9c'}
-                height={'40px'}
-                width={'80%'}
-                shadow={'5px 10px 20px rgba(0,0,0,0.4)'}
-                skill='** All Projects **' />
               <Card
                   number={1}
                   click={this.handleClick}

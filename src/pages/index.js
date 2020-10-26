@@ -14,6 +14,7 @@ import Footer from '../components/Footer'
 import Quote from '../components/Quote'
 import Technologies from '../components/Technologies'
 import WebDesign from '../components/WebDesign'
+import Development from '../components/Development'
 
 import background1 from '../images/quotes_image.jpg'
 import background2 from '../images/background2.png'
@@ -31,9 +32,10 @@ const IndexPage = () => (
             content={'Through technology, we are actively inventing tomorrow'}/>
             <Services />
               <WebDesign />
+              <Development />
               <Quote
                 background={background2}
-                content={"Cheap websites aren't good, and good websites aren't cheap"}/>
+                content={"Cheap work isn't good, and good work isn't cheap"}/>
               <Technologies />
                 <Projects />
                   <Contact />
