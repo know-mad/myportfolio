@@ -19,31 +19,12 @@ export default class Services extends Component {
     return(
       <div id='skills-section' className='skills-container'>
         <div className='services-details'>
-          <div className='services-theater'>
-            <div className='laser-horizontal'>
-              <div className='laser-top'></div>
-            </div>
-            <div className='services-theater-center'>
-              <div className='laser-vertical'>
-                <div className='laser-left'></div>
-              </div>
-
-              <div className='services-theater-content'>
-                <h1>Web Designer</h1>
-                <h1>&</h1>
-                <h1>Software Developer</h1>
-              </div>
-
-
-              <div className='laser-vertical'>
-                <div className='laser-right'></div>
-              </div>
-            </div>
-            <div className='laser-horizontal'>
-              <div className='laser-bottom'></div>
-            </div>
+                  <div className='services-child'></div>
+          <div className='services-details-card'>
+          <h1>Web Designer</h1>
+          <h1>&</h1>
+          <h1>Software Developer</h1>
           </div>
-
         </div>
 
         <div className='services'>
