@@ -6,7 +6,7 @@ import ProjectCard from './ProjectCard'
 import project from '../images/project.svg'
 import simon from '../images/simon.jpg'
 import barbershop from '../images/barbershop.svg'
-import toronto from '../images/toronto.png'
+import cotrip from '../images/cotrip_pic.png'
 import portfolio from '../images/portfolio.svg'
 import ecommerce from '../images/ecommerce.png'
 
@@ -46,7 +46,7 @@ export default class Projects extends Component {
     } else if (this.state.id == 2) {
       card = <ProjectCard
       title={'CoTrip App'}
-      image={toronto}
+      image={cotrip}
       description={data[1].description}
       technology1={'HTML5'}
       technology2={'CSS'}
@@ -137,7 +137,7 @@ export default class Projects extends Component {
                       height={'40px'}
                       width={'80%'}
                       shadow={'5px 10px 20px rgba(0,0,0,0.4)'}
-                      skill='Toronto Website' />
+                      skill='CoTrip App' />
 
                       <Card
                           number={3}

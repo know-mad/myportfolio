@@ -51,9 +51,6 @@
   align-items: center;
   height: 8%;
   width: 100%;
-  border: 1px solid #0984e3;
-  border-radius: 70px;
-  box-shadow: 5px 10px 20px rgba(0,0,0,0.4);
 }
 
 .web-design-details-card h1 {
