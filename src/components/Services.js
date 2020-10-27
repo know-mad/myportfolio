@@ -37,7 +37,7 @@ export default class Services extends Component {
               With over <span style={{color: '#0984e3'}}>8 years</span> in the technology sector, I've gained and used
               various <span style={{color: '#32ab9c'}}>skillsets</span> that allow me to <span style={{color: '#deac70'}}>learn</span> technologies
               quickly, implement strategic solutions, and <span style={{color: '#b007a8'}}>adapt</span> to many different
-              situations the <span style={{color: '#0984e3'}}>rapidly evolving</span> and ever changing <span style={{color: '#deac70'}}>technology field</span>
+              situations in the <span style={{color: '#0984e3'}}>rapidly evolving</span> and ever changing <span style={{color: '#deac70'}}>technology field</span>
             </p>
 
         </div>

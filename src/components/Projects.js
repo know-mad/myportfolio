@@ -45,14 +45,14 @@ export default class Projects extends Component {
       />
     } else if (this.state.id == 2) {
       card = <ProjectCard
-      title={'Toronto Website'}
+      title={'CoTrip App'}
       image={toronto}
       description={data[1].description}
       technology1={'HTML5'}
       technology2={'CSS'}
       technology3={'REACT'}
-      technology4={'Gatsby.js'}
-      technology5={'Netlify'}
+      technology4={'Python'}
+      technology5={'Django REST'}
       />
     } else if (this.state.id == 3) {
       card = <ProjectCard

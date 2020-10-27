@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 550px;
+  height: 700px;
   width: 100%;
   background-color: #fff;
   color: #2d3436;
@@ -44,22 +44,24 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   border: 1px solid #0984e3;
+  border-radius: 300px;
   box-shadow: 5px 10px 20px rgba(0,0,0,0.4);
   z-index: 1;
 }
 
 .services-child {
   position: relative;
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   border: 1px solid #0984e3;
   margin-left: 50px;
   margin-top: 50px;
   z-index: 2;
   background-color: rgba(9, 132, 227, 0.1);
+  border-radius: 300px;
 }
 
 .services-child:hover {
@@ -80,9 +82,9 @@
 
 
 @media screen and (max-width: 320px) {
-  .services-container {
+  .skills-container {
     flex-direction: column-reverse;
-    height: 1000px;
+    height: 800px;
     margin-top: 30px;
   }
 
@@ -94,12 +96,24 @@
     width: 100%;
   }
 
+  .services-child {
+    display: none;
+  }
+
+  .services-details-card {
+    height: 50%;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+  }
+
 }
 
 @media screen and (max-width: 375px) {
-  .services-container {
+  .skills-container {
     flex-direction: column-reverse;
-    height: 1000px;
+    height: 800px;
+    margin-top: 30px;
   }
 
   .services {
@@ -108,14 +122,25 @@
 
   .services-details {
     width: 100%;
-    text-align: center;
+  }
+
+  .services-child {
+    display: none;
+  }
+
+  .services-details-card {
+    height: 50%;
+    width: 100%;
+    border: none;
+    box-shadow: none;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .services-container {
+  .skills-container {
     flex-direction: column-reverse;
-    height: 1000px;
+    height: 800px;
+    margin-top: 30px;
   }
 
   .services {
@@ -124,13 +149,25 @@
 
   .services-details {
     width: 100%;
+  }
+
+  .services-child {
+    display: none;
+  }
+
+  .services-details-card {
+    height: 50%;
+    width: 100%;
+    border: none;
+    box-shadow: none;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .services-container {
+  .skills-container {
     flex-direction: column-reverse;
-    height: 1000px;
+    height: 800px;
+    margin-top: 30px;
   }
 
   .services {
@@ -139,5 +176,16 @@
 
   .services-details {
     width: 100%;
+  }
+
+  .services-child {
+    display: none;
+  }
+
+  .services-details-card {
+    height: 50%;
+    width: 100%;
+    border: none;
+    box-shadow: none;
   }
 }

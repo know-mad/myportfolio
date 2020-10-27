@@ -9,7 +9,7 @@ const Quote = ({ content, background }) =>  {
         <div className='color-bar'>
           <div className='color-bar-scroll-top'></div>
         </div>
-        <p>{content}</p>
+        <h3>{content}</h3>
         <div className='color-bar'>
           <div className='color-bar-scroll-bottom'></div>
         </div>

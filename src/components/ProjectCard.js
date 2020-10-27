@@ -82,8 +82,23 @@ const ProjectCard = ({
           <p>{description}</p>
         </div>
         <div style={demoStyle}>
-          <Button content={'demo'} margin={'-10px'} padding={'0.5rem 1.5rem'}/>
-            <Button content={'github'} margin={'-10px'} padding={'0.5rem 1.5rem'}/>
+          <Button
+          content={'demo'}
+          margin={'-10px'}
+          padding={'0.5rem 1.5rem'}
+          fontColor={'#32ab9c'}
+          backgroundColor={'#32ab9c'}
+          borderColor={'#32ab9c'}
+          />
+
+            <Button
+            content={'github'}
+            margin={'-10px'}
+            padding={'0.5rem 1.5rem'}
+            fontColor={'#32ab9c'}
+            backgroundColor={'#32ab9c'}
+            borderColor={'#32ab9c'} 
+            />
         </div>
       </div>
     </div>
