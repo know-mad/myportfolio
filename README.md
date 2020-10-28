@@ -18,4 +18,6 @@ The website should include semantic HTML/CSS and be search engine optimized.
 ## Author
 David Velez
 
+## Deployed
+
 Deployed site is here
