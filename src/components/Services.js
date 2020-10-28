@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import './Services.css'
-import Card from './Card'
-
 import skills from '../images/skills.svg'
 
 

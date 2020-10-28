@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Logo.css'
 import { animateScroll as scroll } from 'react-scroll'
 import { Spring, config } from 'react-spring/renderprops'
