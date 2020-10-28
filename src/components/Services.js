@@ -23,7 +23,7 @@ export default class Services extends Component {
           <div className='services-details-card'>
           <h1>Web Designer</h1>
           <h1>&</h1>
-          <h1>Software Developer</h1>
+          <h1>Software Engineer</h1>
           </div>
         </div>
 

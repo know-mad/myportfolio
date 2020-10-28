@@ -15,7 +15,9 @@ const ProjectCard = ({
   technology5,
   technology6,
   description,
-  image }) => {
+  image,
+  demoLink,
+  githubLink}) => {
 
     const bottomStyle = {
       display: 'flex',
@@ -69,7 +71,7 @@ const ProjectCard = ({
             <h3 style={{color: '#deac70'}}>{technology2}</h3>
             <h3 style={{color: '#b007a8'}}>{technology3}</h3>
             <h3 style={{color: '#2d3436'}}>{technology4}</h3>
-            <h3>{technology5}</h3>
+            <h3 style={{color: '#32ab9c'}}>{technology5}</h3>
             <h3 style={{color: '#0984e3'}}>{technology6}</h3>
               </div>
 
@@ -86,18 +88,20 @@ const ProjectCard = ({
           content={'demo'}
           margin={'-10px'}
           padding={'0.5rem 1.5rem'}
-          fontColor={'#32ab9c'}
-          backgroundColor={'#32ab9c'}
-          borderColor={'#32ab9c'}
+          fontColor={'#deac70'}
+          backgroundColor={'#deac70'}
+          borderColor={'#deac70'}
+          link={demoLink}
           />
 
             <Button
             content={'github'}
             margin={'-10px'}
             padding={'0.5rem 1.5rem'}
-            fontColor={'#32ab9c'}
-            backgroundColor={'#32ab9c'}
-            borderColor={'#32ab9c'} 
+            fontColor={'#deac70'}
+            backgroundColor={'#deac70'}
+            borderColor={'#deac70'}
+            link={githubLink}
             />
         </div>
       </div>

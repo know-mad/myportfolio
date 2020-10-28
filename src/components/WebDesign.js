@@ -19,11 +19,12 @@ export default class WebDesign extends Component {
         <p>Want to <span style={{color: '#b007a8'}}>know</span> how?</p>
 
         <Button
+        link={'https://www.gatsbyjs.com/gatsby-one-pager.pdf'}
         content={'More Info'}
         padding={'0.75rem 1.5rem'}
-        fontColor={'#0984e3'}
-        backgroundColor={'#0984e3'}
-        borderColor={'#0984e3'}
+        fontColor={'#32ab9c'}
+        backgroundColor={'#32ab9c'}
+        borderColor={'#32ab9c'}
         />
         </div>
 
@@ -33,7 +34,7 @@ export default class WebDesign extends Component {
               <div className='web-design-details-card'>
                 <h1>Fast</h1>
               </div>
-              <p><span style={{color: '#b007a8'}}>Think rocket ship vs. cargo ship. I build websites on the Gatsby.js platform so no matter where a Gatsby site or web app
+              <p><span style={{color: '#b007a8'}}>I build websites on the Gatsby.js platform so no matter where a Gatsby site or web app
               runs, it’s fast by design. Pages load in milliseconds rather than seconds. </span></p>
               <div className='web-design-details-card'>
                 <h1>Responsive</h1>

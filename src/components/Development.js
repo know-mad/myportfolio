@@ -30,39 +30,27 @@ export default class Development extends Component {
     this.selectRandomInteger()
   }
 
+  componentWillUnmount(){
+    document.querySelectorAll('development-card')
+  }
+
 
   render(){
     return(
       <div className='development-container'>
         <div className='development-details'>
           <div className='flashing-cards'>
-          <div className='laser-horizontal'>
-            <div className='laser-top'></div>
-          </div>
-            <div className='development-theater-center'>
-              <div className='laser-vertical'>
-                <div className='laser-left'></div>
-              </div>
-
-                <div className='development-theater-items'>
-                  <div style={{opacity: this.state.number === 0  ? '1' : '0'}} className='development-card'><h1>REST</h1></div>
-                  <div style={{opacity: this.state.number === 1  ? '1' : '0'}} className='development-card'><h1>Front End</h1></div>
-                  <div style={{opacity: this.state.number === 2  ? '1' : '0'}} className='development-card'><h1>CRUD</h1></div>
-                  <div style={{opacity: this.state.number === 3  ? '1' : '0'}} className='development-card'><h1>API</h1></div>
-                  <div style={{opacity: this.state.number === 4  ? '1' : '0'}} className='development-card'><h1>Back End</h1></div>
-                  <div style={{opacity: this.state.number === 5  ? '1' : '0'}} className='development-card'><h1>OOP</h1></div>
-                  <div style={{opacity: this.state.number === 6  ? '1' : '0'}} className='development-card'><h1>Framework</h1></div>
-                  <div style={{opacity: this.state.number === 7  ? '1' : '0'}} className='development-card'><h1>Version Control</h1></div>
-                  <div style={{opacity: this.state.number === 8  ? '1' : '0'}} className='development-card'><h1>Dev OPS</h1></div>
-                </div>
-
-              <div className='laser-vertical'>
-                <div className='laser-right'></div>
-              </div>
+            <div className='development-theater-items'>
+              <div style={{opacity: this.state.number === 0  ? '1' : '0'}} className='development-card'><h1>REST</h1></div>
+              <div style={{opacity: this.state.number === 1  ? '1' : '0'}} className='development-card'><h1>Front End</h1></div>
+              <div style={{opacity: this.state.number === 2  ? '1' : '0'}} className='development-card'><h1>CRUD</h1></div>
+              <div style={{opacity: this.state.number === 3  ? '1' : '0'}} className='development-card'><h1>API</h1></div>
+              <div style={{opacity: this.state.number === 4  ? '1' : '0'}} className='development-card'><h1>Back End</h1></div>
+              <div style={{opacity: this.state.number === 5  ? '1' : '0'}} className='development-card'><h1>OOP</h1></div>
+              <div style={{opacity: this.state.number === 6  ? '1' : '0'}} className='development-card'><h1>Framework</h1></div>
+              <div style={{opacity: this.state.number === 7  ? '1' : '0'}} className='development-card'><h1>Version Control</h1></div>
+              <div style={{opacity: this.state.number === 8  ? '1' : '0'}} className='development-card'><h1>Dev OPS</h1></div>
             </div>
-          <div className='laser-horizontal'>
-            <div className='laser-bottom'></div>
-          </div>
           </div>
         </div>
         <div className='development'>
@@ -72,7 +60,9 @@ export default class Development extends Component {
           <p>As a <span style={{color: '#deac70'}}>full stack software engineer</span>, I enjoy the challenges of <span style={{color: '#32ab9c'}}>solving problems </span>
           programatically in order to <span style={{color: '#b007a8'}}>achieve</span> the disired result. Whether you need a <span style={{color: '#0984e3'}}>sleek front-end</span>, a robust back-end, or a
           <span style={{color: '#32ab9c'}}> full stack application</span>, I've got you covered.</p>
+          <p>Have an app <span style={{color: '#deac70'}}>idea</span> or need a <span style={{color: '#0984e3'}}>developer</span> ?</p>
           <Button
+          link={'mailto:velezdavid6@gmail.com'}
           content={'Contact Me'}
           padding={'0.75rem 1.5rem'}
           fontColor={'#0984e3'}

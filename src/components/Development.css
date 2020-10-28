@@ -51,8 +51,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 33%;
-  width: 33%;
+  border: 1px solid #0984e3;
+  background-color: rgba(9, 132, 227, 0.1);
+  border-radius: 100px;
+  height: 30%;
+  width: 30%;
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.4);
 }
 
 .development-card h1 {

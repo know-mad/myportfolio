@@ -39,7 +39,7 @@ export default class Projects extends Component {
       description={data[0].description}
       technology1={'HTML5'}
       technology2={'CSS'}
-      technology3={'REACT'}
+      technology3={'React'}
       technology4={'Gatsby.js'}
       technology5={'Netlify'}
       />
@@ -50,9 +50,11 @@ export default class Projects extends Component {
       description={data[1].description}
       technology1={'HTML5'}
       technology2={'CSS'}
-      technology3={'REACT'}
+      technology3={'React'}
       technology4={'Python'}
-      technology5={'Django REST'}
+      technology5={'Django'}
+      demoLink={'https://www.cotripper.co/'}
+      githubLink={'https://github.com/CotripperPlatform/CoTrip'}
       />
     } else if (this.state.id == 3) {
       card = <ProjectCard
@@ -63,6 +65,8 @@ export default class Projects extends Component {
       technology2={'CSS'}
       technology3={'REACT'}
       technology4={'Netlify'}
+      demoLink={'https://hungry-feynman-7e3a89.netlify.app/'}
+      githubLink={'https://github.com/know-mad/simon-game-REACT'}
       />
     } else if (this.state.id == 4) {
       card = <ProjectCard
@@ -71,8 +75,9 @@ export default class Projects extends Component {
       description={data[3].description}
       technology1={'MongoDB'}
       technology2={'Express.js'}
-      technology3={'REACT'}
+      technology3={'React'}
       technology4={'Node.js'}
+      githubLink={'https://github.com/know-mad/ecommerce'}
       />
     } else if (this.state.id == 5) {
       card = <ProjectCard
@@ -81,9 +86,10 @@ export default class Projects extends Component {
       description={data[4].description}
       technology1={'HTML5'}
       technology2={'CSS'}
-      technology3={'REACT'}
+      technology3={'React'}
       technology4={'Gatsby.js'}
       technology5={'Netlify'}
+      githubLink={'https://github.com/know-mad/myportfolio'}
       />
     }
 
@@ -116,7 +122,7 @@ export default class Projects extends Component {
             <img src={project} alt='skills_icon' width='90' height='90'/>
             <h1><span style={{color: '#32ab9c'}}>Projects</span></h1>
             <hr/>
-            <p>Some of the recent projects I've worked on</p>
+            <p>Some of the recent <span style={{color: '#32ab9c'}}>projects</span> I've worked on</p>
               <Card
                   number={1}
                   click={this.handleClick}

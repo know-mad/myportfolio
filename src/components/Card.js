@@ -1,6 +1,18 @@
 import React, { useState } from 'react'
 
-const Card = (props) => {
+const Card = ({
+  click,
+  number,
+  defaultBackground,
+  color,
+  border,
+  height,
+  width,
+  shadow,
+  image,
+  skill,
+  highlight,
+  pointer}) => {
   const [mouseOver, setMouseOver] = useState(false)
 
 
@@ -8,10 +20,10 @@ const Card = (props) => {
       <div
       role='button'
       className='card-container'
-      onMouseOver={() => setMouseOver(true)}
+      onMouseOver={highlight ? () => setMouseOver(true) : null}
       onMouseOut={() => setMouseOver(false)}
-      onClick={props.click}
-      id={props.number}
+      onClick={click}
+      id={number}
       style={{
         display: 'flex',
         flexDirection: 'row',
@@ -19,17 +31,17 @@ const Card = (props) => {
         alignItems: 'center',
         textAlign: 'center',
         margin: '20px 3px 0',
-        backgroundColor: mouseOver ? '#fff' : props.defaultBackground,
-        color: mouseOver ? '#2d3436' : props.color,
-        border: props.border,
-        height: props.height,
-        width: props.width,
-        boxShadow: props.shadow,
-        backgroundImage: props.image,
-        cursor: 'pointer',
+        backgroundColor: mouseOver ? '#fff' : defaultBackground,
+        color: mouseOver ? '#2d3436' : color,
+        border: border,
+        height: height,
+        width: width,
+        boxShadow: shadow,
+        backgroundImage: image,
+        cursor: pointer === false ? 'cursor' : 'pointer',
         borderRadius: '30px'
         }}>
-        <h4>{props.skill}</h4>
+        <h4>{skill}</h4>
       </div>
     )
 }

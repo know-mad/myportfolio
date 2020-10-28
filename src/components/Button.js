@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-const Button = ({ padding, margin, content, link, backgroundColor, fontColor, borderColor }) => {
+const Button = ({ padding, margin, content, link, backgroundColor, fontColor, borderColor}) => {
   const [hover, setHover] = useState(false)
 
   const buttonStyle = {
@@ -11,7 +11,6 @@ const Button = ({ padding, margin, content, link, backgroundColor, fontColor, bo
     textDecoration: 'none',
     padding: padding,
     marginTop: margin,
-    boxShadow: '5px 10px 20px rgba(0,0,0,0.4)',
     fontWeight: 'bold',
     borderRadius: '30px',
     cursor: 'pointer'
@@ -22,7 +21,8 @@ const Button = ({ padding, margin, content, link, backgroundColor, fontColor, bo
     onMouseOver={() => setHover(true)}
     onMouseOut={() => setHover(false)}
     style={buttonStyle}
-    href={link}>
+    href={link}
+    target="_blank">
     {content}
     </a>
   )

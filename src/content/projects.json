@@ -3,7 +3,7 @@
     "description": "Fully custom website built for a client using the latest technology. The site was designed from the ground up using design resources such as Adobe Photoshop, Adobe XD, and Figma in order to generate a desireable mock up and then created on the Gatsby.js platform for speed and reliability"
   },
   {
-    "description": "Static website built as a project for the city of Toronto. The website was designed with Adobe XD and built using HTML5 and CSS, and Is made responsive for viewing on all devices without distortion"
+    "description": "Full Stack application with a Django back-end and a React.js front end. This was a collaboration project in a team of 8 engineers working together in an Agile environment"
   },
   {
     "description": "Web version of the popular Hasbro game Simon. The objective was to use the React.js library to configure a fully functional version of the game and its logic by using most of React's features."

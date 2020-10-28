@@ -22,11 +22,9 @@ export default class About extends Component {
             <img src={information} alt='info_icon' width='90' height='90'/>
             <h1><span style={{color: '#0984e3'}}>About Me</span></h1>
             <hr/>
-            <p>I'm a <span style={{color: '#b007a8'}}>full stack software engineer</span> specializing in building clean <span style={{color: '#32ab9c'}}>websites</span>, exceptional <span style={{color: '#0984e3'}}>applications</span>, and everything in between.
-            I enjoy creating <span style={{color: '#deac70'}}>software</span> and <span style={{color: '#0984e3'}}>applications</span> that drive technology and
-            streamline tasks. With over 8 years of <span style={{color: '#b007a8'}}>experience</span> in the <span style={{color: '#32ab9c'}}>technology sector</span>,
-            I've worked on enterprise scale client/server systems, <span style={{color: '#deac70'}}>optimized networks</span>, and develop <span style={{color: '#32ab9c'}}>software </span>
-            that's clean and user <span style={{color: '#0984e3'}}>driven</span></p>
+            <p>I'm a <span style={{color: '#b007a8'}}>full stack software engineer</span> specializing in building exceptional applications, <span style={{color: '#32ab9c'}}>clean websites</span>, and everything in between.
+            I enjoy creating <span style={{color: '#deac70'}}>software</span> and <span style={{color: '#0984e3'}}>applications</span> that drive <span style={{color: '#deac70'}}>technology</span> and
+            streamline tasks, and websites that wow customers and <span style={{color: '#b007a8'}}>convert</span> visitors into clients</p>
         </div>
 
         <div className='socials-card'>

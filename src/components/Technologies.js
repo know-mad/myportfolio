@@ -83,6 +83,8 @@ export default class Technologies extends Component {
       color={'#fff'}
       height={'50px'}
       width={'25%'}
+      highlight={false}
+      pointer={false}
       defaultBackground={'#b007a8'}
       shadow={'5px 10px 20px rgba(0,0,0,0.4)'}
       skill={item.skill}
