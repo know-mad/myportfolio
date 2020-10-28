@@ -1,6 +1,7 @@
-body {
+html, body {
   margin: 0;
   font-family: 'Orbitron', sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
