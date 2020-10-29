@@ -1,8 +1,7 @@
 
-body {
+html, body {
   margin: 0;
   font-family: 'Orbitron', sans-serif;
-  overflow-x: hidden;
 }
 
 .container {
@@ -33,5 +32,29 @@ h1 {
   }
   100% {
       background-position: 0% 50%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html, body {
+    overflow-x: hidden
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html, body {
+    overflow-x: hidden
+  }
+}
+
+@media screen and (max-width: 425px) {
+  html, body {
+    overflow-x: hidden
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html, body {
+    overflow-x: hidden
   }
 }
