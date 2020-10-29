@@ -4,7 +4,6 @@
   flex-direction: column;
   height: 99%;
   width: 99%;
-  /* border: 1px solid #32ab9c; */
 }
 
 
@@ -84,8 +83,9 @@
 
 @media screen and (max-width: 320px) {
   .single-project {
-    height: 100%;
-    width: 100%;
+    height: 99%;
+    width: 99%;
+    border: 1px solid #32ab9c;
   }
 
   .technologies-used-container {
@@ -99,8 +99,9 @@
 
 @media screen and (max-width: 375px) {
   .single-project {
-    height: 100%;
-    width: 100%;
+    height: 99%;
+    width: 99%;
+    border: 1px solid #32ab9c;
   }
 
   .technologies-used-container {
@@ -114,8 +115,9 @@
 
 @media screen and (max-width: 425px) {
   .single-project {
-    height: 100%;
-    width: 100%;
+    height: 99%;
+    width: 99%;
+    border: 1px solid #32ab9c;
   }
 
   .technologies-used-container {
@@ -129,8 +131,9 @@
 
 @media screen and (max-width: 768px) {
   .single-project {
-    height: 100%;
-    width: 100%;
+    height: 99%;
+    width: 99%;
+    border: 1px solid #32ab9c;
   }
 
   .technologies-used-container {

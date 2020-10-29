@@ -23,6 +23,16 @@
   height: 100%;
 }
 
+.intro-logo {
+  display: none;
+  height: 75%;
+  width: 75%;
+  background-image: url('../images/logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .intro-detail {
   display: flex;
   flex-direction: column;
@@ -51,8 +61,6 @@
   min-height: 100px;
   font-size: 2rem;
 }
-
-
 
 .middle-message {
   display: flex;
@@ -106,6 +114,10 @@
     text-align: center;
   }
 
+  .intro-logo {
+    display: flex;
+  }
+
   .intro-detail {
     width: 100%;
   }
@@ -117,12 +129,8 @@
     text-align: center;
   }
 
-  .intro-message h1 {
-    font-size: 2rem;
-    margin: 0;
-  }
   .intro-message h2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin: 0;
   }
 
@@ -149,6 +157,10 @@
     text-align: center;
   }
 
+  .intro-logo {
+    display: flex;
+  }
+
   .intro-detail {
     width: 100%;
   }
@@ -160,12 +172,8 @@
     text-align: center;
   }
 
-  .intro-message h1 {
-    font-size: 2rem;
-    margin: 0;
-  }
   .intro-message h2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin: 0;
   }
 
@@ -192,6 +200,10 @@
     text-align: center;
   }
 
+  .intro-logo {
+    display: flex;
+  }
+
   .intro-detail {
     width: 100%;
   }
@@ -203,12 +215,8 @@
     text-align: center;
   }
 
-  .intro-message h1 {
-    font-size: 2rem;
-    margin: 0;
-  }
   .intro-message h2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin: 0;
   }
 
@@ -234,6 +242,10 @@
     text-align: center;
   }
 
+  .intro-logo {
+    display: flex;
+  }
+
   .intro-detail {
     width: 100%;
   }
@@ -245,12 +257,8 @@
     text-align: center;
   }
 
-  .intro-message h1 {
-    font-size: 2rem;
-    margin: 0;
-  }
   .intro-message h2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin: 0;
   }
 

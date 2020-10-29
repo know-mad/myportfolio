@@ -61,7 +61,9 @@ export default class Intro extends Component {
 
     return(
       <div className='intro-container'>
-        <div className='intro'></div>
+        <div className='intro'>
+          <div className='intro-logo'></div>
+        </div>
 
         <div className='intro-detail'>
           <Spring

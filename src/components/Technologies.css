@@ -217,6 +217,7 @@
   .technologies-container {
     flex-direction: column;
     height: 500px;
+    margin-top: 50px;
   }
 
   .technologies {
