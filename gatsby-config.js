@@ -29,7 +29,9 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-gtag`,
-      trackingId: `G-FYW2789597`,
+      options: {
+        trackingId: `G-FYW2789597`,
+      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
