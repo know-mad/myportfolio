@@ -26,6 +26,10 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/logo.svg`,// This path is relative to the root of the site.
       },
+      {
+        resolve: `gatsby-plugin-gtag`,
+        trackingId: `G-FYW2789597`
+      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
