@@ -107,7 +107,7 @@ export default class Nav extends Component {
         </div>
         <div className='mobile-links' style={{display: this.state.openNav ? 'flex' : 'none'}}>
         <Link to='about-section' smooth={true} duration={1000}><li>about</li></Link>
-          <Link to='services-section' smooth={true} duration={1000}><li>services</li></Link>
+          <Link to='skills-section' smooth={true} duration={1000}><li>skills</li></Link>
             <Link to='technologies-section' smooth={true} duration={1000}><li>technologies</li></Link>
               <Link to='projects-section' smooth={true} duration={1000}><li>projects</li></Link>
                 <Link to='contact-section' smooth={true} duration={1000}><li>contact</li></Link>
