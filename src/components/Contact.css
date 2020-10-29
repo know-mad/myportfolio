@@ -104,7 +104,7 @@
 
 }
 
-@media only screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .contact-container {
     flex-direction: column-reverse;
     height: 900px;
@@ -137,7 +137,7 @@
 
 }
 
-@media only screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .contact-container {
     flex-direction: column-reverse;
     height: 900px;
