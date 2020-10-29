@@ -20,6 +20,7 @@ yellow: #deac70
   -webkit-animation: Gradient 5s ease infinite;
   -moz-animation: Gradient 5s ease infinite;
   animation: Gradient 5s ease infinite;
+  overflow-x: hidden;
 }
 
 @-webkit-keyframes Gradient {
