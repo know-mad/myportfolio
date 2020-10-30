@@ -14,7 +14,7 @@ import WebDesign from '../components/WebDesign'
 import Development from '../components/Development'
 
 import background1 from '../images/quotes_image.jpg'
-import background2 from '../images/background2.png'
+import background2 from '../images/background2.jpg'
 
 
 
