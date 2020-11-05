@@ -112,7 +112,7 @@
 
 /* /// Media Queries /// */
 
-@media screen and (max-width: 320px) {
+@media (orientation: portrait) {
   .about-container {
     flex-direction: column;
     height: 800px;
@@ -162,7 +162,7 @@
 
 }
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
   .about-container {
     flex-direction: column;
     height: 800px;
@@ -307,4 +307,4 @@
     width: 75%
   }
 
-}
+} */

@@ -97,7 +97,7 @@
 
 /* //////// Media Queries //////// */
 
-@media screen and (max-width: 320px) {
+@media (orientation: portrait) {
   .intro-container {
     background-image: url("../images/hero_background_mobile.jpg");
     background-position: center;
@@ -139,7 +139,7 @@
 
 }
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
   .intro-container {
     background-image: url("../images/hero_background_mobile.jpg");
     background-position: center;
@@ -261,4 +261,4 @@
   .bottom-message {
     width: 100%;
   }
-}
+} */

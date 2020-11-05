@@ -239,7 +239,7 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media (orientation: portrait) {
   .projects-container {
     flex-direction: column-reverse;
     height: 1100px;
@@ -270,7 +270,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
   .projects-container {
     flex-direction: column-reverse;
     height: 1100px;
@@ -361,4 +361,4 @@
   .laser-vertical {
     display: none;
   }
-}
+} */

@@ -77,7 +77,7 @@
 
 
 
-@media screen and (max-width: 320px) {
+@media (orientation: portrait) {
   .development-container {
     flex-direction: column-reverse;
     height: 700px;
@@ -92,7 +92,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
   .development-container {
     flex-direction: column-reverse;
     height: 700px;
@@ -135,4 +135,4 @@
   .development-details {
     display: none;
   }
-}
+} */

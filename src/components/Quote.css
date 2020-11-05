@@ -112,14 +112,14 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (orientation: portrait) {
   .quote-container {
     text-align: center;
       font-size: 1.5rem;
   }
 }
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
   .quote-container {
       font-size: 1.5rem;
   }
@@ -135,4 +135,4 @@
   .quote-container {
       font-size: 1.5rem;
   }
-}
+} */

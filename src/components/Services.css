@@ -81,7 +81,7 @@
 /* /// Media Queries /// */
 
 
-@media screen and (max-width: 320px) {
+@media (orientation: portrait) {
   .skills-container {
     flex-direction: column-reverse;
     height: 800px;
@@ -109,7 +109,7 @@
 
 }
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
   .skills-container {
     flex-direction: column-reverse;
     height: 800px;
@@ -188,4 +188,4 @@
     border: none;
     box-shadow: none;
   }
-}
+} */

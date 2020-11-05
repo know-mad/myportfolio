@@ -90,7 +90,7 @@
 
 /* /// Media Queries /// */
 
-@media screen and (max-width: 320px) {
+@media (orientation: portrait) {
   .technologies-container {
     flex-direction: column;
     height: 500px;
@@ -131,7 +131,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
   .technologies-container {
     flex-direction: column;
     height: 500px;
@@ -252,4 +252,4 @@
     border: none;
     border-radius: 0px;
   }
-}
+} */

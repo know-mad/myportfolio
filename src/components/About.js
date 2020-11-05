@@ -6,7 +6,6 @@ import instagram from '../images/instagram.svg'
 import linkedin from '../images/linkedin.svg'
 import github from '../images/github.svg'
 import twitter from '../images/twitter.svg'
-import email from '../images/email.svg'
 
 
 
@@ -44,8 +43,6 @@ export default class About extends Component {
               href='https://github.com/know-mad'><img src={github} alt='github_icon' width='55' height='55'/></a>
               <a target='_blank' rel="noopener noreferrer"
               href='https://twitter.com/_devdave'><img src={twitter} alt='twitter_icon' width='55' height='55'/></a>
-              <a target='_blank' rel="noopener noreferrer"
-              href='mailto:velezdavid6@gmail.com'><img src={email} alt='email_icon' width='55' height='55'/></a>
             </div>
           </div>
           <div className='socials-icons-child'></div>
