@@ -6,7 +6,6 @@
   height: 700px;
   width: 100%;
   color: #2d3436;
-  background-color: #fff;
 }
 
 .development {
@@ -120,7 +119,7 @@
   .development-details {
     display: none;
   }
-}
+} */
 
 @media screen and (max-width: 768px) {
   .development-container {
@@ -135,4 +134,4 @@
   .development-details {
     display: none;
   }
-} */
+}

@@ -81,7 +81,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (orientation: portrait) {
   .single-project {
     height: 99%;
     width: 99%;
@@ -97,7 +97,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
   .single-project {
     height: 99%;
     width: 99%;
@@ -127,7 +127,7 @@
   .project-title {
     font-size: 0.60rem;
   }
-}
+} */
 
 @media screen and (max-width: 768px) {
   .single-project {

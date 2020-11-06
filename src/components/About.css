@@ -6,7 +6,6 @@
   height: 700px;
   width: 100%;
   color: #2d3436;
-  background-color: #fff;
 }
 
 .about-card {
@@ -260,7 +259,7 @@
     width: 75%
   }
 
-}
+} */
 
 @media screen and (max-width: 768px) {
   .about-container {
@@ -307,4 +306,4 @@
     width: 75%
   }
 
-} */
+}

@@ -149,7 +149,7 @@ yellow: #deac70
 
 /* ///// Media Queries /////// */
 
-@media (orientation: portrait) {
+@media (orientation: portrait) and (max-width: 325px){
   .links-side li {
     display: none;
   }
@@ -163,7 +163,7 @@ yellow: #deac70
   }
 }
 
-/* @media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .links-side li {
     display: none;
   }
@@ -203,4 +203,4 @@ yellow: #deac70
   .mobile-links li {
     cursor: pointer;
   }
-} */
+}

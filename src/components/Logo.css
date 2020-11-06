@@ -13,13 +13,13 @@
 
 /* //// Media Queries //// */
 
-@media screen and (max-width: 320px) {
+@media (orientation: portrait) {
 	.logo {
 		display: none;
 	}
 }
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
   .logo {
 		display: none;
 	}
@@ -29,7 +29,7 @@
   .logo {
 		display: none;
 	}
-}
+} */
 
 @media screen and (max-width: 768px) {
   .logo {
