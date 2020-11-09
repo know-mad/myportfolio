@@ -97,10 +97,10 @@ export default class Nav extends Component {
                   {props => <Link to='contact-section' smooth={true} duration={1000}><li style={props}>contact</li></Link>}
                 </Spring>
 
-        <div onClick={this.toggleNav} className='mobile-menu'>
-          <div className='bar'></div>
-          <div className='bar'></div>
-          <div className='bar'></div>
+          <div onClick={this.toggleNav} className='mobile-menu'>
+            <div className='bar'></div>
+            <div className='bar'></div>
+            <div className='bar'></div>
           </div>
         </div>
 

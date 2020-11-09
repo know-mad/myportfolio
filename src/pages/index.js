@@ -30,13 +30,10 @@ const IndexPage = () => (
             <Services />
               <WebDesign />
               <Development />
-              <Quote
-                background={background2}
-                content={"Cheap work isn't good... and good work isn't cheap"}/>
-              <Technologies />
-                <Projects />
-                  <Contact />
-                    <Footer />
+                <Technologies />
+                  <Projects />
+                    <Contact />
+                      <Footer />
   </div>
 )
 
