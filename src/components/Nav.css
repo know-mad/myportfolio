@@ -149,7 +149,7 @@ yellow: #deac70
 
 /* ///// Media Queries /////// */
 
-@media (orientation: portrait) and (max-width: 325px){
+@media (orientation: portrait) {
   .links-side li {
     display: none;
   }
