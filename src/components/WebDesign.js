@@ -34,8 +34,8 @@ export default class WebDesign extends Component {
               <div className='web-design-details-card'>
                 <h1>Fast</h1>
               </div>
-              <p><span style={{color: '#b007a8'}}>I build websites on the Gatsby.js platform so no matter where a Gatsby site or web app
-              runs, it’s fast by design. Pages load in milliseconds rather than seconds. </span></p>
+              <p><span style={{color: '#b007a8'}}>I build websites from the ground up, meaning each site is taylored specifically for you.
+              By building source code coupled with a headless CMS my sites or web apps run fast by design. Pages load in milliseconds rather than seconds. </span></p>
               <div className='web-design-details-card'>
                 <h1>Responsive</h1>
               </div>

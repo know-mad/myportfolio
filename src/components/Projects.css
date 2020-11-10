@@ -269,69 +269,7 @@
   }
 }
 
-/* @media screen and (max-width: 375px) {
-  .projects-container {
-    flex-direction: column-reverse;
-    height: 1100px;
-    margin-top: 50px
-  }
-
-  .projects {
-    width: 100%;
-  }
-
-  .projects-details {
-    width: 100%;
-    height: 70%;
-    justify-content: flex-start;
-  }
-
-  .project-theater {
-    width: 100%;
-    height: 100%;
-  }
-
-  .laser-horizontal {
-    display: none;
-  }
-
-  .laser-vertical {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .projects-container {
-    flex-direction: column-reverse;
-    height: 1100px;
-    margin-top: 50px
-  }
-
-  .projects {
-    width: 100%;
-  }
-
-  .projects-details {
-    width: 100%;
-    height: 70%;
-    justify-content: flex-start;
-  }
-
-  .project-theater {
-    width: 100%;
-    height: 100%;
-  }
-
-  .laser-horizontal {
-    display: none;
-  }
-
-  .laser-vertical {
-    display: none;
-  }
-} */
-
-@media screen and (max-width: 768px) {
+@media (orientation: landscape) and (max-width: 768px) {
   .projects-container {
     flex-direction: column-reverse;
     height: 1100px;

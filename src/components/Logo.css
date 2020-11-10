@@ -19,19 +19,8 @@
 	}
 }
 
-/* @media screen and (max-width: 375px) {
-  .logo {
-		display: none;
-	}
-}
 
-@media screen and (max-width: 425px) {
-  .logo {
-		display: none;
-	}
-} */
-
-@media screen and (max-width: 768px) {
+@media (orientation: landscape) and (max-width: 768px) {
   .logo {
 		display: none;
 	}

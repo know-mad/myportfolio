@@ -91,37 +91,7 @@
   }
 }
 
-/* @media screen and (max-width: 375px) {
-  .development-container {
-    flex-direction: column-reverse;
-    height: 700px;
-  }
-
-  .development {
-    width: 100%;
-  }
-
-  .development-details {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .development-container {
-    flex-direction: column-reverse;
-    height: 700px;
-  }
-
-  .development {
-    width: 100%;
-  }
-
-  .development-details {
-    display: none;
-  }
-} */
-
-@media screen and (max-width: 768px) {
+@media (orientation: landscape) and (max-width: 768px) {
   .development-container {
     flex-direction: column-reverse;
     height: 700px;

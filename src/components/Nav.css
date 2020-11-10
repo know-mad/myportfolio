@@ -163,35 +163,8 @@ yellow: #deac70
   }
 }
 
-@media screen and (max-width: 375px) {
-  .links-side li {
-    display: none;
-  }
 
-  .mobile-menu {
-    display: flex;
-  }
-
-  .mobile-links li {
-    cursor: pointer;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .links-side li {
-    display: none;
-  }
-
-  .mobile-menu {
-    display: flex;
-  }
-
-  .mobile-links li {
-    cursor: pointer;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media (orientation: landscape) and (max-width: 768px) {
   .links-side li {
     display: none;
   }

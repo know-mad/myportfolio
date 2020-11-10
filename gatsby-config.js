@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `David Velez`,
-    description: `I'm a software engineer based in New York City, NY specializing in building exceptional websites, applications, and everything in between.`,
+    description: `I'm a software engineer based in the Baltimore-Washington DC metro area specializing in building exceptional websites, applications, and everything in between.`,
     siteUrl: 'https://davidvelez.io',
     author: `David Velez`,
   },

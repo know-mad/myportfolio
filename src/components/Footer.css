@@ -85,31 +85,9 @@
   }
 }
 
-/* @media screen and (max-width: 375px) {
-  .footer {
-    height: 100px;
-    background: #fff;
-    color: #deac70;
-  }
 
-  .footer-social-icons {
-    display: flex;
-  }
-}
 
-@media screen and (max-width: 425px) {
-  .footer {
-    height: 200px;
-    background: #fff;
-    color: #deac70;
-  }
-
-  .footer-social-icons {
-    display: flex;
-  }
-} */
-
-@media screen and (max-width: 768px) {
+@media (orientation: landscape) and (max-width: 768px) {
   .footer {
     height: 200px;
     background: #fff;

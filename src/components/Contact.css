@@ -103,73 +103,7 @@
 
 }
 
-/* @media screen and (max-width: 375px) {
-  .contact-container {
-    flex-direction: column-reverse;
-    height: 900px;
-  }
-
-  .contact {
-    height: 50%;
-  }
-
-  .contact-details {
-    height: 50%;
-    padding: 0px;
-  }
-
-  .contact-parent {
-    height: 100%;
-    width: 100%;
-    background-color: transparent;
-    border: none;
-  }
-
-  .contact-parent:hover {
-    margin-left: 0px;
-    margin-top: 0px;
-  }
-
-  .contact-child {
-    display: none;
-  }
-
-}
-
-@media screen and (max-width: 425px) {
-  .contact-container {
-    flex-direction: column-reverse;
-    height: 900px;
-  }
-
-  .contact {
-    height: 50%;
-  }
-
-  .contact-details {
-    height: 50%;
-    padding: 0px;
-  }
-
-  .contact-parent {
-    height: 100%;
-    width: 100%;
-    background-color: transparent;
-    border: none;
-  }
-
-  .contact-parent:hover {
-    margin-left: 0px;
-    margin-top: 0px;
-  }
-
-  .contact-child {
-    display: none;
-  }
-
-} */
-
-@media screen and (max-width: 768px) {
+@media (orientation: landscape) and (max-width: 768px) {
   .contact-container {
     flex-direction: column-reverse;
     height: 900px;

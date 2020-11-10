@@ -108,61 +108,7 @@
 
 }
 
-/* @media screen and (max-width: 375px) {
-  .skills-container {
-    flex-direction: column-reverse;
-    height: 800px;
-    margin-top: 30px;
-  }
-
-  .services {
-    width: 100%;
-  }
-
-  .services-details {
-    width: 100%;
-  }
-
-  .services-child {
-    display: none;
-  }
-
-  .services-details-card {
-    height: 50%;
-    width: 100%;
-    border: none;
-    box-shadow: none;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .skills-container {
-    flex-direction: column-reverse;
-    height: 800px;
-    margin-top: 30px;
-  }
-
-  .services {
-    width: 100%;
-  }
-
-  .services-details {
-    width: 100%;
-  }
-
-  .services-child {
-    display: none;
-  }
-
-  .services-details-card {
-    height: 50%;
-    width: 100%;
-    border: none;
-    box-shadow: none;
-  }
-} */
-
-@media screen and (max-width: 768px) {
+@media (orientation: landscape) and (max-width: 768px) {
   .skills-container {
     flex-direction: column-reverse;
     height: 800px;
