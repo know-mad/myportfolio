@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Footer.css'
-import information from '../images/information.svg'
+
 import facebook from '../images/facebook.svg'
 import instagram from '../images/instagram.svg'
 import linkedin from '../images/linkedin.svg'

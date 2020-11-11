@@ -80,13 +80,11 @@ export default class Technologies extends Component {
     let skill = this.state.skill.map((item, index) => {
       return <Card
       key={index}
-      color={'#fff'}
+      color={'#2d3436'}
       height={'50px'}
       width={'25%'}
       highlight={false}
       pointer={false}
-      defaultBackground={'#b007a8'}
-      shadow={'5px 10px 20px rgba(0,0,0,0.4)'}
       skill={item.skill}
       />
     })

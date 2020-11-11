@@ -223,12 +223,6 @@
 },
 {
   "word": "hello",
-  "language": "persian",
-  "translation": "سلام",
-  "active": false
-},
-{
-  "word": "hello",
   "language": "polish",
   "translation": "Dzień Dobry",
   "active": false

@@ -73,7 +73,7 @@ export default class Intro extends Component {
           >
             {props => <div style={props} className='intro-message'>
               <div className='top-message'>
-                <h2>{this.state.helloMessage}</h2>
+                <h2 style={{margin: '0'}}>{this.state.helloMessage}</h2>
               </div>
               <div className='middle-message'>
                 <h2>My <span style={{color: '#0984e3'}}>name</span> is...</h2>

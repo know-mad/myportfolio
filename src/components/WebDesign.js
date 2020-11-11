@@ -35,7 +35,7 @@ export default class WebDesign extends Component {
                 <h1>Fast</h1>
               </div>
               <p><span style={{color: '#b007a8'}}>I build websites from the ground up, meaning each site is taylored specifically for you.
-              By building source code coupled with a headless CMS my sites or web apps run fast by design. Pages load in milliseconds rather than seconds. </span></p>
+              By building source code coupled with a headless CMS my sites run fast by design. Pages load in milliseconds rather than seconds. </span></p>
               <div className='web-design-details-card'>
                 <h1>Responsive</h1>
               </div>
