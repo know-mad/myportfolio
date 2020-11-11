@@ -34,7 +34,7 @@ export default class Projects extends Component {
 
     if (this.state.id == 1) {
       card = <ProjectCard
-      title={'AZ Hair Studio Website'}
+      title={'Client Website'}
       image={barbershop}
       description={data[0].description}
       technology1={'HTML5'}
@@ -42,6 +42,8 @@ export default class Projects extends Component {
       technology3={'React'}
       technology4={'Gatsby.js'}
       technology5={'Netlify'}
+      demoLink={'https://priceless-kilby-97b7f4.netlify.app'}
+      githubLink={'https://github.com/know-mad/aziatic_hair_studio'}
       />
     } else if (this.state.id == 2) {
       card = <ProjectCard
