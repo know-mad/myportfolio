@@ -6,6 +6,7 @@ module.exports = {
     author: `David Velez`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
