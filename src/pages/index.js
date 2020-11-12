@@ -25,7 +25,7 @@ const IndexPage = () => (
           <About />
           <Quote
             background={background1}
-            content={'Through technology, we are actively inventing tomorrow'}/>
+            content={'Through technology we are actively inventing tomorrow'}/>
             <Services />
               <WebDesign />
               <Development />

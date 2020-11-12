@@ -5,7 +5,7 @@
   align-items: center;
   height: 700px;
   width: 100%;
-  color: #2d3436;
+  position: relative;
 }
 
 .about-card {

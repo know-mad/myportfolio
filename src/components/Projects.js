@@ -129,7 +129,7 @@ export default class Projects extends Component {
                   number={1}
                   click={this.handleClick}
                   border={'1px solid #32ab9c'}
-                  color={this.state.id == 1 ? '#2d3436' : '#fff'}
+                  color={this.state.id == 1 ? '#32ab9c' : '#fff'}
                   defaultBackground={this.state.id == 1 ? '#fff' : '#32ab9c'}
                   height={'40px'}
                   width={'80%'}
@@ -140,7 +140,7 @@ export default class Projects extends Component {
                       number={2}
                       click={this.handleClick}
                       border={'1px solid #32ab9c'}
-                      color={this.state.id == 2 ? '#2d3436' : '#fff'}
+                      color={this.state.id == 2 ? '#32ab9c' : '#fff'}
                       defaultBackground={this.state.id == 2 ? '#fff' : '#32ab9c'}
                       height={'40px'}
                       width={'80%'}
@@ -151,7 +151,7 @@ export default class Projects extends Component {
                           number={3}
                           click={this.handleClick}
                           border={'1px solid #32ab9c'}
-                          color={this.state.id == 3 ? '#2d3436' : '#fff'}
+                          color={this.state.id == 3 ? '#32ab9c' : '#fff'}
                           defaultBackground={this.state.id == 3 ? '#fff' : '#32ab9c'}
                           height={'40px'}
                           width={'80%'}
@@ -162,7 +162,7 @@ export default class Projects extends Component {
                               number={4}
                               click={this.handleClick}
                               border={'1px solid #32ab9c'}
-                              color={this.state.id == 4 ? '#2d3436' : '#fff'}
+                              color={this.state.id == 4 ? '#32ab9c' : '#fff'}
                               defaultBackground={this.state.id == 4 ? '#fff' : '#32ab9c'}
                               height={'40px'}
                               width={'80%'}
@@ -173,7 +173,7 @@ export default class Projects extends Component {
                                   number={5}
                                   click={this.handleClick}
                                   border={'1px solid #32ab9c'}
-                                  color={this.state.id == 5 ? '#2d3436' : '#fff'}
+                                  color={this.state.id == 5 ? '#32ab9c' : '#fff'}
                                   defaultBackground={this.state.id == 5 ? '#fff' : '#32ab9c'}
                                   height={'40px'}
                                   width={'80%'}
