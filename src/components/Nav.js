@@ -1,20 +1,13 @@
-import React, { Component } from 'react'
+  import React, { Component } from 'react'
 import './Nav.css'
 import Logo from './Logo'
 import { Link } from 'react-scroll'
-import { Spring } from 'react-spring/renderprops'
-
-
-
-
-
-
 
 
 
 export default class Nav extends Component {
-  constructor(){
-    super()
+  constructor(props){
+    super(props)
 
     this.state = {
       openNav: false
@@ -43,9 +36,9 @@ export default class Nav extends Component {
     })
   }
 
-  componentWillUnmount(){
-    window.removeEventListener('scroll')
-  }
+  // componentWillUnmount(){
+  //   window.removeEventListener('scroll')
+  // }
 
 
   render(){
@@ -57,45 +50,11 @@ export default class Nav extends Component {
           </div>
           <div id='links' className='links-side'>
 
-          <Spring
-          from={{opacity: '0'}}
-          to={{opacity: '1'}}
-          delay={1500}
-          >
-            {props => <Link to='about-section' smooth={true} duration={1000}><li style={props}>about</li></Link>}
-          </Spring>
-
-            <Spring
-            from={{opacity: '0'}}
-            to={{opacity: '1'}}
-            delay={2000}
-            >
-              {props => <Link to='skills-section' smooth={true} duration={1000}><li style={props}>skills</li></Link>}
-            </Spring>
-
-              <Spring
-              from={{opacity: '0'}}
-              to={{opacity: '1'}}
-              delay={2500}
-              >
-                {props => <Link to='technologies-section' smooth={true} duration={1000}><li style={props}>technologies</li></Link>}
-              </Spring>
-
-                <Spring
-                from={{opacity: '0'}}
-                to={{opacity: '1'}}
-                delay={3000}
-                >
-                  {props => <Link to='projects-section' smooth={true} duration={1000}><li style={props}>projects</li></Link>}
-                </Spring>
-
-                <Spring
-                from={{opacity: '0'}}
-                to={{opacity: '1'}}
-                delay={3500}
-                >
-                  {props => <Link to='contact-section' smooth={true} duration={1000}><li style={props}>contact</li></Link>}
-                </Spring>
+            {this.props.link1}
+            {this.props.link2}
+            {this.props.link3}
+            {this.props.link4}
+            {this.props.link5}
 
           <div onClick={this.toggleNav} className='mobile-menu'>
             <div className='bar'></div>
@@ -106,11 +65,13 @@ export default class Nav extends Component {
 
         </div>
         <div className='mobile-links' style={{display: this.state.openNav ? 'flex' : 'none'}}>
-        <Link to='about-section' smooth={true} duration={1000}><li>about</li></Link>
-          <Link to='skills-section' smooth={true} duration={1000}><li>skills</li></Link>
-            <Link to='technologies-section' smooth={true} duration={1000}><li>technologies</li></Link>
-              <Link to='projects-section' smooth={true} duration={1000}><li>projects</li></Link>
-                <Link to='contact-section' smooth={true} duration={1000}><li>contact</li></Link>
+
+          {this.props.link1}
+          {this.props.link2}
+          {this.props.link3}
+          {this.props.link4}
+          {this.props.link5}
+
         </div>
       </div>
     )

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'gatsby'
 
 
 const Button = ({ padding, margin, content, link, backgroundColor, fontColor, borderColor}) => {
@@ -22,7 +23,7 @@ const Button = ({ padding, margin, content, link, backgroundColor, fontColor, bo
     onMouseOut={() => setHover(false)}
     style={buttonStyle}
     href={link}
-    target="_blank">
+    >
     {content}
     </a>
   )

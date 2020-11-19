@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import './Projects.css'
 import Card from './Card'
 import ProjectCard from './ProjectCard'
+import { gsap } from 'gsap'
 
-import project from '../images/project.svg'
 import simon from '../images/simon.jpg'
 import barbershop from '../images/barbershop.svg'
 import cotrip from '../images/cotrip_pic.png'
@@ -28,6 +28,7 @@ export default class Projects extends Component {
       id: e.target.id
     })
   }
+
 
   render(){
     let card = <ProjectCard/>
@@ -96,7 +97,7 @@ export default class Projects extends Component {
     }
 
     return (
-        <div id='projects-section' className='projects-container'>
+        <div id='projects-section'>
 
         <div className='projects-details'>
               <div className='project-theater'>
@@ -121,16 +122,15 @@ export default class Projects extends Component {
             </div>
 
           <div className='projects'>
-            <img src={project} alt='skills_icon' width='90' height='90'/>
             <h1><span style={{color: '#32ab9c'}}>Projects</span></h1>
             <hr/>
-            <p>Some of the recent <span style={{color: '#32ab9c'}}>projects</span> I've worked on</p>
+            <p>Some of the recent projects I've worked on</p>
               <Card
                   number={1}
                   click={this.handleClick}
                   border={'1px solid #32ab9c'}
-                  color={this.state.id == 1 ? '#32ab9c' : '#fff'}
-                  defaultBackground={this.state.id == 1 ? '#fff' : '#32ab9c'}
+                  color={this.state.id == 1 ? '#32ab9c' : '#2d3436'}
+                  defaultBackground={this.state.id == 1 ? '#2d3436' : '#32ab9c'}
                   height={'40px'}
                   width={'80%'}
                   shadow={'5px 10px 20px rgba(0,0,0,0.4)'}
@@ -140,8 +140,8 @@ export default class Projects extends Component {
                       number={2}
                       click={this.handleClick}
                       border={'1px solid #32ab9c'}
-                      color={this.state.id == 2 ? '#32ab9c' : '#fff'}
-                      defaultBackground={this.state.id == 2 ? '#fff' : '#32ab9c'}
+                      color={this.state.id == 2 ? '#32ab9c' : '#2d3436'}
+                      defaultBackground={this.state.id == 2 ? '#2d3436' : '#32ab9c'}
                       height={'40px'}
                       width={'80%'}
                       shadow={'5px 10px 20px rgba(0,0,0,0.4)'}
@@ -151,8 +151,8 @@ export default class Projects extends Component {
                           number={3}
                           click={this.handleClick}
                           border={'1px solid #32ab9c'}
-                          color={this.state.id == 3 ? '#32ab9c' : '#fff'}
-                          defaultBackground={this.state.id == 3 ? '#fff' : '#32ab9c'}
+                          color={this.state.id == 3 ? '#32ab9c' : '#2d3436'}
+                          defaultBackground={this.state.id == 3 ? '#2d3436' : '#32ab9c'}
                           height={'40px'}
                           width={'80%'}
                           shadow={'5px 10px 20px rgba(0,0,0,0.4)'}
@@ -162,8 +162,8 @@ export default class Projects extends Component {
                               number={4}
                               click={this.handleClick}
                               border={'1px solid #32ab9c'}
-                              color={this.state.id == 4 ? '#32ab9c' : '#fff'}
-                              defaultBackground={this.state.id == 4 ? '#fff' : '#32ab9c'}
+                              color={this.state.id == 4 ? '#32ab9c' : '#2d3436'}
+                              defaultBackground={this.state.id == 4 ? '#2d3436' : '#32ab9c'}
                               height={'40px'}
                               width={'80%'}
                               shadow={'5px 10px 20px rgba(0,0,0,0.4)'}
@@ -173,8 +173,8 @@ export default class Projects extends Component {
                                   number={5}
                                   click={this.handleClick}
                                   border={'1px solid #32ab9c'}
-                                  color={this.state.id == 5 ? '#32ab9c' : '#fff'}
-                                  defaultBackground={this.state.id == 5 ? '#fff' : '#32ab9c'}
+                                  color={this.state.id == 5 ? '#32ab9c' : '#2d3436'}
+                                  defaultBackground={this.state.id == 5 ? '#2d3436' : '#32ab9c'}
                                   height={'40px'}
                                   width={'80%'}
                                   shadow={'5px 10px 20px rgba(0,0,0,0.4)'}

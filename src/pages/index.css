@@ -8,10 +8,10 @@ html, body {
 .container {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
   color: #2d3436;
-
-
+  position: relative;
+  z-index: 2;
+  color: #fff;
 }
 
 hr {
@@ -26,6 +26,17 @@ h1 {
   -webkit-text-fill-color: transparent;
   animation: color-change 3s infinite
 }
+
+#glow-bar {
+  display: flex;
+  flex-flow: row;
+  height: 0;
+  width: 100%;
+  box-shadow: 0px 0px 35px 20px rgba(9, 132, 227, 0.9);
+  opacity: 0;
+  }
+
+
 
 @keyframes color-change {
   0% {

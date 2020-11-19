@@ -1,11 +1,18 @@
 .about-container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  height: 700px;
+  height: 600px;
   width: 100%;
   position: relative;
+  background-color: #2d3436;
+  overflow: hidden;
+}
+
+.about-content-card {
+  display: flex;
+  flex-direction: row;
 }
 
 .about-card {
@@ -15,7 +22,7 @@
   align-items: center;
   text-align: center;
   width: 50%;
-  height: 650px;
+  height: 100%;
 }
 
 
@@ -50,7 +57,7 @@
   justify-content: center;
   align-items: center;
   width: 50%;
-  height: 650px;
+  height: 100%;
 }
 
 .socials-icons {
@@ -103,7 +110,7 @@
   margin-left: 50px;
   margin-top: 50px;
   z-index: 1;
-  box-shadow: 5px 10px 20px rgba(0,0,0,0.4);
+  box-shadow: 0 0 30px 10px rgba(50, 171, 156, 0.9);
   border-radius: 200px;
 }
 
@@ -114,7 +121,7 @@
 @media (orientation: portrait) {
   .about-container {
     flex-direction: column;
-    height: 800px;
+    height: 600px;
   }
 
   .icons {
@@ -124,16 +131,25 @@
   .about-card {
     width: 100%;
     height: 100%;
+    justify-content: space-between;
+  }
 
+
+  .about-content-card {
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
   }
 
   .socials-card {
     width: 100%;
     height: 30%;
     justify-content: center;
+    display: none;
   }
 
   .socials-icons {
+    display: none;
     width: 90%;
     height: 50%;
     border: none;
@@ -164,7 +180,7 @@
 @media (orientation: landscape) and (max-width: 768px) {
   .about-container {
     flex-direction: column;
-    height: 800px;
+    height: 600px;
   }
 
   .icons {
@@ -177,7 +193,15 @@
 
   }
 
+  .about-content-card {
+    flex-direction: column;
+    height: 90%;
+    width: 60%;
+  }
+
+
   .socials-card {
+    display: none;
     width: 100%;
     height: 30%;
     justify-content: center;

@@ -15,21 +15,10 @@ export default class Services extends Component {
 
   render(){
     return(
-      <div id='skills-section' className='skills-container'>
-        <div className='services-details'>
-                  <div className='services-child'></div>
-          <div className='services-details-card'>
-          <h1>Web Designer</h1>
-          <h1>&</h1>
-          <h1>Software Engineer</h1>
-          </div>
-        </div>
-
+      <div id='skills-section'>
+        <div id='glow-bar'></div>
         <div className='services'>
-          <img src={skills} alt='skills_icon' width='90' height='90'/>
           <h1>Skills</h1>
-
-          <hr/>
 
             <p>
               With over <span style={{color: '#0984e3'}}>8 years</span> in the technology sector, I've gained and used

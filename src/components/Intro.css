@@ -5,10 +5,6 @@
   align-items: center;
   height: 800px;
   width: 100%;
-  background-image: url("../images/hero_background.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   color: #fff;
   overflow: hidden;
   position: relative;
@@ -99,10 +95,10 @@
 
 @media (orientation: portrait) {
   .intro-container {
-    background-image: url("../images/hero_background_mobile.jpg");
+    /* background-image: url("../images/hero_background_mobile.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     flex-direction: column;
     justify-content: center;
     width: 100%;
@@ -141,10 +137,10 @@
 
 @media (orientation: landscape) and (max-width: 768px) {
   .intro-container {
-    background-image: url("../images/hero_background_mobile.jpg");
+    /* background-image: url("../images/hero_background_mobile.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     flex-direction: column;
     justify-content: center;
     width: 100%;

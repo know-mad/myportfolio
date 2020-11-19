@@ -1,10 +1,18 @@
-.contact-container {
+#contact-section {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   height: 700px;
   width: 100%;
+  position: relative;
+  background-color: #2d3436;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
 }
 
 .contact {
@@ -23,7 +31,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 50px;
   width: 50%;
   height: 100%;
 }
@@ -64,24 +71,30 @@
   margin-left: 50px;
   margin-top: 50px;
   z-index: 1;
-  box-shadow: 5px 10px 20px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 30px 10px rgba(222, 172, 112, 0.9);
   border-radius: 300px;
 }
 
 
 @media (orientation: portrait) {
-  .contact-container {
-    flex-direction: column-reverse;
+  #contact-section  {
+    flex-direction: column;
     height: 900px;
   }
 
   .contact {
     height: 50%;
+    width: 100%;
   }
 
   .contact-details {
     height: 50%;
     padding: 0px;
+    width: 100%;
+  }
+
+  .contact-content {
+    flex-direction: column;
   }
 
   .contact-parent {
@@ -103,8 +116,8 @@
 }
 
 @media (orientation: landscape) and (max-width: 768px) {
-  .contact-container {
-    flex-direction: column-reverse;
+  #contact-section  {
+    flex-direction: column;
     height: 900px;
   }
 

@@ -1,10 +1,13 @@
-.skills-container {
+#skills-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 700px;
+  height: 400px;
   width: 100%;
+  background-color: #2d3436;
+  position: relative;
+  overflow: hidden;
 }
 
 
@@ -14,7 +17,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 50%;
+  width: 70%;
   height: 100%;
   padding-left: 10px;
   padding-right: 10px;
@@ -74,6 +77,8 @@
   margin-top: 50px;
   transition: 0.35s;
 }
+
+
 
 
 /* /// Media Queries /// */

@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import './Technologies.css'
 import Card from './Card'
 
-import programming from '../images/programming.svg'
 import html from '../images/html-5.svg'
 import css from '../images/css3.svg'
 import js from '../images/javascript.svg'
@@ -80,7 +79,7 @@ export default class Technologies extends Component {
     let skill = this.state.skill.map((item, index) => {
       return <Card
       key={index}
-      color={'#2d3436'}
+      color={'#fff'}
       height={'50px'}
       width={'25%'}
       highlight={false}
@@ -90,27 +89,28 @@ export default class Technologies extends Component {
     })
 
     return(
-      <div id='technologies-section' className='technologies-container'>
-        <div className='technologies'>
-          <div className='technologies-top'>
-            <img src={programming} alt='skills_icon' width='90' height='90'/>
-            <h1><span style={{color: '#b007a8'}}>Technologies</span></h1>
-            <hr/>
-            <p>As a <span style={{color: '#b007a8'}}>passionate</span> and curious
-             technologist, I'm always looking to <span style={{color: '#deac70'}}>learn</span> and
-              <span style={{color: '#deac70'}}> build</span> with new technologies.
-             These are some of the <span style={{color: '#32ab9c'}}>technologies</span> I've
-             been <span style={{color: '#0984e3'}}>working</span> with recently</p>
+      <div id='technologies-section'>
+        <div className='technologies-container-content'>
+          <div className='technologies'>
+            <div className='technologies-top'>
+              <h1><span style={{color: '#b007a8'}}>Technologies</span></h1>
+              <hr/>
+              <p>I'm a <span style={{color: '#b007a8'}}>passionate</span> and curious
+               engineer who is always looking to <span style={{color: '#deac70'}}>learn</span> and
+                <span style={{color: '#deac70'}}> build</span> with new technologies.
+               These are some of the <span style={{color: '#32ab9c'}}>technologies</span> I've
+               been <span style={{color: '#0984e3'}}>working</span> with recently</p>
+            </div>
+
+            <div className='technologies-bottom'>
+              {skill}
+            </div>
           </div>
 
-          <div className='technologies-bottom'>
-            {skill}
+          <div className='technologies-details'>
+            <div className='tech-image-parent'></div>
+            <div className='tech-image-child' style={{backgroundImage: `url(${this.state.image})`}}></div>
           </div>
-        </div>
-
-        <div className='technologies-details'>
-          <div className='tech-image-parent'></div>
-          <div className='tech-image-child' style={{backgroundImage: `url(${this.state.image})`}}></div>
         </div>
       </div>
     )

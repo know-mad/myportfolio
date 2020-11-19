@@ -18,7 +18,7 @@ export default class Footer extends Component {
     return(
       <div className='footer'>
             <p>Designed & Built by David Velez</p>
-            <p id='attribute'>icons by Freepik from www.flaticons.com</p>
+            <p>© V-Technologies 2020</p>
         <div className='footer-social-icons'>
           <a target='_blank' rel="noopener noreferrer"
           href='https://www.facebook.com/UndercoverAlien/'><img src={facebook} alt='facebook_icon' width='55' height='55'/></a>

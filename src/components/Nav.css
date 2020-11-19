@@ -63,7 +63,7 @@ yellow: #deac70
   margin-top: 0;
   position: fixed;
   top: 0;
-  background: #fff;
+  background: #2d3436;
 }
 
 .content-container {
@@ -111,7 +111,7 @@ yellow: #deac70
   list-style-type: none;
   justify-content: space-between;
   padding-right: 20px;
-  color: #0984e3;
+  color: #deac70;
 }
 
 
@@ -137,19 +137,6 @@ yellow: #deac70
   padding: 10px;
   width: 30px;
   height: 30px;
-}
-
-.mode-toggle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 20px;
-  height: 20px;
-  background-image: url('../images/sunny-day.svg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .bar {

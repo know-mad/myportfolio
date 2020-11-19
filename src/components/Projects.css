@@ -1,10 +1,13 @@
-.projects-container {
+#projects-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 800px;
   width: 100%;
+  position: relative;
+  background-color: #2d3436;
+  color: #fff;
 }
 
 .projects {
@@ -23,15 +26,16 @@
   justify-content: center;
   align-items: center;
   width: 50%;
-  height: 85%;
+  height: 100%;
 }
 
 .project-theater {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 80%;
-  width: 80%;
+  height: 70%;
+  width: 90%;
+  box-shadow: 0 0 40px 10px rgba(50, 171, 156, 0.9);
 }
 
 .project-theater-center {
@@ -47,7 +51,7 @@
   display: flex;
   flex-direction: row;
   overflow: hidden;
-  height: 2px;
+  height: 3px;
   width: 100%;
 }
 
@@ -56,7 +60,7 @@
   flex-direction: column;
   overflow: hidden;
   height: 100%;
-  width: 2px;
+  width: 3px;
 }
 
 .laser-top {
@@ -238,20 +242,21 @@
 
 
 @media (orientation: portrait) {
-  .projects-container {
+  #projects-section {
     flex-direction: column-reverse;
     height: 1100px;
-    margin-top: 50px
   }
 
   .projects {
     width: 100%;
+    justify-content: flex-start;
   }
 
   .projects-details {
     width: 100%;
     height: 70%;
     justify-content: flex-start;
+    margin-bottom: 50px;
   }
 
   .project-theater {
@@ -269,20 +274,21 @@
 }
 
 @media (orientation: landscape) and (max-width: 768px) {
-  .projects-container {
+  #projects-section {
     flex-direction: column-reverse;
     height: 1100px;
-    margin-top: 50px
   }
 
   .projects {
     width: 100%;
+    justify-content: flex-start;
   }
 
   .projects-details {
     width: 100%;
     height: 70%;
     justify-content: flex-start;
+    margin-bottom: 50px;
   }
 
   .project-theater {

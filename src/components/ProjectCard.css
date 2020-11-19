@@ -2,8 +2,9 @@
   color: #fff;
   display: flex;
   flex-direction: column;
-  height: 99%;
-  width: 99%;
+  height: 90%;
+  width: 90%;
+  border: 1px solid #32ab9c;
 }
 
 

@@ -1,11 +1,6 @@
 import React, { Component } from 'react'
 import './Intro.css'
 import data from '../content/file.json'
-import { Spring } from 'react-spring/renderprops'
-
-
-
-
 
 
 
@@ -66,12 +61,7 @@ export default class Intro extends Component {
         </div>
 
         <div className='intro-detail'>
-          <Spring
-          from={{opacity: 0}}
-          to={{opacity: 1}}
-          delay={500}
-          >
-            {props => <div style={props} className='intro-message'>
+        <div className='intro-message'>
               <div className='top-message'>
                 <h2 style={{margin: '0'}}>{this.state.helloMessage}</h2>
               </div>
@@ -85,8 +75,7 @@ export default class Intro extends Component {
               <h2>I <span style={{color: '#deac70'}}>build</span> things <span style={{color: '#32ab9c'}}>for</span> the <span style={{color: '#b007a8'}}>web</span>
                 <span id='cursor' style={{opacity: 0}}> |</span></h2>
               </div>
-            </div>}
-          </Spring>
+            </div>
         </div>
       </div>
     )
