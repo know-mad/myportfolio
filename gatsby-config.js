@@ -7,21 +7,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sitemap`,
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Orbitron`,
-            subsets: [`latin`],
-          },
-          {
-            family: `Open Sans`,
-            variants: [`100`, `300`, `400`,`700`]
-          },
-        ],
-      },
-    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
