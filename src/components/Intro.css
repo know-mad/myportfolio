@@ -1,13 +1,19 @@
 .intro-container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
   height: 800px;
   width: 100%;
   color: #fff;
   overflow: hidden;
   position: relative;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .intro {
@@ -109,6 +115,11 @@
     text-align: center;
   }
 
+  .intro-content {
+    flex-direction: column;
+      height: 100%;
+  }
+
   .intro-logo {
     display: flex;
   }
@@ -137,10 +148,6 @@
 
 @media (orientation: landscape) and (max-width: 768px) {
   .intro-container {
-    /* background-image: url("../images/hero_background_mobile.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
     flex-direction: column;
     justify-content: center;
     width: 100%;
@@ -149,6 +156,11 @@
   .intro {
     width: 100%;
     text-align: center;
+  }
+
+  .intro-content {
+    flex-direction: column;
+      height: 100%;
   }
 
   .intro-logo {

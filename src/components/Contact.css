@@ -94,7 +94,7 @@
   }
 
   .contact-content {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .contact-parent {
@@ -135,6 +135,10 @@
     width: 100%;
     background-color: transparent;
     border: none;
+  }
+
+  .contact-content {
+    flex-direction: column-reverse;
   }
 
   .contact-parent:hover {

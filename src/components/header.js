@@ -1,42 +1,87 @@
+import React, { useState } from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import Logo from '../components/Logo'
+import './header.css'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+const Header = ({ link1, link2, link3, link4 }) => {
+  const [openNav, setOpenNav] = useState(false)
+
+  const toggleNav = () => {
+    let toggle = openNav
+    setOpenNav(!toggle)
+  }
+
+
+
+
+   return (
+     <header>
+       <div id='nav' style={{height: openNav ? '280px' : '80px'}}>
+         <div className='content-container' style={{height: openNav ? '30%' : '100%'}}>
+           <div className='logo-side'>
+             <Logo />
+           </div>
+           <div id='links' className='links-side'>
+             <Link to="/" activeStyle={{color: '#fff'}}>
+               {link1}
+             </Link>
+
+             <Link to="/portfolio/" activeStyle={{color: '#fff'}}>
+               {link2}
+             </Link>
+
+             <Link to="/blog/" activeStyle={{color: '#fff'}}>
+               {link3}
+             </Link>
+
+             <Link to="/contact/" activeStyle={{color: '#fff'}}>
+               {link4}
+             </Link>
+
+           <div onClick={toggleNav} className='mobile-menu'>
+             <div className='bar'></div>
+             <div className='bar'></div>
+             <div className='bar'></div>
+           </div>
+         </div>
+
+         </div>
+         <div className='mobile-links' style={{display: openNav ? 'flex' : 'none'}}>
+           <Link to="/" activeStyle={{color: '#fff'}}>
+             {link1}
+           </Link>
+
+           <Link to="/portfolio/" activeStyle={{color: '#fff'}}>
+             {link2}
+           </Link>
+
+           <Link to="/blog/" activeStyle={{color: '#fff'}}>
+             {link3}
+           </Link>
+
+           <Link to="/contact/" activeStyle={{color: '#fff'}}>
+             {link4}
+           </Link>
+
+         </div>
+       </div>
+     </header>
+   )
+}
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
+  link1: PropTypes.string,
+  link2: PropTypes.string,
+  link3: PropTypes.string,
+  link4: PropTypes.string,
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  link1: `home`,
+  link2: `portfolio`,
+  link3: `blog`,
+  link4: `contact`,
 }
 
 export default Header

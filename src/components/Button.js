@@ -14,7 +14,7 @@ const Button = ({ padding, margin, content, link, backgroundColor, fontColor, bo
     marginTop: margin,
     fontWeight: 'bold',
     borderRadius: '30px',
-    cursor: 'pointer'
+    cursor: 'pointer',
   }
 
   return(

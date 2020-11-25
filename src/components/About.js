@@ -20,16 +20,15 @@ export default class About extends Component {
     gsap.to('#glow-bar', {opacity: 1, duration: 2, repeat: -1, yoyo: true})
   }
 
-  componentWillUnmount(){
-    gsap.to('#glow-bar')
-  }
+  // componentWillUnmount(){
+  //   gsap.to('#glow-bar')
+  // }
 
 
 
   render(){
     return(
       <div id='about-section' className='about-container'>
-        <div id='glow-bar'></div>
           <div className='about-content-card'>
             <div className='about-card'>
                 <h1><span style={{color: '#0984e3'}}>About Me</span></h1>
@@ -61,7 +60,7 @@ export default class About extends Component {
               <div className='socials-icons-child'></div>
             </div>
           </div>
-            <div id='glow-bar'></div>
+
         </div>
     )
   }

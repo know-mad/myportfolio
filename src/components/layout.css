@@ -1,17 +1,7 @@
-/*
 html, body {
   margin: 0;
   font-family: 'Orbitron', sans-serif;
   overflow-x: hidden;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  z-index: 2;
-  color: #fff;
-  background-color: black;
 }
 
 hr {
@@ -21,8 +11,7 @@ hr {
 
 a {
   text-decoration: none;
-  color: #fff;
-  cursor: pointer;
+  color: #2d3436;
 }
 
 h1 {
@@ -31,6 +20,16 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: color-change 3s infinite
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  background-color: black;
+  width: 100%;
 }
 
 #glow-bar {
@@ -54,15 +53,4 @@ h1 {
   100% {
       background-position: 0% 50%;
   }
-} */
-
-
-
-/*  color scheme
-blues: #0984e3
-greys: #dfe6e9
-dark-greys: #2d3436
-green: #32ab9c
-purple: #b007a8
-yellow: #deac70
- */
+}

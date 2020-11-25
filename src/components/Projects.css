@@ -1,306 +1,79 @@
 #projects-section {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 800px;
+  height: 500px;
   width: 100%;
   position: relative;
   background-color: #2d3436;
   color: #fff;
 }
 
-.projects {
+.projects-left {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  /* background-color: red; */
+}
+
+.projects-right {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  /* background-color: yellow; */
+}
+
+.projects-left-inner {
+  height: 80%;
+  width: 80%;
+  /* background-color: purple; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #deac70;
+  box-shadow: 0px 0px 30px 10px rgba(222, 172, 112, 0.9);
+}
+
+.projects-right-inner {
+  height: 80%;
+  width: 80%;
+  background-color: purple;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #deac70;
+  box-shadow: 0px 0px 30px 10px rgba(222, 172, 112, 0.9);
+}
+
+.project-left-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   text-align: center;
-  width: 50%;
   height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.projects-details {
+.project-right-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 100%;
-}
-
-.project-theater {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 70%;
-  width: 90%;
-  box-shadow: 0 0 40px 10px rgba(50, 171, 156, 0.9);
-}
-
-.project-theater-center {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
   height: 100%;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.laser-horizontal {
-  display: flex;
-  flex-direction: row;
-  overflow: hidden;
-  height: 3px;
-  width: 100%;
-}
-
-.laser-vertical {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  height: 100%;
-  width: 3px;
-}
-
-.laser-top {
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(90deg, #0984e3, #b007a8, #32ab9c, #deac70 );
-  background-size: 100% 100%;
-  -webkit-animation: animate 2s linear infinite;
-  -moz-animation: animate 2s linear infinite;
-  animation: animate 2s linear infinite;
-}
-
-.laser-bottom {
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(90deg, #0984e3, #b007a8, #32ab9c, #deac70 );
-  background-size: 100% 100%;
-  -webkit-animation: animate2 2s linear infinite;
-  -moz-animation: animate2 2s linear infinite;
-  animation: animate2 2s linear infinite;
-}
-
-.laser-left {
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(180deg, #0984e3, #b007a8, #32ab9c, #deac70 );
-  background-size: 100% 100%;
-  -webkit-animation: animate3 3s linear infinite;
-  -moz-animation: animate3 3s linear infinite;
-  animation: animate3 3s linear infinite;
-}
-
-.laser-right {
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(180deg, #0984e3, #b007a8, #32ab9c, #deac70 );
-  background-size: 100% 100%;
-  -webkit-animation: animate4 3s linear infinite;
-  -moz-animation: animate4 3s linear infinite;
-  animation: animate4 3s linear infinite;
-}
-
-@-webkit-keyframes animate {
-  0%
-  {
-    transform: translateX(-100%);
-  }
-  100%
-  {
-    transform: translateX(100%);
-  }
-}
-
-@-moz-keyframes animate {
-  0%
-  {
-    transform: translateX(-100%);
-  }
-  100%
-  {
-    transform: translateX(100%);
-  }
-}
-
-@keyframes animate
-{
-  0%
-  {
-    transform: translateX(-100%);
-  }
-  100%
-  {
-    transform: translateX(100%);
-  }
-}
-
-@-webkit-keyframes animate2 {
-  0%
-  {
-    transform: translateX(100%);
-  }
-  100%
-  {
-    transform: translateX(-100%);
-  }
-}
-
-@-moz-keyframes animate2 {
-  0%
-  {
-    transform: translateX(100%);
-  }
-  100%
-  {
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes animate2
-{
-  0%
-  {
-    transform: translateX(100%);
-  }
-  100%
-  {
-    transform: translateX(-100%);
-  }
-}
-
-
-@-webkit-keyframes animate3 {
-  0%
-  {
-    transform: translateY(100%);
-  }
-  100%
-  {
-    transform: translateY(-100%);
-  }
-}
-
-@-moz-keyframes animate3 {
-  0%
-  {
-    transform: translateY(100%);
-  }
-  100%
-  {
-    transform: translateY(-100%);
-  }
-}
-
-@keyframes animate3
-{
-  0%
-  {
-    transform: translateY(100%);
-  }
-  100%
-  {
-    transform: translateY(-100%);
-  }
-}
-
-@-webkit-keyframes animate4 {
-  0%
-  {
-    transform: translateY(-100%);
-  }
-  100%
-  {
-    transform: translateY(100%);
-  }
-}
-
-@-moz-keyframes animate4 {
-  0%
-  {
-    transform: translateY(-100%);
-  }
-  100%
-  {
-    transform: translateY(100%);
-  }
-}
-
-@keyframes animate4
-{
-  0%
-  {
-    transform: translateY(-100%);
-  }
-  100%
-  {
-    transform: translateY(100%);
-  }
-}
-
-
-@media (orientation: portrait) {
-  #projects-section {
-    flex-direction: column-reverse;
-    height: 1100px;
-  }
-
-  .projects {
-    width: 100%;
-    justify-content: flex-start;
-  }
-
-  .projects-details {
-    width: 100%;
-    height: 70%;
-    justify-content: flex-start;
-    margin-bottom: 50px;
-  }
-
-  .project-theater {
-    width: 100%;
-    height: 100%;
-  }
-
-  .laser-horizontal {
-    display: none;
-  }
-
-  .laser-vertical {
-    display: none;
-  }
-}
-
-@media (orientation: landscape) and (max-width: 768px) {
-  #projects-section {
-    flex-direction: column-reverse;
-    height: 1100px;
-  }
-
-  .projects {
-    width: 100%;
-    justify-content: flex-start;
-  }
-
-  .projects-details {
-    width: 100%;
-    height: 70%;
-    justify-content: flex-start;
-    margin-bottom: 50px;
-  }
-
-  .project-theater {
-    width: 100%;
-    height: 100%;
-  }
-
-  .laser-horizontal {
-    display: none;
-  }
-
-  .laser-vertical {
-    display: none;
-  }
+.project-title {
+  text-align: center;
+  height: 10%;
+  width:80%;
+  /* background-color: pink; */
+  margin-bottom: 10px;
 }

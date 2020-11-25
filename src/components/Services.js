@@ -16,7 +16,6 @@ export default class Services extends Component {
   render(){
     return(
       <div id='skills-section'>
-        <div id='glow-bar'></div>
         <div className='services'>
           <h1>Skills</h1>
 

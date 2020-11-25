@@ -1,14 +1,16 @@
 .logo {
-  height: 80px;
+  height: 100%;
   width: 80px;
   margin-left: 60px;
   background-image: url('../images/logo.svg');
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .logo:hover {
   cursor: pointer;
+  height: 90%;
 }
 
 /* //// Media Queries //// */

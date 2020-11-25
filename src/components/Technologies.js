@@ -56,7 +56,7 @@ export default class Technologies extends Component {
 
   cycleImages = () => {
     let number = 1
-    setInterval(() => {
+    this.cycleTechImage = setInterval(() => {
       this.setState({
         image: photos[number]
       })
@@ -73,6 +73,7 @@ export default class Technologies extends Component {
 
   componentWillUnmount(){
     document.querySelector('.tech-image-child')
+    clearInterval(this.cycleTechImage)
   }
 
   render(){
