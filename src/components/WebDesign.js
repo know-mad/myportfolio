@@ -121,8 +121,8 @@ const altStyle = {
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
-  border: `1px solid #0984e3`,
-  height: '100%'
+  border: `1px solid #deac70`,
+  height: '90%'
 }
 
 const altStyle2 = {
@@ -131,5 +131,5 @@ const altStyle2 = {
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
   border: `1px solid #deac70`,
-  height: '100%'
+  height: '90%'
 }

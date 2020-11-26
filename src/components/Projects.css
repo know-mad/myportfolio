@@ -11,27 +11,22 @@
 .projects-left {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   align-items: center;
   height: 100%;
   width: 50%;
-  /* background-color: red; */
 }
 
 .projects-right {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   height: 100%;
   width: 50%;
-  /* background-color: yellow; */
 }
 
 .projects-left-inner {
   height: 80%;
   width: 80%;
-  /* background-color: purple; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -74,6 +69,5 @@
   text-align: center;
   height: 10%;
   width:80%;
-  /* background-color: pink; */
   margin-bottom: 10px;
 }

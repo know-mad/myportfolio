@@ -16,7 +16,7 @@ const DesignPortfolio = (props) => {
   return (
     <div id='design-portfolio-container'>
       <div className='container-top'>
-        <h2>Want to see the <span style={{color: '#0984e3'}}>websites</span> that I’ve built ?</h2>
+        <h2>Want to see the <span style={{color: '#0984e3'}}>websites</span> and <span style={{color: '#b007a8'}}>apps</span> that I’ve built ?</h2>
         <p>Check out my work</p>
 
         <Button
