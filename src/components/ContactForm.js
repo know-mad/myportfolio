@@ -72,6 +72,7 @@ const ContactForm = () => {
           name="email-inputted"
           placeholder="Email"
           value={fullName.email}
+          onChange={handleChange}
         />
         <textarea name='message' placeholder='Message'/>
         <button type='submit'>Submit</button>
