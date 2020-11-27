@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 
 import Intro from '../components/Intro'
 import About from '../components/About'
-import Contact from '../components/Contact'
+import ContactSection from '../components/ContactSection'
 import Quote from '../components/Quote'
 import Technologies from '../components/Technologies'
 import DesignPortfolio from '../components/DesignPortfolio'
@@ -22,13 +22,13 @@ const IndexPage = () => (
     <BannerImage />
     <Intro />
     <About />
-    <Quote content={'through technology we are actively inventing tomorrow'}/>
-    <Technologies />
     <PageBreak />
+    <Technologies />
+    <Quote content={'through technology we are actively inventing tomorrow'}/>
     <WebDesign />
     <PageBreak />
     <DesignPortfolio />
-    <Contact />
+    <ContactSection />
   </Layout>
 )
 

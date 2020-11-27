@@ -3,10 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 700px;
   width: 100%;
   position: relative;
-  background-color: #2d3436;
+  background: linear-gradient(90deg, #08031F, #271A56);
   overflow: hidden;
 }
 
@@ -68,7 +68,7 @@
   height: 400px;
   width: 400px;
   border: 1px solid #deac70;
-  background-color: rgba(222, 172, 112, 0.1);
+  background-color: rgba(39, 26, 86, 0.6);
   border-radius: 200px;
   z-index: 2;
 }
@@ -109,9 +109,10 @@
   margin-left: 50px;
   margin-top: 50px;
   z-index: 1;
-  border: 1px solid #deac70;
+  /* border: 1px solid #deac70; */
   box-shadow: 0px 0px 30px 10px rgba(222, 172, 112, 0.9);
   border-radius: 200px;
+  background: linear-gradient(45deg, #b007a8, #deac70)
 }
 
 

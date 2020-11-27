@@ -35,7 +35,7 @@ export default class About extends Component {
                 <hr/>
                 <p>Hello! My name is David Velez and I'm a <span style={{color: '#b007a8'}}>full stack software engineer</span> based in the Baltimore-Washington DC metro area specializing in building exceptional applications, <span style={{color: '#32ab9c'}}>clean websites</span>, and everything in between.
                 I enjoy creating <span style={{color: '#deac70'}}>software</span> and <span style={{color: '#0984e3'}}>applications</span> that drive <span style={{color: '#deac70'}}>technology</span> and
-                streamline tasks, and websites that are pixel-perfect, fast, and <span style={{color: '#b007a8'}}>convert</span> visitors into clients</p>
+                streamline tasks, as well as websites that are pixel-perfect, fast, and <span style={{color: '#b007a8'}}>convert</span> visitors into clients</p>
             </div>
 
             <div className='socials-card'>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Technologies.css'
 import Card from './Card'
+import { gsap } from 'gsap'
 
 import html from '../images/html-5.svg'
 import css from '../images/css3.svg'
@@ -48,7 +49,8 @@ export default class Technologies extends Component {
 
     this.state = {
       image: photos[0],
-      skill: data
+      skill: data,
+      animate: false
     }
 
 
@@ -67,8 +69,13 @@ export default class Technologies extends Component {
     }, 1500)
   }
 
+
+
   componentDidMount(){
     this.cycleImages()
+    gsap.to('.tech-child-1', {marginLeft: '8em', marginTop: '8em', duration: 1, repeat: -1, yoyo: true})
+    gsap.to('.tech-child-2', {marginLeft: '7em', marginTop: '7em', duration: 1, repeat: -1, yoyo: true})
+    gsap.to('.tech-child-3', {marginLeft: '6em', marginTop: '6em', duration: 1, repeat: -1, yoyo: true})
   }
 
   componentWillUnmount(){
@@ -92,6 +99,20 @@ export default class Technologies extends Component {
     return(
       <div id='technologies-section'>
         <div className='technologies-container-content'>
+
+
+          <div className='technologies-details'>
+            <div className='tech-parent'>
+              <div className='tech-child-1'></div>
+              <div className='tech-child-2'></div>
+              <div className='tech-child-3'></div>
+              <div onMouseOver={this.animateElement} onMouseOut={this.animateElement2} className='tech-image' >
+                <img style={{ height: '100%', width: '100%'}} src={this.state.image} alt='rotating-gallery-of-tech-logos'/>
+              </div>
+            </div>
+
+          </div>
+
           <div className='technologies'>
             <div className='technologies-top'>
               <h1><span style={{color: '#b007a8'}}>Technologies</span></h1>
@@ -108,10 +129,6 @@ export default class Technologies extends Component {
             </div>
           </div>
 
-          <div className='technologies-details'>
-            <div className='tech-image-parent'></div>
-            <div className='tech-image-child' style={{backgroundImage: `url(${this.state.image})`}}></div>
-          </div>
         </div>
       </div>
     )

@@ -1,9 +1,17 @@
 .contact-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  height: 100vh;
+  height: 300px;
   width: 100%;
-  background-color: #2d3436;
+  background: linear-gradient(90deg, #08031F, #271A56);
+}
+
+.contact-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  height: 250px;
+  width: 100%;
+  /* background-color: red; */
 }

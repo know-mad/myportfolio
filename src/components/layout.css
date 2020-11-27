@@ -11,7 +11,7 @@ hr {
 
 a {
   text-decoration: none;
-  color: #2d3436;
+  color: #271A56;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
   position: relative;
   z-index: 2;
   color: #fff;
-  background-color: black;
+  background-color: #271A56;
   width: 100%;
 }
 

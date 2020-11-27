@@ -4,7 +4,7 @@
   height: 500px;
   width: 100%;
   position: relative;
-  background-color: #2d3436;
+  background: linear-gradient(90deg, #08031F, #271A56);
   color: #fff;
 }
 

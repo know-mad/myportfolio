@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 import Layout from '../components/layout'
 import Projects from '../components/Projects'
 import PageBreak from '../components/PageBreak'
-import Contact from '../components/Contact'
+
 
 import site1 from '../images/site1.jpg'
 import site2 from '../images/site2.jpg'

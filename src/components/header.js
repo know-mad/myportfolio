@@ -31,11 +31,11 @@ const Header = ({ link1, link2, link3, link4 }) => {
                {link2}
              </Link>
 
-             <Link to="/blog/" activeStyle={{color: '#fff'}}>
+             <Link to="/contact/" activeStyle={{color: '#fff'}}>
                {link3}
              </Link>
 
-             <Link to="/contact/" activeStyle={{color: '#fff'}}>
+             <Link to="/blog/" activeStyle={{color: '#fff'}}>
                {link4}
              </Link>
 
@@ -56,11 +56,11 @@ const Header = ({ link1, link2, link3, link4 }) => {
              {link2}
            </Link>
 
-           <Link to="/blog/" activeStyle={{color: '#fff'}}>
+           <Link to="/contact/" activeStyle={{color: '#fff'}}>
              {link3}
            </Link>
 
-           <Link to="/contact/" activeStyle={{color: '#fff'}}>
+           <Link to="/blog/" activeStyle={{color: '#fff'}}>
              {link4}
            </Link>
 
@@ -80,8 +80,8 @@ Header.propTypes = {
 Header.defaultProps = {
   link1: `home`,
   link2: `portfolio`,
-  link3: `blog`,
-  link4: `contact`,
+  link3: `contact`,
+  link4: `blog`,
 }
 
 export default Header
