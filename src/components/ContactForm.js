@@ -34,7 +34,7 @@ const ContactForm = () => {
           email: prevValue.email,
           message: prevValue.message
         }
-      } else if (name === 'email') {
+      } else if (name === 'email-inputted') {
         return {
           fName: prevValue.fName,
           lName: prevValue.lName,
@@ -85,7 +85,7 @@ const ContactForm = () => {
           onChange={handleChange}
         />
         <input
-          name="email"
+          name="email-inputted"
           placeholder="Email"
           value={fullName.email}
           onChange={handleChange}
