@@ -71,6 +71,7 @@ const ContactForm = () => {
       <p style={{fontSize: '2rem', margin: '0'}}>Hello {fullName.fName} {fullName.lName}</p>
       <form
         onSubmit={handleSubmit}
+        name='contact'
       >
         <input
           name='fName'
