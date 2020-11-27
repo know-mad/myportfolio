@@ -1,29 +1,51 @@
 import React, { useState } from 'react'
 import './ContactForm.css'
 
+
+const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
+
 const ContactForm = () => {
   const [fullName, setFullName] = useState({
     fName: '',
-    lName: ''
+    lName: '',
+    email: ''
   })
 
   const handleChange = (e) => {
-    const {value, name} = e.target
+    const { value, name } = e.target
 
     setFullName((prevValue) => {
       if (name === 'fName') {
         return {
           fName: value,
-          lname: prevValue.lName
+          lname: prevValue.lName,
+          email: value
         }
       } else if (name === 'lName') {
         return {
           fName: prevValue.fName,
-          lName: value
+          lName: value,
+          email: value
         }
       }
     })
   }
+
+  const handleSubmit = e => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact-form", fullName })
+    })
+      .then(() => alert("Success!"))
+      .catch(error => alert(error));
+
+    e.preventDefault();
+  };
 
 
 
@@ -31,10 +53,7 @@ const ContactForm = () => {
     <div id='contact-form'>
       <p style={{fontSize: '2rem', margin: '0'}}>Hello {fullName.fName} {fullName.lName}</p>
       <form
-        name='contact-form'
-        method='POST'
-        data-netlify="true"
-        data-netlify-honeypot='bot-field'
+        onSubmit={handleSubmit}
       >
         <input
           name='fName'
@@ -52,6 +71,7 @@ const ContactForm = () => {
           type="email"
           name="email-inputted"
           placeholder="Email"
+          value={fullName.email}
         />
         <textarea name='message' placeholder='Message'/>
         <button type='submit'>Submit</button>
