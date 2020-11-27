@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './ContactForm.css'
 
 
@@ -56,13 +56,17 @@ const ContactForm = () => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact-form", ...fullName })
+      body: encode({ "form-name": "contact-form", fullName })
     })
       .then(() => alert("Success!"))
       .catch(error => alert(error));
 
     e.preventDefault();
   };
+
+  useEffect(() => {
+    console.log(fullName)
+  })
 
 
 
