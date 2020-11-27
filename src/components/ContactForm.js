@@ -16,20 +16,20 @@ const ContactForm = () => {
   })
 
   const handleChange = (e) => {
-    const { value, name } = e.target
+    const { value, name, email } = e.target
 
     setFullName((prevValue) => {
       if (name === 'fName') {
         return {
           fName: value,
           lname: prevValue.lName,
-          email: value
+          email: email
         }
       } else if (name === 'lName') {
         return {
           fName: prevValue.fName,
           lName: value,
-          email: value
+          email: email
         }
       }
     })
