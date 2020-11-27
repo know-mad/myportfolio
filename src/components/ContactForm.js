@@ -12,24 +12,41 @@ const ContactForm = () => {
   const [fullName, setFullName] = useState({
     fName: '',
     lName: '',
-    email: ''
+    email: '',
+    message: ''
   })
 
   const handleChange = (e) => {
-    const { value, name, email } = e.target
+    const { value, name } = e.target
 
     setFullName((prevValue) => {
       if (name === 'fName') {
         return {
           fName: value,
-          lname: prevValue.lName,
-          email: email
+          lName: prevValue.lName,
+          email: prevValue.email,
+          message: prevValue.message
         }
       } else if (name === 'lName') {
         return {
           fName: prevValue.fName,
           lName: value,
-          email: email
+          email: prevValue.email,
+          message: prevValue.message
+        }
+      } else if (name === 'email') {
+        return {
+          fName: prevValue.fName,
+          lName: prevValue.lName,
+          email: value,
+          message: prevValue.message
+        }
+      } else if (name === 'message') {
+        return {
+          fName: prevValue.fName,
+          lName: prevValue.lName,
+          email: prevValue.email,
+          message: value
         }
       }
     })
@@ -69,12 +86,17 @@ const ContactForm = () => {
         />
         <input
           type="email"
-          name="email-inputted"
+          name="email"
           placeholder="Email"
           value={fullName.email}
           onChange={handleChange}
         />
-        <textarea name='message' placeholder='Message'/>
+        <textarea
+          name='message'
+          placeholder='Message'
+          value={fullName.message}
+          onChange={handleChange}
+        />
         <button type='submit'>Submit</button>
       </form>
     </div>
