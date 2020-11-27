@@ -56,7 +56,7 @@ const ContactForm = () => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...fullName })
+      body: encode({ "form-name": "contact-form", ...fullName })
     })
       .then(() => alert("Success!"))
       .catch(error => alert(error));
@@ -71,7 +71,6 @@ const ContactForm = () => {
       <p style={{fontSize: '2rem', margin: '0'}}>Hello {fullName.fName} {fullName.lName}</p>
       <form
         onSubmit={handleSubmit}
-        name='contact'
       >
         <input
           name='fName'
@@ -86,7 +85,6 @@ const ContactForm = () => {
           onChange={handleChange}
         />
         <input
-          type="email"
           name="email"
           placeholder="Email"
           value={fullName.email}
