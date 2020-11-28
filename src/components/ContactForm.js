@@ -98,7 +98,7 @@ const ContactForm = () => {
           placeholder='E-Mail'
           value={fullName.mail}
           onChange={handleChange}
-          maxlength="20"
+          maxlength="50"
         />
         <textarea
           name='message'
