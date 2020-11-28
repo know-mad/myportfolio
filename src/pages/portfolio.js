@@ -10,6 +10,8 @@ import site1 from '../images/site1.jpg'
 import site2 from '../images/site2.jpg'
 import site3 from '../images/site3.jpg'
 import site4 from '../images/site4.jpg'
+import site5 from '../images/site5.jpg'
+import site6 from '../images/site6.jpg'
 
 const PortfolioPage = () => (
   <Layout>
@@ -42,6 +44,15 @@ const PortfolioPage = () => (
     content2={'CoTripper is a full stack application built for the traveling single parent....'}
     info1={'Simon App'}
     info2={'CoTripper App'}
+    />
+
+    <Projects
+    image1={site5}
+    image2={site6}
+    content1={'Fully functional E-Commerce application built on the MERN stack...'}
+    content2={'API containing all of the alternate medicine dispensaries in the United States...'}
+    info1={'E-Commerce App'}
+    info2={'Kush API'}
     />
 
   </Layout>

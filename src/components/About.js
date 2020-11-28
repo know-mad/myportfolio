@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './About.css'
 import { gsap } from 'gsap'
-import facebook from '../images/facebook.svg'
+import facebook from '../images/facebook.png'
 import instagram from '../images/instagram.svg'
 import linkedin from '../images/linkedin.svg'
 import github from '../images/github.svg'
@@ -33,9 +33,9 @@ export default class About extends Component {
             <div className='about-card'>
                 <h1><span style={{color: '#0984e3'}}>About Me</span></h1>
                 <hr/>
-                <p>Hello! My name is David Velez and I'm a <span style={{color: '#b007a8'}}>full stack software engineer</span> based in the Baltimore-Washington DC metro area specializing in building exceptional applications, <span style={{color: '#32ab9c'}}>clean websites</span>, and everything in between.
-                I enjoy creating <span style={{color: '#deac70'}}>software</span> and <span style={{color: '#0984e3'}}>applications</span> that drive <span style={{color: '#deac70'}}>technology</span> and
-                streamline tasks, as well as websites that are pixel-perfect, fast, and <span style={{color: '#b007a8'}}>convert</span> visitors into clients</p>
+                <p>Hello! My name is David Velez and I'm a full stack software engineer based in the Baltimore-Washington DC metro area specializing in building exceptional applications, clean websites, and everything in between.
+                I enjoy creating software and applications that drive technology and
+                streamline tasks, as well as websites that are pixel-perfect, fast, and convert visitors into clients</p>
             </div>
 
             <div className='socials-card'>

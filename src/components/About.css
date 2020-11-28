@@ -6,7 +6,11 @@
   height: 700px;
   width: 100%;
   position: relative;
-  background: linear-gradient(90deg, #08031F, #271A56);
+  /* background: linear-gradient(90deg, #08031F, #271A56); */
+  background-image: url('../images/background1.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow: hidden;
 }
 
@@ -123,6 +127,8 @@
   .about-container {
     flex-direction: column;
     height: 600px;
+    background-image: none;
+    background: linear-gradient(90deg, #08031F, #271A56);
   }
 
   .icons {
@@ -182,6 +188,8 @@
   .about-container {
     flex-direction: column;
     height: 600px;
+    background-image: none;
+    background: linear-gradient(90deg, #08031F, #271A56);
   }
 
   .icons {

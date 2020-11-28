@@ -117,11 +117,11 @@ export default class Technologies extends Component {
             <div className='technologies-top'>
               <h1><span style={{color: '#b007a8'}}>Technologies</span></h1>
               <hr/>
-              <p>I'm a <span style={{color: '#b007a8'}}>passionate</span> and curious
-               engineer who is always looking to <span style={{color: '#deac70'}}>learn</span> and
-                <span style={{color: '#deac70'}}> build</span> with new technologies.
-               These are some of the <span style={{color: '#32ab9c'}}>technologies</span> I've
-               been <span style={{color: '#0984e3'}}>working</span> with recently</p>
+              <p>I'm a passionate and curious
+               engineer who is always looking to learn and
+               build with new technologies.
+               These are some of the technologies I've
+               been working with recently</p>
             </div>
 
             <div className='technologies-bottom'>

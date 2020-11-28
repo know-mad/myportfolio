@@ -52,7 +52,7 @@ export default class WebDesign extends Component {
 
         <div className='services'>
         <h1>Skills</h1>
-        <p>As a skilled <span style={{color: '#deac70'}}>web developer</span>, I offer the following services</p>
+        <p>As a skilled web developer, I offer the following services</p>
         </div>
 
         <div className='web-design-container-content'>
@@ -65,10 +65,10 @@ export default class WebDesign extends Component {
           className='web-design'>
           <h1>Web Design</h1>
           <hr/>
-          <p>I'm always looking to deliver <span style={{color: '#32ab9c'}}>aesthetically pleasing</span> and
-          clean web <span style={{color: '#0984e3'}}>content</span> for my clients and always use the best <span style={{color: '#deac70'}}>design</span> tools and latest
-          <span style={{color: '#b007a8'}}> technology</span> to deliver custom made, fast, and <span style={{color: '#32ab9c'}}>optimized</span> websites that <span style={{color: '#0984e3'}}>look</span> great on
-          <span style={{color: '#deac70'}}> any device !</span></p>
+          <p>I'm always looking to deliver aesthetically pleasing and
+          clean web content for my clients and always use the best design tools and latest
+          technology to deliver custom made, fast, and optimized websites that look great on
+          any device !</p>
           <p>Find out how my websites are better !</p>
 
           <Button
@@ -94,9 +94,9 @@ export default class WebDesign extends Component {
             className='development'>
               <h1>Software Development</h1>
               <hr/>
-              <p>I enjoy the challenges of <span style={{color: '#32ab9c'}}>solving problems </span>
-              <span style={{color: '#deac70'}}>programatically</span> in order to <span style={{color: '#b007a8'}}>achieve</span> the disired result. Whether you need a <span style={{color: '#0984e3'}}>sleek front-end</span>, a robust back-end, or a
-              <span style={{color: '#32ab9c'}}> full stack application</span>, I've got you covered.</p>
+              <p>I enjoy the challenges of solving problems
+              programatically in order to achieve the disired result. Whether you need a sleek front-end, a robust back-end, or a
+              full stack application, I've got you covered.</p>
               <p>Have an app idea ?</p>
 
               <Button

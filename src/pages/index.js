@@ -22,11 +22,11 @@ const IndexPage = () => (
     <BannerImage />
     <Intro />
     <About />
-    <PageBreak />
+
     <Technologies />
     <Quote content={'through technology we are actively inventing tomorrow'}/>
     <WebDesign />
-    <PageBreak />
+  
     <DesignPortfolio />
     <ContactSection />
   </Layout>

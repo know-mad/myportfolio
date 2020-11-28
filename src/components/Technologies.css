@@ -6,7 +6,11 @@
   height: 700px;
   width: 100%;
   position: relative;
-  background: linear-gradient(90deg, #08031F, #271A56);
+  /* background: linear-gradient(90deg, #08031F, #271A56); */
+  background-image: url('../images/background2.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow: hidden;
 }
 
@@ -119,6 +123,8 @@
   #technologies-section {
     flex-direction: column;
     height: 650px;
+    background-image: none;
+      background: linear-gradient(90deg, #08031F, #271A56);
   }
 
   .technologies {

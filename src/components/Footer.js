@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Footer.css'
 
-import facebook from '../images/facebook.svg'
+import facebook from '../images/facebook.png'
 import instagram from '../images/instagram.svg'
 import linkedin from '../images/linkedin.svg'
 import github from '../images/github.svg'
