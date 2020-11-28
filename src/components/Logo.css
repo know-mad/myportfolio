@@ -17,13 +17,13 @@
 
 @media (orientation: portrait) {
 	.logo {
-		display: none;
+		margin-left: 0;
 	}
 }
 
 
 @media (orientation: landscape) and (max-width: 768px) {
   .logo {
-		display: none;
+		margin-left: 0
 	}
 }

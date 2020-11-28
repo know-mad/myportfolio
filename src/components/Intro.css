@@ -13,26 +13,8 @@
 .intro-content {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
   width: 100%;
-}
-
-.intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 100%;
-}
-
-.intro-logo {
-  display: none;
-  height: 75%;
-  width: 75%;
-  background-image: url('../images/logo.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .intro-detail {
@@ -101,27 +83,14 @@
 
 @media (orientation: portrait) {
   .intro-container {
-    /* background-image: url("../images/hero_background_mobile.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
     flex-direction: column;
     justify-content: center;
     width: 100%;
   }
 
-  .intro {
-    width: 100%;
-    text-align: center;
-  }
-
   .intro-content {
     flex-direction: column;
       height: 100%;
-  }
-
-  .intro-logo {
-    display: flex;
   }
 
   .intro-detail {
@@ -153,18 +122,9 @@
     width: 100%;
   }
 
-  .intro {
-    width: 100%;
-    text-align: center;
-  }
-
   .intro-content {
     flex-direction: column;
       height: 100%;
-  }
-
-  .intro-logo {
-    display: flex;
   }
 
   .intro-detail {

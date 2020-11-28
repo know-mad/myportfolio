@@ -9,7 +9,7 @@ function Logo(){
 
   return(
   <div
-  className='logo' 
+  className='logo'
   onClick={() => scroll.scrollToTop()}></div>
   )
 }
