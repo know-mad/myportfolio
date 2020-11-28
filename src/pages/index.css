@@ -1,63 +1,3 @@
-/*
-html, body {
-  margin: 0;
-  font-family: 'Orbitron', sans-serif;
-  overflow-x: hidden;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  z-index: 2;
-  color: #fff;
-  background-color: black;
-}
-
-hr {
-  width: 50%;
-  margin-top: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-  cursor: pointer;
-}
-
-h1 {
-  background: -webkit-linear-gradient(45deg, #0984e3, #b007a8, #32ab9c, #deac70);
-  background-size: 300% 300%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: color-change 3s infinite
-}
-
-#glow-bar {
-  display: flex;
-  flex-flow: row;
-  height: 0;
-  width: 100%;
-  box-shadow: 0px 0px 35px 20px rgba(9, 132, 227, 0.9);
-  opacity: 0;
-  }
-
-
-
-@keyframes color-change {
-  0% {
-      background-position: 0% 50%;
-  }
-  50% {
-      background-position: 100% 50%;
-  }
-  100% {
-      background-position: 0% 50%;
-  }
-} */
-
-
-
 /*  color scheme
 blues: #0984e3
 greys: #dfe6e9
@@ -65,4 +5,6 @@ dark-greys: #2d3436
 green: #32ab9c
 purple: #b007a8
 yellow: #deac70
+dark-purple #08031F
+light-purple #271A56
  */

@@ -3,6 +3,7 @@ import './blog.css'
 import SEO from "../components/seo"
 import Layout from '../components/layout'
 import PageBreak from '../components/PageBreak'
+import BlogComponent from '../components/BlogComponent'
 
 
 const BlogPage = () => (
@@ -18,6 +19,8 @@ const BlogPage = () => (
     </div>
 
     <PageBreak />
+
+    <BlogComponent />
 
   </Layout>
 )

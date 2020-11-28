@@ -76,7 +76,7 @@
 @media (orientation: portrait) {
   .footer {
     height: 200px;
-    background: #2d3436;
+    background: linear-gradient(90deg, #08031F, #271A56);
     color: #deac70;
   }
 
@@ -90,7 +90,7 @@
 @media (orientation: landscape) and (max-width: 768px) {
   .footer {
     height: 200px;
-    background: #2d3436;
+    background: linear-gradient(90deg, #08031F, #271A56);
     color: #deac70;
   }
 
