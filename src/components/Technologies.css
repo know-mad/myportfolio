@@ -29,10 +29,6 @@
   height: 650px;
 }
 
-.technologies p {
-  font-size: 1.25rem;
-}
-
 .technologies-top {
   height: 40%;
   width: 100%;
@@ -40,7 +36,7 @@
 
 .technologies-bottom {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;

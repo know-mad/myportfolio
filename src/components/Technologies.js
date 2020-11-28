@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './Technologies.css'
-import Card from './Card'
 import { gsap } from 'gsap'
 
 import html from '../images/html-5.svg'
@@ -85,15 +84,9 @@ export default class Technologies extends Component {
 
   render(){
     let skill = this.state.skill.map((item, index) => {
-      return <Card
-      key={index}
-      color={'#fff'}
-      height={'50px'}
-      width={'25%'}
-      highlight={false}
-      pointer={false}
-      skill={item.skill}
-      />
+      return (
+        <p style={{marginRight: '30px'}}>{item.skill}</p>
+      )
     })
 
     return(
