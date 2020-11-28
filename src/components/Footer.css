@@ -16,6 +16,7 @@
 
 .footer p {
   margin: 5px;
+  font-weight: lighter;
 }
 
 .footer-social-icons {
@@ -77,9 +78,9 @@
 @media (orientation: portrait) {
   .footer {
     flex-direction: column;
-    height: 200px;
+    height: 100px;
     background: linear-gradient(90deg, #08031F, #271A56);
-    color: #deac70;
+    color: #fff;
   }
 
   .footer-social-icons {
@@ -91,9 +92,9 @@
 
 @media (orientation: landscape) and (max-width: 768px) {
   .footer {
-    height: 200px;
+    height: 100px;
     background: linear-gradient(90deg, #08031F, #271A56);
-    color: #deac70;
+    color: #fff;
   }
 
   .footer-social-icons {

@@ -13,7 +13,7 @@ const BlogPage = () => (
 
       <div className='blog-intro'>
       <h1>Blog</h1>
-      <p style={{fontSize: '1.25rem'}}>Check out some cool content</p>
+      <p style={{fontSize: '1.25rem'}}>Cool content coming soon !</p>
       </div>
 
     </div>

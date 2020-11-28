@@ -28,8 +28,9 @@ h1 {
   position: relative;
   z-index: 2;
   color: #fff;
-  background-color: #271A56;
+  background-color: black;
   width: 100%;
+  font-weight: bold;
 }
 
 #glow-bar {

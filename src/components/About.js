@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './About.css'
-import { gsap } from 'gsap'
 import facebook from '../images/facebook.png'
 import instagram from '../images/instagram.svg'
 import linkedin from '../images/linkedin.svg'
@@ -15,16 +14,6 @@ export default class About extends Component {
     super()
 
   }
-
-  componentDidMount(){
-    gsap.to('#glow-bar', {opacity: 1, duration: 2, repeat: -1, yoyo: true})
-  }
-
-  // componentWillUnmount(){
-  //   gsap.to('#glow-bar')
-  // }
-
-
 
   render(){
     return(

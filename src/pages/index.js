@@ -1,8 +1,6 @@
 import React from "react"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
-
-
 import Intro from '../components/Intro'
 import About from '../components/About'
 import ContactSection from '../components/ContactSection'
@@ -11,7 +9,7 @@ import Technologies from '../components/Technologies'
 import DesignPortfolio from '../components/DesignPortfolio'
 import WebDesign from '../components/WebDesign'
 import BannerImage from '../components/BannerImage'
-import PageBreak from '../components/PageBreak'
+
 
 
 
@@ -26,7 +24,7 @@ const IndexPage = () => (
     <Technologies />
     <Quote content={'through technology we are actively inventing tomorrow'}/>
     <WebDesign />
-  
+
     <DesignPortfolio />
     <ContactSection />
   </Layout>
