@@ -57,12 +57,13 @@ const ContactForm = () => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact-form", ...fullName })
+      body: encode({ "form-name": "contact", ...fullName })
     })
       .then(() => alert("Success!"))
       .catch(error => alert(error));
 
     e.preventDefault();
+    console.log(fullName)
   };
 
 
@@ -72,9 +73,12 @@ const ContactForm = () => {
       <p style={{fontSize: '2rem', margin: '0'}}>Hello {fullName.fName} {fullName.lName}</p>
       <form
         onSubmit={handleSubmit}
-        data-netlify='true'
-        data-netlify-honeypot='bot-field'
+        name="contact"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
       >
+       <input type="hidden" name="form-name" value="contact" />
         <input
           name='fName'
           placeholder='First Name'
