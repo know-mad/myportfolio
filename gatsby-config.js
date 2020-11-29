@@ -6,6 +6,18 @@ module.exports = {
     author: `David Velez`,
   },
   plugins: [
+    {
+   resolve: `gatsby-plugin-google-fonts-v2`,
+   options: {
+     fonts: [
+       {
+         family: 'Orbitron',
+         variable: true,
+         weights: ['200..900']
+       }
+     ]
+   }
+ },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
