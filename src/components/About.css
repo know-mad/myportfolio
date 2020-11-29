@@ -24,7 +24,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   text-align: center;
   width: 50%;
   height: 100%;
@@ -122,6 +121,7 @@
     width: 100%;
     height: 100%;
     justify-content: flex-end;
+    text-align: left;
   }
 
 
@@ -136,9 +136,6 @@
   }
 
   .socials-card {
-    width: 100%;
-    height: 30%;
-    justify-content: center;
     display: none;
   }
 
@@ -190,9 +187,6 @@
   }
 
   .socials-card {
-    width: 100%;
-    height: 30%;
-    justify-content: center;
     display: none;
   }
 

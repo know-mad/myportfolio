@@ -34,7 +34,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  text-align: center;
   height: 40%;
   width: 100%;
 }
@@ -143,6 +144,7 @@
 
   .technologies-top {
     height: 50%;
+    text-align: right;
   }
 
   .technologies-bottom {

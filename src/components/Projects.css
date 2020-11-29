@@ -108,7 +108,8 @@
   }
 
   .projects-left-inner {
-    width: 90%;
+    width: 60%;
+    height: 80%;
   }
 
   .projects-right {
@@ -116,6 +117,7 @@
   }
 
   .projects-right-inner {
-    width: 90%;
+    width: 60%;
+    height: 80%;
   }
 }

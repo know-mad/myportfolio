@@ -66,12 +66,13 @@
 
 @media (orientation: portrait) {
   #design-portfolio-container {
-    height: 400px;
+    height: 300px;
     justify-content: center;
     justify-content: space-around;
   }
   .container-top {
     text-align: center;
+    height: 100%;
   }
 
   .container-bottom {
@@ -93,12 +94,13 @@
 
 @media (orientation: landscape) and (max-width: 768px) {
   #design-portfolio-container {
-    height: 800px;
+    height: 300px;
     justify-content: center;
     justify-content: space-around;
   }
   .container-top {
     text-align: center;
+    height: 100%;
   }
 
   .container-bottom {

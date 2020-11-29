@@ -59,3 +59,9 @@ p {
       background-position: 0% 50%;
   }
 }
+
+@media (orientation: portrait) {
+  hr {
+    display: none;
+  }
+}
