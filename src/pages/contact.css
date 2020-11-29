@@ -15,9 +15,13 @@
   width: 100%;
 }
 
+.contact-intro p {
+  margin: 0;
+}
+
+
 @media (orientation: portrait) {
   .contact-intro p {
-    margin: 0;
     font-size: 0.98rem;
   }
 }
