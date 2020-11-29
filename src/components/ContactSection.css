@@ -104,7 +104,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: none;
+    background-image: url('../images/background3.svg');
+    background-size: auto 70%;
   }
 
   .contact-parent {
@@ -147,7 +148,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: none;
+    background-image: url('../images/background3.svg');
+    background-size: auto 70%;
   }
 
   .contact-parent {

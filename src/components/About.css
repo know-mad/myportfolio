@@ -17,6 +17,7 @@
   background-image: url('../images/background1.svg');
   background-position: center;
   background-size: auto 100%;
+  background-repeat: no-repeat;
 }
 
 .about-card {
@@ -111,8 +112,6 @@
   .about-container {
     flex-direction: column;
     height: 600px;
-    background-image: none;
-    background: linear-gradient(90deg, #08031F, #271A56);
   }
 
   .icons {
@@ -132,6 +131,8 @@
     width: 100%;
     background-image: none;
     padding: 20px;
+    background-image: url('../images/background3.svg');
+    background-size: auto 90%;
   }
 
   .socials-card {
@@ -165,8 +166,6 @@
   .about-container {
     flex-direction: column;
     height: 600px;
-    background-image: none;
-    background: linear-gradient(90deg, #08031F, #271A56);
   }
 
   .icons {
@@ -186,6 +185,8 @@
     width: 100%;
     background-image: none;
     padding: 20px;
+    background-image: url('../images/background3.svg');
+    background-size: auto 90%;
   }
 
   .socials-card {
