@@ -112,7 +112,6 @@
   .bottom-message {
     width: 100%;
   }
-
 }
 
 @media (orientation: landscape) and (max-width: 768px) {

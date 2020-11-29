@@ -176,24 +176,27 @@
   .about-card {
     width: 100%;
     height: 100%;
-
+    justify-content: flex-end;
   }
+
 
   .about-content-card {
     flex-direction: column;
-    height: 90%;
-    width: 60%;
+    height: 100%;
+    width: 100%;
+    background-image: none;
+    padding: 20px;
   }
 
-
   .socials-card {
-    display: none;
     width: 100%;
     height: 30%;
     justify-content: center;
+    display: none;
   }
 
   .socials-icons {
+    display: none;
     width: 90%;
     height: 50%;
     border: none;
@@ -210,10 +213,4 @@
   .socials-icons-child {
     display: none;
   }
-
-
-  hr {
-    width: 75%
-  }
-
 }

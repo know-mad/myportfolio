@@ -73,3 +73,14 @@ textarea {
     width: 90%;
   }
 }
+
+@media (orientation: landscape) and (max-width: 768px) {
+  #contact-form {
+    background-image: none;
+  }
+
+  form {
+    height: 80%;
+    width: 90%;
+  }
+}
