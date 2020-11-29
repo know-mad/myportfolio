@@ -16,11 +16,11 @@ const BlogPage = () => (
       <p>Cool content coming soon !</p>
       </div>
 
+      <PageBreak />
+
+      <BlogComponent />
+
     </div>
-
-    <PageBreak />
-
-    <BlogComponent />
 
   </Layout>
 )

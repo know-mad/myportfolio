@@ -6,7 +6,6 @@
   height: 700px;
   width: 100%;
   position: relative;
-  /* background: linear-gradient(90deg, #08031F, #271A56); */
   background-image: url('../images/background1.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -62,4 +61,15 @@ textarea {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #b007a8;
   opacity: 1; /* Firefox */
+}
+
+@media (orientation: portrait) {
+  #contact-form {
+    background-image: none;
+  }
+
+  form {
+    height: 80%;
+    width: 90%;
+  }
 }

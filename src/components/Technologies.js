@@ -85,7 +85,7 @@ export default class Technologies extends Component {
   render(){
     let skill = this.state.skill.map((item, index) => {
       return (
-        <p style={{marginRight: '30px'}}>{item.skill}</p>
+        <p style={{marginRight: '10px', marginLeft: '10px'}}>{item.skill}</p>
       )
     })
 

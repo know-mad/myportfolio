@@ -8,6 +8,7 @@ import Quote from '../components/Quote'
 import Technologies from '../components/Technologies'
 import DesignPortfolio from '../components/DesignPortfolio'
 import WebDesign from '../components/WebDesign'
+import WebDesignMobile from '../components/WebDesignMobile'
 import BannerImage from '../components/BannerImage'
 
 
@@ -24,7 +25,7 @@ const IndexPage = () => (
     <Technologies />
     <Quote content={'through technology we are actively inventing tomorrow'}/>
     <WebDesign />
-
+    <WebDesignMobile />
     <DesignPortfolio />
     <ContactSection />
   </Layout>

@@ -6,17 +6,17 @@
   height: 700px;
   width: 100%;
   position: relative;
-  /* background: linear-gradient(90deg, #08031F, #271A56); */
-  background-image: url('../images/background1.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(90deg, #08031F, #271A56);
 }
 
 .contact-content {
   display: flex;
   flex-direction: row;
   height: 100%;
+  background-image: url('../images/background1.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
 }
 
 .contact {
@@ -84,7 +84,7 @@
 @media (orientation: portrait) {
   #contact-section  {
     flex-direction: column;
-    height: 800px;
+    height: 700px;
     background-image: none;
     background: linear-gradient(90deg, #08031F, #271A56);
   }
@@ -101,9 +101,10 @@
   }
 
   .contact-content {
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: none;
   }
 
   .contact-parent {
@@ -121,24 +122,32 @@
   .contact-child {
     display: none;
   }
-
 }
 
 @media (orientation: landscape) and (max-width: 768px) {
   #contact-section  {
     flex-direction: column;
-    height: 800px;
+    height: 700px;
     background-image: none;
     background: linear-gradient(90deg, #08031F, #271A56);
   }
 
   .contact {
     height: 50%;
+    width: 100%;
   }
 
   .contact-details {
-    padding: 0px;
     height: 50%;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
   }
 
   .contact-parent {
@@ -146,12 +155,6 @@
     width: 100%;
     background-color: transparent;
     border: none;
-  }
-
-  .contact-content {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
   }
 
   .contact-parent:hover {
@@ -162,5 +165,4 @@
   .contact-child {
     display: none;
   }
-
 }

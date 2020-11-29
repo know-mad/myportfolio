@@ -4,12 +4,11 @@
   height: 700px;
   width: 100%;
   position: relative;
-  /* background: linear-gradient(90deg, #08031F, #271A56); */
-  background-image: url('../images/background5.svg');
+  background-image: url('../images/background3.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .projects-left {
@@ -43,7 +42,6 @@
 .projects-right-inner {
   height: 60%;
   width: 80%;
-  background-color: purple;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,4 +74,48 @@
   height: 10%;
   width:80%;
   margin-bottom: 10px;
+}
+
+@media (orientation: portrait) {
+  #projects-section {
+    flex-direction: column;
+  }
+
+  .projects-left {
+    width: 100%;
+  }
+
+  .projects-left-inner {
+    width: 90%;
+  }
+
+  .projects-right {
+    width: 100%;
+  }
+
+  .projects-right-inner {
+    width: 90%;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 768px) {
+  #projects-section {
+    flex-direction: column;
+  }
+
+  .projects-left {
+    width: 100%;
+  }
+
+  .projects-left-inner {
+    width: 90%;
+  }
+
+  .projects-right {
+    width: 100%;
+  }
+
+  .projects-right-inner {
+    width: 90%;
+  }
 }

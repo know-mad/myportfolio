@@ -16,7 +16,7 @@ const DesignPortfolio = (props) => {
   return (
     <div id='design-portfolio-container'>
       <div className='container-top'>
-        <h2>Want to see the websites and apps that I’ve built ?</h2>
+        <p>Want to see the websites and apps that I’ve built ?</p>
         <p>Check out my work</p>
 
         <Button
@@ -32,7 +32,7 @@ const DesignPortfolio = (props) => {
         <div id='glow-bar'></div>
           <div className='container-bottom-content'>
             <div ref={hover1} className='container-bottom-image1'></div>
-              <div ref={hover2} className='container-bottom-image2'></div>
+            <div ref={hover2} className='container-bottom-image2'></div>
           </div>
         <div id='glow-bar'></div>
       </div>
