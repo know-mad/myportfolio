@@ -6,21 +6,6 @@ module.exports = {
     author: `David Velez`,
   },
   plugins: [
-    {
-     resolve: `gatsby-plugin-prefetch-google-fonts`,
-     options: {
-       fonts: [
-         {
-           family: `Oswald`,
-           subsets: [`latin`],
-         },
-         {
-           family: `Open Sans`,
-           variants: [`400`, `700`]
-         },
-       ],
-     },
-   },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
@@ -54,4 +39,24 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+}
+
+module.exports = {
+  plugins: [
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Orbitron`,
+            subsets: [`latin`],
+          },
+          {
+            family: `Open Sans`,
+            variants: [`400`, `700`]
+          },
+        ],
+      },
+    }
+  ]
 }
