@@ -1,9 +1,9 @@
 import React from 'react'
 import './blog.css'
-import SEO from "../components/seo"
-import Layout from '../components/layout'
-import PageBreak from '../components/PageBreak'
-import BlogComponent from '../components/BlogComponent'
+import SEO from "../../components/seo"
+import Layout from '../../components/layout'
+import PageBreak from '../../components/PageBreak'
+import BlogComponent from '../../components/BlogComponent'
 
 
 const BlogPage = () => (

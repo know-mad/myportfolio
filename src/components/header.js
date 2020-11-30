@@ -48,19 +48,19 @@ const Header = ({ link1, link2, link3, link4 }) => {
 
          </div>
          <div className='mobile-links' style={{display: openNav ? 'flex' : 'none'}}>
-           <Link to="/" activeStyle={{color: '#fff'}}>
+           <Link to="/" style={{fontSize: '1.5rem'}} activeStyle={{color: '#fff'}}>
              {link1}
            </Link>
 
-           <Link to="/portfolio/" activeStyle={{color: '#fff'}}>
+           <Link to="/portfolio/" style={{fontSize: '1.5rem'}} activeStyle={{color: '#fff'}}>
              {link2}
            </Link>
 
-           <Link to="/contact/" activeStyle={{color: '#fff'}}>
+           <Link to="/contact/" style={{fontSize: '1.5rem'}} activeStyle={{color: '#fff'}}>
              {link3}
            </Link>
 
-           <Link to="/blog/" activeStyle={{color: '#fff'}}>
+           <Link to="/blog/" style={{fontSize: '1.5rem'}} activeStyle={{color: '#fff'}}>
              {link4}
            </Link>
 

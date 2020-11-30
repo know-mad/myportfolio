@@ -131,7 +131,6 @@
     width: 100%;
     background-image: none;
     padding: 20px;
-    background-image: url('../images/background3.svg');
     background-size: auto 90%;
   }
 
@@ -182,8 +181,6 @@
     width: 100%;
     background-image: none;
     padding: 20px;
-    background-image: url('../images/background3.svg');
-    background-size: auto 90%;
   }
 
   .socials-card {

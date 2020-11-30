@@ -1,9 +1,9 @@
 import React from 'react'
 import './contact.css'
-import SEO from "../components/seo"
-import Layout from '../components/layout'
-import PageBreak from '../components/PageBreak'
-import ContactForm from '../components/ContactForm'
+import SEO from "../../components/seo"
+import Layout from '../../components/layout'
+import PageBreak from '../../components/PageBreak'
+import ContactForm from '../../components/ContactForm'
 
 
 const ContactPage = () => (

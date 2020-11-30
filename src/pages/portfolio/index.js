@@ -1,17 +1,17 @@
 import React from "react"
 import './portfolio.css'
-import SEO from "../components/seo"
-import Layout from '../components/layout'
-import Projects from '../components/Projects'
-import PageBreak from '../components/PageBreak'
+import SEO from "../../components/seo"
+import Layout from '../../components/layout'
+import Projects from '../../components/Projects'
+import PageBreak from '../../components/PageBreak'
 
 
-import site1 from '../images/site1.jpg'
-import site2 from '../images/site2.jpg'
-import site3 from '../images/site3.jpg'
-import site4 from '../images/site4.jpg'
-import site5 from '../images/site5.jpg'
-import site6 from '../images/site6.jpg'
+import site1 from '../../images/site1.jpg'
+import site2 from '../../images/site2.jpg'
+import site3 from '../../images/site3.jpg'
+import site4 from '../../images/site4.jpg'
+import site5 from '../../images/site5.jpg'
+import site6 from '../../images/site6.jpg'
 
 const PortfolioPage = () => (
   <Layout>
