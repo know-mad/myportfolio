@@ -11,12 +11,12 @@ module.exports = {
      options: {
        fonts: [
          {
-           family: `Orbitron`,
+           family: `Oswald`,
            subsets: [`latin`],
          },
          {
            family: `Open Sans`,
-           variants: [`100`, `400`, `700`]
+           variants: [`400`, `700`]
          },
        ],
      },
