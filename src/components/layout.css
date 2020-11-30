@@ -1,6 +1,6 @@
 html, body {
   margin: 0;
-  /* font-family: 'Orbitron', sans-serif; */
+  font-family: 'Orbitron', sans-serif;
   overflow-x: hidden;
 }
 
@@ -34,7 +34,6 @@ p {
   color: #fff;
   background-color: black;
   width: 100%;
-  /* font-weight: bold; */
 }
 
 #glow-bar {
