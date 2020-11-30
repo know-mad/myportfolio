@@ -6,6 +6,14 @@ module.exports = {
     author: `David Velez`,
   },
   plugins: [
+    {
+    resolve: 'gatsby-plugin-web-font-loader',
+    options: {
+      google: {
+        families: ['Orbitron']
+      }
+    }
+  },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
@@ -13,15 +21,7 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-      },
-      {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Orbitron']
-        },
-      },
-    },
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
