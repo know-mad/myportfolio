@@ -7,17 +7,20 @@ module.exports = {
   },
   plugins: [
     {
-   resolve: `gatsby-plugin-google-fonts-v2`,
-   options: {
-     fonts: [
-       {
-         family: 'Orbitron',
-         variable: true,
-         weights: ['200..900']
-       }
-     ]
-   }
- },
+     resolve: `gatsby-plugin-prefetch-google-fonts`,
+     options: {
+       fonts: [
+         {
+           family: `Orbitron`,
+           subsets: [`latin`],
+         },
+         {
+           family: `Open Sans`,
+           variants: [`100`, `400`, `700`]
+         },
+       ],
+     },
+   },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
