@@ -19,8 +19,8 @@ module.exports = {
       options: {
         google: {
           families: ['Orbitron']
-        }
-      }
+        },
+      },
     },
     },
     `gatsby-transformer-sharp`,
