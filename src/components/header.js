@@ -17,8 +17,8 @@ const Header = ({ link1, link2, link3, link4 }) => {
 
    return (
      <header>
-       <div id='nav' style={{height: openNav ? '280px' : '80px'}}>
-         <div className='content-container' style={{height: openNav ? '30%' : '100%'}}>
+       <div id='nav' style={{minHeight: openNav ? '280px' : '80px'}}>
+         <div className='content-container' style={{minHeight: openNav ? '30%' : '100%'}}>
            <div className='logo-side'>
              <Logo />
            </div>

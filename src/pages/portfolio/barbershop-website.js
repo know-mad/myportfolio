@@ -4,7 +4,7 @@ import SEO from "../../components/seo"
 import Layout from '../../components/layout'
 import SingleProject from '../../components/SingleProject'
 
-import photo from '../../images/site1.jpg'
+import photo from '../../images/test.jpg'
 
 const BarbershopPage = () => (
   <Layout>
