@@ -17,8 +17,8 @@ const SingleProject = ({ image, alt, title, description }) => {
     gsap.to('.project-hero-left', {opacity: 1, duration: 3, delay: 1})
     gsap.to('.project-hero-right', {opacity: 1, duration: 3, delay: 2})
     gsap.to(info1.current, {opacity: 1, duration: 2, delay: 3})
-    gsap.to(info2.current, {opacity: 1, duration: 2, delay: 4})
-    gsap.to(info3.current, {opacity: 1, duration: 2, delay: 5})
+    gsap.to(info2.current, {opacity: 1, duration: 2, delay: 3})
+    gsap.to(info3.current, {opacity: 1, duration: 2, delay: 3})
   }, [info1, info2, info3])
 
   return (

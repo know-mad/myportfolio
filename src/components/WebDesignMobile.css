@@ -15,20 +15,14 @@
   .web-design {
     width: 100%;
     height: 80%;
-    text-align: right;
   }
 
   .web-design p {
     margin: 5px;
   }
 
-  /* .web-design-details {
-    width: 100%;
-    height: 100%;
-  } */
-
   .services {
-    text-align: left;
+    text-align: center;
     height: 40%;
     justify-content: flex-end;
   }
@@ -42,26 +36,18 @@
   .development {
     width: 100%;
     height: 80%;
-    text-align: left;
   }
 }
 
 @media (orientation: landscape) {
-  #design-section {
-    display: none;
-  }
-}
-
-@media (orientation: landscape) and (max-width: 768px) {
   .web-design {
     width: 100%;
     height: 80%;
   }
 
-  /* .web-design-details {
-    width: 100%;
-    height: 100%;
-  } */
+  .web-design p {
+    margin: 5px;
+  }
 
   .services {
     text-align: center;
