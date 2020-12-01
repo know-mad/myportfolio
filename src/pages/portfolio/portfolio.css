@@ -14,3 +14,11 @@
   height: 250px;
   width: 100%;
 }
+
+
+@media (orientation: portrait) {
+  .portfolio-intro p {
+    font-size: 0.98rem;
+    margin-top: 0;
+  }
+}
