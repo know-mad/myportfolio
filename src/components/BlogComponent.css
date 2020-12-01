@@ -11,3 +11,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (orientation: portrait) {
+  #blog {
+    background-size: auto 75%;
+  }
+}

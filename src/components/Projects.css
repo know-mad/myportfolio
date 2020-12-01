@@ -89,6 +89,7 @@
 @media (orientation: portrait) {
   #projects-section {
     flex-direction: column;
+    background-image: none;
   }
 
   .projects-left {
@@ -111,6 +112,7 @@
 @media (orientation: landscape) and (max-width: 768px) {
   #projects-section {
     flex-direction: column;
+    background-image: none;
   }
 
   .projects-left {

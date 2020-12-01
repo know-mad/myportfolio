@@ -70,7 +70,7 @@ const ContactForm = () => {
 
   return (
     <div id='contact-form'>
-      <p style={{fontSize: '2rem', margin: '0'}}>Hello {fullName.fName} {fullName.lName} !</p>
+      <p style={{fontSize: '2rem', margin: '0'}}>Hello {fullName.fName} {fullName.lName} </p>
       <form
         onSubmit={handleSubmit}
         name="contact"
@@ -85,6 +85,7 @@ const ContactForm = () => {
           value={fullName.fName}
           onChange={handleChange}
           maxlength="10"
+          required
         />
         <input
           name='lName'
@@ -92,6 +93,7 @@ const ContactForm = () => {
           value={fullName.lName}
           onChange={handleChange}
           maxlength="10"
+          required
         />
         <input
           name='mail'
@@ -99,6 +101,7 @@ const ContactForm = () => {
           value={fullName.mail}
           onChange={handleChange}
           maxlength="50"
+          required
         />
         <textarea
           name='message'
