@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import Logo from '../components/Logo'
 import './header.css'
+import hamburger from '../images/hamburger.svg'
+import closedBurger from '../images/closed-burger.svg'
 
 const Header = ({ link1, link2, link3, link4 }) => {
   const [openNav, setOpenNav] = useState(false)
@@ -39,7 +41,7 @@ const Header = ({ link1, link2, link3, link4 }) => {
                {link4}
              </Link>
 
-           <div onClick={toggleNav} className='mobile-menu'>
+           <div onClick={toggleNav} className='mobile-menu' style={{backgroundImage: openNav ? `url(${closedBurger})` : `url(${hamburger})`}}>
              <div className='bar'></div>
              <div className='bar'></div>
              <div className='bar'></div>
