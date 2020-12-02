@@ -125,7 +125,7 @@
   height: 40px;
   /* background-image: url('../images/hamburger.svg'); */
   background-position: center;
-  background-size: contain;
+  background-size: 75%;
   background-repeat: no-repeat;
 }
 
