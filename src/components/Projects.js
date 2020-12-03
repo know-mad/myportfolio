@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 
 
 
-const Projects = ({ image1, image2, content1, content2, info1, info2 }) => {
+const Projects = ({ image1, image2, content1, content2, info1, info2, projectLink1, projectLink2 }) => {
   const [style1, setStyle1] = useState(false)
   const [style2, setStyle2] = useState(false)
 
@@ -36,7 +36,7 @@ const Projects = ({ image1, image2, content1, content2, info1, info2 }) => {
         className='projects-left-inner'>
           <div style={{display: style1 ? 'flex' : 'none'}} className='project-left-info'>
             {content1}
-            <Link to="/" style={{color: '#deac70', fontSize: '1.5rem', marginTop: '10px'}}>
+            <Link to={projectLink1} style={linkStyle}>
               More Info
             </Link>
           </div>
@@ -54,7 +54,7 @@ const Projects = ({ image1, image2, content1, content2, info1, info2 }) => {
         className='projects-right-inner'>
           <div style={{display: style2 ? 'flex' : 'none'}} className='project-right-info'>
             {content2}
-            <Link to="/portfolio/barbershop-website" style={{color: '#deac70', fontSize: '1.5rem', marginTop: '10px'}}>
+            <Link to={projectLink2} style={linkStyle}>
               More Info
             </Link>
           </div>
@@ -71,6 +71,19 @@ Projects.propTypes ={
   content2: PropTypes.string,
   info1: PropTypes.string,
   info2: PropTypes.string
+}
+
+const linkStyle = {
+  color: '#fff',
+  height: '40px',
+  width: '150px',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  borderRadius: '100px',
+  border: '1px solid #deac70',
+  marginTop: '20px'
 }
 
 export default Projects

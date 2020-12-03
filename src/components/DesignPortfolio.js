@@ -19,13 +19,7 @@ const DesignPortfolio = (props) => {
         <p>Want to see the websites and apps that I’ve built ?</p>
         <p>Check out my work</p>
 
-        <Button
-        content={<Link to='/portfolio/' style={{color: '#fff'}}>Portfolio</Link>}
-        padding={'0.75rem 1.5rem'}
-        fontColor={'#0984e3'}
-        backgroundColor={'#0984e3'}
-        borderColor={'#0984e3'}
-        />
+        <Link to='/portfolio/' style={linkStyle}>Portfolio</Link>
       </div>
 
       <div className='container-bottom'>
@@ -38,6 +32,18 @@ const DesignPortfolio = (props) => {
       </div>
     </div>
   )
+}
+
+const linkStyle = {
+  color: '#fff',
+  height: '40px',
+  width: '150px',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  borderRadius: '100px',
+  border: '1px solid #0984e3'
 }
 
 export default DesignPortfolio

@@ -7,11 +7,28 @@ import { gsap } from 'gsap'
 import html from '../images/html-5.svg'
 import css from '../images/css3.svg'
 import react from '../images/react-2.svg'
-import gatsby from '../images/gatsby-logo.svg'
-import netlify from '../images/netlify.svg'
 
 
-const SingleProject = ({ image, alt, title, description }) => {
+const SingleProject = ({
+  image,
+  alt,
+  title,
+  description,
+   clientInfo,
+   projectGoal,
+   tech0,
+   tech0Name,
+   tech1,
+   tech1Name,
+   tech2,
+   tech2Name,
+   tech3,
+   tech3Name,
+   tech4,
+   tech4Name,
+   buttonContent,
+   buttonLink }) => {
+
   const info1 = React.createRef()
   const info2 = React.createRef()
   const info3 = React.createRef()
@@ -39,12 +56,17 @@ const SingleProject = ({ image, alt, title, description }) => {
           <h2 style={{margin: '5px'}}>{title}</h2>
           <p style={{marginTop: '5px', marginBottom: '10px', fontSize: '1rem'}}>{description}</p>
           <Button
-          content={<Link to='/portfolio/' style={{color: '#fff'}}>Visit Website</Link>}
+          link={buttonLink}
+          content={buttonContent}
           padding={'0.75rem 1.5rem'}
           fontColor={'#0984e3'}
           backgroundColor={'#0984e3'}
           borderColor={'#0984e3'}
           />
+
+          <Link to={'/portfolio/'} style={linkStyle}>
+            Back
+          </Link>
         </div>
 
         <div className='project-hero-right'>
@@ -62,11 +84,11 @@ const SingleProject = ({ image, alt, title, description }) => {
         </div>
         <div ref={info2} className='project-info'>
           <p style={{fontSize: '1.25rem', color: '#0984e3'}}>The Client</p>
-          <p style={{fontSize: '1rem'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+          <p style={{fontSize: '1rem'}}>{clientInfo}</p>
         </div>
         <div ref={info3} className='project-info'>
           <p style={{fontSize: '1.25rem', color: '#0984e3'}}>The Goal</p>
-          <p style={{fontSize: '1rem'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+          <p style={{fontSize: '1rem'}}>{projectGoal}</p>
         </div>
       </div>
 
@@ -82,7 +104,7 @@ const SingleProject = ({ image, alt, title, description }) => {
           </div>
 
           <div className='tech-used'>
-            <div className='tech-logo' style={{ backgroundImage: `url(${css})`, backgroundSize: 'cover'}}></div>
+            <div className='tech-logo' style={{ backgroundImage: `url(${css})`}}></div>
             <div className='tech-info'><p>CSS 3</p></div>
           </div>
 
@@ -92,17 +114,32 @@ const SingleProject = ({ image, alt, title, description }) => {
           </div>
 
           <div className='tech-used'>
-            <div className='tech-logo' style={{ backgroundImage: `url(${gatsby})`}}></div>
-            <div className='tech-info'><p>Gatsby</p></div>
+            <div className='tech-logo' style={{ backgroundImage: `url(${tech0})`}}></div>
+            <div className='tech-info'><p>{tech0Name}</p></div>
           </div>
         </div>
 
         <div ref={info6} className='project-info'>
           <div className='tech-used'>
-            <div className='tech-logo' style={{ backgroundImage: `url(${netlify})`}}></div>
-            <div className='tech-info'><p>Netlify</p></div>
+            <div className='tech-logo' style={{ backgroundImage: `url(${tech1})`}}></div>
+            <div className='tech-info'><p>{tech1Name}</p></div>
           </div>
-          
+
+          <div className='tech-used'>
+            <div className='tech-logo' style={{ backgroundImage: `url(${tech2})`}}></div>
+            <div className='tech-info'><p>{tech2Name}</p></div>
+          </div>
+
+          <div className='tech-used'>
+            <div className='tech-logo' style={{ backgroundImage: `url(${tech3})`}}></div>
+            <div className='tech-info'><p>{tech3Name}</p></div>
+          </div>
+
+          <div className='tech-used'>
+            <div className='tech-logo' style={{ backgroundImage: `url(${tech4})`}}></div>
+            <div className='tech-info'><p>{tech4Name}</p></div>
+          </div>
+
         </div>
       </div>
 
@@ -114,13 +151,40 @@ SingleProject.propTypes = {
   image: PropTypes.string,
   alt: PropTypes.string,
   title: PropTypes.string,
-  description: PropTypes.string
+  description: PropTypes.string,
+  clientInfo: PropTypes.string,
+  projectGoal: PropTypes.string,
+  tech0: PropTypes.string,
+  tech0Name: PropTypes.string,
+  tech1: PropTypes.string,
+  tech1Name: PropTypes.string,
+  tech2: PropTypes.string,
+  tech2Name: PropTypes.string,
+  tech3: PropTypes.string,
+  tech3Name: PropTypes.string,
+  tech4: PropTypes.string,
+  tech4Name: PropTypes.string,
+  buttonContent: PropTypes.string,
+  buttonLink: PropTypes.string
 }
 
 SingleProject.defaultProps = {
   alt: '',
   title: '',
-  description: ''
+  description: '',
+}
+
+const linkStyle = {
+  color: '#fff',
+  height: '30px',
+  width: '100px',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  borderRadius: '100px',
+  border: '1px solid #deac70',
+  marginTop: '10px'
 }
 
 export default SingleProject

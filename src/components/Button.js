@@ -24,6 +24,8 @@ const Button = ({ padding, margin, content, link, backgroundColor, fontColor, bo
     onMouseOut={() => setHover(false)}
     style={buttonStyle}
     href={link}
+    target="_blank"
+    rel="noopener noreferrer"
     >
     {content}
     </a>

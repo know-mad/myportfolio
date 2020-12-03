@@ -33,6 +33,8 @@ const PortfolioPage = () => (
       content2={'This is the website for my personal portfolio. The goal was to create something that had a unique style and...'}
       info1={'Barbershop Website'}
       info2={'Personal Portfolio Website'}
+      projectLink1={'/portfolio/barbershop-website'}
+      projectLink2={'/portfolio/portfolio-website'}
       />
 
       <Projects
@@ -42,6 +44,8 @@ const PortfolioPage = () => (
       content2={'CoTripper is a full stack application built for the traveling single parent....'}
       info1={'Simon App'}
       info2={'CoTripper App'}
+      projectLink1={'/portfolio/simon-app'}
+      projectLink2={'/portfolio/cotripper-app'}
       />
 
       <Projects
@@ -51,6 +55,8 @@ const PortfolioPage = () => (
       content2={'API containing all of the alternate medicine dispensaries in the United States...'}
       info1={'E-Commerce App'}
       info2={'Kush API'}
+      projectLink1={'/portfolio/ecommerce-app'}
+      projectLink2={'/portfolio/kush-api'}
       />
 
     </div>
