@@ -1,16 +1,15 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './Projects.css'
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import { gsap } from 'gsap'
+
 
 
 
 const Projects = ({ image1, image2, content1, content2, info1, info2 }) => {
   const [style1, setStyle1] = useState(false)
   const [style2, setStyle2] = useState(false)
-  const fadeIn = React.createRef()
-  const fadeIn2 = React.createRef()
+
 
   const toggleStyle1 = () => {
     let newStyle1 = style1
@@ -22,15 +21,11 @@ const Projects = ({ image1, image2, content1, content2, info1, info2 }) => {
     setStyle2(!newStyle2)
   }
 
-  useEffect(() => {
-    gsap.to(fadeIn.current, {opacity: '1', delay: 1, duration: 2})
-    gsap.to(fadeIn2.current, {opacity: '1', delay: 1, duration: 2})
-  }, [fadeIn, fadeIn2])
 
 
   return (
     <div id='projects-section'>
-      <div ref={fadeIn} className='projects-left'>
+      <div className='projects-left'>
         <div className='project-title'>
           <p>{info1}</p>
         </div>
@@ -48,7 +43,7 @@ const Projects = ({ image1, image2, content1, content2, info1, info2 }) => {
         </div>
 
       </div>
-      <div ref={fadeIn2} className='projects-right'>
+      <div className='projects-right'>
       <div className='project-title'>
         <p>{info2}</p>
       </div>

@@ -68,15 +68,37 @@
 }
 
 .project-info {
+  display: flex;
+  flex-direction: column;
   height: 100%;
   width: 33%;
   opacity: 0;
-  /* background-color: green; */
-  /* padding-left: 10px; */
 }
 
 .tech-used {
-  height: 100px;
-  width: 100%;
-  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  height: 20%;
+  width: 40%;
+  margin-bottom: 10px;
+  /* background-color: red */
+}
+
+.tech-logo {
+  height: 100%;
+  width: 20%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.tech-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  /* background-color: purple; */
 }

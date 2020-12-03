@@ -4,12 +4,20 @@ import { Link } from 'gatsby'
 import PropTypes from "prop-types"
 import Button from '../components/Button'
 import { gsap } from 'gsap'
+import html from '../images/html-5.svg'
+import css from '../images/css3.svg'
+import react from '../images/react-2.svg'
+import gatsby from '../images/gatsby-logo.svg'
+import netlify from '../images/netlify.svg'
 
 
 const SingleProject = ({ image, alt, title, description }) => {
   const info1 = React.createRef()
   const info2 = React.createRef()
   const info3 = React.createRef()
+  const info4 = React.createRef()
+  const info5 = React.createRef()
+  const info6 = React.createRef()
 
   useEffect(() => {
     gsap.fromTo('.bottom-block', {boxShadow: '0px 0px 30px 10px rgba(222, 172, 112, 0)'}, {boxShadow: '0px 0px 30px 10px rgba(222, 172, 112, 0.9)', duration: 4, repeat: -1, yoyo: true})
@@ -19,6 +27,9 @@ const SingleProject = ({ image, alt, title, description }) => {
     gsap.to(info1.current, {opacity: 1, duration: 2, delay: 3})
     gsap.to(info2.current, {opacity: 1, duration: 2, delay: 3})
     gsap.to(info3.current, {opacity: 1, duration: 2, delay: 3})
+    gsap.to(info4.current, {opacity: 1, duration: 2, delay: 3})
+    gsap.to(info5.current, {opacity: 1, duration: 2, delay: 3})
+    gsap.to(info6.current, {opacity: 1, duration: 2, delay: 3})
   }, [info1, info2, info3])
 
   return (
@@ -59,8 +70,40 @@ const SingleProject = ({ image, alt, title, description }) => {
         </div>
       </div>
 
-      <div className='tech-used'>
+      <div className='project-content'>
+        <div ref={info4} style={{textAlign: 'center'}} className='project-info'>
+          <p style={{marginLeft: '10px', fontSize: '1.25rem'}}>technologies</p>
+          <h2 style={{marginLeft: '10px', fontSize: '2.5rem', color: '#0984e3', margin: '0'}}>Used</h2>
+        </div>
+        <div ref={info5} className='project-info'>
+          <div className='tech-used'>
+            <div className='tech-logo' style={{ backgroundImage: `url(${html})`}}></div>
+            <div className='tech-info'><p>HTML 5</p></div>
+          </div>
 
+          <div className='tech-used'>
+            <div className='tech-logo' style={{ backgroundImage: `url(${css})`, backgroundSize: 'cover'}}></div>
+            <div className='tech-info'><p>CSS 3</p></div>
+          </div>
+
+          <div className='tech-used'>
+            <div className='tech-logo' style={{ backgroundImage: `url(${react})`}}></div>
+            <div className='tech-info'><p>React.js</p></div>
+          </div>
+
+          <div className='tech-used'>
+            <div className='tech-logo' style={{ backgroundImage: `url(${gatsby})`}}></div>
+            <div className='tech-info'><p>Gatsby</p></div>
+          </div>
+        </div>
+
+        <div ref={info6} className='project-info'>
+          <div className='tech-used'>
+            <div className='tech-logo' style={{ backgroundImage: `url(${netlify})`}}></div>
+            <div className='tech-info'><p>Netlify</p></div>
+          </div>
+          
+        </div>
       </div>
 
     </div>
