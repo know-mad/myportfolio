@@ -27,9 +27,9 @@ export default class Footer extends Component {
           <a target='_blank' rel="noopener noreferrer"
           href='https://www.linkedin.com/in/david-velez-a16b2492/'><img src={linkedin} alt='linkedin_icon' width='55' height='55'/></a>
           <a target='_blank' rel="noopener noreferrer"
-          href='https://github.com/know-mad'><img src={twitter} alt='github_icon' width='55' height='55'/></a>
+          href='https://twitter.com/_devdave'><img src={twitter} alt='twitter_icon' width='55' height='55'/></a>
           <a target='_blank' rel="noopener noreferrer"
-          href='https://twitter.com/_devdave'><img src={github} alt='twitter_icon' width='55' height='55'/></a>
+          href='https://github.com/know-mad'><img src={github} alt='github_icon' width='55' height='55'/></a>
         </div>
       </div>
     )
