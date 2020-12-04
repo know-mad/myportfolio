@@ -2,12 +2,18 @@ import React, { useState } from 'react'
 import { Link } from 'gatsby'
 
 
-const Button = ({ padding, margin, content, link, backgroundColor, fontColor, borderColor}) => {
-  const [hover, setHover] = useState(false)
+const Button = ({
+  padding,
+  margin,
+  content,
+  link,
+  backgroundColor,
+  fontColor,
+  borderColor }) => {
 
   const buttonStyle = {
-    color: hover ?  '#fff' : fontColor,
-    backgroundColor: hover ? backgroundColor : 'transparent',
+    color: '#fff',
+    backgroundColor: 'transparent',
     border: `1px solid ${borderColor}`,
     textDecoration: 'none',
     padding: padding,
@@ -20,8 +26,6 @@ const Button = ({ padding, margin, content, link, backgroundColor, fontColor, bo
 
   return(
     <a
-    onMouseOver={() => setHover(true)}
-    onMouseOut={() => setHover(false)}
     style={buttonStyle}
     href={link}
     target="_blank"

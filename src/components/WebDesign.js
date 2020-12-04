@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'gatsby'
 import './WebDesign.css'
 import Button from './Button'
 import code from '../images/code.gif'
@@ -100,14 +101,7 @@ export default class WebDesign extends Component {
               full stack application, I've got you covered.</p>
               <p>Have an app idea ?</p>
               <div className='button-container'>
-                <Button
-                link={'mailto:velezdavid6@gmail.com'}
-                content={'Get in Touch'}
-                padding={'0.75rem 1.5rem'}
-                fontColor={'#0984e3'}
-                backgroundColor={'#0984e3'}
-                borderColor={'#0984e3'}
-                />
+                <Link to='/contact/' style={linkStyle}>Get in touch</Link>
               </div>
             </div>
           }
@@ -134,4 +128,16 @@ const altStyle2 = {
   backgroundRepeat: 'no-repeat',
   border: `1px solid #deac70`,
   height: '90%'
+}
+
+const linkStyle = {
+  color: '#fff',
+  height: '45px',
+  width: '150px',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  borderRadius: '100px',
+  border: '1px solid #0984e3'
 }

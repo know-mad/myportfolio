@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `David Velez`,
-    description: `David Velez is a software engineer based in the Baltimore-Washington DC metro area specializing in building exceptional websites, applications, and everything in between.`,
+    description: `David Velez is a web developer based in the Baltimore-Washington DC metro area specializing in building exceptional websites, applications, and everything in between.`,
     siteUrl: 'https://davidvelez.io',
     author: `David Velez`,
   },
@@ -34,7 +34,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logo.svg`,// This path is relative to the root of the site.
+        icon: `src/images/favicon.svg`,// This path is relative to the root of the site.
       },
     },
     {
