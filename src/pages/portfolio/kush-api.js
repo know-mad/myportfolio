@@ -21,7 +21,7 @@ const KushPage = () => (
         title={'Kush API'}
         description={'API for all U.S. dispensaries'}
         clientInfo={'There is no client for this project. This is the personal project on which I built an API for consumption.'}
-        projectGoal={'The goal was to create an Application programming Interface (API), by webscrapping a website to put together a comprehensive list of all of the marijuana dispensaries in the United States.'}
+        projectGoal={'The goal was to create an Application Programming Interface (API), by webscrapping a website to put together a comprehensive list of all of the marijuana dispensaries in the United States.'}
         buttonContent={'Visit Repo'}
 
         tech0={python}
