@@ -20,7 +20,7 @@ const KushPage = () => (
         alt={'image-of-personal-website-landing-page'}
         title={'Kush API'}
         description={'API for all U.S. dispensaries'}
-        clientInfo={'There is no client for this project. This is the personal project on which I built an API for consumption.'}
+        clientInfo={'The client was an undisclosed startup in Washington DC looking to lay the ground work for their application '}
         projectGoal={'The goal was to create an Application Programming Interface (API), by webscrapping a website to put together a comprehensive list of all of the marijuana dispensaries in the United States.'}
         buttonContent={'Visit Repo'}
 
