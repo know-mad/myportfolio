@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import './DesignPortfolio.css'
-import Button from './Button'
 import { gsap } from 'gsap'
 import { Link } from 'gatsby'
 

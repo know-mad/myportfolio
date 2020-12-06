@@ -47,7 +47,7 @@ const SingleProject = ({
     gsap.to(info4.current, {opacity: 1, duration: 2, delay: 3})
     gsap.to(info5.current, {opacity: 1, duration: 2, delay: 3})
     gsap.to(info6.current, {opacity: 1, duration: 2, delay: 3})
-  }, [info1, info2, info3])
+  }, [info1, info2, info3, info4, info5, info6])
 
   return (
     <div id='single-project-container'>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import './WebDesign.css'
-import Button from './Button'
+
 import code from '../images/code.gif'
 import design from '../images/web-design.gif'
 
@@ -72,14 +72,7 @@ export default class WebDesign extends Component {
             any device !</p>
             <p>Find out how my websites are better !</p>
             <div className='button-container'>
-              <Button
-              link={'mailto:velezdavid6@gmail.com'}
-              content={'Get Info'}
-              padding={'0.75rem 1.5rem'}
-              fontColor={'#32ab9c'}
-              backgroundColor={'#32ab9c'}
-              borderColor={'#32ab9c'}
-              />
+                <Link to='/information/' style={linkStyle}>Get Info</Link>
             </div>
           </div>
         }
@@ -139,5 +132,5 @@ const linkStyle = {
   justifyContent: 'center',
   alignItems: 'center',
   borderRadius: '100px',
-  border: '1px solid #0984e3'
+  border: '1px solid #deac70'
 }

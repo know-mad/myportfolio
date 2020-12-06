@@ -1,7 +1,6 @@
 import React from 'react'
 import './Logo.css'
 import { animateScroll as scroll } from 'react-scroll'
-import { gsap } from 'gsap'
 
 
 

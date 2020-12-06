@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './BannerImage.css'
 import { gsap } from 'gsap'
-import hero from '../images/hero_background.jpg'
+
 
 const BannerImage = (props) => {
   const banner = React.createRef()
