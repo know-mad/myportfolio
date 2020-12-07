@@ -1,5 +1,16 @@
 .info-container {
-  height: 700px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
   width: 100%;
-  background-color: red;
+  background: linear-gradient(90deg, #08031F, #271A56);
+}
+
+.info-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  height: 250px;
+  width: 100%;
 }
