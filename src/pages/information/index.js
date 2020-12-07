@@ -1,5 +1,5 @@
 import React from 'react'
-import './information.css'
+import './Information.css'
 import SEO from "../../components/seo"
 import Layout from '../../components/layout'
 import PageBreak from '../../components/PageBreak'
