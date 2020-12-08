@@ -72,7 +72,7 @@ export default class WebDesign extends Component {
             any device !</p>
             <p>Find out how my websites are better !</p>
             <div className='button-container'>
-                <Link to='/information/' style={linkStyle}>Get Info</Link>
+                <Link to='/info/' style={linkStyle}>Get Info</Link>
             </div>
           </div>
         }

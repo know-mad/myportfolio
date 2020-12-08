@@ -19,7 +19,7 @@ const WebDesignMobile = () => (
       any device !</p>
       <p>Find out how my websites are better !</p>
 
-      <Link to='/information/' style={linkStyle}>Get Info</Link>
+      <Link to='/info/' style={linkStyle}>Get Info</Link>
 
     </div>
 

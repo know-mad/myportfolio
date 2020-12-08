@@ -14,9 +14,9 @@ const About = () => (
         <div className='about-card'>
             <h1><span style={{color: '#0984e3'}}>About Me</span></h1>
             <hr/>
-            <p>Hello! My name is David Velez and I'm a full stack software engineer based in the Baltimore-Washington DC metro area specializing in building exceptional applications, clean websites, and everything in between.
+            <p>I'm a full stack software engineer based in the Baltimore-Washington DC metro area specializing in building exceptional applications, clean websites, and everything in between.
             I enjoy creating software and applications that drive technology and
-            streamline tasks, as well as websites that are pixel-perfect, fast, and convert visitors into clients</p>
+            streamline tasks, as well as websites that are pixel-perfect, fast, and optimized.</p>
         </div>
 
         <div className='socials-card'>
