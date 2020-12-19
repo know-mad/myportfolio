@@ -12,7 +12,5 @@
 .page-break-inner {
   height: 1px;
   width: 40%;
-  /* background: linear-gradient(45deg, #0984e3, #b007a8, #32ab9c, #deac70); */
   background-color: #0984e3;
-  box-shadow: 0px 0px 6px 2px #0984e3;
 }
