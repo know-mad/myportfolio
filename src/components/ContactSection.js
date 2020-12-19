@@ -39,6 +39,8 @@ const linkStyle = {
   alignItems: 'center',
   borderRadius: '100px',
   border: '1px solid #deac70',
+  boxShadow: '0px 0px 20px 4px #deac70',
+  backgroundColor: 'rgba(222, 172, 112, 0.2)',
   marginTop: '30px'
 }
 
