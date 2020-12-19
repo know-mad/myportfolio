@@ -15,6 +15,7 @@ const ContactPage = () => (
       <h1>Contact</h1>
       <p>Please fill out the form below and I will reach out as soon as possible...</p>
       <p>I'm looking forward to seeing what we can create together !</p>
+      <br/>
       </div>
 
       <PageBreak />

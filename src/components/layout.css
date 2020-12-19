@@ -5,8 +5,11 @@ html, body {
 }
 
 hr {
-  width: 50%;
-  margin-top: 20px;
+  width: 20%;
+  height: 0.5px;
+  border: 1px solid #0984e3;
+  background-color: #0984e3;
+  box-shadow: 0px 0px 20px 6px #0984e3;
 }
 
 a {

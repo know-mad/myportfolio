@@ -28,6 +28,8 @@
   text-align: center;
   width: 50%;
   height: 650px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .technologies-top {

@@ -6,14 +6,14 @@ import PageBreak from '../../components/PageBreak'
 import Info from '../../components/Info'
 
 
-const AboutPage = () => (
+const BlogPage = () => (
   <Layout>
-    <SEO title="Information" />
+    <SEO title="Blog" />
     <div className='info-container'>
 
       <div className='info-intro'>
-      <h1>Information</h1>
-      <p>You've got questions, I've got answers.</p>
+      <h1>Blog</h1>
+      <p>content coming soon</p>
       </div>
 
       <PageBreak />
@@ -25,4 +25,4 @@ const AboutPage = () => (
   </Layout>
 )
 
-export default AboutPage
+export default BlogPage

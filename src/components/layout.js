@@ -16,6 +16,7 @@ const Layout = ({ children }) => {
 
   useEffect(() => {
     gsap.to('#glow-bar', {opacity: 1, duration: 2, repeat: -1, yoyo: true})
+    gsap.to('hr', {width: '50%', duration: 4, repeat: -1, yoyo: true})
   })
 
   return (

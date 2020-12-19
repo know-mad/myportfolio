@@ -42,7 +42,9 @@ const linkStyle = {
   justifyContent: 'center',
   alignItems: 'center',
   borderRadius: '100px',
-  border: '1px solid #0984e3'
+  border: '1px solid #0984e3',
+  boxShadow: '0px 0px 20px 4px #0984e3',
+  backgroundColor: 'rgba(9, 132, 227, 0.2)'
 }
 
 export default DesignPortfolio
