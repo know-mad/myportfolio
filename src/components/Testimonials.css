@@ -1,0 +1,140 @@
+.testimonials-section {
+  display: flex;
+  flex-direction: column;
+  height: 50em;
+  width: 100%;
+  margin: 5em 0 5em;
+}
+
+.testimonials-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 15%;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 1em;
+}
+
+.testimonials-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 85%;
+  width: 100%;
+}
+
+.individual-testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.testimonial-person {
+  height: 10em;
+  width: 10em;
+  border-radius: 10em;
+  border: 1px solid #0984e3;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.testimonial-photo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  width: 100%;
+}
+
+.testimonial-comment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 70%;
+  width: 100%;
+  font-size: 1.25rem;
+  padding: 1em;
+}
+
+.pagination-dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+}
+
+.dot {
+  height: 1.25em;
+  width: 1.25em;
+  margin: 1em;
+  border-radius: 100%;
+  border: 1px solid #0984e3;
+}
+
+@media (min-width: 768px) {
+  .testimonials-section {
+    height: 40em;
+  }
+
+  .testimonials-top {
+    font-size: 1.75rem;
+  }
+
+  .testimonial-photo-container {
+    height: 40%;
+  }
+
+  .testimonial-comment-container {
+    height: 60%;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .testimonials-section{
+    height: 45em;
+  }
+  .testimonials-top {
+    height: 30%;
+  }
+
+  .testimonials-top h1 {
+    font-size: 6rem;
+  }
+
+  .testimonials-bottom {
+    height: 70%;
+  }
+
+  .testimonial-comment-container {
+    font-size: 1.25rem;
+    padding: 2em;
+  }
+}
+
+@media (min-width: 2560px) {
+  .testimonials-top h1 {
+    font-size: 12rem;
+  }
+
+  .testimonials-top p {
+    font-size: 2rem;
+  }
+
+  .testimonial-comment-container {
+    font-size: 2.25rem;
+  }
+
+}

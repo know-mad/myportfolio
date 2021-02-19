@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './ContactForm.css'
+import { navigate } from "gatsby"
 
 
 const encode = (data) => {
@@ -11,7 +12,7 @@ const encode = (data) => {
 const ContactForm = () => {
   const [fullName, setFullName] = useState({
     fName: '',
-    lName: '',
+    tel: '',
     mail: '',
     message: ''
   })
@@ -20,34 +21,9 @@ const ContactForm = () => {
     const { value, name } = e.target
 
     setFullName((prevValue) => {
-      if (name === 'fName') {
-        return {
-          fName: value,
-          lName: prevValue.lName,
-          mail: prevValue.mail,
-          message: prevValue.message
-        }
-      } else if (name === 'lName') {
-        return {
-          fName: prevValue.fName,
-          lName: value,
-          mail: prevValue.mail,
-          message: prevValue.message
-        }
-      } else if (name === 'mail') {
-        return {
-          fName: prevValue.fName,
-          lName: prevValue.lName,
-          mail: value,
-          message: prevValue.message
-        }
-      } else if (name === 'message') {
-        return {
-          fName: prevValue.fName,
-          lName: prevValue.lName,
-          mail: prevValue.mail,
-          message: value
-        }
+      return {
+        ...prevValue,
+        [name]: value
       }
     })
 
@@ -59,18 +35,18 @@ const ContactForm = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...fullName })
     })
-      .then(() => alert("Success!"))
+      .then(() => navigate("/contact/success"))
       .catch(error => alert(error));
 
     e.preventDefault();
-    console.log(fullName)
+    // console.log(fullName)
   };
 
 
 
   return (
-    <div id='contact-form'>
-      <p style={{fontSize: '2rem', margin: '0'}}>Hello {fullName.fName} {fullName.lName} </p>
+    <div className='contact-form'>
+
       <form
         onSubmit={handleSubmit}
         name="contact"
@@ -78,21 +54,15 @@ const ContactForm = () => {
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
+        <p>Thanks {fullName.fName} !</p>
+
        <input type="hidden" name="form-name" value="contact" />
         <input
           name='fName'
-          placeholder='First Name'
+          placeholder='Full Name'
           value={fullName.fName}
           onChange={handleChange}
-          maxlength="10"
-          required
-        />
-        <input
-          name='lName'
-          placeholder='Last Name'
-          value={fullName.lName}
-          onChange={handleChange}
-          maxlength="10"
+          maxlength="25"
           required
         />
         <input
@@ -103,9 +73,19 @@ const ContactForm = () => {
           maxlength="50"
           required
         />
+
+        <input
+          name='tel'
+          placeholder='Telephone'
+          maxlength="15"
+          value={fullName.tel}
+          onChange={handleChange}
+          maxlength='15'
+          required
+        />
         <textarea
           name='message'
-          placeholder='Message'
+          placeholder='Brief project description'
           value={fullName.message}
           onChange={handleChange}
         />

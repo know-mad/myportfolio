@@ -1,27 +1,25 @@
 import React from 'react'
-import './info.css'
-import SEO from "../../components/seo"
+import './index.css'
 import Layout from '../../components/layout'
-import PageBreak from '../../components/PageBreak'
-import Info from '../../components/Info'
+import SEO from '../../components/seo'
 
 
 const BlogPage = () => (
   <Layout>
-    <SEO title="Blog" />
-    <div className='info-container'>
-
-      <div className='info-intro'>
-      <h1>Blog</h1>
-      <p>content coming soon</p>
+  <SEO title='Blog'/>
+  <div className='blog-page-container'>
+    <section>
+      <div className='blog-banner'>
+        <div className='banner-inner'>
+          <h1>BLOG</h1>
+        </div>
       </div>
+    </section>
 
-      <PageBreak />
-
-      <Info />
-
+    <div className='blog-content'>
+      <h2>Under Construction</h2>
     </div>
-
+  </div>
   </Layout>
 )
 

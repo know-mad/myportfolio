@@ -4,7 +4,6 @@
 Objective was to build my professional personal portfolio using React.js
 on the Gatsby.js platform. The portfolio highlights my experience as a
 software engineer and shares my contact information for those that want to reach out.
-The website should include semantic HTML/CSS and be search engine optimized.
 
 ## Technologies Used
 1. HTML5
@@ -20,4 +19,6 @@ David Velez
 
 ## Deployed
 
-Deployed site is here
+Deployed site is [here]
+
+[here]: http://www.davidvelez.io

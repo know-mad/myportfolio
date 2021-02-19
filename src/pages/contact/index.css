@@ -1,0 +1,177 @@
+.contact-page-container {
+  height: auto;
+  width: 100%;
+  margin-bottom: 5em;
+}
+
+.contact-me-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  background-image: url('../../images/contact-banner.svg');
+
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 4.5em;
+
+  height: 10em;
+  background-size: 22em auto;
+}
+
+.contact-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  width: 100%;
+
+
+  height: 15em;
+  padding: 1em;
+  font-size: 1.25rem;
+}
+
+.contact-page-form-container {
+  height: 35em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ////////// success page /////////// */
+
+.extra-page-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+  padding: 1em;
+}
+
+.success-message {
+  display: flex;
+  flex-direction: column;
+  height: 35em;
+  width: 98%;
+  background: linear-gradient(to left, rgba(255,255,255, 0.2), rgba(255,255,255, 0.1) );
+  border-radius: 2em;
+}
+
+.success-message-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  font-size: 2rem;
+  padding: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.success-message-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
+
+.success-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10em;
+  background-size: 22em auto;
+  background-image: url('../../images/success.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 4.5em;
+}
+
+
+
+@media (min-width: 768px) {
+  .contact-me-banner {
+    height: 20em;
+    background-size: 45em auto;
+  }
+
+  .success-banner {
+    height: 20em;
+    background-size: 45em auto;
+  }
+
+  .contact-message {
+    font-size: 1.5rem;
+    padding: 2em;
+    height: 10em;
+  }
+
+  .extra-page-container {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-me-banner {
+    height: 30em;
+    background-size: 62em auto;
+  }
+
+  .success-banner {
+    height: 30em;
+    background-size: 62em auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contact-me-banner {
+    background-size: 85em auto;
+  }
+
+  .success-banner {
+    background-size: 85em auto;
+  }
+
+  .success-message {
+    width: 70%;
+    flex-direction: row;
+  }
+
+  .success-message-left {
+    height: 100%;
+    width: 50%;
+  }
+
+  .success-message-right {
+    height: 100%;
+    width: 50%;
+  }
+}
+
+@media (min-width: 2560px) {
+  .contact-message {
+    font-size: 2rem;
+  }
+
+  .extra-page-container {
+    font-size: 3rem;
+  }
+}

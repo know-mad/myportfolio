@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `David Velez`,
-    description: `David Velez is a web developer based in the Baltimore-Washington DC metro area specializing in building exceptional websites, applications, and everything in between.`,
+    description: `David Velez is a New York City web developer specializing in building exceptional websites, applications, and everything in between.`,
     siteUrl: 'https://davidvelez.io',
     author: `David Velez`,
   },
@@ -34,13 +34,21 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.svg`,// This path is relative to the root of the site.
+        icon: `src/images/logo.svg`,// This path is relative to the root of the site.
       },
     },
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
         trackingId: `UA-181646392-1`,
+      },
+    },
+      {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.davidvelez.io',
+        sitemap: 'https://www.davidvelez.io/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

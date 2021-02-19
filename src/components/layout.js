@@ -3,21 +3,11 @@ import PropTypes from "prop-types"
 import Header from "./header"
 import { gsap } from 'gsap'
 import "./layout.css"
+import { Link } from 'gatsby'
+import logo from '../images/footer-logo.svg'
 
-
-import facebook from '../images/facebook.png'
-import instagram from '../images/instagram.svg'
-import linkedin from '../images/linkedin.svg'
-import github from '../images/github.svg'
-import twitter from '../images/twitter.svg'
 
 const Layout = ({ children }) => {
-
-
-  useEffect(() => {
-    gsap.to('#glow-bar', {opacity: 1, duration: 2, repeat: -1, yoyo: true})
-    gsap.to('hr', {width: '50%', duration: 4, repeat: -1, yoyo: true})
-  })
 
   return (
     <>
@@ -25,23 +15,40 @@ const Layout = ({ children }) => {
 
       <div className='container'>
 
-        <main>{children}</main>
+      <main>{children}</main>
 
 
         <footer>
-          <p>Designed & Built by David Velez</p>
-          <p>© V-Technologies 2020</p>
-          <div className='footer-social-icons'>
-            <a target='_blank' rel="noopener noreferrer"
-            href='https://www.facebook.com/UndercoverAlien/'><img src={facebook} alt='facebook_icon' width='55' height='55'/></a>
-            <a target='_blank' rel="noopener noreferrer"
-            href='https://www.instagram.com/_devdave/'><img src={instagram} alt='instagram_icon' width='55' height='55'/></a>
-            <a target='_blank' rel="noopener noreferrer"
-            href='https://www.linkedin.com/in/david-velez-a16b2492/'><img src={linkedin} alt='linkedin_icon' width='55' height='55'/></a>
-            <a target='_blank' rel="noopener noreferrer"
-            href='https://twitter.com/_devdave'><img src={twitter} alt='twitter_icon' width='55' height='55'/></a>
-            <a target='_blank' rel="noopener noreferrer"
-            href='https://github.com/know-mad'><img src={github} alt='github_icon' width='55' height='55'/></a>
+          <div className='footer-top'>
+            <div className='footer-top-left'>
+              <img style={imageStyle} src={logo} alt='web-designer-logo'/>
+            </div>
+            <div className='footer-top-center'>
+              <h3>SITEMAP</h3>
+              <Link style={linkStyle} to='/'>home</Link>
+              <Link style={linkStyle} to='/services/'>services</Link>
+              <Link style={linkStyle} to='/projects/'>projects</Link>
+              <Link style={linkStyle} to='/blog/'>blog</Link>
+              <Link style={linkStyle} to='/contact/'>contact</Link>
+            </div>
+            <div className='footer-top-center'>
+              <h3>SERVICES</h3>
+              <Link style={linkStyle} to='/services/web-design-services-nyc/'>web design</Link>
+              <Link style={linkStyle} to='/services/local-seo-expert-nyc/'>seo</Link>
+              <Link style={linkStyle} to='/services/web-development-nyc/'>app development</Link>
+            </div>
+            <div className='footer-top-center'>
+              <h3>SOCIALS</h3>
+              <a href='https://www.facebook.com/UndercoverAlien/' rel="noopener noreferrer" target="_blank">facebook</a>
+              <a href='https://www.instagram.com/_devdave/' rel="noopener noreferrer" target="_blank">instagram</a>
+              <a href='https://www.linkedin.com/in/david-velez-a16b2492/' rel="noopener noreferrer" target="_blank">linked in</a>
+              <a href='https://github.com/know-mad' rel="noopener noreferrer" target="_blank">github</a>
+              <a href='https://twitter.com/_devdave' rel="noopener noreferrer" target="_blank">twitter</a>
+            </div>
+          </div>
+
+          <div className='footer-bottom'>
+            <p>© vtechnologies {new Date().getFullYear()}</p>
           </div>
         </footer>
 
@@ -52,6 +59,17 @@ const Layout = ({ children }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+}
+
+const imageStyle = {
+  height: `90%`,
+  width: '90%'
+}
+
+const linkStyle = {
+  color: '#fff',
+  marginTop: '5px',
+  opacity: '0.5'
 }
 
 export default Layout

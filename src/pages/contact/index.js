@@ -1,29 +1,39 @@
 import React from 'react'
-import './contact.css'
-import SEO from "../../components/seo"
 import Layout from '../../components/layout'
-import PageBreak from '../../components/PageBreak'
 import ContactForm from '../../components/ContactForm'
+import SEO from "../../components/seo"
+import './index.css'
 
 
 const ContactPage = () => (
   <Layout>
-
-    <SEO title="Contact" />
-    <div className='contact-container'>
-      <div className='contact-intro'>
-      <h1>Contact</h1>
-      <p>Please fill out the form below and I will reach out as soon as possible...</p>
-      <p>I'm looking forward to seeing what we can create together !</p>
-      <br/>
+  <SEO title="NYC Web Design Services" />
+    <div className='contact-page-container'>
+    <section>
+      <div className='contact-me-banner'>
+        <div className='banner-inner'>
+          <h1>CONTACT ME</h1>
+        </div>
       </div>
+    </section>
 
-      <PageBreak />
+    <section>
+      <div className='contact-message'>
+        <p>
+          Please leave your details and a brief project description and I'll reach out as soon as posible.
+          <br/>
+          <br/>
+          I'm looking forward to working with you and seeing what we can create toghether.
+        </p>
+      </div>
+    </section>
 
-      <ContactForm />
-
+    <section>
+      <div className='contact-page-form-container'>
+        <ContactForm/ >
+      </div>
+    </section>
     </div>
-
   </Layout>
 )
 

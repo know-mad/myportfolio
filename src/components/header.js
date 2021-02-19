@@ -1,12 +1,12 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import Logo from '../components/Logo'
 import './header.css'
 import hamburger from '../images/hamburger.svg'
 import closedBurger from '../images/closed-burger.svg'
 
-const Header = ({ link1, link2, link3, link4 }) => {
+
+const Header = ({ link1, link2, link3, link4, link5  }) => {
   const [openNav, setOpenNav] = useState(false)
 
   const toggleNav = () => {
@@ -19,26 +19,30 @@ const Header = ({ link1, link2, link3, link4 }) => {
 
    return (
      <header>
-       <div id='nav' style={{minHeight: openNav ? '280px' : '80px'}}>
+       <div id='nav' style={{minHeight: openNav ? '20em' : '4.5em'}}>
          <div className='content-container' style={{minHeight: openNav ? '30%' : '100%'}}>
            <div className='logo-side'>
-             <Logo />
+            <div className='logo-side-image'></div>
            </div>
-           <div id='links' className='links-side'>
+           <div className='links-side'>
              <Link to="/" activeStyle={{color: '#fff'}}>
                {link1}
              </Link>
 
-             <Link to="/portfolio/" activeStyle={{color: '#fff'}}>
+             <Link to="/services/" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
                {link2}
              </Link>
 
-             <Link to="/blog/" activeStyle={{color: '#fff'}}>
+             <Link to="/projects/" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
                {link3}
              </Link>
 
-             <Link to="/contact/" activeStyle={{color: '#fff'}}>
+             <Link to="/blog/" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
                {link4}
+             </Link>
+
+             <Link to="/contact/" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
+               {link5}
              </Link>
 
            <div onClick={toggleNav} className='mobile-menu' style={{backgroundImage: openNav ? `url(${closedBurger})` : `url(${hamburger})`}}>
@@ -50,20 +54,24 @@ const Header = ({ link1, link2, link3, link4 }) => {
 
          </div>
          <div className='mobile-links' style={{display: openNav ? 'flex' : 'none'}}>
-           <Link to="/" style={{fontSize: '1.5rem'}} activeStyle={{color: '#fff'}}>
+           <Link to="/" style={{fontSize: '1.5rem'}} style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
              {link1}
            </Link>
 
-           <Link to="/portfolio/" style={{fontSize: '1.5rem'}} activeStyle={{color: '#fff'}}>
+           <Link to="/services/" style={{fontSize: '1.5rem'}} style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
              {link2}
            </Link>
 
-           <Link to="/blog/" style={{fontSize: '1.5rem'}} activeStyle={{color: '#fff'}}>
+           <Link to="/projects/" style={{fontSize: '1.5rem'}} style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
              {link3}
            </Link>
 
-           <Link to="/contact/" style={{fontSize: '1.5rem'}} activeStyle={{color: '#fff'}}>
+           <Link to="/blog/" style={{fontSize: '1.5rem'}} style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
              {link4}
+           </Link>
+
+           <Link to="/contact/" style={{fontSize: '1.5rem'}} style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
+             {link5}
            </Link>
 
          </div>
@@ -77,13 +85,15 @@ Header.propTypes = {
   link2: PropTypes.string,
   link3: PropTypes.string,
   link4: PropTypes.string,
+  link5: PropTypes.string,
 }
 
 Header.defaultProps = {
-  link1: `about`,
-  link2: `portfolio`,
-  link3: `blog`,
-  link4: `contact`,
+  link1: `home`,
+  link2: `services`,
+  link3: `projects`,
+  link4: `blog`,
+  link5: `contact`,
 }
 
 export default Header

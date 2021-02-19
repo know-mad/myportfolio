@@ -1,0 +1,293 @@
+
+.project-page-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url('../../images/info-banner.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 4.5em;
+  height: 10em;
+  background-size: 22em auto;
+}
+
+.section-sm {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  height: 35em;
+  width: 100%;
+  font-size: 1.5rem;
+  margin: 3em 0 3em;
+}
+
+.section-sm-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.section-sm-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  font-size: 1.15rem;
+}
+
+.section-sm-right img {
+  height: 60%;
+  width: 90%;
+  border: 1px solid #0984e3;
+}
+
+.built-with-banner {
+  display: flex;
+  flex-direction: column;
+  height: 15em;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.built-with-banner-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1em;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.built-with-banner-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
+
+.column-reversed {
+  flex-direction: column;
+}
+
+/* ///////////////////////////// Main Portfolio Page ///////////////////////////// */
+
+.portfolio-page-container {
+  height: auto;
+  width: 100%;
+}
+
+.portfolio-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url('../../images/work-banner.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 4.5em;
+  height: 10em;
+  background-size: 22em auto;
+}
+
+.portfolio-intro {
+  height: 5em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 1em;
+}
+
+.portfolio-outro {
+  height: 15em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 1em;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  .portfolio-banner {
+    height: 20em;
+    background-size: 45em auto;
+  }
+
+  .project-page-banner {
+    height: 20em;
+    background-size: 45em auto;
+  }
+
+  .portfolio-intro {
+    font-size: 1.75rem;
+  }
+
+  .portfolio-outro {
+    font-size: 1.75rem;
+  }
+
+  .section-sm-right img {
+    height: 90%;
+    width: 70%;
+  }
+
+  .built-with-banner-left {
+    font-size: 2.75rem;
+  }
+
+  .built-with-banner-right {
+    font-size: 1.5rem;
+  }
+
+  .project-info-left {
+    font-size: 2.5rem;
+  }
+
+  .project-info-right {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolio-banner {
+    height: 30em;
+    background-size: 62em auto;
+  }
+
+  .project-page-banner {
+    height: 30em;
+    background-size: 62em auto;
+  }
+
+  .section-sm {
+    flex-direction: row;
+  }
+
+  .section-sm-left {
+    height: 100%;
+    width: 50%;
+  }
+
+  .section-sm-right {
+    height: 100%;
+    width: 50%;
+  }
+
+  .section-sm-right img {
+    height: 60%;
+    width: 90%;
+  }
+
+  .project-info-left {
+    height: 100%;
+    width: 50%;
+  }
+
+  .project-info-right {
+    height: 100%;
+    width: 50%;
+    text-align: left;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  .portfolio-banner {
+    background-size: 85em auto;
+  }
+
+  .project-page-banner {
+    background-size: 85em auto;
+  }
+
+  .built-with-banner {
+    flex-direction: row;
+    height: 7em;
+  }
+
+  .built-with-banner-left {
+    height: 100%;
+    width: 30%;
+  }
+
+  .built-with-banner-right {
+    height: 100%;
+    width: 70%;
+  }
+
+  .section-sm {
+    height: 25em;
+  }
+
+  .section-sm-right img {
+    width: 90%;
+    height: 70%;
+  }
+}
+
+
+@media (min-width: 2560px) {
+  .portfolio-intro {
+    font-size: 2.5rem;
+  }
+
+  .portfolio-outro {
+    font-size: 2.5rem;
+  }
+
+  .built-with-banner-left {
+    font-size: 4rem;
+  }
+
+  .built-with-banner-right {
+    font-size: 2.5rem;
+  }
+
+  .project-info-left {
+    font-size: 4rem;
+  }
+
+  .project-info-left h2 {
+    font-size: 5rem;
+  }
+
+  .project-info-right {
+    font-size: 2rem;
+  }
+
+  .section-sm-left h2 {
+    font-size: 3.5rem;
+  }
+
+  .section-sm-right img {
+    width: 80%;
+    height: 95%;
+  }
+}
