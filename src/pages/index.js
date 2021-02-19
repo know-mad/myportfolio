@@ -294,19 +294,16 @@ const IndexPage = () => {
           <div className='section-md-left'>
           <h1 style={{fontSize: '3rem', margin: '0'}}>MOBILE FIRST</h1>
             <p>
-              Because 54% of web traffic is now coming from mobile devices, every website or web app is built
+              There is absolutely no reason to have a web asset that isn't optimized
+              for mobile devices in {new Date().getFullYear()}! Because 54% of web traffic is now coming from mobile devices, every website or web app is built
               with a <span style={{color: '#b007a8', fontStyle: 'italic'}}>MOBILE FIRST</span> methodology in
-              mind so that your web asset is optimized to look and perform great on mobile devices,
+              mind so that your web asset is optimized to look and perform great on phones,
               tablets, and desktops.
               <br/>
               <br/>
               This is important for enhancing features of your web page or web app and taking advantage
               of the mobile market by giving your customers a website or web app that has an overall cohesive feel from
               device to device so that they can experience your brand no matter how they find you.
-              <br/>
-              <br/>
-              There is absolutely no reason to have a web asset that isn't optimized
-              for mobile devices in {new Date().getFullYear()}!
             </p>
           </div>
           <div className='section-md-right'>
