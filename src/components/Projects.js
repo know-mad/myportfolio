@@ -24,8 +24,7 @@ const Projects = ({backgroundImage, backgroundImage2, content1, content2, toPage
   return (
     <div className='projects-container'>
       <div
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseEnter}
+        onClick={handleMouseEnter}
         className='project-left'
         style={{backgroundImage: `url(${backgroundImage})`}}
         >
@@ -42,8 +41,7 @@ const Projects = ({backgroundImage, backgroundImage2, content1, content2, toPage
       </div>
 
       <div
-        onMouseEnter={handleMouseEnter2}
-        onMouseLeave={handleMouseEnter2}
+        onClick={handleMouseEnter2}
         className='project-right'
         style={{backgroundImage: `url(${backgroundImage2})`}}
         >

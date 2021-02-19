@@ -31,6 +31,13 @@ const WebDesignPage = () => (
                     on your needs, to deliver a successful web design. I'm a New York City experts who is equipped with the 
                     knowledge, experience and passion needed to get the job done and am poised to deliver a wide range 
                     of website design and development services.
+                    <br/>
+                    <br/>
+                    I take your investment in your business’ website and online marketing very seriously.  With critical focus 
+                    on providing  the best web design solutions in the market.  My websites are hand-crafted and user friendly while 
+                    providing innovative website development and digital marketing that delivers actual results. 
+                    I have designed a great number of websites for clients in many different industries and have had the opportunity to 
+                    work with some great clients in NYC, Canada, South America, Asia and Globally.
                     </p>
                 </div>
             </section>

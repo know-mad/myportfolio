@@ -54,7 +54,7 @@ const ContactForm = () => {
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
-        <p>Thanks {fullName.fName} !</p>
+        <p>Thanks {fullName.fName}</p>
 
        <input type="hidden" name="form-name" value="contact" />
         <input

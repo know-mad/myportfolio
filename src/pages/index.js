@@ -27,7 +27,6 @@ import node from '../images/nodejs-1.svg'
 import mongo from '../images/mongodb-icon-1.svg'
 import django from '../images/django.svg'
 import figma from '../images/figma-1.svg'
-import icon from '../images/hero-icon.svg'
 import responsiveDesign from '../images/responsive-design.svg'
 import seoPic from '../images/seo-picture.svg'
 import mockUp from '../images/mockup.png'
@@ -55,7 +54,7 @@ const IndexPage = () => {
             <p style={{color: '#0984e3', margin: '0'}}>FULL STACK DEVELOPER</p>
             <h1 style={{color: '#fff'}}>DAVID VELEZ</h1>
             <p style={{color: '#fff', margin: '0'}}>Building the technology that powers the digital age.</p>
-            <Link id='hero-link' to='/best-web-design-companies-in-nyc/'>LETS WORK TOGETHER</Link>
+            <Link id='hero-link' to='/contact/'>LETS WORK TOGETHER</Link>
             <div className='hero-socials-links'>
               <a href='https://www.facebook.com/UndercoverAlien/' rel="noopener noreferrer" target="_blank"><img src={facebook} alt='web-designer-social-media-link'/></a>
               <a href='https://www.instagram.com/_devdave/' rel="noopener noreferrer" target="_blank"><img src={instagram} alt='web-designer-social-media-link'/></a>
@@ -117,7 +116,7 @@ const IndexPage = () => {
                   </p>
                 </div>
                 <div className='individual-service-button-container'>
-                  <Link id='services-link' to={'/services/web-design-services-nyc/'}><img src={arrow} /></Link>
+                  <Link id='services-link' to={'/services/web-design-services-nyc/'}><img src={arrow}  alt='web-design-navigation'/></Link>
                   <p>DETAILS</p>
                 </div>
               </div>
@@ -125,7 +124,7 @@ const IndexPage = () => {
 
             <div className='individual-service'>
               <div className='individual-service-top'>
-                <img src={seo} alt='seo-services'/>
+                <img src={seo} alt='nyc-seo-services'/>
               </div>
               <div className='individual-service-bottom'>
                 <div className='individual-service-bottom-title'>
@@ -139,7 +138,7 @@ const IndexPage = () => {
                   </p>
                 </div>
                 <div className='individual-service-button-container'>
-                  <Link id='services-link' to={'/services/local-seo-expert-nyc/'}><img src={arrow} /></Link>
+                  <Link id='services-link' to={'/services/local-seo-expert-nyc/'}><img src={arrow} alt='nyc-web-designer'/></Link>
                   <p>DETAILS</p>
                 </div>
               </div>
@@ -162,7 +161,7 @@ const IndexPage = () => {
                   </p>
                 </div>
                 <div className='individual-service-button-container'>
-                  <Link id='services-link' to={'/services/web-development-nyc/'}><img src={arrow} /></Link>
+                  <Link id='services-link' to={'/services/web-development-nyc/'}><img src={arrow} alt='nyc-web-developer'/></Link>
                   <p>DETAILS</p>
                 </div>
               </div>
@@ -401,9 +400,7 @@ const IndexPage = () => {
               customers are’. As a result, companies are moving rapidly toward making mobile apps commonplace as 
               business tools and assets. One of the key questions in business is ‘how you can give your brand a competitive 
               edge’. The answer; mobile apps. Industry leading companies are designing holistic experiences that leverage 
-              the personal nature of mobile. While there is still some hesitation surrounding mobile apps, it is important to 
-              understand that a native app isn’t just a mobile version of your website but rather an engaging and experience-driven 
-              environment crucial for creating a cohesive customer journey.
+              the personal nature of mobile. 
               <br/>
               <br/>
               A mobile-first approach is imperative for successful businesses, yet many still are behind in adopting a mobile 

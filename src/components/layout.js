@@ -1,7 +1,6 @@
-import React, { useEffect } from "react"
+import React from "react"
 import PropTypes from "prop-types"
 import Header from "./header"
-import { gsap } from 'gsap'
 import "./layout.css"
 import { Link } from 'gatsby'
 import logo from '../images/footer-logo.svg'
