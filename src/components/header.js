@@ -19,7 +19,7 @@ const Header = ({ link1, link2, link3, link4, link5  }) => {
 
    return (
      <header>
-       <div id='nav' style={{minHeight: openNav ? '20em' : '4.5em'}}>
+       <div id='nav' style={{minHeight: openNav ? '25em' : '4.5em'}}>
          <div className='content-container' style={{minHeight: openNav ? '30%' : '100%'}}>
            <div className='logo-side'>
             <div className='logo-side-image'></div>
@@ -54,23 +54,23 @@ const Header = ({ link1, link2, link3, link4, link5  }) => {
 
          </div>
          <div className='mobile-links' style={{display: openNav ? 'flex' : 'none'}}>
-           <Link to="/" style={{fontSize: '1.5rem'}} style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
+           <Link to="/"  style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
              {link1}
            </Link>
 
-           <Link to="/services/" style={{fontSize: '1.5rem'}} style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
+           <Link to="/services/" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
              {link2}
            </Link>
 
-           <Link to="/projects/" style={{fontSize: '1.5rem'}} style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
+           <Link to="/projects/" style={{color: '#000000'}}  activeStyle={{color: '#fff'}}>
              {link3}
            </Link>
 
-           <Link to="/blog/" style={{fontSize: '1.5rem'}} style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
+           <Link to="/blog/"  style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
              {link4}
            </Link>
 
-           <Link to="/contact/" style={{fontSize: '1.5rem'}} style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
+           <Link to="/contact/" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
              {link5}
            </Link>
 
