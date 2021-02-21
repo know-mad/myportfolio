@@ -8,7 +8,7 @@ import me from '../../images/portfolio.jpg'
 
 const ProjectPage = () => (
   <Layout>
-  <SEO title='project2' />
+  <SEO title='Website Developers NYC' />
     <div className='portfolio-page-container'>
       <section>
         <div className='project-page-banner'>

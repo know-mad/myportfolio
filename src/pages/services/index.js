@@ -12,7 +12,7 @@ import coding from '../../images/coding.svg'
 
 const ServicesPage = () => (
   <Layout>
-  <SEO title='services' />
+  <SEO title='Website Design Agency NYC' />
   <div className='services-page-container'>
    <section>
     <div className='portfolio-banner'>

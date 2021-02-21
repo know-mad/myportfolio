@@ -8,7 +8,7 @@ import md from '../../images/mdbest.jpg'
 
 const ProjectPage = () => (
   <Layout>
-  <SEO title='project2' />
+  <SEO title='Custom Website Design NYC' />
     <div className='portfolio-page-container'>
       <section>
         <div className='project-page-banner'>

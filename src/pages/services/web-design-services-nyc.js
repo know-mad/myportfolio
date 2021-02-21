@@ -10,7 +10,7 @@ import webDesign2 from '../../images/gummy-programming.svg'
 const WebDesignPage = () => (
     <Layout>
         <SEO 
-            title='Web Design NYC' 
+            title='Best Website Designers NYC' 
             description='As a creative David Velez produces custom websites to fit all of your business needs'
             />
         <div className='services-page-container'>

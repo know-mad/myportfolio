@@ -10,7 +10,7 @@ import laptop from '../../images/gummy-macbook.svg'
 const WebDevPage = () => (
     <Layout>
         <SEO 
-        title='Web development New York' 
+        title='NYC Web development' 
         description='David Velez devolps custom made web and mobile applications to fit your business needs'
         />
         <div className='services-page-container'>

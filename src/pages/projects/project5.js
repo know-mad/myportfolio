@@ -8,7 +8,7 @@ import cotripp from '../../images/cotripp.jpg'
 
 const ProjectPage = () => (
   <Layout>
-  <SEO title='project2' />
+  <SEO title='Web Developers New York' />
     <div className='portfolio-page-container'>
       <section>
         <div className='project-page-banner'>

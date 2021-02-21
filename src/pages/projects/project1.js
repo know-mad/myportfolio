@@ -8,7 +8,7 @@ import az from '../../images/az.jpg'
 
 const ProjectPage = () => (
   <Layout>
-  <SEO title='project1' />
+  <SEO title='Freelance Web Designers NYC' />
     <div className='portfolio-page-container'>
       <section>
         <div className='project-page-banner'>

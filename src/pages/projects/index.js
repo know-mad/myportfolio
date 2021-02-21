@@ -15,7 +15,7 @@ import ecommerce from '../../images/ecommerce.jpg'
 const PortfolioPage = () => (
   <Layout>
   <SEO 
-    title='Website designers NYC'
+    title='NYC Website Design Company'
     description='David Velez provides quality web design services for businesses and individuals looking to enhance their digital marketing outreach'
   />
     <div className='portfolio-page-container'>

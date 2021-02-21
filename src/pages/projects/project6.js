@@ -8,7 +8,7 @@ import ecomm from '../../images/ecommerce.jpg'
 
 const ProjectPage = () => (
   <Layout>
-  <SEO title='project2' />
+  <SEO title='Ecommerce Website Design NYC' />
     <div className='portfolio-page-container'>
       <section>
         <div className='project-page-banner'>
