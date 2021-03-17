@@ -6,8 +6,8 @@ import SEO from '../../components/seo'
 
 import arrow from '../../images/right-arrow.svg'
 import webDesign from '../../images/web-design-icon.svg'
-import seo from '../../images/seo-icon.svg'
 import coding from '../../images/coding.svg'
+import shoppingCart from '../../images/shopping-cart-icon.svg'
 
 
 const ServicesPage = () => (
@@ -48,21 +48,21 @@ const ServicesPage = () => (
 
             <div className='individual-service'>
               <div className='individual-service-top'>
-                <img src={seo} alt='seo-services'/>
+                <img src={shoppingCart} alt='seo-services'/>
               </div>
               <div className='individual-service-bottom'>
                 <div className='individual-service-bottom-title'>
-                  <h1>SEO</h1>
+                  <h1>E-COMMERCE</h1>
                 </div>
                 <div className='individual-service-bottom-content'>
                   <p>
-                  There's no point in having a beautiful new website if no one is
-                  going to see it. I optimize your new web asset so that it is
-                  found by the customers looking for your service or product.
+                  There's no way around it...doing business in the digital age means having to sell online.
+                  I provide robust and scalable e-commerce solutions that allow you or your business to 
+                  sell products on the world wide web.
                   </p>
                 </div>
                 <div className='individual-service-button-container'>
-                  <Link id='services-link' to={'/services/local-seo-expert-nyc/'}><img src={arrow} /></Link>
+                  <Link id='services-link' to={'/services/ecommerce-web-design-nyc/'}><img src={arrow} /></Link>
                   <p>DETAILS</p>
                 </div>
               </div>

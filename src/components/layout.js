@@ -33,14 +33,14 @@ const Layout = ({ children }) => {
             <div className='footer-top-center'>
               <h3>SERVICES</h3>
               <Link style={linkStyle} to='/services/web-design-services-nyc/'>web design</Link>
-              <Link style={linkStyle} to='/services/local-seo-expert-nyc/'>seo</Link>
+              <Link style={linkStyle} to='/services/ecommerce-web-design-nyc/'>e-commerce</Link>
               <Link style={linkStyle} to='/services/web-development-nyc/'>app development</Link>
             </div>
             <div className='footer-top-center'>
               <h3>SOCIALS</h3>
               <a href='https://www.facebook.com/UndercoverAlien/' rel="noopener noreferrer" target="_blank">facebook</a>
               <a href='https://www.instagram.com/_devdave/' rel="noopener noreferrer" target="_blank">instagram</a>
-              <a href='https://www.linkedin.com/in/david-velez-a16b2492/' rel="noopener noreferrer" target="_blank">linked in</a>
+              <a href='https://www.youtube.com/channel/UCNQfqlLyT3kWzGoz65b1iPA' rel="noopener noreferrer" target="_blank">youtube</a>
               <a href='https://github.com/know-mad' rel="noopener noreferrer" target="_blank">github</a>
               <a href='https://twitter.com/_devdave' rel="noopener noreferrer" target="_blank">twitter</a>
             </div>

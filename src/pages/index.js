@@ -12,9 +12,7 @@ import facebook from '../images/facebook-icon.svg'
 import instagram from '../images/instagram-icon.svg'
 import git from '../images/git-icon.svg'
 import twitter from '../images/twitter-icon.svg'
-import linkedIn from '../images/linked-in-icon.svg'
 import webDesign from '../images/web-design-icon.svg'
-import seo from '../images/seo-icon.svg'
 import coding from '../images/coding.svg'
 import chart from '../images/chart.svg'
 import html from '../images/html-5.svg'
@@ -33,7 +31,11 @@ import mockUp from '../images/mockup.png'
 import appDev from '../images/app-development.svg'
 import jam from '../images/jamstack-icon.svg'
 import arrow from '../images/right-arrow.svg'
+import shoppingCart from '../images/shopping-cart-icon.svg'
 import video from '../images/video.mp4'
+import ecommerce from '../images/ecommerce.svg'
+import youtube from '../images/youtube-icon.svg'
+
 
 
 
@@ -57,10 +59,10 @@ const IndexPage = () => {
             <Link id='hero-link' to='/contact/'>LETS WORK TOGETHER</Link>
             <div className='hero-socials-links'>
               <a href='https://www.facebook.com/UndercoverAlien/' rel="noopener noreferrer" target="_blank"><img src={facebook} alt='web-designer-social-media-link'/></a>
-              <a href='https://www.instagram.com/_devdave/' rel="noopener noreferrer" target="_blank"><img src={instagram} alt='web-designer-social-media-link'/></a>
               <a href='https://github.com/know-mad' rel="noopener noreferrer" target="_blank"><img src={git} alt='web-designer-social-media-link'/></a>
               <a href='https://twitter.com/_devdave' rel="noopener noreferrer" target="_blank"><img src={twitter} alt='web-designer-social-media-link'/></a>
-              <a href='https://www.linkedin.com/in/david-velez-a16b2492/' rel="noopener noreferrer" target="_blank"><img src={linkedIn} alt='web-designer-social-media-link'/></a>
+              <a href='https://www.instagram.com/_devdave/' rel="noopener noreferrer" target="_blank"><img src={instagram} alt='web-designer-social-media-link'/></a>
+              <a href='https://www.youtube.com/channel/UCNQfqlLyT3kWzGoz65b1iPA' rel="noopener noreferrer" target="_blank"><img src={youtube} alt='web-designer-social-media-link'/></a>
             </div>
           </div>
         </div>
@@ -112,7 +114,7 @@ const IndexPage = () => {
                 <div className='individual-service-bottom-content'>
                   <p>I aim to deliver aesthetically pleasing and clean
                   web content for my clients and always use the latest technology to
-                  deliver custom made, fast, and optimized websites that look great on any device !
+                  deliver custom made, fast, and <span style={{color: '#b007a8'}}>Search Engine Optimized</span> websites that look great on any device !
                   </p>
                 </div>
                 <div className='individual-service-button-container'>
@@ -124,21 +126,21 @@ const IndexPage = () => {
 
             <div className='individual-service'>
               <div className='individual-service-top'>
-                <img src={seo} alt='nyc-seo-services'/>
+                <img src={shoppingCart} alt='nyc-seo-services'/>
               </div>
               <div className='individual-service-bottom'>
                 <div className='individual-service-bottom-title'>
-                  <h1>SEO</h1>
+                  <h1>E-COMMERCE</h1>
                 </div>
                 <div className='individual-service-bottom-content'>
                   <p>
-                  There's no point in having a beautiful new website if no one is
-                  going to see it. I optimize your new web asset so that it is
-                  found by the customers looking for your service or product.
+                  There's no way around it...doing business in the digital age means having to sell online.
+                  I provide robust and scalable e-commerce solutions that allow you or your business to 
+                  sell products on the world wide web.
                   </p>
                 </div>
                 <div className='individual-service-button-container'>
-                  <Link id='services-link' to={'/services/local-seo-expert-nyc/'}><img src={arrow} alt='nyc-web-designer'/></Link>
+                  <Link id='services-link' to={'/services/ecommerce-web-design-nyc/'}><img src={arrow} alt='nyc-web-designer'/></Link>
                   <p>DETAILS</p>
                 </div>
               </div>
@@ -211,11 +213,13 @@ const IndexPage = () => {
               Because let's face it...
               <br/>
               <br/>
-              <span style={{color: '#b007a8', fontStyle: 'italic'}}>CHEAP WEBSITE = NO ONLINE SALES!</span>
+              <span style={{color: '#0984e3', fontStyle: 'italic'}}>CHEAP WEBSITE = </span>  <span style={{color: '#b007a8', fontStyle: 'italic'}}>NO ONLINE SALES!</span>
               <br/>
-              <span style={{color: '#b007a8', fontStyle: 'italic'}}>BAD WEBSITE = NO ONLINE SALES!</span>
               <br/>
-              <span style={{color: '#b007a8', fontStyle: 'italic'}}>NO WEBSITE = NO ONLINE SALES!</span>
+              <span style={{color: '#0984e3', fontStyle: 'italic'}}>BAD WEBSITE =</span>  <span style={{color: '#b007a8', fontStyle: 'italic'}}>NO ONLINE SALES!</span>
+              <br/>
+              <br/>
+              <span style={{color: '#0984e3', fontStyle: 'italic'}}>NO WEBSITE =</span>  <span style={{color: '#b007a8', fontStyle: 'italic'}}>NO ONLINE SALES!</span>
             </p>
           </div>
           <div className='section-md-right'>
@@ -245,11 +249,11 @@ const IndexPage = () => {
       <section>
       <div className='section-md reversed'>
           <div className='reverse-section-md-left'>
-            <img style={{height: '90%'}} src={chart} alt='web-development-chart'/>
+            <img src={chart} alt='web-development-chart'/>
           </div>
 
           <div className='reverse-section-md-right'>
-          <h1 style={{fontSize: '3rem', margin: '0'}}>NEW WEB???</h1>
+          <h2>NEW WEB???</h2>
             <p>
             Yep...but it's not as complicated as you think.
             <br/>
@@ -292,7 +296,7 @@ const IndexPage = () => {
         <section>
         <div className='section-md'>
           <div className='section-md-left'>
-          <h1 style={{fontSize: '3rem', margin: '0'}}>MOBILE FIRST</h1>
+          <h2>MOBILE FIRST</h2>
             <p>
               There is absolutely no reason to have a web asset that isn't optimized
               for mobile devices in {new Date().getFullYear()}! Because 54% of web traffic is now coming from mobile devices, every website or web app is built
@@ -307,7 +311,7 @@ const IndexPage = () => {
             </p>
           </div>
           <div className='section-md-right'>
-            <img style={{height: '100%', width: '100%'}} src={responsiveDesign} alt='web-design-icon'/>
+            <img src={responsiveDesign} alt='web-design-icon'/>
           </div>
         </div>
       </section>
@@ -322,6 +326,56 @@ const IndexPage = () => {
           <div className='contact-banner-right'>
             <input style={{width: '60%', margin: '10px', border: '2px solid #4026B6'}} placeHolder='www.yourwebsite.com'/>
             <Link id='contact-link' to='/contact/'>FREE AUDIT</Link>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className='e-commerce-banner'>
+            <div className='banner-inner'>
+              <h1>E-COMMERCE</h1>
+            </div>
+          </div>
+
+          <div className='info-section-sm'>
+            <h2>SELL YOUR PRODUCTS ONLINE</h2>
+            <p>
+              From startups to small businesses right through to huge brands, there are a huge number of 
+              companies that can benefit from their own ecommerce website, where they can sell their own 
+              products or services. In todays competitive and convenience focused society, no longer do 
+              consumers want to venture to the high street in order to buy items, instead consumers want 
+              to shop from their own homes, making ecommerce a flexible solution for both businesses and buyers. 
+            </p>
+          </div>
+        </section>
+
+        <section>
+        <div className='section-md reversed'>
+          <div className='reverse-section-md-left'>
+            <img  src={ecommerce} alt='website-seo' />
+          </div>
+          <div className='reverse-section-md-right'>
+            <p>
+            Ecommerce is an ideal way you can take your brand from a traditional brick and mortar store to an 
+            innovative, well loved brand. By offering great products 24 hours a day along with online customer 
+            service, blogs and social media, no longer is your business one singular store, with an online presence 
+            your business can be the home of your products and the general home of your business, allowing you 
+            to fully expand your product ranges without having to worry about moving locations or worrying 
+            about not being able to expand your business.   
+            </p>
+          </div>
+          </div>
+        </section>
+
+        <section>
+        <div className='contact-banner'>
+          <div className='contact-banner-left'>
+            <p>
+             Build your e-commerce store today!
+            </p>
+          </div>
+          <div className='contact-banner-right'>
+            <Link id='contact-link' to='/contact/'>CONTACT ME</Link>
           </div>
         </div>
       </section>
@@ -346,7 +400,7 @@ const IndexPage = () => {
       <section>
         <div className='section-md reversed'>
           <div className='reverse-section-md-left'>
-            <img style={{height: '100%', width: '100%'}} src={seoPic} alt='website-seo' />
+            <img  src={seoPic} alt='website-seo' />
           </div>
           <div className='reverse-section-md-right'>
             <p>
@@ -409,7 +463,7 @@ const IndexPage = () => {
     
         <div className='section-md'>
           <div className='section-md-left'>
-          <h1 style={{fontSize: '3rem', margin: '0'}}>APPS BUILT RIGHT</h1>
+          <h2>APPS BUILT RIGHT</h2>
             <p>
             I enjoy the challenges of solving problems programatically in order to
             achieve a disired result, and trully enjoy the creation process each
@@ -423,7 +477,7 @@ const IndexPage = () => {
             </p>
           </div>
           <div className='section-md-right'>
-            <img style={{height: '100%', width: '100%'}} src={appDev} alt='app-development'/>
+            <img  src={appDev} alt='app-development'/>
           </div>
         </div>
         <div className='showcase-projects'>

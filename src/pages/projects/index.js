@@ -29,9 +29,7 @@ const PortfolioPage = () => (
 
       <section>
         <div className='portfolio-intro'>
-          <p>
-            A collection of websites and applications that I've created and worked on.
-          </p>
+          <h1>FEATURED PROJECTS</h1>
         </div>
       </section>
 

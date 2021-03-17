@@ -14,13 +14,13 @@
 }
 
 .service-info-section {
-  height: 25em;
+  /* height: 25em; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  font-size: 1.35rem;
+  /* text-align: center; */
+  font-size: 1.25rem;
   padding: 1em;
 }
 
