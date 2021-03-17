@@ -98,7 +98,7 @@ const ServicesPage = () => (
   <div className='service-info-section'>
     <h2>SERVICE PACKAGES</h2>
         <p>
-            My professional approach to Web development is reflected in my process
+            My professional approach to web development is reflected in my process
            and collaborative approach. I have a highly transparent and collaborative
            style and detail all tasks involved with your project so that it is
            to your standards along the way. 
