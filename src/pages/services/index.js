@@ -36,7 +36,7 @@ const ServicesPage = () => (
                 <div className='individual-service-bottom-content'>
                   <p>I aim to deliver aesthetically pleasing and clean
                   web content for my clients and always use the latest technology to
-                  deliver custom made, fast, and optimized websites that look great on any device !
+                  deliver custom made, fast, and <span style={{color: '#b007a8'}}>Search Engine Optimized</span> websites that look great on any device !
                   </p>
                 </div>
                 <div className='individual-service-button-container'>
