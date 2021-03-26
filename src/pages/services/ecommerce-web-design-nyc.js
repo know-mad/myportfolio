@@ -94,7 +94,7 @@ const SEOPage = () => (
             <p>
                 Request an e-commerce consultation today!
             </p>
-            <Link to='/contact/' id='page-link'>Contact Me</Link>
+            <Link to='/contact/' id='page-link'>CONTACT ME</Link>
           </div>
             </section>
         </div>

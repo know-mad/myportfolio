@@ -96,7 +96,7 @@ const WebDesignPage = () => (
             <p>
                 Request a web design consultation today!
             </p>
-            <Link to='/contact/' id='page-link'>Contact Me</Link>
+            <Link to='/contact/' id='page-link'>CONTACT ME</Link>
           </div>
             </section>
         </div>
