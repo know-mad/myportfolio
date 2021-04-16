@@ -46,10 +46,7 @@ footer a {
   width: 100%;
   background: linear-gradient(90deg, #1F0A34, #4026B6);
   color: #fff;
-  /* overflow-y: hidden;
-overflow-x: hidden;  */
   overflow: hidden;   
-  /* I guarantee this is going to fuck shit up on mobile somehow */
 }
 
 .footer-top {

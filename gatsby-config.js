@@ -13,7 +13,7 @@ module.exports = {
         families: ['Orbitron']
       }
     }
-  },
+    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
