@@ -49,7 +49,7 @@ const IndexPage = () => {
           </video>
           <div className='hero-overlay'>
             <p style={{color: '#0984e3', margin: '0'}}>FULL STACK DEVELOPER</p>
-            <h1 style={{color: '#fff'}}>DAVID VELEZ</h1>
+            <h1 style={{color: '#fff', fontWeight: `900`}}>DAVID VELEZ</h1>
             <p style={{color: '#fff', margin: '0'}}>Building the technology that powers the digital age.</p>
             <Link id='hero-link' to='/contact/'>LETS WORK TOGETHER</Link>
             <div className='hero-socials-links'>
@@ -288,7 +288,7 @@ const IndexPage = () => {
             then measure your own page....or your competitions!
             <br/>
             <br/>
-            You’re welcome. :-)
+            You’re welcome!!!
             </p>
           </div>
         </div>

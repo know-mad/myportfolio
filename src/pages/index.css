@@ -167,7 +167,6 @@ light-purple #4026B6
   background-image: url('../images/me.jpg');
 }
 
-
 .profile-content {
   display: flex;
   flex-direction: column;
@@ -193,12 +192,9 @@ light-purple #4026B6
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
   font-size: 1.25rem;
   padding: 1em;
-  /* height: 50em; */
   width: 100%;
-  /* background-color: red; */
 }
 
 .services-container {
@@ -382,6 +378,7 @@ light-purple #4026B6
   color: #0984e3;
   font-size: 1.75rem;
   font-weight: bold;
+  margin: 0;
 }
 
 @keyframes slide {
