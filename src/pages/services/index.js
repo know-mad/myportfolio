@@ -40,7 +40,7 @@ const ServicesPage = () => (
                   </p>
                 </div>
                 <div className='individual-service-button-container'>
-                  <Link id='services-link' to={'/services/web-design-services-nyc/'}><img src={arrow} /></Link>
+                  <Link id='services-link' to={'/services/web-design-services-nyc/'}><img src={arrow} alt='right-arrow-icon'/></Link>
                   <p>DETAILS</p>
                 </div>
               </div>
@@ -62,7 +62,7 @@ const ServicesPage = () => (
                   </p>
                 </div>
                 <div className='individual-service-button-container'>
-                  <Link id='services-link' to={'/services/ecommerce-web-design-nyc/'}><img src={arrow} /></Link>
+                  <Link id='services-link' to={'/services/ecommerce-web-design-nyc/'}><img src={arrow} alt='right-arrow-icon'/></Link>
                   <p>DETAILS</p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const ServicesPage = () => (
                   </p>
                 </div>
                 <div className='individual-service-button-container'>
-                  <Link id='services-link' to={'/services/web-development-nyc/'}><img src={arrow} /></Link>
+                  <Link id='services-link' to={'/services/web-development-nyc/'}><img src={arrow} alt='right-arrow-icon'/></Link>
                   <p>DETAILS</p>
                 </div>
               </div>
@@ -128,7 +128,7 @@ const ServicesPage = () => (
           </ul>
         </div>
         <div className='service-package-cta'>
-          <Link id='services-link' to={'/contact/'}><img src={arrow} /></Link>
+          <Link id='services-link' to={'/contact/'}><img src={arrow} alt='right-arrow-icon'/></Link>
           <p>CHOOSE THIS PACKAGE</p>
         </div>
       </div>
@@ -140,7 +140,7 @@ const ServicesPage = () => (
         <div className='service-package-content'>
         <ul>
             <li>E-commerce Web Site</li>
-            <li>SEO Strategy</li>
+            <li>On-page SEO</li>
             <li>Social Media Integration</li>
             <li>Mobile Responsive</li>
             <li>Contact Form</li>
@@ -151,7 +151,7 @@ const ServicesPage = () => (
           </ul>
         </div>
         <div className='service-package-cta'>
-          <Link id='services-link' to={'/contact/'}><img src={arrow} /></Link>
+          <Link id='services-link' to={'/contact/'}><img src={arrow} alt='right-arrow-icon'/></Link>
           <p>CHOOSE THIS PACKAGE</p>
         </div>
       </div>
@@ -172,15 +172,15 @@ const ServicesPage = () => (
             <li>Google Maps</li>
             <li>Google Analytics</li>
             <li>Mailing List Plugin</li>
-            <li>SEO Strategy</li>
-            <li>SEO Link Building</li>
+            <li>On-page SEO</li>
+            <li>Off-page SEO (Link Building)</li>
             <li>404 Redirect</li>
             <li>XML Sitemap</li>
             <li>3 Revision Rounds</li>
           </ul>
         </div>
         <div className='service-package-cta'>
-          <Link id='services-link' to={'/contact/'}><img src={arrow} /></Link>
+          <Link id='services-link' to={'/contact/'}><img src={arrow} alt='right-arrow-icon'/></Link>
           <p>CHOOSE THIS PACKAGE</p>
         </div>
       </div>
