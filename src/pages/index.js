@@ -6,8 +6,6 @@ import Testimonials from '../components/Testimonials'
 import ContactForm from '../components/ContactForm'
 import './index.css'
 
-
-
 import facebook from '../images/facebook-icon.svg'
 import instagram from '../images/instagram-icon.svg'
 import git from '../images/git-icon.svg'
@@ -15,16 +13,17 @@ import twitter from '../images/twitter-icon.svg'
 import webDesign from '../images/web-design-icon.svg'
 import coding from '../images/coding.svg'
 import chart from '../images/chart.svg'
-import html from '../images/html-5.svg'
-import css from '../images/css-5.svg'
-import js from '../images/javascript.svg'
-import react from '../images/react-2.svg'
-import gatsby from '../images/gatsby.svg'
-import python from '../images/python-5.svg'
-import node from '../images/nodejs-1.svg'
-import mongo from '../images/mongodb-icon-1.svg'
-import django from '../images/django.svg'
-import figma from '../images/figma-1.svg'
+import nike from '../images/nike-logo.svg'
+import mailchimp from '../images/mailchimp-logo.svg'
+import peloton from '../images/peloton-logo.svg'
+import lv from '../images/louis-vuitton-logo.svg'
+import verizon from '../images/verizon-logo.svg'
+import twilio from '../images/twilio-logo.svg'
+import doordash from '../images/doordash-logo.svg'
+import danone from '../images/danone-logo.svg' 
+import figma from '../images/figma-logo.svg'
+import facebookLogo from '../images/facebook-logo.svg'
+
 import responsiveDesign from '../images/responsive-design.svg'
 import seoPic from '../images/seo-picture.svg'
 import mockUp from '../images/mockup.png'
@@ -35,9 +34,6 @@ import shoppingCart from '../images/shopping-cart-icon.svg'
 import video from '../images/video.mp4'
 import ecommerce from '../images/ecommerce.svg'
 import youtube from '../images/youtube-icon.svg'
-
-
-
 
 
 
@@ -75,16 +71,10 @@ const IndexPage = () => {
           </div>
         </div>
         <div className='profile-intro'>
-          <div className='profile-intro-left'>
-            <div className='profile-content'>
-              <h1>I'M DAVID</h1>
-              <div className='profile-photo'></div>
-              <p>Nice to meet you!</p>
-            </div>
-          </div>
-
-          <div className='profile-intro-right'>
+          <div className='profile-photo'></div>
             <p>
+                <span style={{fontSize: `2rem`, color: `#0984e3`, fontWeight: `bold`}}>I'm David,</span>
+                <br/>
                 Your friendly neighborhood  full stack developer. Based in New York City, I  specialize in building 
                 exceptional applications, clean websites, and everything in between. 
                 <br/>
@@ -95,6 +85,13 @@ const IndexPage = () => {
                 technology and am always looking to  build with the latest tech  in order to provide my clients with the best 
                 service and offer the most advanced products possible. 
               </p>
+        </div>
+      </section>
+
+      <section>
+        <div className='portfolio-banner'>
+          <div className='banner-inner'>
+            <h1>SERVICES</h1>
           </div>
         </div>
       </section>
@@ -227,21 +224,45 @@ const IndexPage = () => {
           </div>
         </div>
 
+        <div className='jamstack-info-section'>
+          <p>Companies that use the <span style={{color: `#b007a8`}}>Jamstack</span></p>
+        </div>
+
         <div className='logos-ticker'>
             <div className='logos-ticker-fade' aria-hidden='true'></div>
             <div className='logos-ticker-container'>
-              <div style={{backgroundImage: `url(${html})`}}></div>
-              <div style={{backgroundImage: `url(${css})`}}></div>
-              <div style={{backgroundImage: `url(${js})`}}></div>
-              <div style={{backgroundImage: `url(${react})`}}></div>
-              <div style={{backgroundImage: `url(${gatsby})`}}></div>
+              <div className='image-container'>
+                <img style ={{height: `100%`}} src={nike} alt='nike-logo' />
+              </div>
+              <div className='image-container'>
+                <img src={mailchimp} alt='mailchimp-logo' />
+              </div>
+              <div className='image-container'>
+                <img style={{height: `100%`}} src={peloton} alt='peloton-logo' />
+              </div>
+              <div className='image-container'>
+                <img src={lv} alt='louis-vuitton-logo'/>
+              </div>
+              <div className='image-container'>
+                <img style={{height: `40%`}} src={verizon} alt='verizon-logo'/>
+              </div>
             </div>
             <div className='logos-ticker-container'>
-              <div style={{backgroundImage: `url(${python})`}}></div>
-              <div style={{backgroundImage: `url(${node})`}}></div>
-              <div style={{backgroundImage: `url(${mongo})`}}></div>
-              <div style={{backgroundImage: `url(${django})`}}></div>
-              <div style={{backgroundImage: `url(${figma})`}}></div>
+              <div className='image-container'>
+                <img style={{height: `50%`}} src={twilio} alt='twilio-logo' />
+              </div>
+              <div className='image-container'>
+                <img style={{height: `30%`}} src={doordash} alt='doordash-logo'/>
+              </div>
+              <div className='image-container'>
+                <img src={danone} alt='danone-logo'/>
+              </div>
+              <div className='image-container'>
+                <img style={{height: `30%`}} src={facebookLogo} alt='facebook-logo'/>
+              </div>
+              <div className='image-container'>
+                <img src={figma} alt='figma-logo'/>
+              </div>
             </div>
         </div>
       </section>

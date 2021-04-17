@@ -127,12 +127,13 @@ light-purple #4026B6
 }
 
 .profile-intro {
-  height: 70em;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 1.25rem;
+  padding: 1em;
 }
 
 .profile-intro-left {
@@ -163,7 +164,7 @@ light-purple #4026B6
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('../images/me.jpg')
+  background-image: url('../images/me.jpg');
 }
 
 
@@ -332,7 +333,7 @@ light-purple #4026B6
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 2
+  z-index: 2;
 }
 
 .logos-ticker-container {
@@ -361,6 +362,26 @@ light-purple #4026B6
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 2em;
+}
+
+.image-container img {
+  height: 70%;
+}
+
+.jamstack-info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.jamstack-info-section p {
+  color: #0984e3;
+  font-size: 1.75rem;
+  font-weight: bold;
 }
 
 @keyframes slide {
@@ -667,18 +688,6 @@ light-purple #4026B6
     background-size: 45em auto;
   }
 
-  .profile-intro {
-    height: 50em;
-  }
-
-  .profile-intro-left {
-    height: 50%;
-  }
-
-  .profile-intro-right {
-    height: 50%;
-  }
-
   .individual-service {
     width: 60%;
   }
@@ -844,19 +853,14 @@ light-purple #4026B6
 
   .profile-intro {
     flex-direction: row;
-    height: 30em;
+    justify-content: space-between;
+ 
   }
 
-  .profile-intro-left {
-    height: 100%;
-    width: 50%;
-  }
-  
-  .profile-intro-right {
-    height: 100%;
-    width: 50%;
-    text-align: left;
-    font-size: 1.3rem;
+  .profile-photo {
+    float: left;
+    width: 55em;
+    margin-right: 1em;
   }
 
   .profile-content h1 {
@@ -1146,6 +1150,10 @@ light-purple #4026B6
     height: 100%;
     width: 50%;
   }
+  
+  .jamstack-info-section p {
+    font-size: 3rem;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -1161,8 +1169,8 @@ light-purple #4026B6
     font-size: 1rem;
   }
 
-  .profile-intro {
-    height: 30em;
+  .profile-photo {
+    height: 13em;
   }
 
   .info-section-sm {
@@ -1247,17 +1255,12 @@ light-purple #4026B6
     font-size: 6rem;
   }
 
-  .profile-intro-right {
+  .profile-photo {
+    height: 16em;
+  }
+
+  .profile-intro {
     font-size: 2rem;
-  }
-
-  .profile-content h1 {
-    font-size: 5rem;
-    margin: 0;
-  }
-
-  .profile-content p {
-    font-size: 3rem;
   }
 
   .info-section-sm {
@@ -1329,5 +1332,9 @@ light-purple #4026B6
 
   .contact-section-top {
     font-size: 8rem;
+  }
+
+  .jamstack-info-section p {
+    font-size: 4rem;
   }
 }
