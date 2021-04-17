@@ -39,7 +39,6 @@ import youtube from '../images/youtube-icon.svg'
 
 const IndexPage = () => {
 
-
   return (
     <Layout>
       <SEO title="NYC Web Designer"/>
@@ -95,7 +94,6 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
-
 
       <section>
         <div className='section-md-column'>
@@ -379,10 +377,10 @@ const IndexPage = () => {
             <p>
             Ecommerce is an ideal way you can take your brand from a traditional brick and mortar store to an 
             innovative, well loved brand. By offering great products 24 hours a day along with online customer 
-            service, blogs and social media, no longer is your business one singular store, with an online presence 
+            service, blogs and social media, no longer is your business one singular store. With an online presence 
             your business can be the home of your products and the general home of your business, allowing you 
-            to fully expand your product ranges without having to worry about moving locations or worrying 
-            about not being able to expand your business.   
+            to fully expand your product ranges without having to worry about moving locations or not being 
+            able to expand your business.   
             </p>
           </div>
           </div>
@@ -435,7 +433,7 @@ const IndexPage = () => {
             the goals of the business owner to maximize SEO results.
             <br/>
             <br/>
-            In {new Date().getFullYear()}, SEO is not about ranking for popular terms; it’s about being
+            In {new Date().getFullYear()}, SEO is not just about ranking for popular terms, it’s about being
             found when it matters most. I'm a skilled search engine optimization expert who
             carefully researches the right keywords for your business, ensuring you
             are gaining qualified traffic that converts to your bottom line.
@@ -470,8 +468,8 @@ const IndexPage = () => {
             <p>
               As consumer behaviour continues to evolve, businesses need to adapt their strategy to be ‘where their 
               customers are’. As a result, companies are moving rapidly toward making mobile apps commonplace as 
-              business tools and assets. One of the key questions in business is ‘how you can give your brand a competitive 
-              edge’. The answer; mobile apps. Industry leading companies are designing holistic experiences that leverage 
+              business tools and assets. One of the key questions in business is <span style={{color: `#b007a8`}}>‘how can I give my brand a competitive 
+              edge’</span>. The answer; mobile apps. Industry leading companies are designing holistic experiences that leverage 
               the personal nature of mobile. 
               <br/>
               <br/>

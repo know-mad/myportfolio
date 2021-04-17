@@ -15,14 +15,14 @@ const ServicesPage = () => (
   <SEO title='Website Design Agency NYC' />
   <div className='services-page-container'>
    <section>
-    <div className='portfolio-banner'>
-      <div className='banner-inner'>
-         <h1>SERVICES</h1>
-       </div>
-    </div>
-  </section>
+      <div className='portfolio-banner'>
+        <div className='banner-inner'>
+          <h1>SERVICES</h1>
+        </div>
+      </div>
+    </section>
 
-  <section>
+    <section>
         <div className='section-md-column'>
           <div className='services-container'>
             <div className='individual-service'>
