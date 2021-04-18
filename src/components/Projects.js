@@ -35,7 +35,7 @@ const Projects = ({backgroundImage, backgroundImage2, content1, content2, toPage
             </p>
           </div>
           <div className='project-left-content-bottom'>
-            <Link id='page-link' to={toPage1}>More Info</Link>
+            <Link id='page-link' to={toPage1}>MORE INFO</Link>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@ const Projects = ({backgroundImage, backgroundImage2, content1, content2, toPage
           </p>
         </div>
         <div className='project-right-content-bottom'>
-          <Link id='page-link' to={toPage2}>More Info</Link>
+          <Link id='page-link' to={toPage2}>MORE INFO</Link>
         </div>
         </div>
       </div>

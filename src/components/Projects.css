@@ -15,10 +15,10 @@
   background-position: center;
   background-size: 99% 99%;
   background-repeat: no-repeat;
-
   height: 40%;
   width: 95%;
   margin: 1em 0 1em;
+  cursor: pointer;
 }
 
 .project-right {
@@ -27,10 +27,10 @@
   background-position: center;
   background-size: 99% 99%;
   background-repeat: no-repeat;
-
   height: 40%;
   width: 95%;
   margin: 1em 0 1em;
+  cursor: pointer;
 }
 
 .project-left-content {

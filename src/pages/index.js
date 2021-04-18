@@ -208,13 +208,13 @@ const IndexPage = () => {
               Because let's face it...
               <br/>
               <br/>
-              <span style={{color: '#0984e3', fontStyle: 'italic'}}>CHEAP WEBSITE = </span>  <span style={{color: '#b007a8', fontStyle: 'italic'}}>NO ONLINE SALES!</span>
+              <span style={{color: '#0984e3', fontStyle: 'italic', fontWeight: 'bold'}}>CHEAP WEBSITE = </span>  <span style={{color: '#b007a8', fontStyle: 'italic', fontWeight: 'bold'}}>NO ONLINE SALES!</span>
               <br/>
               <br/>
-              <span style={{color: '#0984e3', fontStyle: 'italic'}}>BAD WEBSITE =</span>  <span style={{color: '#b007a8', fontStyle: 'italic'}}>NO ONLINE SALES!</span>
+              <span style={{color: '#0984e3', fontStyle: 'italic', fontWeight: 'bold'}}>BAD WEBSITE =</span>  <span style={{color: '#b007a8', fontStyle: 'italic', fontWeight: 'bold'}}>NO ONLINE SALES!</span>
               <br/>
               <br/>
-              <span style={{color: '#0984e3', fontStyle: 'italic'}}>NO WEBSITE =</span>  <span style={{color: '#b007a8', fontStyle: 'italic'}}>NO ONLINE SALES!</span>
+              <span style={{color: '#0984e3', fontStyle: 'italic', fontWeight: 'bold'}}>NO WEBSITE =</span>  <span style={{color: '#b007a8', fontStyle: 'italic', fontWeight: 'bold'}}>NO ONLINE SALES!</span>
             </p>
           </div>
           <div className='section-md-right'>
@@ -298,8 +298,8 @@ const IndexPage = () => {
           <div className='info-section-sm'>
             <h2> WEBSITES HELP YOUR BUSINESS GET IN FRONT OF NEW CUSTOMERS</h2>
             <p>
-              For local B2C businesses, thousands of consumers a day in a 10 mile radius of your business are typing in "<span style={{fontWeight: 'bolder', color: '#b007a8'}}>(insert
-              desired service) near me</span>".  And people are also just as much searching for solutions from B2B companies.
+              For local B2C businesses, thousands of consumers a day in a 10 mile radius of your business are typing in "<span style={{color: '#b007a8'}}>(insert
+              desired service)</span> near me".  And people are also just as much searching for solutions from B2B companies.
               Guess what? The companies with websites compete to be near the top result. And the companies without a website aren’t 
               even in the game. They have a 0% chance to bring in any of these active online customers.
               <br/>
@@ -375,7 +375,7 @@ const IndexPage = () => {
           </div>
           <div className='reverse-section-md-right'>
             <p>
-            Ecommerce is an ideal way you can take your brand from a traditional brick and mortar store to an 
+            E-commerce is an ideal way you can take your brand from a traditional brick and mortar store to an 
             innovative, well loved brand. By offering great products 24 hours a day along with online customer 
             service, blogs and social media, no longer is your business one singular store. With an online presence 
             your business can be the home of your products and the general home of your business, allowing you 
@@ -466,10 +466,10 @@ const IndexPage = () => {
           <div className='info-section-sm'>
             <h2> APPS ENCOURAGE BRAND LOYALTY </h2>
             <p>
-              As consumer behaviour continues to evolve, businesses need to adapt their strategy to be ‘where their 
-              customers are’. As a result, companies are moving rapidly toward making mobile apps commonplace as 
+              As consumer behaviour continues to evolve, businesses need to adapt their strategy to be where their 
+              customers are. As a result, companies are moving rapidly toward making mobile apps commonplace as 
               business tools and assets. One of the key questions in business is <span style={{color: `#b007a8`}}>‘how can I give my brand a competitive 
-              edge’</span>. The answer; mobile apps. Industry leading companies are designing holistic experiences that leverage 
+              edge?’</span>. The answer... mobile apps! Industry leading companies are designing holistic experiences that leverage 
               the personal nature of mobile. 
               <br/>
               <br/>
