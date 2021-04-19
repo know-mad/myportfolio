@@ -45,11 +45,7 @@ const Header = ({ link1, link2, link3, link4, link5  }) => {
                {link5}
              </Link>
 
-           <div onClick={toggleNav} className='mobile-menu' style={{backgroundImage: openNav ? `url(${closedBurger})` : `url(${hamburger})`}}>
-             <div className='bar'></div>
-             <div className='bar'></div>
-             <div className='bar'></div>
-           </div>
+           <div onClick={toggleNav} className='mobile-menu' style={{backgroundImage: openNav ? `url(${closedBurger})` : `url(${hamburger})`}}></div>
          </div>
 
          </div>
