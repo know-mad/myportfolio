@@ -78,10 +78,10 @@ const IndexPage = () => {
                 exceptional applications, clean websites, and everything in between. 
                 <br/>
                 <br/>
-                I enjoy creating software and 
+                With a background in software engineering, I enjoy creating software and 
                 applications that drive technology and streamline tasks, as well as websites that are pixel-perfect, fast, search
                 engine optimized and responsive to look and feel great on all devices. I'm passionate and curious about
-                technology and am always looking to  build with the latest tech  in order to provide my clients with the best 
+                technology and am always looking to build with the latest tech in order to provide my clients with the best 
                 service and offer the most advanced products possible. 
               </p>
         </div>
@@ -533,10 +533,12 @@ const IndexPage = () => {
       </section>
 
       <section>
+      <div className='contact-me-banner'>
+        <div className='banner-inner'>
+          <h1>CONTACT ME</h1>
+        </div>
+      </div>
         <div className='contact-section'>
-          <div className='contact-section-top'>
-            <h1 style={{color: '#0984e3'}}>CONTACT</h1>
-          </div>
           <div className='contact-section-bottom'>
             <div className='contact-section-left'>
               <p>

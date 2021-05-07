@@ -619,16 +619,6 @@ light-purple #4026B6
   margin-bottom: 50px;
 }
 
-.contact-section-top {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 20%;
-  width: 100%;
-  font-size: 2rem;
-}
-
 .contact-section-bottom {
   display: flex;
   flex-direction: column;
@@ -767,10 +757,6 @@ light-purple #4026B6
   .contact-section {
     height: 50em;
     margin-bottom: 50px;
-  }
-
-  .contact-section-top {
-    font-size: 3.5rem;
   }
 
   .contact-section-left {
@@ -1111,19 +1097,10 @@ light-purple #4026B6
   .contact-section {
     display: flex;
     flex-direction: column;
-    height: 45em;
+    height: 40em;
     width: 100%;
-    margin-bottom: 4em;
-  }
-
-  .contact-section-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 20%;
-    width: 100%;
-    font-size: 4rem;
+    /* margin-bottom: 4em; */
+    /* background-color: yellow; */
   }
 
   .contact-section-bottom {
@@ -1325,10 +1302,6 @@ light-purple #4026B6
 
   .contact-section-left {
     font-size: 3.5rem
-  }
-
-  .contact-section-top {
-    font-size: 8rem;
   }
 
   .jamstack-info-section p {
