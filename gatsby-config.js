@@ -10,7 +10,7 @@ module.exports = {
     resolve: 'gatsby-plugin-web-font-loader',
     options: {
       google: {
-        families: ['Orbitron: 400,500,600,700,800,900']
+        families: ['Audiowide: 400,500,600,700,800,900']
       }
     }
     },

@@ -37,9 +37,9 @@ const Header = ({ link1, link2, link3, link4, link5  }) => {
                {link3}
              </Link>
 
-             <Link to="/blog/" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
+             <a href='https://blog.davidvelez.io' rel="noopener noreferrer" target="_blank" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
                {link4}
-             </Link>
+             </a>
 
              <Link to="/contact/" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
                {link5}
