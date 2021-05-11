@@ -68,7 +68,6 @@
 .logo-side-image {
   height: 100%;
   width: 6em;
-  margin-left: 1em;
   background-image: url('../images/logo.svg');
   background-size: cover;
   background-position: center;
@@ -131,6 +130,10 @@
 
   .links-side {
     justify-content: space-around;
+  }
+
+  .logo-side {
+    padding-left: 2em
   }
 
 }
