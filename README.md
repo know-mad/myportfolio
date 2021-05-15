@@ -1,4 +1,5 @@
-# Personal Portfolio Website
+![my logo] (/images/logo..svg)
+## davidvelez.io
 
 ## Objective
 Objective was to build my professional personal portfolio using React.js
