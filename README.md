@@ -1,4 +1,4 @@
-![my logo] (/images/logo..svg)
+![my logo] (/images/logo.svg)
 ## davidvelez.io
 
 ## Objective
