@@ -114,7 +114,7 @@ const ServicesPage = () => (
         </div>
         <div className='service-package-content'>
           <ul>
-            <li>Web Site</li>
+            <li>Static Web Site</li>
               <ul>
                 <li style={{color: '#0984e3'}}>No e-commerce</li>
               </ul>
@@ -139,7 +139,7 @@ const ServicesPage = () => (
         </div>
         <div className='service-package-content'>
         <ul>
-            <li>E-commerce Web Site</li>
+            <li>E-commerce/Dynamic Web Site</li>
             <li>On-page SEO</li>
             <li>Social Media Integration</li>
             <li>Mobile Responsive</li>
@@ -162,7 +162,7 @@ const ServicesPage = () => (
         </div>
         <div className='service-package-content'>
         <ul>
-            <li>E-commerce Web Site</li>
+            <li>E-commerce/Dynamic Web Site</li>
             <li>Custom Photography</li>
             <li>Social Media Integration</li>
             <li>Mobile Responsive</li>
