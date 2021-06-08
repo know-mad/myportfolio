@@ -34,6 +34,8 @@ import shoppingCart from '../images/shopping-cart-icon.svg'
 import video from '../images/video.mp4'
 import ecommerce from '../images/ecommerce.svg'
 import youtube from '../images/youtube-icon.svg'
+import airbnb from '../images/airbnb.svg'
+import shopify from '../images/shopify-logo.svg'
 
 
 
@@ -109,7 +111,7 @@ const IndexPage = () => {
                 <div className='individual-service-bottom-content'>
                   <p>I aim to deliver aesthetically pleasing and clean
                   web content for my clients and always use the latest technology to
-                  deliver custom made, fast, and <span style={{color: '#b007a8'}}>Search Engine Optimized</span> websites that look great on any device !
+                  deliver custom made, fast, and <span style={{color: '#b007a8'}}>Search Engine Optimized</span> websites that look and perform great on any device !
                   </p>
                 </div>
                 <div className='individual-service-button-container'>
@@ -175,6 +177,7 @@ const IndexPage = () => {
           </div>
 
         <div className='info-section-sm'>
+        <h2>BLAZING FAST WEBSITES THAT SCALE EFFORTLESSLY</h2>
         <p>
             Statistics show that approximately 4.57 billion people worldwide are active internet users which 
             makes the internet a goldmine of opportunities for all kinds of businesses. <span style={{color: '#b007a8'}}>Leverage its power to your advantage</span>, and establish 
@@ -184,10 +187,12 @@ const IndexPage = () => {
             with your customers and prospects to leverage new markets and expand your business. 
             <br/>
             <br/>
-            My professional approach to Web development is reflected in my process
-           and collaborative approach. I have a highly transparent and collaborative
-           style and detail all tasks involved with your project so that it is
-           to your standards along the way.
+            Because 35% of the web uses an old technology like WordPress for their website, this means that getting your new
+            site built by me will give you a competitive advantage over 35% of the web since I build on the modern web
+            stack and am able to produce blazing fast page load speeds that beat out the competition on 
+            search engines. So whether you're looking for an ecommerce store, a blog, or a business website, rest assured
+            you'll get a product that's on the cutting edge of technology...not just another Worpress website built on old and 
+            outdated tech.
           </p>
         </div>
       </section>
@@ -244,8 +249,14 @@ const IndexPage = () => {
               <div className='image-container'>
                 <img style={{height: `40%`}} src={verizon} alt='verizon-logo'/>
               </div>
+              <div className='image-container'>
+                <img style={{height: `50%`}} src={airbnb} alt='airbnb-logo'/>
+              </div>
             </div>
             <div className='logos-ticker-container'>
+            <div className='image-container'>
+                <img style={{height: `50%`}} src={shopify} alt='shopify-logo'/>
+              </div>
               <div className='image-container'>
                 <img style={{height: `50%`}} src={twilio} alt='twilio-logo' />
               </div>
@@ -296,7 +307,7 @@ const IndexPage = () => {
 
         <section>
           <div className='info-section-sm'>
-            <h2> WEBSITES HELP YOUR BUSINESS GET IN FRONT OF NEW CUSTOMERS</h2>
+            <h2>HELP YOUR BUSINESS GET IN FRONT OF NEW CUSTOMERS</h2>
             <p>
               For local B2C businesses, thousands of consumers a day in a 10 mile radius of your business are typing in "<span style={{color: '#b007a8'}}>(insert
               desired service)</span> near me".  And people are also just as much searching for solutions from B2B companies.
@@ -364,6 +375,11 @@ const IndexPage = () => {
               products or services. In todays competitive and convenience focused society, no longer do 
               consumers want to venture to the high street in order to buy items, instead consumers want 
               to shop from their own homes, making ecommerce a flexible solution for both businesses and buyers. 
+              <br/>
+              <br/>
+              Couople your new ecommerce store with the latest technology by going headless
+              and gain a competitive advantage by not only having a regular old ecommerce
+              store, but having an ecommerce store that is blazing fast, and scales effortelssly.
             </p>
           </div>
         </section>
@@ -374,13 +390,20 @@ const IndexPage = () => {
             <img  src={ecommerce} alt='website-seo' />
           </div>
           <div className='reverse-section-md-right'>
+            <h2>HEADLESS COMMERCE</h2>
             <p>
-            E-commerce is an ideal way you can take your brand from a traditional brick and mortar store to an 
-            innovative, well loved brand. By offering great products 24 hours a day along with online customer 
-            service, blogs and social media, no longer is your business one singular store. With an online presence 
-            your business can be the home of your products and the general home of your business, allowing you 
-            to fully expand your product ranges without having to worry about moving locations or not being 
-            able to expand your business.   
+            In its simplest form, headless commerce is a separation of the front end and back end of an ecommerce 
+            application. This architecture offers brands freedom of expression to build whatever and however they 
+            want. Most importantly, it enables brands to enrich the customer experience
+            <br/>
+            <br/>
+            Businesses should consider headless commerce as an evolutionary shift in traditional e-commerce. While 
+            original e-commerce platforms offered front-end tools that enabled fast deployments for companies that 
+            had little internet selling experience, many businesses now employ highly trained software developers 
+            that want to remove the front-end training wheels...
+            <br/>
+            <br/>
+            <span style={{color: `#b007a8`}}>I am that developer for your brand!</span>  
             </p>
           </div>
           </div>
