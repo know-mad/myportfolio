@@ -34,9 +34,12 @@ const ServicesPage = () => (
                   <h1>WEB DESIGN</h1>
                 </div>
                 <div className='individual-service-bottom-content'>
-                  <p>I aim to deliver aesthetically pleasing and clean
-                  web content for my clients and always use the latest technology to
-                  deliver custom made, fast, and <span style={{color: '#b007a8'}}>Search Engine Optimized</span> websites that look and perform great on any device !
+                  <p>
+                  Not just another Wordpress site. I design and create web assets built on modern technology
+                  stacks that generate blazing fast page load speeds coupled with aesthetics to match. 
+                  <br/>
+                  <br/>
+                  Just say no to Wordpress websites! 
                   </p>
                 </div>
                 <div className='individual-service-button-container'>

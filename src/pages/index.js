@@ -52,10 +52,10 @@ const IndexPage = () => {
           <div className='hero-overlay'>
             <p style={{color: '#0984e3', margin: '0'}}>FULL STACK DEVELOPER</p>
             <h1 style={{color: '#fff', fontWeight: `900`}}>DAVID VELEZ</h1>
-            <p style={{color: '#fff', margin: '0'}}>Building the technology that powers the digital age.</p>
+            <p style={{color: '#fff', margin: '0'}}>Empowering your business in digital age.</p>
             <Link id='hero-link' to='/contact/'>LETS WORK TOGETHER</Link>
             <div className='hero-socials-links'>
-              <a href='https://www.facebook.com/UndercoverAlien/' rel="noopener noreferrer" target="_blank"><img src={facebook} alt='web-designer-social-media-link'/></a>
+              <a href='https://www.facebook.com/developerdave/' rel="noopener noreferrer" target="_blank"><img src={facebook} alt='web-designer-social-media-link'/></a>
               <a href='https://github.com/know-mad' rel="noopener noreferrer" target="_blank"><img src={git} alt='web-designer-social-media-link'/></a>
               <a href='https://twitter.com/_devdave' rel="noopener noreferrer" target="_blank"><img src={twitter} alt='web-designer-social-media-link'/></a>
               <a href='https://www.instagram.com/_devdave/' rel="noopener noreferrer" target="_blank"><img src={instagram} alt='web-designer-social-media-link'/></a>
@@ -109,9 +109,12 @@ const IndexPage = () => {
                   <h1>WEB DESIGN</h1>
                 </div>
                 <div className='individual-service-bottom-content'>
-                  <p>I aim to deliver aesthetically pleasing and clean
-                  web content for my clients and always use the latest technology to
-                  deliver custom made, fast, and <span style={{color: '#b007a8'}}>Search Engine Optimized</span> websites that look and perform great on any device !
+                  <p>
+                  Not just another Wordpress site. I design and create web assets built on modern technology
+                  stacks that generate blazing fast page load speeds coupled with aesthetics to match. 
+                  <br/>
+                  <br/>
+                  Just say no to Wordpress websites! 
                   </p>
                 </div>
                 <div className='individual-service-button-container'>
