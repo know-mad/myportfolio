@@ -24,20 +24,24 @@ const WebDesignPage = () => (
 
             <section>
                 <div className='info-section-sm'>
-                    <h2>WEB DESIGN & DEVELOPMENT</h2>
+                    <h2>FASTER, BETTER, STRONGER</h2>
                     <p>
-                    I love taking on challenges! With collaboration at my core, I 
-                    am ready to work with you to hand craft winning web solutions. I excel at listening and then acting 
-                    on your needs, to deliver a successful web design. I'm a New York City experts who is equipped with the 
-                    knowledge, experience and passion needed to get the job done and am poised to deliver a wide range 
-                    of website design and development services.
+                    By building with the latest technology, I empower businesses with web assets that are faster, better, and have stronger
+                    results than those other agencies and "wanna-be" developers who use old and antiquated technologies like Wordpress. The problem with 
+                    these wordpress developers is that they offer a sub-par product that lacks any real value in both performance or optimization and 
+                    often provides no real return on investment. With collaboration at my core, I 
+                    am ready to work with you to hand craft winning web solutions because I excel at listening and then acting 
+                    on your needs, to deliver a successful web asset that provides a return on your investment.
                     <br/>
                     <br/>
-                    I take your investment in your business’ website and online marketing very seriously.  With critical focus 
+                    I take your investment in your business’ website and online marketing very seriously. With critical focus 
                     on providing  the best web design solutions in the market.  My websites are hand-crafted and user friendly while 
                     providing innovative website development and digital marketing that delivers actual results. 
                     I have designed a great number of websites for clients in many different industries and have had the opportunity to 
-                    work with some great clients in NYC, Canada, South America, Asia and Globally.
+                    work with some great clients in NYC, Canada, South America, Asia and globally. Whether you choose to go with me for your
+                    web project or not, please take in to consideration the technologies being used to build your product. Ask any development 
+                    agency or developer to prove to you that they can deliver the results you need and expect rather than simply a website
+                    that provides no real return. <span style={{color: `#b007a8`}}>And when they tell you they build wordpress websites....go ahead and contact me to get the job done right :-)</span>
                     </p>
                 </div>
             </section>
@@ -45,6 +49,7 @@ const WebDesignPage = () => (
             <section>
                 <div className='section-md'>
                     <div className='section-md-left'>
+                        <h2>NOT ALL WEBSITES ARE CREATED EQUAL</h2>
                         <p>
                         I have worked with startups, small businesses and large corporations to provide professional and reliable website 
                         design and SEO with measurable results. I've also helped companies in New York City and around the globe gain 
@@ -78,9 +83,10 @@ const WebDesignPage = () => (
             <section>
                 <div className='section-md'>
                     <div className='section-md-left'>
+                        <h2>I LOVE THIS STUFF</h2>
                         <p>
                             I am an experienced and passionate professional that lives and breathe web design and development. All of my
-                            services are offered in-house and are integrated to exceed your business requirements.  I am a  pioneer in presenting 
+                            services are offered in-house and are integrated to exceed your business requirements. I am a  pioneer in presenting 
                             genuine & inventive web design, web development and search engine optimization solutions in slicing, adaptation, assimilation 
                             and customization services.
                         </p>

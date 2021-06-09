@@ -52,7 +52,7 @@ const IndexPage = () => {
           <div className='hero-overlay'>
             <p style={{color: '#0984e3', margin: '0'}}>FULL STACK DEVELOPER</p>
             <h1 style={{color: '#fff', fontWeight: `900`}}>DAVID VELEZ</h1>
-            <p style={{color: '#fff', margin: '0'}}>Empowering your business in digital age.</p>
+            <p style={{color: '#fff', margin: '0'}}>Empowering your business in the digital age.</p>
             <Link id='hero-link' to='/contact/'>LETS WORK TOGETHER</Link>
             <div className='hero-socials-links'>
               <a href='https://www.facebook.com/developerdave/' rel="noopener noreferrer" target="_blank"><img src={facebook} alt='web-designer-social-media-link'/></a>
@@ -84,7 +84,7 @@ const IndexPage = () => {
                 applications that drive technology and streamline tasks, as well as websites that are pixel-perfect, fast, search
                 engine optimized and responsive to look and feel great on all devices. I'm passionate and curious about
                 technology and am always looking to build with the latest tech in order to provide my clients with the best 
-                service and offer the most advanced products possible. 
+                service and offer the most advanced product on the market. 
               </p>
         </div>
       </section>
@@ -203,12 +203,10 @@ const IndexPage = () => {
       <section>
         <div className='section-md'>
           <div className='section-md-left'>
+            <h2>BETTER BY DESIGN</h2>
             <p>
-            If you are doing business in today’s market, you’re going to need a website.
-            There’s no way around it. A website is truly your digital storefront with the best part being... it’s
-            always marketing your products and services 24/7/365, even when your office or physical location is closed.
-            </p>
-            <p>
+              A good website is truly your digital storefront with the best part being... it’s
+              always marketing your products and services 24/7/365, even when your office or physical location is closed.
               I develop custom websites built on the <span style={{color: '#b007a8', fontStyle: 'italic'}}>NEW WEB</span> with the Jamstack, that are
               blazing fast and maximize <span style={{color: '#b007a8', fontStyle: 'italic'}}>SEO</span> campaigns, which gets your website discovered on search engines sooner.
               <br/>
@@ -448,6 +446,7 @@ const IndexPage = () => {
             <img  src={seoPic} alt='website-seo' />
           </div>
           <div className='reverse-section-md-right'>
+            <h2>ALWAYS OPTIMIZED</h2>
             <p>
             Most internet users begin their session by searching for something.
             If that "something" is your service or product... then you should be at the top
