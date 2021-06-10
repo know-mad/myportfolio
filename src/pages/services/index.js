@@ -35,7 +35,7 @@ const ServicesPage = () => (
                 </div>
                 <div className='individual-service-bottom-content'>
                   <p>
-                  Not just another Wordpress site. I design and create web assets built on modern technology
+                  No cookie cutter wordpress sites here! I design and create web assets built on modern technology
                   stacks that generate blazing fast page load speeds coupled with aesthetics to match. 
                   <br/>
                   <br/>

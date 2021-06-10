@@ -199,7 +199,7 @@ light-purple #4026B6
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 90%;
+  height: 100%;
   width: 100%;
 }
 
@@ -207,7 +207,7 @@ light-purple #4026B6
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
+  /* height: 100%; */
   width: 90%;
 }
 
@@ -235,7 +235,7 @@ light-purple #4026B6
   justify-content: center;
   text-align: center;
   color: #fff;
-  height: 30em;
+  height: 35em;
   width: 100%;
   position: relative;
   z-index: 1;
