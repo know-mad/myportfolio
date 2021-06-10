@@ -25,7 +25,7 @@
 .service-package {
   display: flex;
   flex-direction: column;
-  height: auto;
+  justify-content: space-between;
   width: 95%;
   border: 1px solid #0984e3;
 }
@@ -62,7 +62,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 15%;
   width: 100%;
   background-color: #0984e3;
 }
