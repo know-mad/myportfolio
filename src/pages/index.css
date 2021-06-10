@@ -834,12 +834,13 @@ light-purple #4026B6
   .profile-intro {
     flex-direction: row;
     justify-content: space-between;
+    padding: 2em;
  
   }
 
   .profile-photo {
     float: left;
-    width: 55em;
+    width: 59em;
     margin-right: 1em;
   }
 

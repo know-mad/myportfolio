@@ -81,10 +81,9 @@ const ServicesPage = () => (
                 </div>
                 <div className='individual-service-bottom-content'>
                   <p>
-                  I enjoy the challenges of solving problems programatically in order
-                  to achieve the disired result. I code each application from scratch
-                  using the latest technologies in order to deliver the highest quality
-                  product to market.
+                  Mobile business applications have become a necessary marketing tool for all businesses, regardless of the size 
+                  of their industries. A mobile app can help a small business engage with and build their customer 
+                  base, drive sales, and improve their reputation in todays digital centric market.
                   </p>
                 </div>
                 <div className='individual-service-button-container'>
@@ -170,10 +169,10 @@ const ServicesPage = () => (
             <li>Social Media Integration</li>
             <li>Mobile Responsive</li>
             <li>Contact Form</li>
-            <li>Custom Icons</li>
             <li>Custom Logo</li>
             <li>Google Maps</li>
             <li>Google Analytics</li>
+            <li>Facebook Pixel</li>
             <li>Mailing List Plugin</li>
             <li>On-page SEO</li>
             <li>Off-page SEO (Link Building)</li>
