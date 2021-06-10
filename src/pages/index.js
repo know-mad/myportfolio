@@ -12,7 +12,7 @@ import git from '../images/git-icon.svg'
 import twitter from '../images/twitter-icon.svg'
 import webDesign from '../images/web-design-icon.svg'
 import coding from '../images/coding.svg'
-import chart from '../images/chart.svg'
+import rocket from '../images/rocket.svg'
 import nike from '../images/nike-logo.svg'
 import mailchimp from '../images/mailchimp-logo.png'
 import peloton from '../images/peloton-logo.svg'
@@ -23,7 +23,6 @@ import doordash from '../images/doordash-logo.svg'
 import danone from '../images/danone-logo.svg' 
 import figma from '../images/figma-logo.svg'
 import facebookLogo from '../images/facebook-logo.svg'
-
 import responsiveDesign from '../images/responsive-design.svg'
 import seoPic from '../images/seo-picture.svg'
 import mockUp from '../images/mockup.png'
@@ -36,6 +35,9 @@ import ecommerce from '../images/ecommerce.svg'
 import youtube from '../images/youtube-icon.svg'
 import airbnb from '../images/airbnb.svg'
 import shopify from '../images/shopify-logo.svg'
+import spotify from '../images/spotify-logo.svg'
+import sendGrid from '../images/sendgrid-logo.svg'
+
 
 
 
@@ -235,6 +237,9 @@ const IndexPage = () => {
             <div className='logos-ticker-fade' aria-hidden='true'></div>
             <div className='logos-ticker-container'>
               <div className='image-container'>
+                <img style ={{height: `50%`}} src={spotify} alt='spotify-logo' />
+              </div>
+              <div className='image-container'>
                 <img style ={{height: `100%`}} src={nike} alt='nike-logo' />
               </div>
               <div className='image-container'>
@@ -254,7 +259,10 @@ const IndexPage = () => {
               </div>
             </div>
             <div className='logos-ticker-container'>
-            <div className='image-container'>
+              <div className='image-container'>
+                <img style ={{height: `40%`}} src={sendGrid} alt='sendgrid-logo' />
+              </div>
+              <div className='image-container'>
                 <img style={{height: `50%`}} src={shopify} alt='shopify-logo'/>
               </div>
               <div className='image-container'>
@@ -279,19 +287,19 @@ const IndexPage = () => {
       <section>
       <div className='section-md reversed'>
           <div className='reverse-section-md-left'>
-            <img src={chart} alt='web-development-chart'/>
+            <img style={{height: `60%`, width: `70%`}} src={rocket} alt='rocket-ship'/>
           </div>
 
           <div className='reverse-section-md-right'>
-          <h2>NEW WEB???</h2>
+          <h2>IF IT'S NOT FAST, IT'S BROKEN</h2>
             <p>
-            Yep...but it's not as complicated as you think.
+            Page loading speeds have an impact on user experience and conversion. My jamstack sites 
+            remove the need to generate page views on a server at request time by instead generating 
+            pages ahead of time during a build.
             <br/>
             <br/>
-            Basically what it all comes down to is... with less moving parts, your website is fast, scales effortlessly, and  is super secure!
-            <br/>
-            <br/>
-            Competitive advantage?...Check!
+            When all the pages are already available on a CDN close to the user and ready to serve, very 
+            high performance is possible without introducing expensive or complex infrastructure.
             <br/>
             <br/>
             But don't take my word for it!, Check out the pagespeed of this

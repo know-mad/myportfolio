@@ -129,11 +129,13 @@
   }
 
   .links-side {
-    justify-content: space-around;
+    padding-left: 2em;
+    padding-right: 2em;
+    justify-content: space-between;
   }
 
   .logo-side {
-    padding-left: 2em
+    padding-left: 1em
   }
 
 }
