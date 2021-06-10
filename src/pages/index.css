@@ -207,7 +207,6 @@ light-purple #4026B6
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* height: 100%; */
   width: 90%;
 }
 
@@ -258,7 +257,7 @@ light-purple #4026B6
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  height: 55%;
   width: 100%;
   padding: 0.75em;
   font-size: 1.15rem;
@@ -268,7 +267,7 @@ light-purple #4026B6
   display: flex;
   flex-direction: row;
   align-items: center;;
-  height: 20%;
+  height: 15%;
   width: 100%;
   background-color:#0984e3;
 }
@@ -833,14 +832,11 @@ light-purple #4026B6
 
   .profile-intro {
     flex-direction: row;
-    justify-content: space-between;
     padding: 2em;
- 
   }
 
   .profile-photo {
-    float: left;
-    width: 59em;
+    width: 65em;
     margin-right: 1em;
   }
 
@@ -1097,8 +1093,6 @@ light-purple #4026B6
     flex-direction: column;
     height: 40em;
     width: 100%;
-    /* margin-bottom: 4em; */
-    /* background-color: yellow; */
   }
 
   .contact-section-bottom {
@@ -1142,7 +1136,8 @@ light-purple #4026B6
   }
 
   .profile-photo {
-    height: 13em;
+    height: 11em;
+    width: 50em;
   }
 
   .info-section-sm {
@@ -1228,7 +1223,8 @@ light-purple #4026B6
   }
 
   .profile-photo {
-    height: 16em;
+    height: 11em;
+    width: 45em;
   }
 
   .profile-intro {
