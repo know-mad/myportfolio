@@ -302,9 +302,8 @@ const IndexPage = () => {
             high performance is possible without introducing expensive or complex infrastructure.
             <br/>
             <br/>
-            But don't take my word for it!, Check out the pagespeed of this
-            website <a style={{color: '#b007a8',  textDecoration: 'underline'}} href='https://developers.google.com/speed/pagespeed/insights/' rel="noopener noreferrer" target="_blank">here</a>. And
-            then measure your own page....or your competitions!
+            But don't take my word for it!, <a style={{color: '#b007a8',  textDecoration: 'underline'}} href='https://developers.google.com/speed/pagespeed/insights/' rel="noopener noreferrer" target="_blank">Go ahead! Measure the pagespeed of this
+            website</a>. And then measure your own page....or your competitions!
             <br/>
             <br/>
             You’re welcome!!!
