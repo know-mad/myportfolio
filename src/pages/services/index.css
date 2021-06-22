@@ -87,10 +87,18 @@
     align-items: flex-start;
     padding: 1em;
   }
+
   .service-package {
     width: 30%;
   }
 }
+
+@media (min-width: 1920px) {
+  .service-package {
+    width: 25%;
+  }
+}
+
 
 @media (min-width: 2560px) {
   .packages-container {
@@ -100,6 +108,7 @@
     font-size: 2rem;
   }
   .service-package {
+    width: 30%;
     font-size: 2rem;
   }
   .service-package h2 {

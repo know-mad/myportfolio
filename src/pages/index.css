@@ -1199,6 +1199,19 @@ light-purple #4026B6
   }
 }
 
+/* /// 1080p /// */
+
+@media (min-width: 1920px) {
+  .hero {
+    height: 50em;
+  }
+  
+  .profile-photo {
+    height: 11em;
+    width: 35em;
+  }
+}
+
 
 /* /// 4K /// */
 @media (min-width: 2560px) {
