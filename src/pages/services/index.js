@@ -170,12 +170,12 @@ const ServicesPage = () => (
             <li>Mobile Responsive</li>
             <li>Contact Form</li>
             <li>Custom Logo</li>
+            <li>Custom User Interface</li>
             <li>Google Maps</li>
             <li>Google Analytics</li>
             <li>Facebook Pixel</li>
             <li>Mailing List Plugin</li>
             <li>On-page SEO</li>
-            <li>Off-page SEO (Link Building)</li>
             <li>404 Redirect</li>
             <li>XML Sitemap</li>
             <li>3 Revision Rounds</li>

@@ -78,11 +78,11 @@ const IndexPage = () => {
             <p>
                 <span style={{fontSize: `2rem`, color: `#0984e3`, fontWeight: `bold`}}>I'm David,</span>
                 <br/>
-                Your friendly neighborhood  full stack developer. Based in New York City, I  specialize in building 
+                Your friendly neighborhood full stack developer. Based in New York City, and having a background in software engineering, I  specialize in building 
                 exceptional applications, clean websites, and everything in between. 
                 <br/>
                 <br/>
-                With a background in software engineering, I enjoy creating software and 
+                I enjoy creating software and 
                 applications that drive technology and streamline tasks, as well as websites that are pixel-perfect, fast, search
                 engine optimized and responsive to look and feel great on all devices. I'm passionate and curious about
                 technology and am always looking to build with the latest tech in order to provide my clients with the best 

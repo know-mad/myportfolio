@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
             </div>
             <div className='footer-top-center'>
               <h3>SOCIALS</h3>
-              <a href='https://www.facebook.com/UndercoverAlien/' rel="noopener noreferrer" target="_blank">facebook</a>
+              <a href='https://www.facebook.com/developerdave/' rel="noopener noreferrer" target="_blank">facebook</a>
               <a href='https://www.instagram.com/_devdave/' rel="noopener noreferrer" target="_blank">instagram</a>
               <a href='https://www.youtube.com/channel/UCNQfqlLyT3kWzGoz65b1iPA' rel="noopener noreferrer" target="_blank">youtube</a>
               <a href='https://github.com/know-mad' rel="noopener noreferrer" target="_blank">github</a>
