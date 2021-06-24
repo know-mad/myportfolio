@@ -16,9 +16,9 @@ light-purple #4026B6
    align-items: center;
    color: #fff;
    font-weight: bold;
-   font-size: 1rem;
-   height: 3.5em;
-   width: 17em;
+   font-size: 0.75rem;
+   height: 4.5em;
+   width: 22em;
    background-color: #0984e3;
    margin: 2em 0 2em;
    border-radius: 100px;
@@ -31,9 +31,9 @@ light-purple #4026B6
    align-items: center;
    color: #fff;
    font-weight: bold;
-   font-size: 1rem;
-   height: 3em;
-   width: 10em;
+   font-size: 0.75rem;
+   height: 4.5em;
+   width: 15em;
    background-color: #b007a8;
    margin: 2em 0 2em;
    border-radius: 100px;
@@ -46,9 +46,9 @@ light-purple #4026B6
    align-items: center;
    color: #fff;
    font-weight: bold;
-   font-size: 1rem;
-   height: 3em;
-   width: 10em;
+   font-size: 0.75rem;
+   height: 4.5em;
+   width: 15em;
    background-color: #0984e3;
    margin: 2em 0 2em;
    border-radius: 100px;
@@ -93,7 +93,6 @@ light-purple #4026B6
   height: 100%;
   align-items: center;
   text-align: center;
-  padding: 20px;
   font-size: 1.25rem;
   padding: 1em;
   position: absolute;
@@ -101,7 +100,7 @@ light-purple #4026B6
 }
 
 .hero-overlay h1 {
-  font-size: 4.25rem;
+  font-size: 4.5rem;
 }
 
 .hero-socials-links {
@@ -644,19 +643,6 @@ light-purple #4026B6
 
 
 @media (min-width: 768px) {
-  #hero-link {
-    font-size: 1.25rem;
-  }
-
-  #page-link {
-    font-size: 1.25rem;
-  }
-
-  #contact-link {
-    font-size: 1.25rem;
-  }
-
-
   .hero-overlay {
     font-size: 1.75rem;
   }
@@ -765,6 +751,10 @@ light-purple #4026B6
 }
 
 @media (min-width: 1024px) {
+  #hero-link {
+    height: 4em;
+  }
+
   .hero {
     display: flex;
     flex-direction: row;
@@ -1123,18 +1113,6 @@ light-purple #4026B6
 }
 
 @media (min-width: 1440px) {
-  #hero-link {
-    font-size: 1rem;
-  }
-
-  #page-link {
-    font-size: 1rem;
-  }
-
-  #contact-link {
-    font-size: 1rem;
-  }
-
   .profile-photo {
     height: 11em;
     width: 45em;
@@ -1216,15 +1194,15 @@ light-purple #4026B6
 /* /// 4K /// */
 @media (min-width: 2560px) {
   #hero-link {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
   }
 
   #page-link {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
   }
 
   #contact-link {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
   }
 
   .hero-overlay {

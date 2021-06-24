@@ -4,7 +4,7 @@ import SEO from '../../components/seo'
 import Layout from '../../components/layout'
 import { Link } from 'gatsby'
 
-import md from '../../images/mdbest.jpg'
+import blog from '../../images/blog.jpg'
 
 const ProjectPage = () => (
   <Layout>
@@ -13,7 +13,7 @@ const ProjectPage = () => (
       <section>
         <div className='project-page-banner'>
           <div className='banner-inner'>
-            <h1>WEBSITE</h1>
+            <h1>BLOG</h1>
           </div>
         </div>
       </section>
@@ -21,12 +21,12 @@ const ProjectPage = () => (
       <section>
         <div className='section-sm'>
           <div className='section-sm-left'>
-            <h2>MD's Best Home Improvements</h2>
-            <a href='https://www.marylandsbesthomeimprovements.com/' target="_blank"  rel="noreferrer" id='page-link'>VISIT SITE</a>
+            <h2>"Dave Does Tech" Blog</h2>
+            <a href='https://blog.davidvelez.io' target="_blank"  rel="noreferrer" id='page-link'>VISIT BLOG</a>
             <Link to='/projects/' id='contact-link'>BACK</Link>
           </div>
           <div className='section-sm-right'>
-            <img src={md} alt='web-design-project' />
+            <img src={blog} alt='web-design-project' />
           </div>
         </div>
       </section>
@@ -37,10 +37,10 @@ const ProjectPage = () => (
             <p style={{color: '#0984e3'}}>Built with:</p>
           </div>
           <div className='built-with-banner-right'>
-            <p>React</p>
-            <p>Figma</p>
             <p>Gatsby</p>
+            <p>GraphQL</p>
             <p>Netlify</p>
+            <p>Contentful</p>
           </div>
         </div>
       </section>
@@ -53,16 +53,15 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              Maryland's Best Home Improvements is a home renovations company operating
-              out of Baltimore, Maryland. In order to gain more clients and improve their
-              marketing outreach, they asked for a website whose primary focus was to
-              generate leads from visitors to the site looking for any of the
-              services offered by the company.
+              In order to take advantage of a content marketing strategy, I decided to build a blog.
+              The goal of this project was to build a platform that allowed me to create content in 
+              an efficient manner. This platform needed to be easy to navigate on the back end, and still 
+              boast fast page load speeds to maximize any SEO efforts built into the site.
               <br/>
               <br/>
-              This project was a complete overhaul of the company's previous marketing strategy,
-              which included a new logo design, social media outreach and SEO services for
-              marketing campaigns.
+              Because of the nature of a blog, this site is built as a decoupled architecture website
+              that displays all of its information from data that is retreived from a content management system
+              that is used as a platform for creating blog posts.
             </p>
           </div>
         </div>
@@ -76,10 +75,11 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              The outcome for this project was a successful implementation of the
-              company's rebranding and web presence via an fully optimized and responsive
-              web asset that allows for potential clients in their local market to find and
-              ultimately contact the company for their services.
+              The outcome for this project was a successful implementation of a website built with a
+              decoupled architecture. The blog is a fully optimized and responsive
+              web asset that allows for the implementation of a content marketing strategy 
+              and boasts blazing fast page load speeds, on-page SEO, pagination, and a custom user interface
+              for easy and intuitive navigation throuhout the site.
             </p>
           </div>
         </div>

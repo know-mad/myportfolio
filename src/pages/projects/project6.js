@@ -4,11 +4,11 @@ import SEO from '../../components/seo'
 import Layout from '../../components/layout'
 import { Link } from 'gatsby'
 
-import ecomm from '../../images/ecommerce.jpg'
+import simon from '../../images/simon.jpg'
 
 const ProjectPage = () => (
   <Layout>
-  <SEO title='Ecommerce Website Design NYC' />
+  <SEO title='Best Web Designers NYC' />
     <div className='portfolio-page-container'>
       <section>
         <div className='project-page-banner'>
@@ -21,12 +21,12 @@ const ProjectPage = () => (
       <section>
         <div className='section-sm'>
           <div className='section-sm-left'>
-            <h2>Custom E-Commerce App</h2>
-            <a href='https://github.com/know-mad/ecommerce' target="_blank"  rel="noreferrer" id='page-link'>VISIT REPO</a>
+            <h2>Simon</h2>
+            <a href='https://hungry-feynman-7e3a89.netlify.app/' target="_blank"  rel="noreferrer" id='page-link'>VISIT APP</a>
             <Link to='/projects/' id='contact-link'>BACK</Link>
           </div>
           <div className='section-sm-right'>
-            <img src={ecomm} alt='web-design-project' />
+            <img src={simon} alt='web-design-project' />
           </div>
         </div>
       </section>
@@ -37,10 +37,9 @@ const ProjectPage = () => (
             <p style={{color: '#0984e3'}}>Built with:</p>
           </div>
           <div className='built-with-banner-right'>
-            <p>MonogoDB</p>
-            <p>Express</p>
+            <p>HTML</p>
+            <p>CSS</p>
             <p>React</p>
-            <p>Node</p>
             <p>Netlify</p>
           </div>
         </div>
@@ -50,14 +49,17 @@ const ProjectPage = () => (
         <div className='section-md'>
           <div className='reverse-section-md-left'>
             <p style={{margin: '0'}}>project</p>
-            <h2 style={{ margin: '0', fontWeight: 'bold', color: '#0984e3'}}>Information</h2>
+            <h2 style={{margin: '0', fontWeight: 'bold', color: '#0984e3'}}>Information</h2>
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              Fullstack e-commerce web app for selling coding and technology related books.
-              Built on the MERN stack this app is fully functional with a MonogoDB database,
-              Node.js back end, and a React front end. Fully integrated payment system accepting
-              all major credit cards via the Braintree API, this is a realworld e-commerce solution.
+              A web version of the popular Hasbro game SIMON built with React.js. I used this
+              project to implement many of Reacts advanced features such as conditional rendering,
+              context, and portals (aka modals).
+              <br/>
+              <br/>
+              Everything was built from scratch, including the layout and the design of the app, in order
+              to get it as close as posible to physical board game created by Hasbro.
             </p>
           </div>
         </div>
@@ -71,11 +73,14 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              This e-commerce site is deployed on a Digital Ocean subscription and is a fully
-              functioning e-commerce web store for purchasing coding and technology related
-              books.
+              Through critical thinking, I was able to replicate the simon logic which allows
+              a player to follow along as simon creates a randomized sequence which the player
+              must replicate without error in order to move on to the next level. 
+              <br/>
+              <br/>
+              Feel free to go play!
             </p>
-          </div>
+          </div> 
         </div>
       </section>
     </div>

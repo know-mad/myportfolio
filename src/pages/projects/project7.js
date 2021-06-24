@@ -4,16 +4,16 @@ import SEO from '../../components/seo'
 import Layout from '../../components/layout'
 import { Link } from 'gatsby'
 
-import md from '../../images/mdbest.jpg'
+import cotripp from '../../images/cotripp.jpg'
 
 const ProjectPage = () => (
   <Layout>
-  <SEO title='Custom Website Design NYC' />
+  <SEO title='Web Developers New York' />
     <div className='portfolio-page-container'>
       <section>
         <div className='project-page-banner'>
           <div className='banner-inner'>
-            <h1>WEBSITE</h1>
+            <h1>APP</h1>
           </div>
         </div>
       </section>
@@ -21,12 +21,12 @@ const ProjectPage = () => (
       <section>
         <div className='section-sm'>
           <div className='section-sm-left'>
-            <h2>MD's Best Home Improvements</h2>
-            <a href='https://www.marylandsbesthomeimprovements.com/' target="_blank"  rel="noreferrer" id='page-link'>VISIT SITE</a>
+            <h2>CoTripper</h2>
+            <a href='https://www.cotripper.co/' target="_blank"  rel="noreferrer" id='page-link'>VISIT APP</a>
             <Link to='/projects/' id='contact-link'>BACK</Link>
           </div>
           <div className='section-sm-right'>
-            <img src={md} alt='web-design-project' />
+            <img src={cotripp} alt='web-design-project' />
           </div>
         </div>
       </section>
@@ -37,10 +37,10 @@ const ProjectPage = () => (
             <p style={{color: '#0984e3'}}>Built with:</p>
           </div>
           <div className='built-with-banner-right'>
+            <p>PostgreSQL</p>
+            <p>Django</p>
             <p>React</p>
-            <p>Figma</p>
-            <p>Gatsby</p>
-            <p>Netlify</p>
+            <p>AWS</p>
           </div>
         </div>
       </section>
@@ -53,16 +53,11 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              Maryland's Best Home Improvements is a home renovations company operating
-              out of Baltimore, Maryland. In order to gain more clients and improve their
-              marketing outreach, they asked for a website whose primary focus was to
-              generate leads from visitors to the site looking for any of the
-              services offered by the company.
-              <br/>
-              <br/>
-              This project was a complete overhaul of the company's previous marketing strategy,
-              which included a new logo design, social media outreach and SEO services for
-              marketing campaigns.
+              CoTripper is a Washington DC based startup built to assist traveling single
+              moms with booking vacations, While working on a team of 8 engineers in an AGILE
+              environment, we solved various problems and created a full stack application
+              complete with a Django back end and a(n) React front end in order to provide
+              users of the app a robust and user friendly experience when booking vacations.
             </p>
           </div>
         </div>
@@ -76,10 +71,10 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              The outcome for this project was a successful implementation of the
-              company's rebranding and web presence via an fully optimized and responsive
-              web asset that allows for potential clients in their local market to find and
-              ultimately contact the company for their services.
+              The outcome of this project is a fully functional app that allows single parents
+              to book family frindly trips around the world. The CEO was fully satisfied with the
+              outcome of the project and has since launched a marketing campaign to get more
+              brand recognition and daily users.
             </p>
           </div>
         </div>

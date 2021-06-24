@@ -6,8 +6,10 @@ import Projects from '../../components/Projects'
 import { Link } from 'gatsby'
 
 import az from '../../images/az.jpg'
+import cpa from '../../images/cpa.jpg'
 import md from '../../images/mdbest.jpg'
 import portfolio from '../../images/portfolio.jpg'
+import blog from '../../images/blog.jpg'
 import simon from '../../images/simon.jpg'
 import cotripp from '../../images/cotripp.jpg'
 import ecommerce from '../../images/ecommerce.jpg'
@@ -37,6 +39,17 @@ const PortfolioPage = () => (
         <Projects
         toPage1={'/projects/project1/'}
         toPage2={'/projects/project2/'}
+        backgroundImage={portfolio}
+        backgroundImage2={blog}
+        content1='In order to showcase my front end skills, I decided to code my business website using unique colors, interesting fonts and creative....'
+        content2="Boasting a decoupled architecture, this blog was created as a dynamic website that pulls all of its data from a content management system (CMS) via graphQL..."
+        />
+      </section>
+
+      <section>
+        <Projects
+        toPage1={'/projects/project3/'} //project 3
+        toPage2={'/projects/project4/'} // project 4
         backgroundImage={az}
         backgroundImage2={md}
         content1='Aziatic Hair Studio is a barbershop operating in Manassas, VA. The owner was in the market for an aggressive marketing strategy that involved...'
@@ -46,19 +59,19 @@ const PortfolioPage = () => (
 
       <section>
         <Projects
-        toPage1={'/projects/project3/'}
-        toPage2={'/projects/project4/'}
-        backgroundImage={portfolio}
+        toPage1={'/projects/project5/'} //project 5 This should Be Kevin Rich CPA
+        toPage2={'/projects/project6/'} //project 6
+        backgroundImage={cpa}
         backgroundImage2={simon}
-        content1='In order to showcase my front end skills, I decided to code my business website using unique colors, interesting fonts and creative....'
+        content1='Static website built for am accounting business owner who runs his own accounting practice....'
         content2='A web version of the popular Hasbro game SIMON built with React.js. I used this project to implement many of Reacts advanced...'
         />
       </section>
 
       <section>
         <Projects
-        toPage1={'/projects/project5/'}
-        toPage2={'/projects/project6/'}
+        toPage1={'/projects/project7/'}
+        toPage2={'/projects/project8/'}
         backgroundImage={cotripp}
         backgroundImage2={ecommerce}
         content1='CoTripper is a Washington DC based startup built to assist traveling single moms with booking vacations. While working on a team of 8 engineers in an AGILE environment...'

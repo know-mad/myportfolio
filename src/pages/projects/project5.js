@@ -4,16 +4,16 @@ import SEO from '../../components/seo'
 import Layout from '../../components/layout'
 import { Link } from 'gatsby'
 
-import cotripp from '../../images/cotripp.jpg'
+import cpa from '../../images/cpa.jpg'
 
 const ProjectPage = () => (
   <Layout>
-  <SEO title='Web Developers New York' />
+  <SEO title='Custom Website Design NYC' />
     <div className='portfolio-page-container'>
       <section>
         <div className='project-page-banner'>
           <div className='banner-inner'>
-            <h1>APP</h1>
+            <h1>WEBSITE</h1>
           </div>
         </div>
       </section>
@@ -21,12 +21,12 @@ const ProjectPage = () => (
       <section>
         <div className='section-sm'>
           <div className='section-sm-left'>
-            <h2>CoTripper</h2>
-            <a href='https://www.cotripper.co/' target="_blank"  rel="noreferrer" id='page-link'>VISIT APP</a>
+            <h2>Accountant Website</h2>
+            <a href='https://www.kevinrichcpa.com/' target="_blank"  rel="noreferrer" id='page-link'>VISIT SITE</a>
             <Link to='/projects/' id='contact-link'>BACK</Link>
           </div>
           <div className='section-sm-right'>
-            <img src={cotripp} alt='web-design-project' />
+            <img src={cpa} alt='web-design-project' />
           </div>
         </div>
       </section>
@@ -37,10 +37,10 @@ const ProjectPage = () => (
             <p style={{color: '#0984e3'}}>Built with:</p>
           </div>
           <div className='built-with-banner-right'>
-            <p>PostgreSQL</p>
-            <p>Django</p>
             <p>React</p>
-            <p>AWS</p>
+            <p>Figma</p>
+            <p>Gatsby</p>
+            <p>Netlify</p>
           </div>
         </div>
       </section>
@@ -53,11 +53,15 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              CoTripper is a Washington DC based startup built to assist traveling single
-              moms with booking vacations, While working on a team of 8 engineers in an AGILE
-              environment, we solved various problems and created a full stack application
-              complete with a Django back end and a(n) React front end in order to provide
-              users of the app a robust and user friendly experience when booking vacations.
+              Kevin Rich is a certified public accountant with an accounting practice in the 
+              Baltimore-Washington DC corridor. The client already had a wewbsite that was not getting 
+              him any results. He wanted to be able to leverage his website to gain new prospective 
+              clients for his business.
+              <br/>
+              <br/>
+              This project was a complete overhaul of his previeous web strategy,
+              which included a new logo design, custom lead generation funnels, custom forms,
+              social media outreach and SEO services for marketing campaigns.
             </p>
           </div>
         </div>
@@ -71,10 +75,16 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              The outcome of this project is a fully functional app that allows single parents
-              to book family frindly trips around the world. The CEO was fully satisfied with the
-              outcome of the project and has since launched a marketing campaign to get more
-              brand recognition and daily users.
+              The outcome for this project was a successful implementation and rebranding 
+              of the clients web presence via an fully optimized and responsive
+              web asset that allows for potential clients in their local market to find and
+              ultimately contact the business for their services.
+              <br/>
+              <br/>
+              The website is built on a(n) static architecture that boasts blazing fast page load
+              speeds, on page SEO, and social media integration so that the client is able to 
+              market his services with more flexibility and within more avenues to increase the visibility
+              of his business and ultimately land more leads. 
             </p>
           </div>
         </div>
