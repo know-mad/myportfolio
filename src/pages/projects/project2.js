@@ -41,6 +41,7 @@ const ProjectPage = () => (
             <p>GraphQL</p>
             <p>Netlify</p>
             <p>Contentful</p>
+            <p>MailChimp</p>
           </div>
         </div>
       </section>
@@ -56,7 +57,8 @@ const ProjectPage = () => (
               In order to take advantage of a content marketing strategy, I decided to build a blog.
               The goal of this project was to build a platform that allowed me to create content in 
               an efficient manner. This platform needed to be easy to navigate on the back end, and still 
-              boast fast page load speeds to maximize any SEO efforts built into the site.
+              boast fast page load speeds to maximize any SEO efforts built into the site. Another feature of 
+              the site is an email gathering funnel to build an email list for marketting purposes.
               <br/>
               <br/>
               Because of the nature of a blog, this site is built as a decoupled architecture website
@@ -78,8 +80,8 @@ const ProjectPage = () => (
               The outcome for this project was a successful implementation of a website built with a
               decoupled architecture. The blog is a fully optimized and responsive
               web asset that allows for the implementation of a content marketing strategy 
-              and boasts blazing fast page load speeds, on-page SEO, pagination, and a custom user interface
-              for easy and intuitive navigation throuhout the site.
+              and boasts an email gathering feature through Mailchimp, blazing fast page load speeds, on-page SEO, pagination, and a custom user interface
+              for easy and intuitive navigation throughout the site.
             </p>
           </div>
         </div>

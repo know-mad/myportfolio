@@ -48,8 +48,8 @@ const PortfolioPage = () => (
 
       <section>
         <Projects
-        toPage1={'/projects/project3/'} //project 3
-        toPage2={'/projects/project4/'} // project 4
+        toPage1={'/projects/project3/'} 
+        toPage2={'/projects/project4/'} 
         backgroundImage={az}
         backgroundImage2={md}
         content1='Aziatic Hair Studio is a barbershop operating in Manassas, VA. The owner was in the market for an aggressive marketing strategy that involved...'
@@ -59,8 +59,8 @@ const PortfolioPage = () => (
 
       <section>
         <Projects
-        toPage1={'/projects/project5/'} //project 5 This should Be Kevin Rich CPA
-        toPage2={'/projects/project6/'} //project 6
+        toPage1={'/projects/project5/'} 
+        toPage2={'/projects/project6/'} 
         backgroundImage={cpa}
         backgroundImage2={simon}
         content1='Static website built for am accounting business owner who runs his own accounting practice....'

@@ -36,6 +36,8 @@ const ProjectPage = () => (
             <p style={{color: '#0984e3'}}>Built with:</p>
           </div>
           <div className='built-with-banner-right'>
+            <p>HTML</p>
+            <p>CSS</p>
             <p>React</p>
             <p>Figma</p>
             <p>Gatsby</p>
