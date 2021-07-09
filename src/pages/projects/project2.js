@@ -63,7 +63,8 @@ const ProjectPage = () => (
               <br/>
               Because of the nature of a blog, this site is built as a decoupled architecture website
               that displays all of its information from data that is retreived from a content management system
-              that is used as a platform for creating blog posts.
+              that is used as a platform for creating blog posts. The content needed to update on the website
+              whenever it was modified on the back end.
             </p>
           </div>
         </div>
@@ -80,8 +81,9 @@ const ProjectPage = () => (
               The outcome for this project was a successful implementation of a website built with a
               decoupled architecture. The blog is a fully optimized and responsive
               web asset that allows for the implementation of a content marketing strategy 
-              and boasts an email gathering feature through Mailchimp, blazing fast page load speeds, on-page SEO, pagination, and a custom user interface
-              for easy and intuitive navigation throughout the site.
+              and boasts an email gathering feature through Mailchimp, blazing fast page load speeds with Gatsby.js, on-page SEO, 
+              pagination, a custom user interface for easy and intuitive navigation throughout the site and webhooks that trigger
+              a build on the website whenever content is modified on the content management system.
             </p>
           </div>
         </div>
