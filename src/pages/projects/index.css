@@ -119,21 +119,6 @@
   padding: 1em;
 }
 
-.portfolio-outro {
-  height: 15em;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.25rem;
-  text-align: center;
-  padding: 1em;
-}
-
-
-
-
 
 @media (min-width: 768px) {
   .portfolio-banner {
@@ -150,9 +135,9 @@
     font-size: 1.75rem;
   }
 
-  .portfolio-outro {
+  /* .portfolio-outro {
     font-size: 1.75rem;
-  }
+  } */
 
   .section-sm-right img {
     height: 90%;
@@ -256,10 +241,6 @@
 
 @media (min-width: 2560px) {
   .portfolio-intro {
-    font-size: 2.5rem;
-  }
-
-  .portfolio-outro {
     font-size: 2.5rem;
   }
 

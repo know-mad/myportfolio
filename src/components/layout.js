@@ -28,7 +28,6 @@ const Layout = ({ children }) => {
               <Link style={linkStyle} to='/projects/'>projects</Link>
               <Link style={linkStyle} to='/blog/'>blog</Link>
               <Link style={linkStyle} to='/contact/'>contact</Link>
-              <Link style={linkStyle} to='/services/'>FAQ's</Link>
             </div>
             <div className='footer-top-center'>
               <h3>SERVICES</h3>

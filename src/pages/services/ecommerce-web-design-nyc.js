@@ -90,12 +90,17 @@ const SEOPage = () => (
             </section>
 
             <section>
-            <div className='showcase-projects-bottom'>
-            <p>
-                Request an e-commerce consultation today!
-            </p>
-            <Link to='/contact/' id='page-link'>CONTACT ME</Link>
-          </div>
+                <div style={{marginBottom: `0`}} className='contact-banner'>
+                <div className='contact-banner-left'>
+                    <p>
+                    Ready to get started on your web project?
+                    </p>
+                </div>
+                <div className='contact-banner-right'>
+                    <input placeHolder='www.yourwebsite.com'/>
+                    <Link id='contact-link' to='/contact/'>SUBMIT</Link>
+                </div>
+                </div>
             </section>
         </div>
      </Layout>

@@ -1,0 +1,22 @@
+[
+    {
+        "question": "How much does a website cost?",
+        "answer": "Each project is different and requires a unique approach to meet the clients goal. After an initial consultation, prices are discussed according to the scope of the project."
+    },
+    {
+        "question": "How long does it take to get a website done?",
+        "answer": "Because each project is custom tailored to meet your specific goals, each project is different and requires it's own timeline. This is something that is typycally discussed during the initial consultation."
+    },
+    {
+        "question": "What is the difference between a website, an e-commerce store, and an app?",
+        "answer": "A website is typycally used to reach an audience with information about your business, an e-commerce storefront typycally will have a cart feature and is used when you are selling a product that a customer purchases directly on your site, and an app typycally requires a login and is used when you want customers or clients to perform some sort of function. "
+    },
+    {
+        "question": "What is SEO?",
+        "answer": "SEO stands for search engine optimization, which is a digital marketing strategy that focuses on your website's presence in search results on search engines like Google. When you understand how SEO works, you can use different tactics to increase your visibility (or how high you rank) in search results making it an extremely powerful strategy for attracting new leads for your business."
+    },
+    {
+        "question": "How do I know if my current website needs to be upgraded?",
+        "answer": "During the intial consultation, I will evaluate your current site with developer tools that clearly show how your website is performing."
+    }
+]

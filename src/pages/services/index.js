@@ -8,6 +8,7 @@ import arrow from '../../images/right-arrow.svg'
 import webDesign from '../../images/web-design-icon.svg'
 import coding from '../../images/coding.svg'
 import shoppingCart from '../../images/shopping-cart-icon.svg'
+import JSONData from '../../data/faq.json'
 
 
 const ServicesPage = () => (
@@ -149,6 +150,7 @@ const ServicesPage = () => (
             <li>Google Analytics</li>
             <li>404 Redirect</li>
             <li>XML Sitemap</li>
+            <li>Robots.txt file</li>
             <li>2 Revision Rounds</li>
           </ul>
         </div>
@@ -177,6 +179,7 @@ const ServicesPage = () => (
             <li>Mailing List Plugin</li>
             <li>On-page SEO</li>
             <li>404 Redirect</li>
+            <li>Robots.txt file</li>
             <li>XML Sitemap</li>
             <li>3 Revision Rounds</li>
           </ul>
@@ -188,6 +191,38 @@ const ServicesPage = () => (
       </div>
     </div>
   </section>
+
+    <section>
+      <div className='faqs'>
+        <h2>FREQUENTLY ASKED QUESTIONS</h2>
+      </div>
+        {
+          JSONData.map((item, index) => {
+            return <div key={index} className='faq-container'>
+                    <div className='faq-question'>
+                      <p>{index + 1}. <span style={{color: `#b007a8`}}>{item.question}</span></p>
+                    </div>
+                    <div className='faq-answer'>
+                      <p>{item.answer}</p>
+                    </div>
+                   </div>
+          })
+        }
+    </section>
+
+    <section>
+        <div style={{marginBottom: `0`}} className='contact-banner'>
+          <div className='contact-banner-left'>
+            <p>
+             Ready to get started on your web project?
+            </p>
+          </div>
+          <div className='contact-banner-right'>
+            <input placeHolder='www.yourwebsite.com'/>
+            <Link id='contact-link' to='/contact/'>SUBMIT</Link>
+          </div>
+        </div>
+      </section>
   </div>
   </Layout>
 )

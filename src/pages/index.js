@@ -53,7 +53,7 @@ const IndexPage = () => {
           </video>
           <div className='hero-overlay'>
             <p style={{color: '#0984e3', margin: '0'}}>FULL STACK DEVELOPER</p>
-            <h1 style={{color: '#fff', fontWeight: `900`}}>DAVID VELEZ</h1>
+            <h1 style={{color: '#fff', fontWeight: `900`}}>BUILDING BETTER TECH FOR BETTER RESULTS</h1>
             <p style={{color: '#fff', margin: '0'}}>Empowering businesses through technology in the digital age.</p>
             <Link id='hero-link' to='/contact/'>START YOUR WEB PROJECT</Link>
             <div className='hero-socials-links'>
@@ -357,12 +357,12 @@ const IndexPage = () => {
         <div className='contact-banner'>
           <div className='contact-banner-left'>
             <p>
-             Get a FREE website audit today!
+             Get a FREE website evaluation today!
             </p>
           </div>
           <div className='contact-banner-right'>
-            <input style={{width: '60%', margin: '10px', border: '2px solid #4026B6'}} placeHolder='www.yourwebsite.com'/>
-            <Link id='contact-link' to='/contact/'>FREE AUDIT</Link>
+            <input placeHolder='www.yourwebsite.com'/>
+            <Link id='contact-link' to='/contact/'>SUBMIT</Link>
           </div>
         </div>
       </section>
@@ -424,7 +424,8 @@ const IndexPage = () => {
             </p>
           </div>
           <div className='contact-banner-right'>
-            <Link id='contact-link' to='/contact/'>CONTACT ME</Link>
+            <input placeHolder='www.yourwebsite.com'/>
+            <Link id='contact-link' to='/contact/'>SUBMIT</Link>
           </div>
         </div>
       </section>
@@ -477,12 +478,12 @@ const IndexPage = () => {
            <div className='contact-banner'>
             <div className='contact-banner-left'>
               <p>
-              Get your FREE SEO audit!
+              Get your FREE SEO evaluation!
               </p>
             </div>
             <div className='contact-banner-right'>
-              <input style={{width: '60%', margin: '10px', border: '2px solid #4026B6'}} placeHolder='www.yourwebsite.com'/>
-              <Link id='contact-link' to='/contact/'>FREE AUDIT</Link>
+              <input placeHolder='www.yourwebsite.com'/>
+              <Link id='contact-link' to='/contact/'>SUBMIT</Link>
             </div>
           </div>
         </section>
@@ -547,15 +548,6 @@ const IndexPage = () => {
             </div>
           </div>
 
-          <div className='showcase-projects-bottom'>
-            <p>
-            Want to see the websites and apps that I’ve built?
-            <br/>
-            <br/>
-            Check out my work
-            </p>
-            <Link to='/projects/' id='page-link'>PROJECTS</Link>
-          </div>
         </div>
       </section>
 

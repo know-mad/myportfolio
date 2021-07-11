@@ -100,7 +100,7 @@ light-purple #4026B6
 }
 
 .hero-overlay h1 {
-  font-size: 4.5rem;
+  font-size: 3rem;
 }
 
 .hero-socials-links {
@@ -452,7 +452,7 @@ light-purple #4026B6
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 20em;
+  height: 25em;
   width: 100%;
   background: linear-gradient(90deg, #0984e3, #5ACBFA);
   margin: 3em 0 3em;
@@ -466,13 +466,13 @@ light-purple #4026B6
   text-align: center;
   height: 50%;
   width: 100%;
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   font-weight: bold;
 }
 
 .contact-banner-right {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 50%;
@@ -480,7 +480,8 @@ light-purple #4026B6
 }
 
 .contact-banner-right input {
-  display: none;
+  width: 90%;
+  border: 2px solid #4026B6;
 }
 
 .reverse-section-md-left {
@@ -559,21 +560,10 @@ light-purple #4026B6
   overflow: hidden;
 }
 
-.showcase-projects-bottom {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 30%;
-  width: 100%;
-  font-size: 1.25rem;
-}
-
 .showcase-projects {
   display: flex;
   flex-direction: column;
-  height: 60em;
+  height: 50em;
   width: 100%;
 }
 
@@ -582,7 +572,7 @@ light-purple #4026B6
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 70%;
+  height: 100%;
   width: 100%;
   background: linear-gradient(90deg, #0984e3, #5ACBFA);
 }
@@ -609,7 +599,6 @@ light-purple #4026B6
 .contact-section {
   display: flex;
   flex-direction: column;
-  /* height: 80em; */
   width: 100%;
   margin-bottom: 50px;
 }
@@ -718,22 +707,8 @@ light-purple #4026B6
     background-size: 45em auto;
   }
 
-  .showcase-projects {
-    height: 70em;
-  }
-
   .showcase {
     font-size: 1.75rem;
-  }
-
-  .showcase-projects-top {
-    height: 60%;
-  }
-
-  .showcase-projects-bottom {
-    font-size: 1.75rem;
-    padding: 1em;
-    height: 40%;
   }
 
   .contact-section {
@@ -752,6 +727,10 @@ light-purple #4026B6
 
 @media (min-width: 1024px) {
   #hero-link {
+    height: 4em;
+  }
+
+  #contact-link {
     height: 4em;
   }
 
@@ -781,7 +760,8 @@ light-purple #4026B6
     height: 100%;
     width: 100%;
     font-size: 1.35rem;
-    padding: 2em;
+    padding-left: 2em;
+    padding-right: 20%;
     background-color: rgba(64, 38, 182, 0.3);
   }
 
@@ -934,7 +914,7 @@ light-purple #4026B6
     margin-right: 40%;
     backdrop-filter: blur(5px);
     border: 1px solid #0984e3;
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
   }
 
   .section-md-right {
@@ -960,7 +940,7 @@ light-purple #4026B6
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 10em;
+    height: 7.5em;
     width: 100%;
     background: linear-gradient(90deg, #0984e3, #5ACBFA);
     margin: 3em 0 3em;
@@ -969,11 +949,12 @@ light-purple #4026B6
   .contact-banner-left {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: left;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    padding: 2em;
     width: 50%;
     height: 100%;
   }
@@ -981,14 +962,16 @@ light-purple #4026B6
   .contact-banner-right {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
     width: 50%;
+    padding-right: 2em;
   }
 
   .contact-banner-right input {
-    display: inherit;
+    height: 40%;
+    width: 60%;
   }
 
   .reverse-section-md-left {
@@ -1045,7 +1028,7 @@ light-purple #4026B6
   .showcase-projects {
     display: flex;
     flex-direction: column;
-    height: 55em;
+    height: 30em;
     width: 100%;
   }
 
@@ -1054,27 +1037,21 @@ light-purple #4026B6
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 60%;
+    height: 100%;
     width: 100%;
     background: linear-gradient(90deg, #0984e3, #5ACBFA);
-  }
-
-  .showcase-projects-bottom {
-    height: 40%;
-    font-size: 1.5rem;
   }
 
   .showcase {
     height: 100%;
     width: 50%;
-    font-size: 2rem;
     font-weight: bold;
     text-align: left;
   }
 
   .showcase img {
-    height: 10em;
-    width: 10em;
+    height: 12em;
+    width: 14em;
     opacity: 0.8;
   }
 
@@ -1113,6 +1090,10 @@ light-purple #4026B6
 }
 
 @media (min-width: 1440px) {
+  .hero-overlay {
+    padding-right: 50%
+  }
+
   .profile-photo {
     height: 11em;
     width: 45em;
@@ -1163,8 +1144,8 @@ light-purple #4026B6
   }
 
   .showcase img {
-    height: 20em;
-    width: 20em;
+    height: 15em;
+    width: 18em;
     opacity: 0.8;
   }
 
@@ -1175,11 +1156,19 @@ light-purple #4026B6
   .reverse-section-md-right {
     height: 25em;
   }
+
+  .contact-banner-right input {
+    width: 75%;
+  }
 }
 
 /* /// 1080p /// */
 
 @media (min-width: 1920px) {
+  #contact-link {
+    font-size: 0.75rem;
+  }
+
   .hero {
     height: 50em;
   }
@@ -1187,6 +1176,14 @@ light-purple #4026B6
   .profile-photo {
     height: 11em;
     width: 32em;
+  }
+
+  .contact-banner-left {
+    font-size: 2rem;
+  }
+
+  .contact-banner-right input {
+    width: 90%;
   }
 }
 
@@ -1206,11 +1203,11 @@ light-purple #4026B6
   }
 
   .hero-overlay {
-    font-size: 2.8rem;
+    font-size: 2rem;
   }
 
   .hero-overlay h1 {
-    font-size: 6rem;
+    font-size: 4.5rem;
   }
 
   .profile-photo {
@@ -1243,11 +1240,11 @@ light-purple #4026B6
   }
 
   .section-md-right {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .section-md-right img {
-    height: 40%;
+    height: 100%;
   }
 
   .reverse-section-md-right {
@@ -1259,30 +1256,17 @@ light-purple #4026B6
   }
 
   .contact-banner-left {
-    font-size: 4rem;
-  }
-
-  .contact-banner-right input {
-    height: 4em;
+    font-size: 3rem;
   }
 
   .banner-inner {
     font-size: 9rem;
   }
 
-  .showcase-projects {
-    height: 50em;
-  }
-
   .showcase {
     padding: 1.5em;
     font-size: 3rem;
     width: 50%;
-  }
-
-  .showcase-projects-bottom {
-    height: 40%;
-    font-size: 2.3rem;
   }
 
   .contact-section-left {

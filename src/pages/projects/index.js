@@ -80,11 +80,15 @@ const PortfolioPage = () => (
       </section>
 
       <section>
-        <div className='portfolio-outro'>
-          <p>
-            Ready to get started on your project?
-          </p>
-          <Link id='page-link' to='/contact/'>GET STARTED</Link>
+        <div style={{marginBottom: `0`}} className='contact-banner'>
+          <div className='contact-banner-left'>
+            <p>
+             Ready to get started on your project?
+            </p>
+          </div>
+          <div className='contact-banner-right'>
+            <Link id='contact-link' to='/contact/'>CONTACT ME</Link>
+          </div>
         </div>
       </section>
     </div>
