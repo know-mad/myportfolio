@@ -83,11 +83,12 @@ const PortfolioPage = () => (
         <div style={{marginBottom: `0`}} className='contact-banner'>
           <div className='contact-banner-left'>
             <p>
-             Ready to get started on your project?
+             Ready to start your web project?
             </p>
           </div>
           <div className='contact-banner-right'>
-            <Link id='contact-link' to='/contact/'>CONTACT ME</Link>
+            <input placeHolder='www.yourwebsite.com'/>
+            <Link id='contact-link' to='/contact/'>SUBMIT</Link>
           </div>
         </div>
       </section>

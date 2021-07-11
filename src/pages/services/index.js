@@ -214,7 +214,7 @@ const ServicesPage = () => (
         <div style={{marginBottom: `0`}} className='contact-banner'>
           <div className='contact-banner-left'>
             <p>
-             Ready to get started on your web project?
+             Ready to start your web project?
             </p>
           </div>
           <div className='contact-banner-right'>
