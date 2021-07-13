@@ -100,7 +100,7 @@ light-purple #4026B6
 }
 
 .hero-overlay h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .hero-socials-links {
@@ -585,7 +585,7 @@ light-purple #4026B6
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: bold;
   padding: 1em;
 }
@@ -737,7 +737,7 @@ light-purple #4026B6
   .hero {
     display: flex;
     flex-direction: row;
-    height: 45em;
+    height: 40em;
     width: 100%;
     margin-top: 4em;
   }
