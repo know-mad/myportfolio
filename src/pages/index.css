@@ -48,7 +48,7 @@ light-purple #4026B6
    color: #fff;
    font-weight: bold;
    font-size: 0.75rem;
-   height: 4em;
+   height: 4.5em;
    width: 15em;
    background: linear-gradient(45deg, #0984e3, #5ACBFA);
    margin: 2em 0 2em;
@@ -732,6 +732,10 @@ light-purple #4026B6
   }
 
   #contact-link {
+    height: 4em;
+  }
+
+  #page-link {
     height: 4em;
   }
 
