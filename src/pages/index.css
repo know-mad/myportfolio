@@ -19,7 +19,7 @@ light-purple #4026B6
    font-size: 0.75rem;
    height: 4.5em;
    width: 22em;
-   background-color: #0984e3;
+   background: linear-gradient(45deg, #0984e3, #5ACBFA);
    margin: 2em 0 2em;
    border-radius: 100px;
  }
@@ -35,6 +35,7 @@ light-purple #4026B6
    height: 4.5em;
    width: 15em;
    background-color: #b007a8;
+   /* background: linear-gradient(45deg, #b007a8, #FF89F3); */
    margin: 2em 0 2em;
    border-radius: 100px;
  }
@@ -47,9 +48,9 @@ light-purple #4026B6
    color: #fff;
    font-weight: bold;
    font-size: 0.75rem;
-   height: 4.5em;
+   height: 4em;
    width: 15em;
-   background-color: #0984e3;
+   background: linear-gradient(45deg, #0984e3, #5ACBFA);
    margin: 2em 0 2em;
    border-radius: 100px;
  }
@@ -806,7 +807,7 @@ light-purple #4026B6
   }
 
   .profile-photo {
-    width: 65em;
+    width: 95em;
     margin-right: 1em;
   }
 
@@ -1096,7 +1097,7 @@ light-purple #4026B6
 
   .profile-photo {
     height: 11em;
-    width: 45em;
+    width: 65em;
   }
 
   .info-section-sm {
@@ -1175,7 +1176,7 @@ light-purple #4026B6
   
   .profile-photo {
     height: 11em;
-    width: 32em;
+    width: 45em;
   }
 
   .contact-banner-left {
@@ -1212,7 +1213,7 @@ light-purple #4026B6
 
   .profile-photo {
     height: 11em;
-    width: 38em;
+    width: 60em;
   }
 
   .profile-intro {

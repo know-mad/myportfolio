@@ -87,8 +87,7 @@ const PortfolioPage = () => (
             </p>
           </div>
           <div className='contact-banner-right'>
-            <input placeHolder='www.yourwebsite.com'/>
-            <Link id='contact-link' to='/contact/'>SUBMIT</Link>
+            <Link style={{width: `25em`}} id='contact-link' to='/contact/'>START YOUR WEB PROJECT</Link>
           </div>
         </div>
       </section>

@@ -78,8 +78,11 @@ const IndexPage = () => {
             <p>
                 <span style={{fontSize: `2rem`, color: `#0984e3`, fontWeight: `bold`}}>I'm David,</span>
                 <br/>
-                Your friendly neighborhood full stack developer. Based in New York City, and having a background in software engineering, I  specialize in building 
-                exceptional applications, clean websites, and everything in between. 
+                Your friendly neighborhood full stack developer. Based in New York City, and having a background in software engineering, I specialize in building 
+                blazing-fast websites, web applications, and e-commerce solutions by using the latest decoupled architecture that prioritize 
+                site/app performance, resulting in breakneck page load speeds, better SEO, as well as aesthetics to match. No longer are clients tied to old and 
+                outdated technologies like Wordpress, and forget working with a designer who uses cookie-cutter drag and drop templates that not only look and feel 
+                cheap, but also perform terrible on search engines.
                 <br/>
                 <br/>
                 I enjoy creating software and 
@@ -361,8 +364,7 @@ const IndexPage = () => {
             </p>
           </div>
           <div className='contact-banner-right'>
-            <input placeHolder='www.yourwebsite.com'/>
-            <Link id='contact-link' to='/contact/'>SUBMIT</Link>
+            <Link style={{width: `25em`}} id='contact-link' to='/contact/'>START YOUR WEB PROJECT</Link>
           </div>
         </div>
       </section>
@@ -424,8 +426,7 @@ const IndexPage = () => {
             </p>
           </div>
           <div className='contact-banner-right'>
-            <input placeHolder='www.yourwebsite.com'/>
-            <Link id='contact-link' to='/contact/'>SUBMIT</Link>
+            <Link style={{width: `25em`}} id='contact-link' to='/contact/'>START YOUR WEB PROJECT</Link>
           </div>
         </div>
       </section>
@@ -482,8 +483,7 @@ const IndexPage = () => {
               </p>
             </div>
             <div className='contact-banner-right'>
-              <input placeHolder='www.yourwebsite.com'/>
-              <Link id='contact-link' to='/contact/'>SUBMIT</Link>
+              <Link style={{width: `25em`}} id='contact-link' to='/contact/'>START YOUR WEB PROJECT</Link>
             </div>
           </div>
         </section>
