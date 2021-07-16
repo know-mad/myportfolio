@@ -10,7 +10,6 @@
 }
 
 .project-left {
-
   border: 1px solid #0984e3;
   background-position: center;
   background-size: 99% 99%;
@@ -153,7 +152,17 @@
   }
 }
 
+@media (min-width: 1920px) {
+  .projects-container {
+    height: 40em;
+  }
+}
+
 @media (min-width: 2560px) {
+  .projects-container {
+    height: 30em;
+  }
+
   .project-left-content-top {
     font-size: 2rem;
   }

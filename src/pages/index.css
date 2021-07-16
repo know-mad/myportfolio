@@ -1206,6 +1206,10 @@ light-purple #4026B6
     font-size: 0.95rem;
   }
 
+  #page-link {
+    font-size: 0.95rem;
+  }
+
   .hero {
     height: 45em;
   }

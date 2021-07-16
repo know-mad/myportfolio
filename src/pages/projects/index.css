@@ -135,10 +135,6 @@
     font-size: 1.75rem;
   }
 
-  /* .portfolio-outro {
-    font-size: 1.75rem;
-  } */
-
   .section-sm-right img {
     height: 90%;
     width: 70%;
@@ -238,6 +234,12 @@
   }
 }
 
+@media (min-width: 1920px) {
+  .section-sm {
+    height: 30em;
+  }
+}
+
 
 @media (min-width: 2560px) {
   .portfolio-intro {
@@ -262,6 +264,10 @@
 
   .project-info-right {
     font-size: 2rem;
+  }
+
+  .section-sm {
+    height: 33em;
   }
 
   .section-sm-left h2 {
