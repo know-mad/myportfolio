@@ -71,6 +71,21 @@ light-purple #4026B6
    height: 1.5em;
  }
 
+ #review-link {
+  display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   font-weight: bold;
+   font-size: 0.75rem;
+   height: 4.5em;
+   width: 25em;
+   background: linear-gradient(45deg, #0984e3, #5ACBFA);
+   margin: 2em 0 2em;
+   border-radius: 100px;
+}
+
  /* ////////////// Components /////////////////// */
 
 .hero {
@@ -631,6 +646,15 @@ light-purple #4026B6
   width: 100%;
 }
 
+.review-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10em;
+  width: 100%;
+}
+
 
 @media (min-width: 768px) {
   .hero-overlay {
@@ -1171,11 +1195,27 @@ light-purple #4026B6
 
 @media (min-width: 1920px) {
   #contact-link {
-    font-size: 0.75rem;
+    font-size: 0.95rem;
+  }
+
+  #hero-link {
+    font-size: 0.95rem;
+  }
+
+  #review-link {
+    font-size: 0.95rem;
   }
 
   .hero {
-    height: 50em;
+    height: 45em;
+  }
+
+  .hero-overlay h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero-overlay p {
+    font-size: 1.5rem;
   }
   
   .profile-photo {
@@ -1189,6 +1229,14 @@ light-purple #4026B6
 
   .contact-banner-right input {
     width: 90%;
+  }
+
+  .showcase-projects {
+    height: 40em;
+  }
+
+  .showcase {
+    font-size: 2.5rem;
   }
 }
 
@@ -1207,12 +1255,24 @@ light-purple #4026B6
     font-size: 1.25rem;
   }
 
+  #review-link {
+    font-size: 1.25rem;
+  }
+
+  .hero {
+    height: 35em;
+  }
+
   .hero-overlay {
     font-size: 2rem;
   }
 
   .hero-overlay h1 {
-    font-size: 4.5rem;
+    font-size: 5rem;
+  }
+
+  .hero-overlay p {
+    font-size: 2rem;
   }
 
   .profile-photo {

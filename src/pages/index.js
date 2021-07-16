@@ -556,6 +556,12 @@ const IndexPage = () => {
       </section>
 
       <section>
+        <div className='review-banner'>
+          <a id='review-link' href='https://g.page/r/CeZLEXVUyuw8EAg/review' rel="noopener noreferrer" target="_blank">LEAVE ME A REVIEW</a>
+        </div>
+      </section>
+
+      <section>
       <div className='contact-me-banner'>
         <div className='banner-inner'>
           <h1>CONTACT ME</h1>
