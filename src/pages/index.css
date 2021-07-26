@@ -90,7 +90,7 @@ light-purple #4026B6
 
 .hero {
   position: relative;
-  height: 50em;
+  height: 40em;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -98,7 +98,9 @@ light-purple #4026B6
 }
 
 .video {
-  display: none;
+  /* display: none; */
+  height: 40em;
+  width: 300%;
 }
 
 .hero-overlay {
@@ -113,6 +115,7 @@ light-purple #4026B6
   padding: 1em;
   position: absolute;
   z-index: 1;
+  background-color: rgba(64, 38, 182, 0.3);
 }
 
 .hero-overlay h1 {
@@ -657,10 +660,6 @@ light-purple #4026B6
 
 
 @media (min-width: 768px) {
-  .hero-overlay {
-    font-size: 1.75rem;
-  }
-
   .hello-banner {
     height: 20em;
     background-size: 45em auto;
@@ -748,6 +747,10 @@ light-purple #4026B6
   .contact-section-right {
     height: 70%;
   }
+
+  .video {
+    width: 150%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -791,7 +794,6 @@ light-purple #4026B6
     font-size: 1.35rem;
     padding-left: 2em;
     padding-right: 20%;
-    background-color: rgba(64, 38, 182, 0.3);
   }
 
   .hero-overlay h1 {
@@ -830,12 +832,11 @@ light-purple #4026B6
   }
 
   .profile-intro {
-    flex-direction: row;
     padding: 2em;
   }
 
   .profile-photo {
-    width: 95em;
+    width: 10em;
     margin-right: 1em;
   }
 
@@ -1123,11 +1124,6 @@ light-purple #4026B6
     padding-right: 50%
   }
 
-  .profile-photo {
-    height: 11em;
-    width: 65em;
-  }
-
   .info-section-sm {
     padding: 2em;
   }
@@ -1221,11 +1217,6 @@ light-purple #4026B6
   .hero-overlay p {
     font-size: 1.5rem;
   }
-  
-  .profile-photo {
-    height: 11em;
-    width: 45em;
-  }
 
   .contact-banner-left {
     font-size: 2rem;
@@ -1241,6 +1232,33 @@ light-purple #4026B6
 
   .showcase {
     font-size: 2.5rem;
+  }
+
+  .web-banner {
+    /* background: yellow; */
+    background-size: 95% auto;
+  }
+
+  .hello-banner {
+    background-size: 95% auto;
+  }
+
+  .e-commerce-banner {
+    background-size: 95% auto;
+  }
+
+  .seo-banner {
+    background-size: 95% auto;
+    height: 38em;
+  }
+
+  .app-banner {
+    background-size: 95% auto;
+    height: 38em;
+  }
+
+  .banner-inner {
+    font-size: 8rem;
   }
 }
 
@@ -1277,11 +1295,6 @@ light-purple #4026B6
 
   .hero-overlay p {
     font-size: 2rem;
-  }
-
-  .profile-photo {
-    height: 11em;
-    width: 60em;
   }
 
   .profile-intro {

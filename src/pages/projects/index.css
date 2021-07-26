@@ -238,6 +238,15 @@
   .section-sm {
     height: 30em;
   }
+
+  .portfolio-banner {
+    background-size: 95% auto;
+  }
+
+  .project-page-banner {
+    background-size: 95% auto;
+    height: 40em;
+  }
 }
 
 

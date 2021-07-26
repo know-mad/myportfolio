@@ -54,7 +54,7 @@ const IndexPage = () => {
           <div className='hero-overlay'>
             <p style={{color: '#0984e3', margin: '0'}}>FULL STACK DEVELOPER</p>
             <h1 style={{color: '#fff', fontWeight: `900`}}>DAVID VELEZ</h1>
-            <p style={{color: '#fff', margin: '0'}}>Empowering businesses through better technology for better results in todays digital centric marketplace.</p>
+            <p style={{color: '#fff', margin: '0'}}>Empowering businesses with the technology they need to grow in todays digital centric market.</p>
             <Link id='hero-link' to='/contact/'>START YOUR WEB PROJECT</Link>
             <div className='hero-socials-links'>
               <a href='https://www.facebook.com/developerdave/' rel="noopener noreferrer" target="_blank"><img src={facebook} alt='web-designer-social-media-link'/></a>
@@ -117,9 +117,6 @@ const IndexPage = () => {
                   <p>
                   No cookie cutter wordpress sites here! I design and create web assets built on modern technology
                   stacks that generate blazing fast page load speeds coupled with aesthetics to match. 
-                  <br/>
-                  <br/>
-                  Just say no to Wordpress websites! 
                   </p>
                 </div>
                 <div className='individual-service-button-container'>

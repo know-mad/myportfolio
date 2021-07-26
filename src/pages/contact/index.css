@@ -9,7 +9,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   width: 100%;
   background-image: url('../../images/contact-banner.svg');
 
@@ -163,6 +162,13 @@
   .success-message-right {
     height: 100%;
     width: 50%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .contact-me-banner {
+    background-size: 95% auto;
+    height: 32em;
   }
 }
 

@@ -8,7 +8,6 @@ import arrow from '../../images/right-arrow.svg'
 import webDesign from '../../images/web-design-icon.svg'
 import coding from '../../images/coding.svg'
 import shoppingCart from '../../images/shopping-cart-icon.svg'
-import JSONData from '../../data/faq.json'
 
 
 const ServicesPage = () => (
@@ -166,7 +165,7 @@ const ServicesPage = () => (
         </div>
         <div className='service-package-content'>
         <ul>
-            <li>E-commerce/Dynamic Web Site</li>
+            <li>E-commerce/Dynamic Web Site/App</li>
             <li>Custom Photography</li>
             <li>Social Media Integration</li>
             <li>Mobile Responsive</li>
@@ -191,24 +190,6 @@ const ServicesPage = () => (
       </div>
     </div>
   </section>
-
-    <section>
-      <div className='faqs'>
-        <h2>FREQUENTLY ASKED QUESTIONS</h2>
-      </div>
-        {
-          JSONData.map((item, index) => {
-            return <div key={index} className='faq-container'>
-                    <div className='faq-question'>
-                      <p>{index + 1}. <span style={{color: `#b007a8`}}>{item.question}</span></p>
-                    </div>
-                    <div className='faq-answer'>
-                      <p>{item.answer}</p>
-                    </div>
-                   </div>
-          })
-        }
-    </section>
 
     <section>
         <div style={{marginBottom: `0`}} className='contact-banner'>
