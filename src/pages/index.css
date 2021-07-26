@@ -90,7 +90,7 @@ light-purple #4026B6
 
 .hero {
   position: relative;
-  height: 40em;
+  height: 50em;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -98,9 +98,7 @@ light-purple #4026B6
 }
 
 .video {
-  /* display: none; */
-  height: 40em;
-  width: 300%;
+  display: none;
 }
 
 .hero-overlay {
@@ -115,7 +113,6 @@ light-purple #4026B6
   padding: 1em;
   position: absolute;
   z-index: 1;
-  background-color: rgba(64, 38, 182, 0.3);
 }
 
 .hero-overlay h1 {
@@ -660,6 +657,10 @@ light-purple #4026B6
 
 
 @media (min-width: 768px) {
+  .hero-overlay {
+    font-size: 1.75rem;
+  }
+
   .hello-banner {
     height: 20em;
     background-size: 45em auto;
@@ -747,10 +748,6 @@ light-purple #4026B6
   .contact-section-right {
     height: 70%;
   }
-
-  .video {
-    width: 150%;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -794,6 +791,7 @@ light-purple #4026B6
     font-size: 1.35rem;
     padding-left: 2em;
     padding-right: 20%;
+    background-color: rgba(64, 38, 182, 0.3);
   }
 
   .hero-overlay h1 {
