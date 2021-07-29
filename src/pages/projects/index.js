@@ -50,9 +50,9 @@ const PortfolioPage = () => (
         <Projects
         toPage1={'/projects/project3/'} 
         toPage2={'/projects/project4/'} 
-        backgroundImage={az}
+        backgroundImage={ecommerce}
         backgroundImage2={md}
-        content1='Aziatic Hair Studio is a barbershop operating in Manassas, VA. The owner was in the market for an aggressive marketing strategy that involved...'
+        content1='E-commerce store built on a decoupled architecture. The store features dynamically generated items fetched via GraphQL from the Shopify API....'
         content2="Maryland's Best Home Improvements is a home renovations company operating out of Baltimore, MD. In order to gain more clients they..."
         />
       </section>
@@ -73,10 +73,9 @@ const PortfolioPage = () => (
         toPage1={'/projects/project7/'}
         toPage2={'/projects/project8/'}
         backgroundImage={cotripp}
-        backgroundImage2={ecommerce}
+        backgroundImage2={az}
         content1='CoTripper is a Washington DC based startup built to assist traveling single moms with booking vacations. While working on a team of 8 engineers in an AGILE environment...'
-        content2='Fullstack e-commerce web app for selling coding and technology related books. Built on the MERN stack this app...'
-        />
+        content2='Aziatic Hair Studio is a barbershop operating in Manassas, VA. The owner was in the market for an aggressive marketing strategy that involved...'/>
       </section>
 
       <section>

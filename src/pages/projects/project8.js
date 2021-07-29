@@ -4,16 +4,16 @@ import SEO from '../../components/seo'
 import Layout from '../../components/layout'
 import { Link } from 'gatsby'
 
-import ecomm from '../../images/ecommerce.jpg'
+import az from '../../images/az.jpg'
 
 const ProjectPage = () => (
   <Layout>
-  <SEO title='Ecommerce Website Design NYC' />
+  <SEO title='Freelance Web Designers NYC' />
     <div className='portfolio-page-container'>
       <section>
         <div className='project-page-banner'>
           <div className='banner-inner'>
-            <h1>APP</h1>
+            <h1>WEBSITE</h1>
           </div>
         </div>
       </section>
@@ -21,12 +21,12 @@ const ProjectPage = () => (
       <section>
         <div className='section-sm'>
           <div className='section-sm-left'>
-            <h2>Custom E-Commerce App</h2>
-            <a href='https://github.com/know-mad/ecommerce' target="_blank"  rel="noreferrer" id='page-link'>VISIT REPO</a>
+            <h2>Aziatic Hair Studio</h2>
+            <a href='https://priceless-kilby-97b7f4.netlify.app/' target="_blank"  rel="noreferrer" id='page-link'>VISIT SITE</a>
             <Link to='/projects/' id='contact-link'>BACK</Link>
           </div>
           <div className='section-sm-right'>
-            <img src={ecomm} alt='web-design-project' />
+            <img src={az} alt='web-design-project' />
           </div>
         </div>
       </section>
@@ -37,10 +37,10 @@ const ProjectPage = () => (
             <p style={{color: '#0984e3'}}>Built with:</p>
           </div>
           <div className='built-with-banner-right'>
-            <p>MonogoDB</p>
-            <p>Express</p>
+            <p>HTML</p>
+            <p>CSS</p>
             <p>React</p>
-            <p>Node</p>
+            <p>Gatsby</p>
             <p>Netlify</p>
           </div>
         </div>
@@ -54,10 +54,12 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              Fullstack e-commerce web app for selling coding and technology related books.
-              Built on the MERN stack this app is fully functional with a MonogoDB database,
-              Node.js back end, and a React front end. Fully integrated payment system accepting
-              all major credit cards via the Braintree API, this is a realworld e-commerce solution.
+              Aziatic Hair Studio is a barbershop operating in Manassas, VA. The
+              owner was in the market for an aggressive marketing strategy that
+              involved a streamlined website that was clean on both desktops and
+              mobile devices and allowed his clients to book appointments straight
+              from the website. He also wanted the website to be optimized so that
+              potential clients could find his services when looking on search engines.
             </p>
           </div>
         </div>
@@ -71,9 +73,16 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              This e-commerce site is deployed on a Digital Ocean subscription and is a fully
-              functioning e-commerce web store for purchasing coding and technology related
-              books.
+              The website was built on the Gatsby.js platform to ensure blazing fast
+              page load speeds which directly affects how the website ranks on search engines.
+              Through the platform, I built a streamlined SPA type of website that allows
+              clients to view all of the important business information and perform all of
+              the business actions requested by the client without navigating away from the home page.
+              <br/>
+              <br/>
+              Followed by an aggressive SEO strategy involving key word implementation for the clients desired
+              outcome, I was able to get this site ranked locally for the client wich has resulted
+              in a 30% uptick in inquiries for services rendered per the client.
             </p>
           </div>
         </div>

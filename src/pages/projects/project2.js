@@ -84,6 +84,16 @@ const ProjectPage = () => (
               and boasts an email gathering feature through Mailchimp, blazing fast page load speeds with Gatsby.js, on-page SEO, 
               pagination, a custom user interface for easy and intuitive navigation throughout the site and webhooks that trigger
               a build on the website whenever content is modified on the content management system.
+            <br/>
+            <br/>
+            This project features:
+            <ul>
+              <li>Dynamic content served via CMS</li>
+              <li>Programatically created pages</li>
+              <li>Decoupled CMS architecture</li>
+              <li>Pagintation</li>
+              <li>Dark/Light theme toggle</li>
+            </ul>
             </p>
           </div>
         </div>

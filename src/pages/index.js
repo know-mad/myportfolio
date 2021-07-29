@@ -45,7 +45,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="NYC Web Designer"/>
+      <SEO title="Best Website Designers NYC"/>
       <section>
         <div className='hero'>
           <video muted loop autoPlay className='video'>

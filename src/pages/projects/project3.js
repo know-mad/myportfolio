@@ -4,16 +4,16 @@ import SEO from '../../components/seo'
 import Layout from '../../components/layout'
 import { Link } from 'gatsby'
 
-import az from '../../images/az.jpg'
+import ecomm from '../../images/ecommerce.jpg'
 
 const ProjectPage = () => (
   <Layout>
-  <SEO title='Freelance Web Designers NYC' />
+  <SEO title='Ecommerce Website Design NYC' />
     <div className='portfolio-page-container'>
       <section>
         <div className='project-page-banner'>
           <div className='banner-inner'>
-            <h1>WEBSITE</h1>
+            <h1>E-COMMERCE</h1>
           </div>
         </div>
       </section>
@@ -21,12 +21,12 @@ const ProjectPage = () => (
       <section>
         <div className='section-sm'>
           <div className='section-sm-left'>
-            <h2>Aziatic Hair Studio</h2>
-            <a href='https://priceless-kilby-97b7f4.netlify.app/' target="_blank"  rel="noreferrer" id='page-link'>VISIT SITE</a>
+            <h2>Headless Shopify Store</h2>
+            <a href='https://shop.davidvelez.io' target="_blank"  rel="noreferrer" id='page-link'>VISIT STORE</a>
             <Link to='/projects/' id='contact-link'>BACK</Link>
           </div>
           <div className='section-sm-right'>
-            <img src={az} alt='web-design-project' />
+            <img src={ecomm} alt='web-design-project' />
           </div>
         </div>
       </section>
@@ -37,10 +37,10 @@ const ProjectPage = () => (
             <p style={{color: '#0984e3'}}>Built with:</p>
           </div>
           <div className='built-with-banner-right'>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>React</p>
             <p>Gatsby</p>
+            <p>Shopify</p>
+            <p>Mailchimp</p>
+            <p>GraphQL</p>
             <p>Netlify</p>
           </div>
         </div>
@@ -54,12 +54,14 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              Aziatic Hair Studio is a barbershop operating in Manassas, VA. The
-              owner was in the market for an aggressive marketing strategy that
-              involved a streamlined website that was clean on both desktops and
-              mobile devices and allowed his clients to book appointments straight
-              from the website. He also wanted the website to be optimized so that
-              potential clients could find his services when looking on search engines.
+            Objective was to create an e-commerce store built on a decoupled architecture. The store features dynamically generated 
+            items fetched via GraphQL from the Shopify API. In order trigger site rebuilds whenever content is modified on the CMS, the 
+            project features a serverless function to listen for specific events coming from the Shopify API and trigger a site rebuild 
+            updating any data that needs to be displayed on the front end. The shopping cart retains items across sessions, so customers 
+            that leave the site before checking out will have their previously added items still available in their shopping cart when 
+            they return to the site. The front-end of this site features data pased and shared between components via React's Context API 
+            and is built on the Gatsby.js platfrom, not only maximizing page load speeds and SEO, but allowing for the building and implementation 
+            of my custom theme to match my brand.
             </p>
           </div>
         </div>
@@ -73,16 +75,20 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              The website was built on the Gatsby.js platform to ensure blazing fast
-              page load speeds which directly affects how the website ranks on search engines.
-              Through the platform, I built a streamlined SPA type of website that allows
-              clients to view all of the important business information and perform all of
-              the business actions requested by the client without navigating away from the home page.
+              This e-commerce site is deployed on Netlify and boasts a decoupled architecture with serverless functions to provide a fully
+              functioning e-commerce web store for purchasing items. The decoupled architecture allows for granular
+              customization of the user interface, as well as fast page loads to maximize all SEO efforts.
               <br/>
               <br/>
-              Followed by an aggressive SEO strategy involving key word implementation for the clients desired
-              outcome, I was able to get this site ranked locally for the client wich has resulted
-              in a 30% uptick in inquiries for services rendered per the client.
+              Features of this project include:
+              <ul>
+                <li>Dynamic content served via Shopify API</li>
+                <li>Programatically created pages</li>
+                <li>Decoupled architecture</li>
+                <li>Serverless functions</li>
+                <li>Checkout cart</li>
+                <li>Persistent cart items</li>
+              </ul>
             </p>
           </div>
         </div>
