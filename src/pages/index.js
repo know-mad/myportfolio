@@ -54,7 +54,7 @@ const IndexPage = () => {
           <div className='hero-overlay'>
             <p style={{color: '#0984e3', margin: '0'}}>FULL STACK DEVELOPER</p>
             <h1 style={{color: '#fff', fontWeight: `900`}}>DAVID VELEZ</h1>
-            <p style={{color: '#fff', margin: '0'}}>Empowering businesses with the technology they need to grow in todays digital centric market.</p>
+            <p style={{color: '#fff', margin: '0'}}>Providing performance driven technology that helps businesses grow in todays digital centric market.</p>
             <Link id='hero-link' to='/contact/'>START YOUR WEB PROJECT</Link>
             <div className='hero-socials-links'>
               <a href='https://www.facebook.com/developerdave/' rel="noopener noreferrer" target="_blank"><img src={facebook} alt='web-designer-social-media-link'/></a>
@@ -204,18 +204,18 @@ const IndexPage = () => {
       <section>
         <div className='section-md'>
           <div className='section-md-left'>
-            <h2>BETTER BY DESIGN</h2>
+            <h2>PERFORMANCE DRIVEN TECHNOLOGY</h2>
             <p>
               A good website is truly your digital storefront with the best part being... it’s
               always marketing your products and services 24/7/365, even when your office or physical location is closed.
-              I develop custom websites built on the <span style={{color: '#b007a8', fontStyle: 'italic'}}>NEW WEB</span> with the Jamstack, that are
-              blazing fast and maximize <span style={{color: '#b007a8', fontStyle: 'italic'}}>SEO</span> campaigns, which gets your website discovered on search engines sooner.
+              I develop custom websites built on the <span style={{color: '#b007a8', fontStyle: 'italic'}}>NEW WEB ARCHITECTURE</span> with the Jamstack, that prioritize
+              performance to maximize <span style={{color: '#b007a8', fontStyle: 'italic'}}>SEO</span> campaigns, which gets your website discovered on search engines sooner.
               <br/>
               <br/>
               Because let's face it...
               <br/>
               <br/>
-              <span style={{color: '#0984e3', fontStyle: 'italic', fontWeight: 'bold'}}>CHEAP WEBSITE = </span>  <span style={{color: '#b007a8', fontStyle: 'italic', fontWeight: 'bold'}}>NO ONLINE SALES!</span>
+              <span style={{color: '#0984e3', fontStyle: 'italic', fontWeight: 'bold'}}>SLOW WEBSITE = </span>  <span style={{color: '#b007a8', fontStyle: 'italic', fontWeight: 'bold'}}>NO ONLINE SALES!</span>
               <br/>
               <br/>
               <span style={{color: '#0984e3', fontStyle: 'italic', fontWeight: 'bold'}}>BAD WEBSITE =</span>  <span style={{color: '#b007a8', fontStyle: 'italic', fontWeight: 'bold'}}>NO ONLINE SALES!</span>
@@ -293,7 +293,7 @@ const IndexPage = () => {
           <div className='reverse-section-md-right'>
           <h2>IF IT'S NOT FAST, IT'S BROKEN</h2>
             <p>
-            Page loading speeds have an impact on user experience and conversion. My jamstack sites 
+            Page loading speeds have an impact on user experience and conversion. My websites 
             remove the need to generate page views on a server at request time by instead generating 
             pages ahead of time during a build.
             <br/>
@@ -302,7 +302,7 @@ const IndexPage = () => {
             high performance is possible without introducing expensive or complex infrastructure.
             <br/>
             <br/>
-            But don't take my word for it!, <a style={{color: '#b007a8',  textDecoration: 'underline'}} href='https://developers.google.com/speed/pagespeed/insights/' rel="noopener noreferrer" target="_blank">Go ahead! Measure the pagespeed of this
+            But don't take my word for it!, <a style={{color: '#0984e3',  textDecoration: 'underline'}} href='https://developers.google.com/speed/pagespeed/insights/' rel="noopener noreferrer" target="_blank">Go ahead! Measure the pagespeed of this
             website</a>. And then measure your own page....or your competitions!
             <br/>
             <br/>
