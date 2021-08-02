@@ -22,7 +22,7 @@ const ProjectPage = () => (
         <div className='section-sm'>
           <div className='section-sm-left'>
             <h2>Headless Shopify Store</h2>
-            <a href='https://shop.davidvelez.io' target="_blank"  rel="noreferrer" id='page-link'>VISIT STORE</a>
+            <a href='https://geekystickers.io' target="_blank"  rel="noreferrer" id='page-link'>VISIT STORE</a>
             <Link to='/projects/' id='contact-link'>BACK</Link>
           </div>
           <div className='section-sm-right'>
@@ -61,7 +61,7 @@ const ProjectPage = () => (
             that leave the site before checking out will have their previously added items still available in their shopping cart when 
             they return to the site. The front-end of this site features data pased and shared between components via React's Context API 
             and is built on the Gatsby.js platfrom, not only maximizing page load speeds and SEO, but allowing for the building and implementation 
-            of my custom theme to match my brand.
+            of a custom built theme.
             </p>
           </div>
         </div>

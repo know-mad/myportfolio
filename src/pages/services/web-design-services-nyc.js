@@ -24,7 +24,7 @@ const WebDesignPage = () => (
 
             <section>
                 <div className='info-section-sm'>
-                    <h2>FASTER, BETTER, STRONGER</h2>
+                    <h2>IF IT'S NOT FAST, IT'S BROKEN</h2>
                     <p>
                     By building with the latest technology, I empower businesses with web assets that are faster, better, and have stronger
                     results than those other agencies and "wanna-be" developers who use old and antiquated technologies like Wordpress. The problem with 

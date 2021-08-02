@@ -37,6 +37,7 @@ import airbnb from '../images/airbnb.svg'
 import shopify from '../images/shopify-logo.svg'
 import spotify from '../images/spotify-logo.svg'
 import sendGrid from '../images/sendgrid-logo.svg'
+import me from '../images/me.jpg'
 
 
 
@@ -74,7 +75,9 @@ const IndexPage = () => {
           </div>
         </div>
         <div className='profile-intro'>
-          <div className='profile-photo'></div>
+          <div className='profile-photo'>
+            <img src={me} alt='David Velez is the best web designer in New York City'/>
+          </div>
             <p>
                 <span style={{fontSize: `2rem`, color: `#0984e3`, fontWeight: `bold`}}>I'm David,</span>
                 <br/>
