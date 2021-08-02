@@ -171,9 +171,13 @@ light-purple #4026B6
 } */
 
 .profile-photo {
-  height: 13em;
-  width: 13em;
-  border-radius: 13em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 12em;
+  width: 12em;
+  border-radius: 12em;
   border: 1px solid #0984e3;
   padding: 0.5em;
 }
