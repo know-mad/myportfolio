@@ -21,7 +21,7 @@ const ProjectPage = () => (
       <section>
         <div className='section-sm'>
           <div className='section-sm-left'>
-            <h2>"Dave Does Tech" Blog</h2>
+            <h2>Tech Blog</h2>
             <a href='https://blog.davidvelez.io' target="_blank"  rel="noreferrer" id='page-link'>VISIT BLOG</a>
             <Link to='/projects/' id='contact-link'>BACK</Link>
           </div>
@@ -95,6 +95,19 @@ const ProjectPage = () => (
               <li>Dark/Light theme toggle</li>
             </ul>
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div style={{marginBottom: `0`}} className='contact-banner'>
+          <div className='contact-banner-left'>
+            <p>
+             Ready to start your web project?
+            </p>
+          </div>
+          <div className='contact-banner-right'>
+            <Link style={{width: `25em`}} id='contact-link' to='/contact/'>START YOUR WEB PROJECT</Link>
           </div>
         </div>
       </section>

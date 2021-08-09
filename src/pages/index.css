@@ -775,7 +775,7 @@ light-purple #4026B6
   .hero {
     display: flex;
     flex-direction: row;
-    height: 40em;
+    height: 32em;
     width: 100%;
     margin-top: 4em;
   }
@@ -799,7 +799,7 @@ light-purple #4026B6
     width: 100%;
     font-size: 1.35rem;
     padding-left: 2em;
-    padding-right: 20%;
+    padding-right: 40%;
     background-color: rgba(64, 38, 182, 0.3);
   }
 
@@ -841,11 +841,6 @@ light-purple #4026B6
   .profile-intro {
     padding: 2em;
   }
-
-  /* .profile-photo {
-    width: 10em;
-    margin-right: 1em;
-  } */
 
   .profile-content h1 {
     font-size: 4.25rem;
@@ -1127,6 +1122,10 @@ light-purple #4026B6
 }
 
 @media (min-width: 1440px) {
+  .hero {
+    height: 42em;
+  }
+
   .hero-overlay {
     padding-right: 50%
   }
@@ -1214,7 +1213,7 @@ light-purple #4026B6
   }
 
   .hero {
-    height: 45em;
+    height: 50em;
   }
 
   .hero-overlay h1 {
@@ -1289,7 +1288,7 @@ light-purple #4026B6
   }
 
   .hero {
-    height: 35em;
+    height: 40em;
   }
 
   .hero-overlay {

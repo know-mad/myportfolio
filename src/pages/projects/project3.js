@@ -93,6 +93,19 @@ const ProjectPage = () => (
           </div>
         </div>
       </section>
+
+      <section>
+        <div style={{marginBottom: `0`}} className='contact-banner'>
+          <div className='contact-banner-left'>
+            <p>
+             Ready to start your web project?
+            </p>
+          </div>
+          <div className='contact-banner-right'>
+            <Link style={{width: `25em`}} id='contact-link' to='/contact/'>START YOUR WEB PROJECT</Link>
+          </div>
+        </div>
+      </section>
     </div>
   </Layout>
 )

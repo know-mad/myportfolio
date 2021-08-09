@@ -163,7 +163,7 @@ const IndexPage = () => {
                   <p>
                   Mobile business applications have become a necessary marketing tool for all businesses, regardless of the size 
                   of their industries. A mobile app can help a small business engage with and build their customer 
-                  base, drive sales, and improve their reputation in todays digital centric market.
+                  base, drive sales, and improve their reputation.
                   </p>
                 </div>
                 <div className='individual-service-button-container'>

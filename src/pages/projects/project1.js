@@ -80,7 +80,28 @@ const ProjectPage = () => (
               web asset that is responsively designed to look and feel great on all devices
               from mobile to 4K monitors. Complete with an aggressive SEO strategy, this web asset
               has yielded a 20% monthly increase in lead generation since its deployment.
+            <br/>
+            <br/>
+            This project features:
+            <ul>
+              <li>Performance driven design</li>
+              <li>On site SEO</li>
+              <li>Custom theme</li>
+            </ul>
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div style={{marginBottom: `0`}} className='contact-banner'>
+          <div className='contact-banner-left'>
+            <p>
+             Ready to start your web project?
+            </p>
+          </div>
+          <div className='contact-banner-right'>
+            <Link style={{width: `25em`}} id='contact-link' to='/contact/'>START YOUR WEB PROJECT</Link>
           </div>
         </div>
       </section>
