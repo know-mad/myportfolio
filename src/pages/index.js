@@ -246,7 +246,7 @@ const IndexPage = () => {
                 <img style ={{height: `100%`}} src={nike} alt='nike-logo' />
               </div>
               <div className='image-container'>
-                <img style={{height: `65%`}} src={mailchimp} alt='mailchimp-logo' />
+                <img src={mailchimp} alt='mailchimp-logo' />
               </div>
               <div className='image-container'>
                 <img style={{height: `100%`}} src={peloton} alt='peloton-logo' />
