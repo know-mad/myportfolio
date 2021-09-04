@@ -1,10 +1,10 @@
 import React from "react"
+import './index.css'
 import { Link } from 'gatsby'
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import Testimonials from '../components/Testimonials'
 import ContactForm from '../components/ContactForm'
-import './index.css'
 
 import facebook from '../images/facebook-icon.svg'
 import instagram from '../images/instagram-icon.svg'
@@ -32,12 +32,18 @@ import arrow from '../images/right-arrow.svg'
 import shoppingCart from '../images/shopping-cart-icon.svg'
 import video from '../images/video.mp4'
 import ecommerce from '../images/ecommerce.svg'
-import youtube from '../images/youtube-icon.svg'
 import airbnb from '../images/airbnb.svg'
 import shopify from '../images/shopify-logo.svg'
 import spotify from '../images/spotify-logo.svg'
 import sendGrid from '../images/sendgrid-logo.svg'
 import me from '../images/me.jpg'
+
+import netlify from '../images/netlify-logo.svg'
+import shopifyAlt from '../images/shopify-plus-logo--black.svg'
+import mailchimpAlt from '../images/mailchimp-alt-logo.svg'
+import contentful from '../images/contentful-logo.svg'
+import stripe from '../images/stripe.svg'
+
 
 
 
@@ -55,14 +61,13 @@ const IndexPage = () => {
           <div className='hero-overlay'>
             <p style={{color: '#0984e3', margin: '0'}}>FULL STACK DEVELOPER</p>
             <h1 style={{color: '#fff', fontWeight: `900`}}>DAVID VELEZ</h1>
-            <p style={{color: '#fff', margin: '0'}}>Providing performance driven technology to help businesses grow in todays digital centric market.</p>
+            <p style={{color: '#fff', margin: '0'}}>Providing performance driven technology solutions for todays digital centric market.</p>
             <Link id='hero-link' to='/contact/'>START YOUR WEB PROJECT</Link>
             <div className='hero-socials-links'>
               <a href='https://www.facebook.com/developerdave/' rel="noopener noreferrer" target="_blank"><img src={facebook} alt='web-designer-social-media-link'/></a>
               <a href='https://github.com/know-mad' rel="noopener noreferrer" target="_blank"><img src={git} alt='web-designer-social-media-link'/></a>
               <a href='https://twitter.com/_devdave' rel="noopener noreferrer" target="_blank"><img src={twitter} alt='web-designer-social-media-link'/></a>
               <a href='https://www.instagram.com/_devdave/' rel="noopener noreferrer" target="_blank"><img src={instagram} alt='web-designer-social-media-link'/></a>
-              <a href='https://www.youtube.com/channel/UCNQfqlLyT3kWzGoz65b1iPA' rel="noopener noreferrer" target="_blank"><img src={youtube} alt='web-designer-social-media-link'/></a>
             </div>
           </div>
         </div>
@@ -82,18 +87,55 @@ const IndexPage = () => {
                 <span style={{fontSize: `2rem`, color: `#0984e3`, fontWeight: `bold`}}>I'm David,</span>
                 <br/>
                 Your friendly neighborhood full stack developer. Based in New York City, and having a background in software engineering, I specialize in building 
-                blazing-fast websites, web applications, and e-commerce solutions by using the latest decoupled architecture that prioritize 
-                site/app performance, resulting in breakneck page load speeds, better SEO, as well as aesthetics to match. No longer are clients tied to old and 
-                outdated technologies like Wordpress, and forget working with a designer who uses cookie-cutter drag and drop templates that not only look and feel 
-                cheap, but also perform terrible on search engines.
-                <br/>
-                <br/>
-                I enjoy creating software and 
-                applications that drive technology and streamline tasks, as well as websites that are pixel-perfect, fast, search
-                engine optimized and responsive to look and feel great on all devices. I'm passionate and curious about
-                technology and am always looking to build with the latest tech in order to provide my clients with the best 
-                service and offer the most advanced product on the market. 
-              </p>
+                blazing-fast websites, web applications, and e-commerce solutions by using the latest technologies to prioritize 
+                site/app performance ultimately resulting in breakneck page load speeds and better SEO all delivered with aesthetics to match.
+            </p>
+        </div>
+      </section>
+
+      <section>
+        <div className='partners-list'>
+          <div className='partners-list-top'>
+          <p>Trusted Partners</p>
+          </div>
+          <div className='partners-list-bottom'>
+          <div className='partners-card'>
+            <h3>e-commerce</h3>
+            <img src={shopifyAlt} />
+            <p>Working closely with Shopify, I'm able to deliver best-in-class commerce experiences for high-growth DTC brands.</p>
+            {/* <p style={{color: `#b007a8`}}>Learn More &#187;</p> */}
+          </div>
+          <div className='partners-card'>
+            <h3>content management</h3>
+            <img src={contentful} />
+            <p>As a Contentful partner, I create insanley fast e-commerce experiences by leveraging the power of Headless Content Management.</p>
+            {/* <p style={{color: `#b007a8`}}>Learn More &#187;</p> */}
+          </div>
+          <div className='partners-card'>
+            <h3>headless architecture</h3>
+            <img src={jam} />
+            <p>Removing the requirement to manage or run web servers, I create fast, secure sites and dynamic headless e-commerce websites.</p>
+            {/* <p style={{color: `#b007a8`}}>Learn More &#187;</p> */}
+          </div>
+          <div className='partners-card'>
+            <h3>hosting</h3>
+            <img src={netlify} />
+            <p>Netlify makes CI/CD, deployment and scaled hosting a commodity and helps enterprises focus on creating great dynamic consumer experiences.</p>
+            {/* <p style={{color: `#b007a8`}}>Learn More &#187;</p> */}
+          </div>
+          <div className='partners-card'>
+            <h3>payment solutions</h3>
+            <img src={stripe} />
+            <p>Through my Stripe partnership I'm able to integrate a fast and lightweight payment processing system for internet businesses of all sizes.</p>
+            {/* <p style={{color: `#b007a8`}}>Learn More &#187;</p> */}
+          </div>
+          <div className='partners-card'>
+            <h3>email marketing</h3>
+            <img src={mailchimpAlt} />
+            <p>I partners with Mailchimp to provide revenue-generating email marketing services, fueling your brand’s growth.</p>
+            {/* <p style={{color: `#b007a8`}}>Learn More &#187;</p> */}
+          </div>
+          </div>
         </div>
       </section>
 
@@ -118,7 +160,7 @@ const IndexPage = () => {
                 </div>
                 <div className='individual-service-bottom-content'>
                   <p>
-                  No cookie cutter wordpress sites here! I design and create web assets built on modern technology
+                  No cookie cutter wordpress sites here! I design and create custom websites built on modern technology
                   stacks that generate blazing fast page load speeds coupled with aesthetics to match. 
                   </p>
                 </div>
@@ -233,7 +275,7 @@ const IndexPage = () => {
         </div>
 
         <div className='jamstack-info-section'>
-          <p>Companies that use the <span style={{color: `#b007a8`}}>Jamstack</span></p>
+          <p><span style={{color: `#b007a8`}}>Jamstack</span> Is Trusted By</p>
         </div>
 
         <div className='logos-ticker'>
@@ -294,9 +336,9 @@ const IndexPage = () => {
           </div>
 
           <div className='reverse-section-md-right'>
-          <h2>IF IT'S NOT FAST, IT'S BROKEN</h2>
+          <h2>IF IT'S NOT FAST IT'S BROKEN</h2>
             <p>
-            Page loading speeds have an impact on user experience and conversion. My websites 
+            Page loading speeds have a crucial impact on user experience and conversion. My websites 
             remove the need to generate page views on a server at request time by instead generating 
             pages ahead of time during a build.
             <br/>
@@ -305,7 +347,7 @@ const IndexPage = () => {
             high performance is possible without introducing expensive or complex infrastructure.
             <br/>
             <br/>
-            But don't take my word for it!, <a style={{color: '#0984e3',  textDecoration: 'underline'}} href='https://developers.google.com/speed/pagespeed/insights/' rel="noopener noreferrer" target="_blank">Go ahead! Measure the pagespeed of this
+            But don't take my word for it!, <a style={{color: '#b007a8',  textDecoration: 'underline'}} href='https://developers.google.com/speed/pagespeed/insights/' rel="noopener noreferrer" target="_blank">Go ahead! Measure the pagespeed of this
             website</a>. And then measure your own page....or your competitions!
             <br/>
             <br/>
@@ -384,8 +426,6 @@ const IndexPage = () => {
               products or services. In todays competitive and convenience focused society, no longer do 
               consumers want to venture to the high street in order to buy items, instead consumers want 
               to shop from their own homes, making ecommerce a flexible solution for both businesses and buyers. 
-              <br/>
-              <br/>
               Couople your new ecommerce store with the latest technology by going headless
               and gain a competitive advantage by not only having a regular old ecommerce
               store, but having an ecommerce store that is blazing fast, and scales effortelssly.
