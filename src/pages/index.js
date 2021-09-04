@@ -103,37 +103,31 @@ const IndexPage = () => {
             <h3>e-commerce</h3>
             <img src={shopifyAlt} />
             <p>Working closely with Shopify, I'm able to deliver best-in-class commerce experiences for high-growth DTC brands.</p>
-            {/* <p style={{color: `#b007a8`}}>Learn More &#187;</p> */}
           </div>
           <div className='partners-card'>
             <h3>content management</h3>
             <img src={contentful} />
             <p>As a Contentful partner, I create insanley fast e-commerce experiences by leveraging the power of Headless Content Management.</p>
-            {/* <p style={{color: `#b007a8`}}>Learn More &#187;</p> */}
           </div>
           <div className='partners-card'>
             <h3>headless architecture</h3>
             <img src={jam} />
             <p>Removing the requirement to manage or run web servers, I create fast, secure sites and dynamic headless e-commerce websites.</p>
-            {/* <p style={{color: `#b007a8`}}>Learn More &#187;</p> */}
           </div>
           <div className='partners-card'>
             <h3>hosting</h3>
             <img src={netlify} />
             <p>Netlify makes CI/CD, deployment and scaled hosting a commodity and helps enterprises focus on creating great dynamic consumer experiences.</p>
-            {/* <p style={{color: `#b007a8`}}>Learn More &#187;</p> */}
           </div>
           <div className='partners-card'>
             <h3>payment solutions</h3>
             <img src={stripe} />
             <p>Through my Stripe partnership I'm able to integrate a fast and lightweight payment processing system for internet businesses of all sizes.</p>
-            {/* <p style={{color: `#b007a8`}}>Learn More &#187;</p> */}
           </div>
           <div className='partners-card'>
             <h3>email marketing</h3>
             <img src={mailchimpAlt} />
             <p>I partners with Mailchimp to provide revenue-generating email marketing services, fueling your brand’s growth.</p>
-            {/* <p style={{color: `#b007a8`}}>Learn More &#187;</p> */}
           </div>
           </div>
         </div>
