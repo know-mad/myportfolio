@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import './header.css'
@@ -8,14 +8,26 @@ import closedBurger from '../images/closed-burger.svg'
 
 const Header = ({ link1, link2, link3, link4, link5  }) => {
   const [openNav, setOpenNav] = useState(false)
+  const [offset, setOffset] = useState(0)
+
+  const logic = () => {
+    setOffset((window.scrollY) / (document.body.scrollHeight - window.innerHeight) * 168)
+  }
 
   const toggleNav = () => {
     let toggle = openNav
     setOpenNav(!toggle)
   }
 
-
-
+  useEffect(() => {
+    const watchScroll = () => {
+      window.addEventListener('scroll', logic)
+    }
+    watchScroll()
+    return () => {
+      window.removeEventListener('scroll', logic)
+    }
+  }, [])
 
    return (
      <header>
@@ -70,6 +82,24 @@ const Header = ({ link1, link2, link3, link4, link5  }) => {
              {link5}
            </Link>
 
+         </div>
+       </div>
+       <div className='scroll-bar'>
+         <div className='circle'>
+           <div className='outer'>
+           <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="60px" height="60px">
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="0%" stopColor="#0984e3" />
+                <stop offset="100%" stopColor="#b007a8" />
+              </linearGradient>
+            </defs>
+            <circle style={{strokeDashoffset: offset }} cx="30" cy="30" r="27" strokeLinecap="round" />
+           </svg>
+           <div className='inner'>
+            <p style={{fontSize: `0.75rem`, color: `#fff`}}>{Math.floor(offset / 168 * 100)}%</p>
+           </div>
+           </div>
          </div>
        </div>
      </header>

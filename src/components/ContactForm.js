@@ -62,7 +62,7 @@ const ContactForm = () => {
           placeholder='Full Name'
           value={fullName.fName}
           onChange={handleChange}
-          maxlength="25"
+          maxLength="25"
           required
         />
         <input
@@ -70,17 +70,16 @@ const ContactForm = () => {
           placeholder='E-Mail'
           value={fullName.mail}
           onChange={handleChange}
-          maxlength="50"
+          maxLength="50"
           required
         />
 
         <input
           name='tel'
           placeholder='Telephone'
-          maxlength="15"
+          maxLength="15"
           value={fullName.tel}
           onChange={handleChange}
-          maxlength='15'
           required
         />
         <textarea

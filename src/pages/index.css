@@ -667,7 +667,6 @@ light-purple #4026B6
 .partners-list {
   display: flex;
   flex-direction: column;
-  /* height: 40em; */
   height: 115em;
   width: 100%;
   margin-top: 7em;
@@ -679,33 +678,22 @@ light-purple #4026B6
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* height: 15%; */
   height: 5%;
   width: 100%;
-  /* background: crimson; */
 }
 
 .partners-list-top p {
-  /* font-size: 3rem; */
   font-size: 2rem;
   margin: 0;
-  /* color: #4026B6; */
 }
 
 .partners-list-bottom {
   display: flex;
-  /* flex-direction: row; */
   flex-direction: column;
-  /* align-items: center; */
   justify-content: space-around;
-  /* flex-wrap: wrap; */
   align-items: center;
-  /* height: 85%; */
   height: 95%;
   width: 100%;
-  /* background: royalblue; */
-  /* padding: 0 2em 0; */
-  /* padding: 0 1em 0; */
 }
 
 .partners-card {
@@ -718,7 +706,6 @@ light-purple #4026B6
   width: 90%;
   border: 1px solid #4026B6;
   background: rgba(64, 38, 182, 0.1);
-  color: #1F0A34;
 }
 
 .partners-card h3 {
@@ -734,7 +721,6 @@ light-purple #4026B6
 
 
 .partners-card img {
-  /* height: 25% */
   height: 15%;
 }
 
