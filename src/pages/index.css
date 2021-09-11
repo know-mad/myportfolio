@@ -1025,7 +1025,7 @@ light-purple #4026B6
     background: linear-gradient(to left, rgba(9, 132, 227, 0.3), rgba(9, 132, 227, 0.1));
     position: absolute;
     z-index: 2;
-    margin-right: 40%;
+    left: 2%;
     backdrop-filter: blur(5px);
     border: 1px solid #0984e3;
   }
@@ -1038,9 +1038,9 @@ light-purple #4026B6
     height: 6em;
     width: 45%;
     background-color: rgba(255, 255, 255, 0.2);
-    position: relative;
+    position: absolute;
     z-index: 1;
-    margin-left: 50%;
+    right: 2%;
     font-size: 2.5rem;
   }
 
@@ -1095,10 +1095,10 @@ light-purple #4026B6
     height: 10em;
     width: 45%;
     background-color: rgba(255, 255, 255, 0.2);
-    position: relative;
+    position: absolute;
     z-index: 0;
-    margin-right: 50%;
-    font-size: 1.75rem;;
+    left: 2%;
+    font-size: 1.75rem;
   }
 
   .reverse-section-md-right {
@@ -1114,7 +1114,7 @@ light-purple #4026B6
     background: linear-gradient(to left, rgba(9, 132, 227, 0.3), rgba(9, 132, 227, 0.1) );
     position: absolute;
     z-index: 1;
-    margin-left: 40%;
+    right: 2%;
     backdrop-filter: blur(5px);
     font-size: 1.25rem;
   }

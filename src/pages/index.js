@@ -12,7 +12,7 @@ import git from '../images/git-icon.svg'
 import twitter from '../images/twitter-icon.svg'
 import webDesign from '../images/web-design-icon.svg'
 import coding from '../images/coding.svg'
-import rocket from '../images/rocket.svg'
+import speedometer from '../images/speedometer.svg'
 import nike from '../images/nike-logo.svg'
 import mailchimp from '../images/mailchimp-logo.png'
 import peloton from '../images/peloton-logo.svg'
@@ -102,7 +102,7 @@ const IndexPage = () => {
           <div className='partners-card'>
             <h3>e-commerce</h3>
             <img src={shopifyAlt} />
-            <p>Working closely with Shopify, I'm able to deliver best-in-class commerce experiences for high-growth DTC brands.</p>
+            <p>Working closely with Shopify, I'm able to deliver best-in-class commerce experiences for high-growth Direct To Consumer (DTC) brands.</p>
           </div>
           <div className='partners-card'>
             <h3>content management</h3>
@@ -127,7 +127,7 @@ const IndexPage = () => {
           <div className='partners-card'>
             <h3>email marketing</h3>
             <img src={mailchimpAlt} />
-            <p>I partners with Mailchimp to provide revenue-generating email marketing services, fueling your brand’s growth.</p>
+            <p>I partner with Mailchimp to provide revenue-generating email marketing services, fueling your brand’s growth and retargetting campaigns.</p>
           </div>
           </div>
         </div>
@@ -326,7 +326,7 @@ const IndexPage = () => {
       <section>
       <div className='section-md reversed'>
           <div className='reverse-section-md-left'>
-            <img style={{height: `60%`, width: `70%`}} src={rocket} alt='rocket-ship'/>
+            <img src={speedometer} alt='rocket-ship'/>
           </div>
 
           <div className='reverse-section-md-right'>

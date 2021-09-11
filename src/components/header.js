@@ -27,7 +27,7 @@ const Header = ({ link1, link2, link3, link4, link5  }) => {
     return () => {
       window.removeEventListener('scroll', logic)
     }
-  }, [])
+  })
 
    return (
      <header>
