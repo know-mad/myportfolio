@@ -1,10 +1,11 @@
-import React from "react"
+import React, { useEffect } from "react"
 import './index.css'
 import { Link } from 'gatsby'
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import Testimonials from '../components/Testimonials'
 import ContactForm from '../components/ContactForm'
+import { gsap } from 'gsap'
 
 import facebook from '../images/facebook-icon.svg'
 import instagram from '../images/instagram-icon.svg'
@@ -50,6 +51,28 @@ import stripe from '../images/stripe.svg'
 
 const IndexPage = () => {
 
+  useEffect(() => {
+    const words = document.querySelectorAll('.rotator > span');
+
+    let main = gsap.timeline({repeat: -1});
+    
+    for (let i = 0; i < words.length; i++) {
+      let delay = i - 1;
+      let wordTL = gsap.timeline();
+      if(i !== 0) {
+        wordTL.from(words[i], {duration: 1, yPercent: -100, opacity: 0, ease: 'power2.out' });
+      } else { // Handle the first one specially
+        delay += 1;
+        gsap.set(words[0], {opacity: 1, yPercent: 0});
+      }
+      
+      if(i !== words.length - 1) {
+        wordTL.to(words[i], {duration: 1, yPercent: 100, opacity: 0, ease: 'power2.out' });
+      }
+      main.add(wordTL, delay);
+    }
+  }, [])
+
   return (
     <Layout>
       <SEO title="Best Website Designers NYC"/>
@@ -61,7 +84,7 @@ const IndexPage = () => {
           <div className='hero-overlay'>
             <p style={{color: '#0984e3', margin: '0'}}>FULL STACK DEVELOPER</p>
             <h1 style={{color: '#fff', fontWeight: `900`}}>DAVID VELEZ</h1>
-            <p style={{color: '#fff', margin: '0'}}>Providing performance driven technology solutions for todays digital centric market.</p>
+            <p style={{color: '#fff', margin: '0'}}>Independent <span class="rotator"><span>Technology</span><span>Shopify</span><span>Website</span><span>Apps</span><span>Marketing</span></span> specialist providing robust solutions for todays digital centric market.</p>
             <Link id='hero-link' to='/contact/'>START YOUR WEB PROJECT</Link>
             <div className='hero-socials-links'>
               <a href='https://www.facebook.com/developerdave/' rel="noopener noreferrer" target="_blank"><img src={facebook} alt='web-designer-social-media-link'/></a>

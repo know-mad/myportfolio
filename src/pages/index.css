@@ -148,28 +148,6 @@ light-purple #4026B6
   padding: 1em;
 }
 
-/* .profile-intro-left {
-  height: 40%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: red;
-} */
-
-/* .profile-intro-right {
-  height: 60%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.25rem;
-  padding: 1em;
-  background: red;
-} */
-
 .profile-photo {
   display: flex;
   flex-direction: column;
@@ -724,6 +702,20 @@ light-purple #4026B6
   height: 15%;
 }
 
+.rotator {
+  position: relative;
+  vertical-align: text-bottom;
+  margin-right: 6em;
+  margin-left: 0.5em;
+  color: #b007a8;
+}
+
+.rotator > span {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 
 @media (min-width: 768px) {
   .hero-overlay {
@@ -837,6 +829,10 @@ light-purple #4026B6
   .partners-card {
     height: 30%;
     width: 45%;
+  }
+
+  .rotator {
+    margin-left: 0;
   }
 }
 
@@ -1501,7 +1497,5 @@ light-purple #4026B6
     font-size: 4.5rem;
   }
 }
-
-/* /// Playing with GSAP /// */
 
 
