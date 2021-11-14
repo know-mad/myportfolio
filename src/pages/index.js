@@ -85,7 +85,7 @@ const IndexPage = () => {
             <p style={{color: '#0984e3', margin: '0'}}>FULL STACK DEVELOPER</p>
             <h1 style={{color: '#fff', fontWeight: `900`}}>DAVID VELEZ</h1>
             <p style={{color: '#fff', margin: '0'}}>Independent <span class="rotator"><span>Technology</span><span>Shopify</span><span>Website</span><span>Apps</span><span>Marketing</span></span> specialist providing robust solutions for todays digital centric market.</p>
-            <Link id='hero-link' to='/contact/'>START YOUR WEB PROJECT</Link>
+            <Link id='hero-link' to='/contact/'>START YOUR PROJECT</Link>
             <div className='hero-socials-links'>
               <a href='https://www.facebook.com/developerdave/' rel="noopener noreferrer" target="_blank"><img src={facebook} alt='web-designer-social-media-link'/></a>
               <a href='https://github.com/know-mad' rel="noopener noreferrer" target="_blank"><img src={git} alt='web-designer-social-media-link'/></a>
