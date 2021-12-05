@@ -4,7 +4,7 @@ import SEO from '../../components/seo'
 import Layout from '../../components/layout'
 import { Link } from 'gatsby'
 
-import simon from '../../images/simon.jpg'
+import onewsq from '../../images/1wsq.jpg'
 
 const ProjectPage = () => (
   <Layout>
@@ -21,12 +21,12 @@ const ProjectPage = () => (
       <section>
         <div className='section-sm'>
           <div className='section-sm-left'>
-            <h2>Simon</h2>
+            <h2>1 Willoughby Square</h2>
             <a href='https://hungry-feynman-7e3a89.netlify.app/' target="_blank"  rel="noreferrer" id='page-link'>VISIT APP</a>
             <Link to='/projects/' id='contact-link'>BACK</Link>
           </div>
           <div className='section-sm-right'>
-            <img src={simon} alt='web-design-project' />
+            <img src={onewsq} alt='web-design-project' />
           </div>
         </div>
       </section>

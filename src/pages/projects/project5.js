@@ -4,7 +4,7 @@ import SEO from '../../components/seo'
 import Layout from '../../components/layout'
 import { Link } from 'gatsby'
 
-import cpa from '../../images/cpa.jpg'
+import jqueen from '../../images/jqueen.jpg'
 
 const ProjectPage = () => (
   <Layout>
@@ -21,12 +21,12 @@ const ProjectPage = () => (
       <section>
         <div className='section-sm'>
           <div className='section-sm-left'>
-            <h2>Accountant Website</h2>
-            <a href='https://www.kevinrichcpa.com/' target="_blank"  rel="noreferrer" id='page-link'>VISIT SITE</a>
+            <h2>J. Queen New York</h2>
+            <a href='https://jqueen-ny.com/' target="_blank"  rel="noreferrer" id='page-link'>VISIT SITE</a>
             <Link to='/projects/' id='contact-link'>BACK</Link>
           </div>
           <div className='section-sm-right'>
-            <img src={cpa} alt='web-design-project' />
+            <img src={jqueen} alt='web-design-project' />
           </div>
         </div>
       </section>
@@ -37,10 +37,10 @@ const ProjectPage = () => (
             <p style={{color: '#0984e3'}}>Built with:</p>
           </div>
           <div className='built-with-banner-right'>
-            <p>React</p>
-            <p>Figma</p>
-            <p>Gatsby</p>
-            <p>Netlify</p>
+            <p>Shopify</p>
+            <p>Liquid</p>
+            <p>HTML</p>
+            <p>CSS</p>
           </div>
         </div>
       </section>

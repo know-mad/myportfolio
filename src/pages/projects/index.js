@@ -5,12 +5,14 @@ import SEO from '../../components/seo'
 import Projects from '../../components/Projects'
 import { Link } from 'gatsby'
 
-import az from '../../images/az.jpg'
-import cpa from '../../images/cpa.jpg'
-import md from '../../images/mdbest.jpg'
+// import az from '../../images/az.jpg'
+// import cpa from '../../images/cpa.jpg'
+import toboot from '../../images/toboot.jpg'
+import jqueen from '../../images/jqueen.jpg'
+import arch from '../../images/architessa.jpg'
 import portfolio from '../../images/portfolio.jpg'
 import blog from '../../images/blog.jpg'
-import simon from '../../images/simon.jpg'
+import onewsq from '../../images/1wsq.jpg'
 import cotripp from '../../images/cotripp.jpg'
 import ecommerce from '../../images/ecommerce.jpg'
 
@@ -37,6 +39,17 @@ const PortfolioPage = () => (
 
       <section>
         <Projects
+        toPage1={'/projects/project5/'} 
+        toPage2={'/projects/project6/'} 
+        backgroundImage={jqueen}
+        backgroundImage2={onewsq}
+        content1='Static website built for am accounting business owner who runs his own accounting practice....'
+        content2='A web version of the popular Hasbro game SIMON built with React.js. I used this project to implement many of Reacts advanced...'
+        />
+      </section>
+
+      <section>
+        <Projects
         toPage1={'/projects/project1/'}
         toPage2={'/projects/project2/'}
         backgroundImage={portfolio}
@@ -51,20 +64,9 @@ const PortfolioPage = () => (
         toPage1={'/projects/project3/'} 
         toPage2={'/projects/project4/'} 
         backgroundImage={ecommerce}
-        backgroundImage2={md}
-        content1='E-commerce store built on a decoupled architecture. The store features dynamically generated items fetched via GraphQL from the Shopify API....'
+        backgroundImage2={arch}
+        content1='Fully custom e-commerce store built on a decoupled architecture. The store features dynamically generated items fetched via GraphQL from the Shopify API....'
         content2="Maryland's Best Home Improvements is a home renovations company operating out of Baltimore, MD. In order to gain more clients they..."
-        />
-      </section>
-
-      <section>
-        <Projects
-        toPage1={'/projects/project5/'} 
-        toPage2={'/projects/project6/'} 
-        backgroundImage={cpa}
-        backgroundImage2={simon}
-        content1='Static website built for am accounting business owner who runs his own accounting practice....'
-        content2='A web version of the popular Hasbro game SIMON built with React.js. I used this project to implement many of Reacts advanced...'
         />
       </section>
 
@@ -73,7 +75,7 @@ const PortfolioPage = () => (
         toPage1={'/projects/project7/'}
         toPage2={'/projects/project8/'}
         backgroundImage={cotripp}
-        backgroundImage2={az}
+        backgroundImage2={toboot}
         content1='CoTripper is a Washington DC based startup built to assist traveling single moms with booking vacations. While working on a team of 8 engineers in an AGILE environment...'
         content2='Aziatic Hair Studio is a barbershop operating in Manassas, VA. The owner was in the market for an aggressive marketing strategy that involved...'/>
       </section>

@@ -4,7 +4,7 @@ import SEO from '../../components/seo'
 import Layout from '../../components/layout'
 import { Link } from 'gatsby'
 
-import md from '../../images/mdbest.jpg'
+import arch from '../../images/architessa.jpg'
 
 const ProjectPage = () => (
   <Layout>
@@ -21,12 +21,12 @@ const ProjectPage = () => (
       <section>
         <div className='section-sm'>
           <div className='section-sm-left'>
-            <h2>MD's Best Home Improvements</h2>
+            <h2>Architessa</h2>
             <a href='https://www.marylandsbesthomeimprovements.com/' target="_blank"  rel="noreferrer" id='page-link'>VISIT SITE</a>
             <Link to='/projects/' id='contact-link'>BACK</Link>
           </div>
           <div className='section-sm-right'>
-            <img src={md} alt='web-design-project' />
+            <img src={arch} alt='web-design-project' />
           </div>
         </div>
       </section>

@@ -4,7 +4,7 @@ import SEO from '../../components/seo'
 import Layout from '../../components/layout'
 import { Link } from 'gatsby'
 
-import az from '../../images/az.jpg'
+import toboot from '../../images/toboot.jpg'
 
 const ProjectPage = () => (
   <Layout>
@@ -21,12 +21,12 @@ const ProjectPage = () => (
       <section>
         <div className='section-sm'>
           <div className='section-sm-left'>
-            <h2>Aziatic Hair Studio</h2>
+            <h2>To Boot New York</h2>
             <a href='https://priceless-kilby-97b7f4.netlify.app/' target="_blank"  rel="noreferrer" id='page-link'>VISIT SITE</a>
             <Link to='/projects/' id='contact-link'>BACK</Link>
           </div>
           <div className='section-sm-right'>
-            <img src={az} alt='web-design-project' />
+            <img src={toboot} alt='web-design-project' />
           </div>
         </div>
       </section>
