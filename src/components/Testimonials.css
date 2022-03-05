@@ -42,11 +42,15 @@
 .testimonial-person {
   height: 10em;
   width: 10em;
-  border-radius: 10em;
-  border: 1px solid #0984e3;
-  background-size: 100% auto;
-  background-position: center;
-  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 1px solid #F446EC;
+  padding: 0.5em;
+}
+
+.testimonial-person img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
 }
 
 .testimonial-photo-container {
@@ -67,6 +71,10 @@
   width: 100%;
   font-size: 1.25rem;
   padding: 1em;
+}
+
+.testimonial-comment-container p {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .pagination-dots {

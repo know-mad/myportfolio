@@ -53,13 +53,15 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              A web version of the popular Hasbro game SIMON built with React.js. I used this
-              project to implement many of Reacts advanced features such as conditional rendering,
-              context, and portals (aka modals).
+              1 Willoughby Square, is Brooklyn’s first ground-up office tower in a generation. 1WSQ 
+              opens directly to the 1-acre Willoughby Square Park and climbs 34 stories above Brooklyn 
+              to offer unobstructed views of New York’s skylines and waterways.
               <br/>
               <br/>
-              Everything was built from scratch, including the layout and the design of the app, in order
-              to get it as close as posible to physical board game created by Hasbro.
+              The 14,500-square-foot floorplates at 1WSQ feature impressive column-free lease spans 
+              and 14-foot slab heights. Interiors and landscaped terraces overlook the new Willoughby 
+              Square Park and reveal 360-degree vistas from New York Harbor to Prospect Park. Multilevel 
+              occupants will experience connected floors with 28-foot clearances.
             </p>
           </div>
         </div>
@@ -73,12 +75,10 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              Through critical thinking, I was able to replicate the simon logic which allows
-              a player to follow along as simon creates a randomized sequence which the player
-              must replicate without error in order to move on to the next level. 
-              <br/>
-              <br/>
-              Feel free to go play!
+              The successful implementation and deployment of the company web asset is a fully
+              custom web app built on React. With direction from the company's design team, I was 
+              able to bring to life it's vision of a unique user interface coupled with an immersive 
+              user experience.
             </p>
           </div> 
         </div>

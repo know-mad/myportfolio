@@ -21,7 +21,7 @@ const ProjectPage = () => (
       <section>
         <div className='section-sm'>
           <div className='section-sm-left'>
-            <h2>Personal Business Site</h2>
+            <h2>DavidVelez.io</h2>
             <Link to='/projects/' id='contact-link'>BACK</Link>
           </div>
           <div className='section-sm-right'>
@@ -38,8 +38,6 @@ const ProjectPage = () => (
           <div className='built-with-banner-right'>
             <p>HTML</p>
             <p>CSS</p>
-            <p>React</p>
-            <p>Figma</p>
             <p>Gatsby</p>
             <p>Netlify</p>
           </div>

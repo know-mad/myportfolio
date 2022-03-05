@@ -5,9 +5,6 @@ import Layout from '../../components/layout'
 import SEO from '../../components/seo'
 
 import arrow from '../../images/right-arrow.svg'
-import webDesign from '../../images/web-design-icon.svg'
-import coding from '../../images/coding.svg'
-import shoppingCart from '../../images/shopping-cart-icon.svg'
 
 
 const ServicesPage = () => (
@@ -22,85 +19,15 @@ const ServicesPage = () => (
       </div>
     </section>
 
-    <section>
-        <div className='section-md-column'>
-          <div className='services-container'>
-            <div className='individual-service'>
-              <div className='individual-service-top'>
-                <img src={webDesign} alt='web-design-services'/>
-              </div>
-              <div className='individual-service-bottom'>
-                <div className='individual-service-bottom-title'>
-                  <h1>WEB DESIGN</h1>
-                </div>
-                <div className='individual-service-bottom-content'>
-                  <p>
-                  No cookie cutter wordpress sites here! I design and create custom websites built on modern technology
-                  stacks that generate blazing fast page load speeds coupled with aesthetics to match.
-                  </p>
-                </div>
-                <div className='individual-service-button-container'>
-                  <Link id='services-link' to={'/services/web-design-services-nyc/'}><img src={arrow} alt='right-arrow-icon'/></Link>
-                  <p>DETAILS</p>
-                </div>
-              </div>
-            </div>
-
-            <div className='individual-service'>
-              <div className='individual-service-top'>
-                <img src={shoppingCart} alt='seo-services'/>
-              </div>
-              <div className='individual-service-bottom'>
-                <div className='individual-service-bottom-title'>
-                  <h1>E-COMMERCE</h1>
-                </div>
-                <div className='individual-service-bottom-content'>
-                  <p>
-                  There's no way around it...doing business in the digital age means having to sell online.
-                  I provide robust and scalable e-commerce solutions that allow you or your business to 
-                  sell products on the world wide web.
-                  </p>
-                </div>
-                <div className='individual-service-button-container'>
-                  <Link id='services-link' to={'/services/ecommerce-web-design-nyc/'}><img src={arrow} alt='right-arrow-icon'/></Link>
-                  <p>DETAILS</p>
-                </div>
-              </div>
-            </div>
-
-            <div className='individual-service'>
-              <div className='individual-service-top'>
-                <img src={coding} alt='web-developmen-code'/>
-              </div>
-              <div className='individual-service-bottom'>
-                <div className='individual-service-bottom-title'>
-                  <h1>APPS</h1>
-                </div>
-                <div className='individual-service-bottom-content'>
-                  <p>
-                  Mobile business applications have become a necessary marketing tool for all businesses, regardless of the size 
-                  of their industries. A mobile app can help a small business engage with and build their customer 
-                  base, drive sales, and improve their reputation.
-                  </p>
-                </div>
-                <div className='individual-service-button-container'>
-                  <Link id='services-link' to={'/services/web-development-nyc/'}><img src={arrow} alt='right-arrow-icon'/></Link>
-                  <p>DETAILS</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
   <section>
-  <div className='service-info-section'>
+  <div className='info-section-sm'>
     <h2>SERVICE PACKAGES</h2>
         <p>
-            My professional approach to web development is reflected in my process
-           and collaborative approach. I have a highly transparent and collaborative
-           style and detail all tasks involved with your project so that it is
-           to your standards along the way. 
+           With collaboration at my core, I am ready to work with you to hand craft 
+           a winning web solution! I excel at listening and then acting on your needs, to 
+           deliver a successful web design collaboration. Equipped with the knowledge, experience 
+           and passion needed to get the job done I am poised to deliver a wide range of website 
+           design and development services. 
           </p>
         </div>
   </section>
@@ -115,11 +42,11 @@ const ServicesPage = () => (
           <ul>
             <li>Static Web Site</li>
               <ul>
-                <li style={{color: '#0984e3'}}>No e-commerce</li>
+                <li style={{color: '#F446EC'}}>No e-commerce</li>
               </ul>
             <li>5 pages maximum</li>
               <ul>
-                <li style={{color: '#0984e3'}}>Extra charge per page beyond 5</li>
+                <li style={{color: '#F446EC'}}>Extra charge per page beyond 5</li>
               </ul>
             <li>Mobile Responsive</li>
             <li>Contact Form</li>

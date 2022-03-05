@@ -22,7 +22,7 @@ const ProjectPage = () => (
         <div className='section-sm'>
           <div className='section-sm-left'>
             <h2>To Boot New York</h2>
-            <a href='https://priceless-kilby-97b7f4.netlify.app/' target="_blank"  rel="noreferrer" id='page-link'>VISIT SITE</a>
+            <a href='https://toboot.com/' target="_blank"  rel="noreferrer" id='page-link'>VISIT SITE</a>
             <Link to='/projects/' id='contact-link'>BACK</Link>
           </div>
           <div className='section-sm-right'>
@@ -39,9 +39,8 @@ const ProjectPage = () => (
           <div className='built-with-banner-right'>
             <p>HTML</p>
             <p>CSS</p>
-            <p>React</p>
-            <p>Gatsby</p>
-            <p>Netlify</p>
+            <p>Shopify</p>
+            <p>Javascript</p>
           </div>
         </div>
       </section>
@@ -54,12 +53,10 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              Aziatic Hair Studio is a barbershop operating in Manassas, VA. The
-              owner was in the market for an aggressive marketing strategy that
-              involved a streamlined website that was clean on both desktops and
-              mobile devices and allowed his clients to book appointments straight
-              from the website. He also wanted the website to be optimized so that
-              potential clients could find his services when looking on search engines.
+              With over 100 choices, To Boots customers will find everything from dress shoes to sneakers amongst 
+              other styles that are refreshed seasonally. They offer a range of boots and bring in textured leathers 
+              and suedes. Their factories in Italy build comfort, quality and integrity into each pair, ensuring 
+              that their customers become loyal repeat clients who collect To Boot shoes from season to season.
             </p>
           </div>
         </div>
@@ -73,16 +70,10 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              The website was built on the Gatsby.js platform to ensure blazing fast
-              page load speeds which directly affects how the website ranks on search engines.
-              Through the platform, I built a streamlined SPA type of website that allows
-              clients to view all of the important business information and perform all of
-              the business actions requested by the client without navigating away from the home page.
-              <br/>
-              <br/>
-              Followed by an aggressive SEO strategy involving key word implementation for the clients desired
-              outcome, I was able to get this site ranked locally for the client wich has resulted
-              in a 30% uptick in inquiries for services rendered per the client.
+              The outcome for this project was a successful implementation of the
+              company's rebranding and web presence via an fully optimized and responsive
+              web asset that allows for potential clients in their local market to find and
+              ultimately contact or shop online for their products and services.
             </p>
           </div>
         </div>

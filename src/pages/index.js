@@ -82,9 +82,9 @@ const IndexPage = () => {
             <source src={video} type="video/mp4"/>
           </video>
           <div className='hero-overlay'>
-            <p style={{color: '#0984e3', margin: '0'}}>FULL STACK DEVELOPER</p>
-            <h1 style={{color: '#fff', fontWeight: `900`}}>DAVID VELEZ</h1>
-            <p style={{color: '#fff', margin: '0'}}>Independent <span class="rotator"><span>Technology</span><span>Shopify</span><span>Website</span><span>Apps</span><span>Marketing</span></span> specialist providing robust solutions for todays digital centric market.</p>
+            <p className="hero-title">FULL STACK DEVELOPER</p>
+            <p className="my-name">DAVID VELEZ</p>
+            <p className="hero-pitch">Independent technology specialist providing robust solutions so you or your business can win online.</p>
             <Link id='hero-link' to='/contact/'>START YOUR PROJECT</Link>
             <div className='hero-socials-links'>
               <a href='https://www.facebook.com/developerdave/' rel="noopener noreferrer" target="_blank"><img src={facebook} alt='web-designer-social-media-link'/></a>
@@ -107,11 +107,11 @@ const IndexPage = () => {
             <img src={me} alt='David Velez is the best web designer in New York City'/>
           </div>
             <p>
-                <span style={{fontSize: `2rem`, color: `#0984e3`, fontWeight: `bold`}}>I'm David,</span>
+                <span className="hero-title">I'm David,</span>
                 <br/>
-                Your friendly neighborhood full stack developer. Based in New York City, and having a background in software engineering, I specialize in building 
+                <span className="hero-pitch">Your friendly neighborhood full stack developer. Based in New York City, and having a background in software engineering, I specialize in building 
                 blazing-fast websites, web applications, and e-commerce solutions by using the latest technologies to prioritize 
-                site/app performance ultimately resulting in breakneck page load speeds and better SEO all delivered with aesthetics to match.
+                site/app performance ultimately resulting in breakneck page load speeds and better SEO all delivered with aesthetics to match.</span>
             </p>
         </div>
       </section>
@@ -119,38 +119,38 @@ const IndexPage = () => {
       <section>
         <div className='partners-list'>
           <div className='partners-list-top'>
-          <p>Trusted Partners</p>
+          <p className="my-name">Trusted Partners</p>
           </div>
           <div className='partners-list-bottom'>
           <div className='partners-card'>
-            <h3>e-commerce</h3>
+            <p className="partners-card-header">e-commerce</p>
             <img src={shopifyAlt} />
-            <p>Working closely with Shopify, I'm able to deliver best-in-class commerce experiences for high-growth Direct To Consumer (DTC) brands.</p>
+            <p className="partners-card-content">Working closely with Shopify, I'm able to deliver best-in-class commerce experiences for high-growth Direct To Consumer (DTC) brands.</p>
           </div>
           <div className='partners-card'>
-            <h3>content management</h3>
+            <p className="partners-card-header">content management</p>
             <img src={contentful} />
-            <p>As a Contentful partner, I create insanley fast e-commerce experiences by leveraging the power of Headless Content Management.</p>
+            <p className="partners-card-content">As a Contentful partner, I create insanley fast e-commerce experiences by leveraging the power of Headless Content Management.</p>
           </div>
           <div className='partners-card'>
-            <h3>headless architecture</h3>
+            <p className="partners-card-header">headless architecture</p>
             <img src={jam} />
-            <p>Removing the requirement to manage or run web servers, I create fast, secure sites and dynamic headless e-commerce websites.</p>
+            <p className="partners-card-content">Removing the requirement to manage or run web servers, I create fast, secure sites and dynamic headless e-commerce websites.</p>
           </div>
           <div className='partners-card'>
-            <h3>hosting</h3>
+            <p className="partners-card-header">hosting</p>
             <img src={netlify} />
-            <p>Netlify makes CI/CD, deployment and scaled hosting a commodity and helps enterprises focus on creating great dynamic consumer experiences.</p>
+            <p className="partners-card-content">Netlify makes CI/CD, deployment and scaled hosting a commodity and helps enterprises focus on creating great dynamic consumer experiences.</p>
           </div>
           <div className='partners-card'>
-            <h3>payment solutions</h3>
+            <p className="partners-card-header">payment solutions</p>
             <img src={stripe} />
-            <p>Through my Stripe partnership I'm able to integrate a fast and lightweight payment processing system for internet businesses of all sizes.</p>
+            <p className="partners-card-content">Through my Stripe partnership I'm able to integrate a fast and lightweight payment processing system for internet businesses of all sizes.</p>
           </div>
           <div className='partners-card'>
-            <h3>email marketing</h3>
+            <p className="partners-card-header">email marketing</p>
             <img src={mailchimpAlt} />
-            <p>I partner with Mailchimp to provide revenue-generating email marketing services, fueling your brand’s growth and retargetting campaigns.</p>
+            <p className="partners-card-content">I partner with Mailchimp to provide revenue-generating email marketing services, fueling your brand’s growth and retargetting campaigns.</p>
           </div>
           </div>
         </div>
@@ -241,26 +241,6 @@ const IndexPage = () => {
               <h1>WEB DESIGN</h1>
             </div>
           </div>
-
-        <div className='info-section-sm'>
-        <h2>BLAZING FAST WEBSITES THAT SCALE EFFORTLESSLY</h2>
-        <p>
-            Statistics show that approximately 4.57 billion people worldwide are active internet users which 
-            makes the internet a goldmine of opportunities for all kinds of businesses. <span style={{color: '#b007a8'}}>Leverage its power to your advantage</span>, and establish 
-            your digital presence today to discover your market potential. From website design and
-            development to search engine optimization (SEO) and site maintenance, I’ve
-            got you covered. In today’s digital world because today more than ever, it is crucial to stay connected 
-            with your customers and prospects to leverage new markets and expand your business. 
-            <br/>
-            <br/>
-            Because 35% of the web uses an old technology like WordPress for their website, this means that getting your new
-            site built by me will give you a competitive advantage over 35% of the web since I build on the modern web
-            stack and am able to produce blazing fast page load speeds that beat out the competition on 
-            search engines. So whether you're looking for an ecommerce store, a blog, or a business website, rest assured
-            you'll get a product that's on the cutting edge of technology...not just another Worpress website built on old and 
-            outdated tech.
-          </p>
-        </div>
       </section>
 
       <section>
@@ -270,20 +250,17 @@ const IndexPage = () => {
             <p>
               A good website is truly your digital storefront with the best part being... it’s
               always marketing your products and services 24/7/365, even when your office or physical location is closed.
-              I develop custom websites built on the <span style={{color: '#b007a8', fontStyle: 'italic'}}>NEW WEB ARCHITECTURE</span> with the Jamstack, that prioritize
-              performance to maximize <span style={{color: '#b007a8', fontStyle: 'italic'}}>SEO</span> campaigns, which gets your website discovered on search engines sooner.
+              I develop custom websites built on the <span style={{color: '#F446EC', fontStyle: 'italic'}}>NEW WEB ARCHITECTURE</span> with the Jamstack, that prioritize
+              performance to maximize <span style={{color: '#F446EC', fontStyle: 'italic'}}>SEO</span> campaigns, which gets your website discovered on search engines sooner.
               <br/>
               <br/>
               Because let's face it...
               <br/>
+              <span style={{color: '#0984e3', fontStyle: 'italic', fontWeight: 'bold'}}>SLOW WEBSITE = </span>  <span style={{color: '#F446EC', fontStyle: 'italic', fontWeight: 'bold'}}>NO ONLINE SALES!</span>
               <br/>
-              <span style={{color: '#0984e3', fontStyle: 'italic', fontWeight: 'bold'}}>SLOW WEBSITE = </span>  <span style={{color: '#b007a8', fontStyle: 'italic', fontWeight: 'bold'}}>NO ONLINE SALES!</span>
+              <span style={{color: '#0984e3', fontStyle: 'italic', fontWeight: 'bold'}}>BAD WEBSITE =</span>  <span style={{color: '#F446EC', fontStyle: 'italic', fontWeight: 'bold'}}>NO ONLINE SALES!</span>
               <br/>
-              <br/>
-              <span style={{color: '#0984e3', fontStyle: 'italic', fontWeight: 'bold'}}>BAD WEBSITE =</span>  <span style={{color: '#b007a8', fontStyle: 'italic', fontWeight: 'bold'}}>NO ONLINE SALES!</span>
-              <br/>
-              <br/>
-              <span style={{color: '#0984e3', fontStyle: 'italic', fontWeight: 'bold'}}>NO WEBSITE =</span>  <span style={{color: '#b007a8', fontStyle: 'italic', fontWeight: 'bold'}}>NO ONLINE SALES!</span>
+              <span style={{color: '#0984e3', fontStyle: 'italic', fontWeight: 'bold'}}>NO WEBSITE =</span>  <span style={{color: '#F446EC', fontStyle: 'italic', fontWeight: 'bold'}}>NO ONLINE SALES!</span>
             </p>
           </div>
           <div className='section-md-right'>
@@ -292,7 +269,7 @@ const IndexPage = () => {
         </div>
 
         <div className='jamstack-info-section'>
-          <p><span style={{color: `#b007a8`}}>Jamstack</span> Is Trusted By</p>
+          <p><span style={{color: `#F446EC`}}>Jamstack</span> Sites Are Used By</p>
         </div>
 
         <div className='logos-ticker'>
@@ -353,7 +330,7 @@ const IndexPage = () => {
           </div>
 
           <div className='reverse-section-md-right'>
-          <h2>IF IT'S NOT FAST IT'S BROKEN</h2>
+          <h2>IF IT'S NOT FAST, IT'S BROKEN</h2>
             <p>
             Page loading speeds have a crucial impact on user experience and conversion. My websites 
             remove the need to generate page views on a server at request time by instead generating 
@@ -364,11 +341,8 @@ const IndexPage = () => {
             high performance is possible without introducing expensive or complex infrastructure.
             <br/>
             <br/>
-            But don't take my word for it!, <a style={{color: '#b007a8',  textDecoration: 'underline'}} href='https://developers.google.com/speed/pagespeed/insights/' rel="noopener noreferrer" target="_blank">Go ahead! Measure the pagespeed of this
-            website</a>. And then measure your own page....or your competitions!
-            <br/>
-            <br/>
-            You’re welcome!!!
+            But don't take my word for it!, <a style={{color: '#F446EC',  textDecoration: 'underline'}} href='https://developers.google.com/speed/pagespeed/insights/' rel="noopener noreferrer" target="_blank"> Measure the pagespeed of this
+            website here.</a>
             </p>
           </div>
         </div>
@@ -378,7 +352,7 @@ const IndexPage = () => {
           <div className='info-section-sm'>
             <h2>HELP YOUR BUSINESS GET IN FRONT OF NEW CUSTOMERS</h2>
             <p>
-              For local B2C businesses, thousands of consumers a day in a 10 mile radius of your business are typing in "<span style={{color: '#b007a8'}}>(insert
+              For local B2C businesses, thousands of consumers a day in a 10 mile radius of your business are typing in "<span style={{color: '#F446EC'}}>(insert
               desired service)</span> near me".  And people are also just as much searching for solutions from B2B companies.
               Guess what? The companies with websites compete to be near the top result. And the companies without a website aren’t 
               even in the game. They have a 0% chance to bring in any of these active online customers.
@@ -387,7 +361,7 @@ const IndexPage = () => {
               While also having the ability to pair Google ads or Facebook ads with your website to jump to the top of these searches and promote your
               services at a very cheap rate of a few dollars per click. With no website, you can’t use the best modern 
               advertising methods—Google and Facebook ads—to your advantage.
-              If you get in the game of attracting new customers by having a website built, marketing your business will take a giant leap forward
+              If you get in the game of attracting new customers by having a website built, marketing your business will take a giant leap forward.
             </p>
           </div>
         </section>
@@ -399,7 +373,7 @@ const IndexPage = () => {
             <p>
               There is absolutely no reason to have a web asset that isn't optimized
               for mobile devices in {new Date().getFullYear()}! Because 54% of web traffic is now coming from mobile devices, every website or web app is built
-              with a <span style={{color: '#b007a8', fontStyle: 'italic'}}>MOBILE FIRST</span> methodology in
+              with a <span style={{color: '#F446EC', fontStyle: 'italic'}}>MOBILE FIRST</span> methodology in
               mind so that your web asset is optimized to look and perform great on phones,
               tablets, and desktops.
               <br/>
@@ -466,10 +440,10 @@ const IndexPage = () => {
             Businesses should consider headless commerce as an evolutionary shift in traditional e-commerce. While 
             original e-commerce platforms offered front-end tools that enabled fast deployments for companies that 
             had little internet selling experience, many businesses now employ highly trained software developers 
-            that want to remove the front-end training wheels...
+            that want to remove the front-end training wheels.
             <br/>
             <br/>
-            <span style={{color: `#b007a8`}}>I am that developer for your brand!</span>  
+            <span style={{color: `#F446EC`}}>I am that developer for your brand!</span>  
             </p>
           </div>
           </div>
@@ -518,7 +492,7 @@ const IndexPage = () => {
             of the list!
             <br/>
             <br/>
-            <span style={{color: '#b007a8'}}>Search engine optimization (SEO)</span> is the process of helping your customers
+            <span style={{color: '#F446EC'}}>Search engine optimization (SEO)</span> is the process of helping your customers
             connect with your business online. I start every new SEO campaign with an audit of the business and
             the goals of the business owner to maximize SEO results.
             <br/>
@@ -557,7 +531,7 @@ const IndexPage = () => {
             <p>
               As consumer behaviour continues to evolve, businesses need to adapt their strategy to be where their 
               customers are. As a result, companies are moving rapidly toward making mobile apps commonplace as 
-              business tools and assets. One of the key questions in business is <span style={{color: `#b007a8`}}>‘how can I give my brand a competitive 
+              business tools and assets. One of the key questions in business is <span style={{color: `#F446EC`}}>‘how can I give my brand a competitive 
               edge?’</span>. The answer... mobile apps! Industry leading companies are designing holistic experiences that leverage 
               the personal nature of mobile. 
               <br/>

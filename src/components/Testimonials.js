@@ -53,7 +53,9 @@ const Testimonials = () => {
       <div className='testimonials-bottom'>
         <div className='individual-testimonial'>
           <div className='testimonial-photo-container'>
-            <div style={{backgroundImage: `url(${testimonials[state].photo})`}} className='testimonial-person'></div>
+            <div className='testimonial-person'>
+              <img src={testimonials[state].photo} alt="David Velez is a New York City Web Developer"/>
+            </div>
           </div>
           <div className='testimonial-comment-container'>
             <p>

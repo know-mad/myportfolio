@@ -16,14 +16,13 @@ const ContactPage = () => (
         </div>
       </div>
     </section>
-
+    
     <section>
-      <div className='contact-message'>
+      <div className='info-section-sm'>
+        <h2>LOOKING FORWARD TO MEETING YOU!</h2>
         <p>
-          Please leave your details and a brief project description and I'll reach out as soon as posible.
-          <br/>
-          <br/>
-          I'm looking forward to working with you and seeing what we can create toghether.
+        Please leave your details and a brief project description and I'll reach out as soon as 
+        posible. I'm looking forward to working with you and seeing what we can create toghether.
         </p>
       </div>
     </section>

@@ -53,16 +53,11 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              Maryland's Best Home Improvements is a home renovations company operating
-              out of Baltimore, Maryland. In order to gain more clients and improve their
-              marketing outreach, they asked for a website whose primary focus was to
-              generate leads from visitors to the site looking for any of the
-              services offered by the company.
-              <br/>
-              <br/>
-              This project was a complete overhaul of the company's previous marketing strategy,
-              which included a new logo design, social media outreach and SEO services for
-              marketing campaigns.
+              Architessa is a new trade name for Architectural Ceramics launched in early 2021. It 
+              arose from Betty Sullivan securing a majority women-owned status in Architectural 
+              Ceramics, founded in 1985, which she joined in 1990 and started running in 2001. Betty 
+              envisioned a name that embodies its origins, desired social impact, and prominence in 
+              the A&D industry both locally and digitally.
             </p>
           </div>
         </div>
@@ -79,7 +74,7 @@ const ProjectPage = () => (
               The outcome for this project was a successful implementation of the
               company's rebranding and web presence via an fully optimized and responsive
               web asset that allows for potential clients in their local market to find and
-              ultimately contact the company for their services.
+              ultimately contact or shop online for their products and services.
             </p>
           </div>
         </div>

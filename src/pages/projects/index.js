@@ -32,8 +32,18 @@ const PortfolioPage = () => (
       </section>
 
       <section>
-        <div className='portfolio-intro'>
-          <h1>FEATURED PROJECTS</h1>
+        <div className='info-section-sm'>
+          <h2>WEB DESIGN & DEVELOPMENT</h2>
+            <p>
+            My business is built on relationships – it sounds cliche, but it’s true. I 
+            believe that repeat business and growth stems from great work that keeps clients 
+            coming back and NOT on sales pitches, but a true partnership with measurable results. 
+            <br/>
+            <br/>
+            I take your investment in your business’ website and online marketing very seriously. With 
+            critical focus on providing my clients the best web design solutions in New York City and worldwide creating hand-crafted, bespoke 
+            user friendly websites and digital marketing that delivers actual results.  
+            </p>
         </div>
       </section>
 
@@ -43,8 +53,8 @@ const PortfolioPage = () => (
         toPage2={'/projects/project6/'} 
         backgroundImage={jqueen}
         backgroundImage2={onewsq}
-        content1='Static website built for am accounting business owner who runs his own accounting practice....'
-        content2='A web version of the popular Hasbro game SIMON built with React.js. I used this project to implement many of Reacts advanced...'
+        content1='J. Queen New York is a traditional bedding manufacturer that originally sold exclusively B2B to retailers like Macy’s, Bed Bath & Beyond, and more. Seeking a guide to help them launch their first Direct-To-Consumer store online, they turned to BlueSwitch in late 2020.'
+        content2='1 Willoughby Square, is Brooklyn’s first ground-up office tower in a generation. 1WSQ opens directly to the 1-acre Willoughby Square Park and climbs 34 stories above Brooklyn to offer unobstructed views of New York’s skylines and waterways.'
         />
       </section>
 
@@ -54,8 +64,8 @@ const PortfolioPage = () => (
         toPage2={'/projects/project2/'}
         backgroundImage={portfolio}
         backgroundImage2={blog}
-        content1='In order to showcase my front end skills, I decided to code my business website using unique colors, interesting fonts and creative....'
-        content2="Boasting a decoupled architecture, this blog was created as a dynamic website that pulls all of its data from a content management system (CMS) via graphQL..."
+        content1='In order to showcase my front end skills, I decided to code my business website using unique colors, interesting fonts and creative user interface layouts in order to immerse the user in a rich and engaging user experience.'
+        content2="Boasting a decoupled architecture, this blog features breakneck page load speeds and was created as a dynamic website that pulls all of its data from a content management system (CMS) via modern web stacks."
         />
       </section>
 
@@ -65,8 +75,8 @@ const PortfolioPage = () => (
         toPage2={'/projects/project4/'} 
         backgroundImage={ecommerce}
         backgroundImage2={arch}
-        content1='Fully custom e-commerce store built on a decoupled architecture. The store features dynamically generated items fetched via GraphQL from the Shopify API....'
-        content2="Maryland's Best Home Improvements is a home renovations company operating out of Baltimore, MD. In order to gain more clients they..."
+        content1='Fully custom e-commerce store built on a decoupled architecture. The store features dynamically generated items fetched via GraphQL from the Shopify API.'
+        content2="Architessa is a new trade name for Architectural Ceramics launched in early 2021. It arose from Betty Sullivan securing a majority women-owned status in Architectural Ceramics, founded in 1985, which she joined in 1990 and started running in 2001."
         />
       </section>
 
@@ -76,8 +86,8 @@ const PortfolioPage = () => (
         toPage2={'/projects/project8/'}
         backgroundImage={cotripp}
         backgroundImage2={toboot}
-        content1='CoTripper is a Washington DC based startup built to assist traveling single moms with booking vacations. While working on a team of 8 engineers in an AGILE environment...'
-        content2='Aziatic Hair Studio is a barbershop operating in Manassas, VA. The owner was in the market for an aggressive marketing strategy that involved...'/>
+        content1='CoTripper is a Washington DC based startup built to assist traveling single moms with booking vacations. While working on a team of 8 engineers in an AGILE environment.'
+        content2='To Boot’s designer Adam Derrick is the men’s footwear specialist.  He approaches each season with his customer’s lifestyle in mind and presents options that work to fulfill all their footwear needs.'/>
       </section>
 
       <section>

@@ -1,10 +1,31 @@
 /*  color scheme
 blues: #0984e3
 greys: #dfe6e9
-purple: #b007a8
+pink: #F446EC
 dark-purple #1F0A34
 light-purple #4026B6
  */
+
+ /* Redesign Work */
+.hero-title {
+  color:#F446EC;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  /* font-size: 2rem; */
+} 
+
+.my-name {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+.hero-pitch {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
 
 
  /* ////////////////// Buttons //////////////////// */
@@ -20,7 +41,7 @@ light-purple #4026B6
    height: 4.5em;
    width: 22em;
    background: linear-gradient(45deg, #0984e3, #5ACBFA);
-   margin: 2em 0 2em;
+   /* margin: 2em 0 2em; */
    border-radius: 100px;
  }
 
@@ -34,10 +55,10 @@ light-purple #4026B6
    font-size: 0.75rem;
    height: 4.5em;
    width: 15em;
-   background-color: #b007a8;
-   /* background: linear-gradient(45deg, #b007a8, #FF89F3); */
+   background-color: #F446EC;
+   /* background: linear-gradient(90deg, #0984e3, #F446EC); */
    margin: 2em 0 2em;
-   border-radius: 100px;
+   border-radius: 4.5em;
  }
 
  #page-link {
@@ -61,14 +82,14 @@ light-purple #4026B6
    justify-content: center;
    align-items: center;
    border-radius: 10em;;
-   height: 3.5em;;
-   width: 3.5em;
+   height: 3em;;
+   width: 3em;
    background-color:#4026B6;
    margin: 1em;
  }
 
  #services-link img {
-   height: 1.5em;
+   height: 1.25em;
  }
 
  #review-link {
@@ -90,11 +111,12 @@ light-purple #4026B6
 
 .hero {
   position: relative;
-  height: 50em;
+  height: 30em;
   display: flex;
   flex-direction: column;
   width: 100%;
   margin-top: 4.5em;
+  /* background: gold; */
 }
 
 .video {
@@ -133,9 +155,9 @@ light-purple #4026B6
   background-image: url('../images/hello-banner.svg');
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 4.5em;
-  height: 10em;
+  height: 5em;
   background-size: 22em auto;
+  /* background:red; */
 }
 
 .profile-intro {
@@ -190,10 +212,18 @@ light-purple #4026B6
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   font-size: 1.25rem;
   padding: 1em;
   width: 100%;
+}
+
+.info-section-sm h2 {
+  color: #F446EC;
+}
+
+.info-section-sm p {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .services-container {
@@ -219,7 +249,7 @@ light-purple #4026B6
   align-items: center;
   height: 9em;
   width: 9em;
-  border-radius: 10em;
+  border-radius: 9em;
   position: absolute;
   z-index: 2;
   background-color: #0984e3
@@ -242,6 +272,7 @@ light-purple #4026B6
   z-index: 1;
   margin-top: 5em;
   border: 1px solid #0984e3;
+  border-radius: 20px;
  
 }
 
@@ -252,17 +283,20 @@ light-purple #4026B6
   height: 30%;
   width: 100%;
   font-size: 1.5rem;
+  /* background: gold; */
 }
 
 .individual-service-bottom-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 55%;
   width: 100%;
   padding: 0.75em;
-  font-size: 1.15rem;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  /* background: red; */
 }
 
 .individual-service-button-container {
@@ -272,6 +306,7 @@ light-purple #4026B6
   height: 15%;
   width: 100%;
   background-color:#0984e3;
+  border-radius: 0 0 20px 20px;
 }
 
 .web-banner {
@@ -369,7 +404,7 @@ light-purple #4026B6
   align-items: center;
   text-align: center;
   padding: 2em;
-  background: rgba(255, 255, 255, 0.1)
+  /* background: rgba(255, 255, 255, 0.1) */
 }
 
 .jamstack-info-section p {
@@ -429,6 +464,15 @@ light-purple #4026B6
   z-index: 2;
   margin: 0;
   font-size: 1.25rem;
+  border-radius: 20px;
+}
+
+.section-md-left h2 {
+  color: #F446EC;
+}
+
+.section-md-left p {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .section-md-right {
@@ -443,6 +487,7 @@ light-purple #4026B6
   margin: 0;
   font-size: 3rem;
   text-align: center;
+  border-radius: 20px;
 }
 
 .section-md-right img {
@@ -496,7 +541,8 @@ light-purple #4026B6
   position: inherit;
   z-index: 1;
   margin: 0;
-  font-size: 2.25rem;;
+  font-size: 2.25rem;
+  border-radius: 20px;
 }
 
 .reverse-section-md-left img {
@@ -515,6 +561,15 @@ light-purple #4026B6
   z-index: 2;
   margin: 0;
   font-size: 1.25rem;
+  border-radius: 20px;
+}
+
+.reverse-section-md-right h2 {
+  color: #F446EC;
+}
+
+.reverse-section-md-right p {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .reversed {
@@ -645,24 +700,20 @@ light-purple #4026B6
 .partners-list {
   display: flex;
   flex-direction: column;
-  height: 115em;
+  height: 120em;
   width: 100%;
-  margin-top: 7em;
+  margin-top: 4em;
   background: linear-gradient(90deg, #0984e3, #5ACBFA);
 }
 
 .partners-list-top {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-top;
   align-items: center;
   height: 5%;
   width: 100%;
-}
-
-.partners-list-top p {
-  font-size: 2rem;
-  margin: 0;
+  text-align: center;
 }
 
 .partners-list-bottom {
@@ -686,15 +737,16 @@ light-purple #4026B6
   background: rgba(64, 38, 182, 0.1);
 }
 
-.partners-card h3 {
-  margin-bottom: 0.5em;
+.partners-card-header {
+  font-size: 1.5rem;
+  color:#4026B6;
+  margin-bottom: 0;
   margin-top: 0;
-  color: #4026B6;
 }
 
-.partners-card p {
-  margin: 0.25em;
-  font-size: 0.9rem;
+.partners-card-content {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
 }
 
 
@@ -702,28 +754,22 @@ light-purple #4026B6
   height: 15%;
 }
 
-.rotator {
-  position: relative;
-  vertical-align: text-bottom;
-  margin-right: 6em;
-  margin-left: 0.5em;
-  color: #b007a8;
-}
-
-.rotator > span {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 
 @media (min-width: 768px) {
-  .hero-overlay {
-    font-size: 1.75rem;
+  .hero {
+    height: 35em;
+  }
+  
+  .my-name {
+    font-size: 4rem;
+  }
+  
+  .hero-pitch {
+    font-size: 1.25rem;
   }
 
   .hello-banner {
-    height: 20em;
+    height: 12em;
     background-size: 45em auto;
   }
 
@@ -839,6 +885,7 @@ light-purple #4026B6
 @media (min-width: 1024px) {
   #hero-link {
     height: 4em;
+    margin-bottom: 1.5rem;
   }
 
   #contact-link {
@@ -855,6 +902,20 @@ light-purple #4026B6
     height: 32em;
     width: 100%;
     margin-top: 4em;
+  }
+
+  .hero-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem
+  }
+
+  .my-name {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-pitch {
+    font-size: 1.15rem;
   }
 
   .video {
@@ -874,14 +935,9 @@ light-purple #4026B6
     text-align: left;
     height: 100%;
     width: 100%;
-    font-size: 1.35rem;
     padding-left: 2em;
-    padding-right: 40%;
-    background-color: rgba(64, 38, 182, 0.3);
-  }
-
-  .hero-overlay h1 {
-    font-size: 3rem;
+    padding-right: 30%;
+    background: linear-gradient(90deg, rgba(31, 10, 52, 0.5), rgba(64, 38, 182, 0.5));
   }
 
   .hero-socials-links {
@@ -911,8 +967,10 @@ light-purple #4026B6
   }
 
   .hello-banner {
-    background-size: 88em auto;
-    height: 30em;
+    background-size: 60em auto;
+    height: 15em;
+    margin-top: 2em;
+    margin-bottom: 2em;
   }
 
   .profile-intro {
@@ -926,7 +984,6 @@ light-purple #4026B6
 
   .info-section-sm {
     text-align: left;
-    font-size: 1.3rem;
     padding: 1em;
   }
 
@@ -1196,13 +1253,14 @@ light-purple #4026B6
   .jamstack-info-section p {
     font-size: 3rem;
   }
-
-  .partners-card p {
-    font-size: 1rem;
-  }
 }
 
 @media (min-width: 1440px) {
+  .hello-banner {
+    background-size: 85em auto;
+    height: 20em;
+  }
+
   .hero {
     height: 42em;
   }
@@ -1212,7 +1270,8 @@ light-purple #4026B6
   }
 
   .info-section-sm {
-    padding: 2em;
+    padding-left: 2em;
+    padding-right: 25%;
   }
 
   .individual-service {
@@ -1286,10 +1345,6 @@ light-purple #4026B6
     height: 10%;
   }
   
-  .partners-list-top p {
-    font-size: 3rem;
-  }
-  
   .partners-list-bottom {
     height: 90%;
   }
@@ -1297,41 +1352,53 @@ light-purple #4026B6
   .partners-card img {
     height: 22%
   }
-
-  .partners-card p {
-    font-size: 1.15rem;
-  }
 }
 
 /* /// 1080p /// */
 
 @media (min-width: 1920px) {
   #contact-link {
-    font-size: 0.95rem;
+    font-size: 0.75rem;
   }
 
   #hero-link {
-    font-size: 0.95rem;
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
   }
 
   #review-link {
-    font-size: 0.95rem;
+    font-size: 0.75rem;
   }
 
   #page-link {
-    font-size: 0.95rem;
+    font-size: 0.75rem;
   }
 
   .hero {
     height: 50em;
   }
 
-  .hero-overlay h1 {
-    font-size: 3.5rem;
+  .hero-socials-links {
+    height: 2.5em;
+    width: 50%;
+    /* background: red; */
   }
 
-  .hero-overlay p {
-    font-size: 1.5rem;
+  .hero-socials-links img {
+    height: 2em;
+    width: 2em;
+  }
+
+  .hero-title {
+    font-size: 1.75rem;
+  }
+  
+  .my-name {
+    font-size: 4rem;
+  }
+
+  .hero-pitch {
+    font-size: 1.25rem;
   }
 
   .contact-banner-left {
@@ -1357,6 +1424,8 @@ light-purple #4026B6
 
   .hello-banner {
     background-size: 95% auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
   }
 
   .e-commerce-banner {
@@ -1382,13 +1451,16 @@ light-purple #4026B6
   }
 
   .partners-list {
-    height: 55em;
+    height: 65em;
   }
 
-  .partners-card p {
-    font-size: 1.35rem;
+  .partners-card-content {
+    font-size: 1.25rem;
   }
 
+  .partners-card-header {
+      font-size: 2rem;
+  }
 }
 
 
@@ -1413,16 +1485,29 @@ light-purple #4026B6
   .hero {
     height: 40em;
   }
-
+  
   .hero-overlay {
-    font-size: 2rem;
+    padding-left: 3em;
   }
 
-  .hero-overlay h1 {
-    font-size: 5rem;
+  .hero-socials-links {
+    height: 4em;
   }
 
-  .hero-overlay p {
+  .hero-socials-links img {
+    height: 3.5em;
+    width: 3.5em;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .my-name {
+    font-size: 8rem;
+  }
+
+  .hero-pitch {
     font-size: 2rem;
   }
 
@@ -1489,12 +1574,12 @@ light-purple #4026B6
     font-size: 4rem;
   }
 
-  .partners-card p {
-    font-size: 1.75rem;
+  .partners-card-content {
+    font-size: 2rem;
   }
 
-  .partners-list-top p {
-    font-size: 4.5rem;
+  .partners-card-header {
+      font-size: 2.5rem;
   }
 }
 

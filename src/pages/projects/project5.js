@@ -53,15 +53,17 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              Kevin Rich is a certified public accountant with an accounting practice in the 
-              Baltimore-Washington DC corridor. The client already had a wewbsite that was not getting 
-              him any results. He wanted to be able to leverage his website to gain new prospective 
-              clients for his business.
-              <br/>
-              <br/>
-              This project was a complete overhaul of his previeous web strategy,
-              which included a new logo design, custom lead generation funnels, custom forms,
-              social media outreach and SEO services for marketing campaigns.
+            For more than 10 years, J. Queen New York has been creating beautifully crafted, classic 
+            bedding and home products. It began in 2009 when their talented team equipped with decades 
+            of home textile experience collaborated to design and launch their first inspired collection 
+            of luxury bedding, bath and window products.
+            <br/>
+            <br/>
+            Their design inspiration came from their travels around the country and around the world.
+            Today they continue to be inspired by all the different lifestyles and aesthetics they encounter 
+            worldwide, and their array of brands reflect this diversity. Thier mission is to inspire 
+            those looking to create their own special space, be it one that appeals to a traditional 
+            aesthetic, contemporary leaning, or their love of all things country and fresh.
             </p>
           </div>
         </div>
@@ -75,16 +77,11 @@ const ProjectPage = () => (
           </div>
           <div className='reverse-section-md-right'>
             <p>
-              The outcome for this project was a successful implementation and rebranding 
-              of the clients web presence via an fully optimized and responsive
-              web asset that allows for potential clients in their local market to find and
-              ultimately contact the business for their services.
-              <br/>
-              <br/>
-              The website is built on a(n) static architecture that boasts blazing fast page load
-              speeds, on page SEO, and social media integration so that the client is able to 
-              market his services with more flexibility and within more avenues to increase the visibility
-              of his business and ultimately land more leads. 
+              The outcome for this project was a successful implementation 
+              of the clients vision via a fully optimized and responsive
+              e-commerce solution built on the Shopify platform, featuring responsive 
+              design and a mobile first approach that allows for potential clients in their 
+              space to shop online for the company's goods and services locally, nationally, and globally.
             </p>
           </div>
         </div>

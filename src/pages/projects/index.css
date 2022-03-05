@@ -48,8 +48,9 @@
 .section-sm-right img {
   height: 60%;
   width: 90%;
-  padding: 0.5em;
+  padding: 0.75em;
   border: 1px solid #0984e3;
+  border-radius: 20px;
 }
 
 .built-with-banner {
@@ -103,9 +104,9 @@
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
-  margin-top: 4.5em;
   height: 10em;
   background-size: 22em auto;
+  margin-top: 4.5em;
 }
 
 .portfolio-intro {
@@ -118,6 +119,7 @@
   font-size: 1.25rem;
   text-align: center;
   padding: 1em;
+  color: #F446EC;
 }
 
 
@@ -242,6 +244,7 @@
 
   .portfolio-banner {
     background-size: 95% auto;
+    margin-top: 2em;
   }
 
   .project-page-banner {

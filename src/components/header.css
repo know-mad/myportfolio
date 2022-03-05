@@ -4,7 +4,7 @@
   width: 100%;
   position: fixed;
   top: 0;
-  background: linear-gradient(45deg, #0984e3, #b007a8, #0984e3);
+  background: linear-gradient(45deg, #0984e3, #F446EC, #0984e3);
   background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
@@ -71,7 +71,7 @@
   background-image: url('../images/logo.svg');
   background-size: contain;
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 .links-side {
@@ -93,13 +93,18 @@
 .mobile-links {
   flex-direction: column;
   justify-content: center;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding-right: 1em;
   height: 325px;
   width: 100%;
   list-style-type: none;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
 }
+
+/* .mobile-links a {
+  font-family: 'Montserrat', sans-serif;
+} */
 
 
 .mobile-menu {
@@ -171,12 +176,15 @@ circle {
 
   .links-side a {
     display: inline;
+    margin-left: 3em;
+    font-size: 1rem;
+    /* font-family: 'Montserrat', sans-serif; */
   }
 
   .links-side {
     padding-left: 2em;
     padding-right: 2em;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
 
   .logo-side {
@@ -191,29 +199,17 @@ circle {
 
 @media (min-width: 1920px) {
   .links-side {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
-  .logo-side-image {
-    width: 7em;
-  }
-
-  .scroll-bar {
-    height: 11em;
+  .links-side a {
+    margin-left: 3em;
   }
 }
 
 @media (min-width: 2560px) {
   .links-side {
-    font-size: 2rem;
-  }
-
-  .logo-side-image {
-    width: 6em;
-  }
-
-  .scroll-bar {
-    height: 9em;
+    font-size: 1.75rem;
   }
 
   .inner {
@@ -222,7 +218,12 @@ circle {
   }
 
   circle {
-    stroke-width: 6px;
+    stroke-width: 3px;
+  }
+
+  .links-side a {
+    font-size: 1.25rem;
+    /* font-family: 'Montserrat', sans-serif; */
   }
 }
 

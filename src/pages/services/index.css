@@ -16,10 +16,17 @@
 .service-info-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   font-size: 1.25rem;
-  padding: 1em;
+}
+
+.service-info-section h1 {
+  color: #F446EC;
+}
+
+.service-info-section p {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .service-package {
@@ -28,16 +35,22 @@
   justify-content: space-between;
   width: 95%;
   border: 1px solid #0984e3;
+  border-radius: 20px;
 }
 
 .service-package-title {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  height: 10%;
+  /* height: 10%; */
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  /* background: red; */
+}
+
+.service-package-title h2 {
+  margin-bottom: 0;
 }
 
 .service-package-content {
@@ -45,9 +58,10 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 75%;
+  /* height: 75%; */
   width: 100%;
-  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  /* background: gold; */
 }
 
 .service-package-content ul {
@@ -63,7 +77,9 @@
   flex-direction: row;
   align-items: center;
   width: 100%;
-  background-color: #0984e3;
+  background: #0984e3;
+  /* background: green; */
+  border-radius: 0 0 20px 20px;
 }
 
 

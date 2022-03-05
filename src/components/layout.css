@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 html, body {
   margin: 0;
   font-family: 'Audiowide', sans-serif;
@@ -37,7 +36,8 @@ footer p {
 footer a {
   color: #fff;
   opacity: 0.5;
-  margin-top: 5px
+  margin-top: 5px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container {

@@ -31,7 +31,7 @@ const Header = ({ link1, link2, link3, link4, link5  }) => {
 
    return (
      <header>
-       <div id='nav' style={{minHeight: openNav ? '25em' : '4.5em'}}>
+       <div id='nav' style={{minHeight: openNav ? '25em' : '4em'}}>
          <div className='content-container' style={{minHeight: openNav ? '30%' : '100%'}}>
            <div className='logo-side'>
             <div className='logo-side-image'></div>
@@ -91,7 +91,7 @@ const Header = ({ link1, link2, link3, link4, link5  }) => {
             <defs>
               <linearGradient id="GradientColor">
                 <stop offset="0%" stopColor="#0984e3" />
-                <stop offset="100%" stopColor="#b007a8" />
+                <stop offset="100%" stopColor="#F446EC" />
               </linearGradient>
             </defs>
             <circle style={{strokeDashoffset: offset }} cx="30" cy="30" r="27" strokeLinecap="round" />

@@ -54,7 +54,7 @@ const ContactForm = () => {
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
-        <p>Thanks {fullName.fName}</p>
+        <p>Thanks <span style={{color: `#F446EC`}}>{fullName.fName}</span> !</p>
 
        <input type="hidden" name="form-name" value="contact" />
         <input
@@ -88,7 +88,7 @@ const ContactForm = () => {
           value={fullName.message}
           onChange={handleChange}
         />
-        <button type='submit'>Submit</button>
+        <button type='submit'>submit</button>
       </form>
     </div>
   )
