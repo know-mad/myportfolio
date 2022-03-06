@@ -41,7 +41,7 @@ const WebDesignPage = () => (
                     work with some great clients in NYC, Canada, South America, Asia and globally. Whether you choose to go with me for your
                     web project or not, please take in to consideration the technologies being used to build your product. Ask any development 
                     agency or developer to prove to you that they can deliver the results you need and expect rather than simply a website
-                    that provides no real return. <span style={{color: `#b007a8`}}>And when they tell you they build wordpress websites....go ahead and contact me to get the job done right :-)</span>
+                    that provides no real return.
                     </p>
                 </div>
             </section>
