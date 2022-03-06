@@ -35,7 +35,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   overflow: hidden;
   text-align: center;
@@ -87,6 +87,14 @@
   margin-top: 4.5em;
 }
 
+.success-page-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 
 
 @media (min-width: 768px) {
@@ -114,6 +122,10 @@
   .success-banner {
     height: 30em;
     background-size: 62em auto;
+  }
+
+  .success-page-logo-container {
+    align-items: flex-start;
   }
 }
 

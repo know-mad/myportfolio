@@ -15,14 +15,15 @@ const SuccessPage = () => (
     </section>
 
     <section>
-      <div className='extra-page-container'>
+      <div className='info-section-sm'>
+        <h2>SUCCESS...YOU DID IT!</h2>
         <p>
-          You did it!
-          <br/>
-          <br/>
           I can't wait to see what we create together!
         </p>
-
+      </div>
+    </section>
+    <section>
+      <div className="success-page-logo-container">
         <img src={logo} alt='web-designer-logo'/>
       </div>
     </section>

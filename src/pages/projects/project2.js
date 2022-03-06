@@ -50,7 +50,7 @@ const ProjectPage = () => (
         <div className='section-md'>
           <div className='reverse-section-md-left'>
             <p style={{margin: '0'}}>project</p>
-            <h2 style={{margin: '0', fontWeight: 'bold', color: '#0984e3'}}>Information</h2>
+            <h2 style={{margin: '0', fontWeight: 'bold', color: '#0984e3'}}>Info</h2>
           </div>
           <div className='reverse-section-md-right'>
             <p>
