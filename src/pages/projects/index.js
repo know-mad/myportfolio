@@ -53,7 +53,7 @@ const PortfolioPage = () => (
         toPage2={'/projects/project6/'} 
         backgroundImage={jqueen}
         backgroundImage2={onewsq}
-        content1='J. Queen New York is a traditional bedding manufacturer that originally sold exclusively B2B to retailers like Macy’s, Bed Bath & Beyond, and more. Seeking a guide to help them launch their first Direct-To-Consumer store online, they turned to BlueSwitch in late 2020.'
+        content1='J. Queen New York is a traditional bedding manufacturer that originally sold exclusively B2B to retailers like Macy’s, Bed Bath & Beyond, and more.'
         content2='1 Willoughby Square, is Brooklyn’s first ground-up office tower in a generation. 1WSQ opens directly to the 1-acre Willoughby Square Park and climbs 34 stories above Brooklyn to offer unobstructed views of New York’s skylines and waterways.'
         />
       </section>
