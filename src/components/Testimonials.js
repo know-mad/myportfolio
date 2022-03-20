@@ -47,7 +47,6 @@ const Testimonials = () => {
     <div className='testimonials-section'>
       <div className='testimonials-top'>
         <h1 style={{margin: '0', color: '#0984e3'}}>TESTIMONIALS</h1>
-        <p style={{margin: '0'}}>find out what my clients are saying about me</p>
       </div>
 
       <div className='testimonials-bottom'>

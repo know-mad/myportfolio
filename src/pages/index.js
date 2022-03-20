@@ -432,8 +432,7 @@ const IndexPage = () => {
           <div className='reverse-section-md-right'>
             <h2>HEADLESS COMMERCE</h2>
             <p>
-            In its simplest form, headless commerce is a separation of the front end and back end of an ecommerce 
-            application. This architecture offers brands freedom of expression to build whatever and however they 
+            In its simplest form, headless commerce offers brands freedom of expression to build whatever and however they 
             want. Most importantly, it enables brands to enrich the customer experience
             <br/>
             <br/>

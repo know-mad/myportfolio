@@ -1,7 +1,7 @@
 .testimonials-section {
   display: flex;
   flex-direction: column;
-  height: 50em;
+  height: 40em;
   width: 100%;
   margin: 5em 0 5em;
 }
@@ -58,7 +58,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 30%;
+  height: 40%;
   width: 100%;
 }
 
@@ -67,7 +67,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 70%;
+  height: 55%;
   width: 100%;
   font-size: 1.25rem;
   padding: 1em;
@@ -75,6 +75,7 @@
 
 .testimonial-comment-container p {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
 }
 
 .pagination-dots {
@@ -82,7 +83,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 10%;
+  height: 5%;
   width: 100%;
 }
 
@@ -96,7 +97,7 @@
 
 @media (min-width: 768px) {
   .testimonials-section {
-    height: 40em;
+    height: 30em;
   }
 
   .testimonials-top {
@@ -115,12 +116,13 @@
     height: 60%;
   }
 
+  .testimonial-comment-container p {
+    font-size: 1.25rem;
+  }
+
 }
 
 @media (min-width: 1024px) {
-  .testimonials-section{
-    height: 45em;
-  }
   .testimonials-top {
     height: 30%;
   }
@@ -134,8 +136,13 @@
   }
 
   .testimonial-comment-container {
-    font-size: 1.25rem;
     padding: 2em;
+  }
+}
+
+@media (min-width: 1920px) {
+  .testimonial-comment-container p {
+    font-size: 1.5rem;
   }
 }
 
@@ -148,8 +155,8 @@
     font-size: 2rem;
   }
 
-  .testimonial-comment-container {
-    font-size: 2.25rem;
+  .testimonial-comment-container p {
+    font-size: 2rem;
   }
 
 }
