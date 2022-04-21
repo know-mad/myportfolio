@@ -13,7 +13,7 @@ const ProjectPage = () => (
       <section>
         <div className='project-page-banner'>
           <div className='banner-inner'>
-            <h1>APP</h1>
+            <h1>WEBSITE</h1>
           </div>
         </div>
       </section>
@@ -22,7 +22,7 @@ const ProjectPage = () => (
         <div className='section-sm'>
           <div className='section-sm-left'>
             <h2>1 Willoughby Square</h2>
-            <a href='https://hungry-feynman-7e3a89.netlify.app/' target="_blank"  rel="noreferrer" id='page-link'>VISIT APP</a>
+            <a href='https://www.1wsq.com/' target="_blank"  rel="noreferrer" id='page-link'>VISIT SITE</a>
             <Link to='/projects/' id='contact-link'>BACK</Link>
           </div>
           <div className='section-sm-right'>
