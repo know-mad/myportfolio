@@ -12,7 +12,6 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    margin-top: 6em;
   }
   
   .faq-container {
@@ -23,6 +22,10 @@
     padding: 1em;
     align-items: center;
   }
+
+  .faq-container p {
+    font-family: 'Montserrat', sans-serif;
+  }
   
   .faq-question {
     display: flex;
@@ -30,8 +33,8 @@
     align-items: center;
     width: 100%;
     padding: 0.25em;
-    border: 1px solid #0984e3;
-    background: linear-gradient(to left, rgba(9, 132, 227, 0.3), rgba(9, 132, 227, 0.1));
+    /* border: 1px solid #0984e3;
+    background: linear-gradient(to left, rgba(9, 132, 227, 0.3), rgba(9, 132, 227, 0.1)); */
   }
   
   .faq-answer {
