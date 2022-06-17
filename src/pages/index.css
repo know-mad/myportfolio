@@ -347,6 +347,7 @@ light-purple #4026B6
   border: solid 1px #0984e3;
   color: #0984e3;
   font-size: 1.5rem;
+  overflow: hidden;
 }
 
 .logos-ticker {
@@ -1634,4 +1635,23 @@ light-purple #4026B6
   }
 }
 
+/* Rotating text Intro */
 
+.child{
+  display: none;
+  color: #0984e3;
+}
+
+.text-in {
+  display: flex;
+  animation: textIn .8s ease;
+}
+
+@keyframes textIn {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
