@@ -1637,7 +1637,7 @@ light-purple #4026B6
 
 /* Rotating text Intro */
 
-.child{
+/* .child{
   display: none;
   color: #0984e3;
 }
@@ -1674,4 +1674,4 @@ light-purple #4026B6
   100% {
     transform: translateY(0%);
   }
-}
+} */

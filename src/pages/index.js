@@ -48,26 +48,25 @@ import stripe from "../images/stripe.svg"
 import JSONData from "../data/hello.json"
 
 const IndexPage = () => {
-  useEffect(() => {
-    // Copying from PCH Project for now
-    const txts = document.querySelectorAll(".child")
-    const textLength = txts.length
-    let index = 0
+  // useEffect(() => {
+  //   const txts = document.querySelectorAll(".child")
+  //   const textLength = txts.length
+  //   let index = 0
 
-    const animateText = () => {
-      for (let i = 0; i < textLength; i++) {
-        txts[i].classList.remove("text-in")
-      }
-      txts[index].classList.add("text-in")
-      if (index == textLength - 1) {
-        index = 0
-      } else {
-        index++
-      }
-    }
-    setInterval(animateText, 3000)
-    // console.log(textLength)
-  }, [])
+  //   const animateText = () => {
+  //     for (let i = 0; i < textLength; i++) {
+  //       txts[i].classList.remove("text-in")
+  //     }
+  //     txts[index].classList.add("text-in")
+  //     if (index == textLength - 1) {
+  //       index = 0
+  //     } else {
+  //       index++
+  //     }
+  //   }
+  //   setInterval(animateText, 3000)
+  //   console.log(textLength)
+  // }, [])
 
   return (
     <Layout>
@@ -100,12 +99,12 @@ const IndexPage = () => {
       <section>
         <div className="hello-banner">
           <div className="banner-inner">
-            <h1 className="child">HELLO</h1>
-            <h1 className="child">BONJOUR</h1>
+            <h1>HELLO</h1>
+            {/* <h1 className="child">BONJOUR</h1>
             <h1 className="child">HOLA</h1>
             <h1 className="child">今日は</h1>
             <h1 className="child">CIAO</h1>
-            <h1 className="child">你好</h1>
+            <h1 className="child">你好</h1> */}
           </div>
         </div>
         <div className="profile-intro">
