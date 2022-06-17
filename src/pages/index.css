@@ -1645,6 +1645,26 @@ light-purple #4026B6
 .text-in {
   display: flex;
   animation: textIn .8s ease;
+  -webkit-animation: textIn .8s ease;
+  -moz-animation: textIn .8s ease;
+}
+
+@-moz-keyframes textIn {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes textIn {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
 
 @keyframes textIn {
