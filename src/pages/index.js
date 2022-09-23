@@ -61,7 +61,7 @@ const IndexPage = () => {
             <p className="hero-title">FULL STACK DEVELOPER</p>
             <p className="my-name">DAVID VELEZ</p>
             <p className="hero-pitch">
-              Enthusiastic web developer providing robust web solutions so you or
+              Enthusiastic and creative web developer providing robust web solutions so you or
               your business can win online.
             </p>
             <Link id="hero-link" to="/contact/">
