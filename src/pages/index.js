@@ -48,25 +48,6 @@ import stripe from "../images/stripe.svg"
 import JSONData from "../data/hello.json"
 
 const IndexPage = () => {
-  // useEffect(() => {
-  //   const txts = document.querySelectorAll(".child")
-  //   const textLength = txts.length
-  //   let index = 0
-
-  //   const animateText = () => {
-  //     for (let i = 0; i < textLength; i++) {
-  //       txts[i].classList.remove("text-in")
-  //     }
-  //     txts[index].classList.add("text-in")
-  //     if (index == textLength - 1) {
-  //       index = 0
-  //     } else {
-  //       index++
-  //     }
-  //   }
-  //   setInterval(animateText, 3000)
-  //   console.log(textLength)
-  // }, [])
 
   return (
     <Layout>
@@ -80,7 +61,7 @@ const IndexPage = () => {
             <p className="hero-title">FULL STACK DEVELOPER</p>
             <p className="my-name">DAVID VELEZ</p>
             <p className="hero-pitch">
-              Independent web developer providing robust web solutions so you or
+              Enthusiastic web developer providing robust web solutions so you or
               your business can win online.
             </p>
             <Link id="hero-link" to="/contact/">
@@ -100,11 +81,6 @@ const IndexPage = () => {
         <div className="hello-banner">
           <div className="banner-inner">
             <h1>HELLO</h1>
-            {/* <h1 className="child">BONJOUR</h1>
-            <h1 className="child">HOLA</h1>
-            <h1 className="child">今日は</h1>
-            <h1 className="child">CIAO</h1>
-            <h1 className="child">你好</h1> */}
           </div>
         </div>
         <div className="profile-intro">
@@ -131,7 +107,10 @@ const IndexPage = () => {
       </section>
 
       <section>
-        <div className="partners-list">
+        <div className="partners-list-mobile">
+          Mobile List
+        </div>
+        <div className="partners-list-desktop">
           <div className="partners-list-top">
             <p className="my-name">Trusted Partners</p>
           </div>
@@ -196,7 +175,7 @@ const IndexPage = () => {
       <section>
         <div className="portfolio-banner">
           <div className="banner-inner">
-            <h1>SERVICES</h1>
+            <h1>SKILLS</h1>
           </div>
         </div>
       </section>
@@ -270,7 +249,7 @@ const IndexPage = () => {
                 </div>
                 <div className="individual-service-bottom-content">
                   <p>
-                    Mobile business applications have become a necessary
+                    Web applications have become a necessary
                     marketing tool for all businesses, regardless of the size of
                     their industries. A mobile app can help a small business
                     engage with and build their customer base, drive sales, and
@@ -385,7 +364,7 @@ const IndexPage = () => {
 
         <div className="jamstack-info-section">
           <p>
-            <span style={{ color: `#F446EC` }}>Jamstack</span> Sites Are Used By
+            <span style={{ color: `#F446EC` }}>Companies</span> I've Worked With.
           </p>
         </div>
 

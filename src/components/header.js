@@ -6,7 +6,7 @@ import hamburger from '../images/hamburger.svg'
 import closedBurger from '../images/closed-burger.svg'
 
 
-const Header = ({ link1, link2, link3, link4, link5  }) => {
+const Header = ({ link1, link2, link3, link4 }) => {
   const [openNav, setOpenNav] = useState(false)
   const [offset, setOffset] = useState(0)
 
@@ -41,20 +41,16 @@ const Header = ({ link1, link2, link3, link4, link5  }) => {
                {link1}
              </Link>
 
-             <Link to="/services/" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
+             <Link to="/projects/" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
                {link2}
              </Link>
 
-             <Link to="/projects/" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
-               {link3}
-             </Link>
-
              <a href='https://blog.davidvelez.io' rel="noopener noreferrer" target="_blank" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
-               {link4}
+               {link3}
              </a>
 
              <Link to="/contact/" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
-               {link5}
+               {link4}
              </Link>
 
            <div role='button' tabIndex={0} onClick={toggleNav} className='mobile-menu' style={{backgroundImage: openNav ? `url(${closedBurger})` : `url(${hamburger})`}}></div>
@@ -66,20 +62,16 @@ const Header = ({ link1, link2, link3, link4, link5  }) => {
              {link1}
            </Link>
 
-           <Link to="/services/" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
+           <Link to="/projects/" style={{color: '#000000'}}  activeStyle={{color: '#fff'}}>
              {link2}
            </Link>
 
-           <Link to="/projects/" style={{color: '#000000'}}  activeStyle={{color: '#fff'}}>
-             {link3}
-           </Link>
-
            <a href='https://blog.davidvelez.io' rel="noopener noreferrer" target="_blank" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
-             {link4}
+             {link3}
            </a>
 
            <Link to="/contact/" style={{color: '#000000'}} activeStyle={{color: '#fff'}}>
-             {link5}
+             {link4}
            </Link>
 
          </div>
@@ -111,15 +103,13 @@ Header.propTypes = {
   link2: PropTypes.string,
   link3: PropTypes.string,
   link4: PropTypes.string,
-  link5: PropTypes.string,
 }
 
 Header.defaultProps = {
   link1: `home`,
-  link2: `services`,
-  link3: `projects`,
-  link4: `blog`,
-  link5: `contact`,
+  link2: `projects`,
+  link3: `blog`,
+  link4: `contact`,
 }
 
 export default Header

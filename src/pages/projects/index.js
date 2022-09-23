@@ -35,7 +35,7 @@ const PortfolioPage = () => (
         <div className='info-section-sm'>
           <h2>WEB DESIGN & DEVELOPMENT</h2>
             <p>
-            My business is built on relationships – it sounds cliche, but it’s true. I 
+            My skillset is built on relationships – it sounds cliche, but it’s true. I 
             believe that repeat business and growth stems from great work that keeps clients 
             coming back and NOT on sales pitches, but a true partnership with measurable results. 
             <br/>

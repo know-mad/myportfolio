@@ -24,11 +24,9 @@ const Layout = ({ children }) => {
             <div className='footer-top-center'>
               <h3>SITEMAP</h3>
               <Link style={linkStyle} to='/'>home</Link>
-              <Link style={linkStyle} to='/services/'>services</Link>
               <Link style={linkStyle} to='/projects/'>projects</Link>
               <Link style={linkStyle} to='/blog/'>blog</Link>
               <Link style={linkStyle} to='/contact/'>contact</Link>
-              <Link style={linkStyle} to='/faq/'>faq's</Link>
             </div>
             <div className='footer-top-center'>
               <h3>SERVICES</h3>
@@ -38,10 +36,7 @@ const Layout = ({ children }) => {
             </div>
             <div className='footer-top-center'>
               <h3>SOCIALS</h3>
-              <a href='https://www.facebook.com/developerdave/' rel="noopener noreferrer" target="_blank">facebook</a>
-              <a href='https://www.instagram.com/_devdave/' rel="noopener noreferrer" target="_blank">instagram</a>
               <a href='https://github.com/know-mad' rel="noopener noreferrer" target="_blank">github</a>
-              <a href='https://twitter.com/_devdave' rel="noopener noreferrer" target="_blank">twitter</a>
             </div>
           </div>
 
