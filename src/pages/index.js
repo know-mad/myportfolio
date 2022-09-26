@@ -1,16 +1,12 @@
-import React, { useEffect } from "react"
+import React from "react"
 import "./index.css"
 import { Link } from "gatsby"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import Testimonials from "../components/Testimonials"
 import ContactForm from "../components/ContactForm"
-import { gsap } from "gsap"
+import Slider from "../components/Slider"
 
-import facebook from "../images/facebook-icon.svg"
-import instagram from "../images/instagram-icon.svg"
-import git from "../images/git-icon.svg"
-import twitter from "../images/twitter-icon.svg"
 import webDesign from "../images/web-design-icon.svg"
 import coding from "../images/coding.svg"
 import speedometer from "../images/speedometer.svg"
@@ -45,7 +41,6 @@ import mailchimpAlt from "../images/mailchimp-alt-logo.svg"
 import contentful from "../images/contentful-logo.svg"
 import stripe from "../images/stripe.svg"
 
-import JSONData from "../data/hello.json"
 
 const IndexPage = () => {
 
@@ -107,9 +102,7 @@ const IndexPage = () => {
       </section>
 
       <section>
-        <div className="partners-list-mobile">
-          Mobile List
-        </div>
+        <Slider />
         <div className="partners-list-desktop">
           <div className="partners-list-top">
             <p className="my-name">Trusted Partners</p>

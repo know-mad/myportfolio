@@ -700,17 +700,6 @@ light-purple #4026B6
   width: 100%;
 }
 
-.partners-list-mobile {
-  display: flex;
-  flex-direction: column;
-  height: 25em;
-  width: 100%;
-  background: crimson;
-  /* margin-top: 4em; */
-  /* background: linear-gradient(90deg, #0984e3, #5ACBFA); */
-  padding: 2em 0;
-}
-
 .partners-list-desktop {
   display: none;
   flex-direction: column;
