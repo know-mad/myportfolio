@@ -111,6 +111,9 @@ const Slider = () => {
     })
     return (
         <div className="mobile-slider-container">
+            <div className="title-container">
+                <h2>Trusted Partners</h2>
+            </div>
             <div className="mobile-slider">
                 <div className="partners-card-mobile">
                     <div className="partners-card-mobile-inner">

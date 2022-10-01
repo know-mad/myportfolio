@@ -702,7 +702,8 @@ light-purple #4026B6
 
 .partners-list-desktop {
   display: none;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
   margin-top: 4em;
   background: linear-gradient(90deg, #0984e3, #5ACBFA);
@@ -739,6 +740,7 @@ light-purple #4026B6
   border: 1px solid #4026B6;
   background: rgba(64, 38, 182, 0.1);
   border-radius: 10px;
+  margin: 1rem;
 }
 
 .partners-card-header {
@@ -755,7 +757,7 @@ light-purple #4026B6
 
 
 .partners-card img {
-  height: 15%;
+  max-width: 50%;
 }
 
 
@@ -1269,6 +1271,10 @@ light-purple #4026B6
   
   .jamstack-info-section p {
     font-size: 3rem;
+  }
+
+  .partners-list-desktop {
+    display: flex;
   }
 }
 
