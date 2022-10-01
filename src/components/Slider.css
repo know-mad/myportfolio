@@ -1,21 +1,41 @@
 /* Mobile Partners slider begin */
 
 .mobile-slider-container {
-    height: 25em;
-    background: crimson;
+    /* height: 25em; */
+    background: linear-gradient(90deg, #0984e3, #5ACBFA);
   }
   
   .mobile-slider {
     display: inline-flex;
+    align-items: center;
     overflow: hidden;
     height: 25em;
-    background: magenta;
+    /* background: magenta; */
     transform: translateX(0);
     transition: transform 0.3s ease-out;
+    -webkit-transition: -webkit-transform 0.3s ease-out;
     cursor: grab;
     /* margin-top: 4em; */
     /* background: linear-gradient(90deg, #0984e3, #5ACBFA); */
     /* padding: 2em 0; */
+  }
+
+  .progression-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    width: 100%;
+    /* background: orange; */
+  }
+
+  .progression-dot {
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    background: #4026B6;
+    margin: 5px;
   }
   
   .partners-card-mobile {
@@ -26,15 +46,25 @@
     padding: 1rem;
     height: 90%;
     width: 100vw;
-    background: gold;
+    /* background: gold; */
   }
   
   .partners-card-mobile-inner {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     height: 100%;
     width: 100%;
-    background: royalblue;
+    border: 1px solid #4026B6;
+    background: rgba(64, 38, 182, 0.1);
+    border-radius: 10px;
+    padding: 1rem;
+    /* background: royalblue; */
+  }
+
+  .partners-card-mobile-inner img {
+    max-width: 60%;
   }
   
   .grabbing {
