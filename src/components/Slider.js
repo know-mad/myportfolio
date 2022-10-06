@@ -44,6 +44,7 @@ const Slider = () => {
         //     return false
         // }
 
+
         function touchStart(index) {
             return function(event) {
                 currentIndex = index

@@ -405,7 +405,8 @@ light-purple #4026B6
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2em;
+  /* padding: 2em; */
+  padding: 1em;
   /* background: rgba(255, 255, 255, 0.1) */
 }
 
@@ -760,6 +761,89 @@ light-purple #4026B6
   max-width: 50%;
 }
 
+.marquee {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  height: 6em;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.marquee-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 200%;
+  position: absolute;
+  animation: marquee 20s linear infinite;
+  /* background: green; */
+}
+
+.marquee-logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 50%;
+  /* background: magenta; */
+}
+
+.marquee-logo {
+  width: 80px;
+  height: auto;
+  /* background: red; */
+}
+
+.marquee-logo-ewc {
+  width: 50px;
+  height: auto;
+  /* background: red; */
+}
+
+.marquee-logo-architessa {
+  width: 80px;
+  height: auto;
+  background: #fff;
+  padding: 3px;
+}
+
+.marquee-inner:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+.projects-mobile-slider{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 6em;
+  width: 100%;
+  border-radius: 10px;
+  overflow-x: scroll;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.projects-mobile-slider-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 220%;
+  -webkit-overflow-scrolling: auto;
+}
+
 
 @media (min-width: 768px) {
   .hero {
@@ -898,6 +982,10 @@ light-purple #4026B6
 
   .rotator {
     margin-left: 0;
+  }
+
+  .projects-mobile-slider-inner {
+    width: 205%;
   }
 }
 
@@ -1269,12 +1357,24 @@ light-purple #4026B6
     width: 50%;
   }
   
+  .jamstack-info-section {
+    padding: 2em;
+  }
+
   .jamstack-info-section p {
     font-size: 3rem;
   }
 
   .partners-list-desktop {
     display: flex;
+  }
+
+  .marquee {
+    display: flex;
+  }
+
+  .projects-mobile-slider {
+    display: none;
   }
 }
 
@@ -1382,6 +1482,10 @@ light-purple #4026B6
 
   .partners-card img {
     height: 22%
+  }
+  
+  .jamstack-info-section {
+    padding: 2em;
   }
 }
 
@@ -1648,45 +1752,24 @@ light-purple #4026B6
   .info-section-sm h2 {
     font-size: 4rem;
   }
-}
 
-/* Rotating text Intro */
-
-/* .child{
-  display: none;
-  color: #0984e3;
-}
-
-.text-in {
-  display: flex;
-  animation: textIn .8s ease;
-  -webkit-animation: textIn .8s ease;
-  -moz-animation: textIn .8s ease;
-}
-
-@-moz-keyframes textIn {
-  0% {
-    transform: translateY(100%);
+  .marquee-logo {
+    width: 120px;
+    height: auto;
+    /* background: red; */
   }
-  100% {
-    transform: translateY(0%);
+  
+  .marquee-logo-ewc {
+    width: 100px;
+    height: auto;
+    /* background: red; */
+  }
+  
+  .marquee-logo-architessa {
+    width: 120px;
+    height: auto;
+    background: #fff;
+    padding: 3px;
   }
 }
 
-@-webkit-keyframes textIn {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
-}
-
-@keyframes textIn {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
-} */

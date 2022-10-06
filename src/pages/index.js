@@ -10,16 +10,6 @@ import Slider from "../components/Slider"
 import webDesign from "../images/web-design-icon.svg"
 import coding from "../images/coding.svg"
 import speedometer from "../images/speedometer.svg"
-import nike from "../images/nike-logo.svg"
-import mailchimp from "../images/mailchimp-logo.png"
-import peloton from "../images/peloton-logo.svg"
-import lv from "../images/louis-vuitton-logo.svg"
-import verizon from "../images/verizon-logo.svg"
-import twilio from "../images/twilio-logo.svg"
-import doordash from "../images/doordash-logo.svg"
-import danone from "../images/danone-logo.svg"
-import figma from "../images/figma-logo.svg"
-import facebookLogo from "../images/facebook-logo.svg"
 import responsiveDesign from "../images/responsive-design.svg"
 import seoPic from "../images/seo-picture.svg"
 import mockUp from "../images/mockup.png"
@@ -29,10 +19,6 @@ import arrow from "../images/right-arrow.svg"
 import shoppingCart from "../images/shopping-cart-icon.svg"
 import video from "../images/video.mp4"
 import ecommerce from "../images/ecommerce.svg"
-import airbnb from "../images/airbnb.svg"
-import shopify from "../images/shopify-logo.svg"
-import spotify from "../images/spotify-logo.svg"
-import sendGrid from "../images/sendgrid-logo.svg"
 import me from "../images/me.jpg"
 
 import netlify from "../images/netlify-logo.svg"
@@ -41,9 +27,15 @@ import mailchimpAlt from "../images/mailchimp-alt-logo.svg"
 import contentful from "../images/contentful-logo.svg"
 import stripe from "../images/stripe.svg"
 
+import onewsq from "../images/1wsq.svg"
+import panasonic from "../images/panasonic-1.svg"
+import ewc from "../images/EWC.png"
+import zenb from "../images/zenb.png"
+import jqueen from "../images/JQueen_Logo.png"
+import toboot from "../images/toboot-logo.jpeg"
+import architessa from "../images/architessa-logo.png"
 
 const IndexPage = () => {
-
   return (
     <Layout>
       <SEO title="Best Website Designers NYC" />
@@ -56,11 +48,11 @@ const IndexPage = () => {
             <p className="hero-title">FULL STACK DEVELOPER</p>
             <p className="my-name">DAVID VELEZ</p>
             <p className="hero-pitch">
-              Enthusiastic and creative web developer providing robust web solutions so you or
-              your business can win online.
+              Creative web developer providing beautifully designed web
+              solutions so you or your business can win online.
             </p>
             <Link id="hero-link" to="/contact/">
-              START YOUR PROJECT
+              CONTACT ME
             </Link>
             {/* <div className='hero-socials-links'>
               <a href='https://www.facebook.com/developerdave/' rel="noopener noreferrer" target="_blank"><img src={facebook} alt='web-designer-social-media-link'/></a>
@@ -94,8 +86,8 @@ const IndexPage = () => {
               building blazing-fast websites, web applications, and e-commerce
               solutions by using the latest technologies to prioritize site/app
               performance ultimately resulting in breakneck page load speeds and
-              better SEO all delivered with beautifully and functionally designed 
-              custom user interfaces.
+              better SEO all delivered with beautifully and functionally
+              designed custom user interfaces.
             </span>
           </p>
         </div>
@@ -242,11 +234,11 @@ const IndexPage = () => {
                 </div>
                 <div className="individual-service-bottom-content">
                   <p>
-                    Web applications have become a necessary
-                    marketing tool for all businesses, regardless of the size of
-                    their industries. A mobile app can help a small business
-                    engage with and build their customer base, drive sales, and
-                    improve their reputation.
+                    Web applications have become a necessary marketing tool for
+                    all businesses, regardless of the size of their industries.
+                    A mobile app can help a small business engage with and build
+                    their customer base, drive sales, and improve their
+                    reputation.
                   </p>
                 </div>
                 <div className="individual-service-button-container">
@@ -357,74 +349,41 @@ const IndexPage = () => {
 
         <div className="jamstack-info-section">
           <p>
-            <span style={{ color: `#F446EC` }}>Companies</span> I've Worked With.
+            <span style={{ color: `#F446EC` }}>Projects</span> I've Worked On
           </p>
+          <div className="projects-mobile-slider">
+            <div className="projects-mobile-slider-inner">
+              <img className="marquee-logo" src={onewsq} alt=""/>
+              <img className="marquee-logo" src={panasonic} alt=""/>
+              <img className="marquee-logo-ewc" src={ewc} alt=""/>
+              <img className="marquee-logo" src={zenb} alt=""/>
+              <img className="marquee-logo" src={jqueen} alt=""/>
+              <img className="marquee-logo-architessa" src={architessa} alt=""/>
+              <img className="marquee-logo" src={toboot} alt=""/>
+            </div>
+          </div>
+          <div className="marquee">
+          <div className="marquee-inner">
+            <div className="marquee-logos">
+              <img className="marquee-logo" src={onewsq} alt=""/>
+              <img className="marquee-logo" src={panasonic} alt=""/>
+              <img className="marquee-logo-ewc" src={ewc} alt=""/>
+              <img className="marquee-logo" src={zenb} alt=""/>
+              <img className="marquee-logo" src={jqueen} alt=""/>
+              <img className="marquee-logo-architessa" src={architessa} alt=""/>
+              <img className="marquee-logo" src={toboot} alt=""/>
+            </div>
+            <div className="marquee-logos">
+              <img className="marquee-logo" src={onewsq} alt=""/>
+              <img className="marquee-logo" src={panasonic} alt=""/>
+              <img className="marquee-logo-ewc" src={ewc} alt=""/>
+              <img className="marquee-logo" src={zenb} alt=""/>
+              <img className="marquee-logo" src={jqueen} alt=""/>
+              <img className="marquee-logo-architessa" src={architessa} alt=""/>
+              <img className="marquee-logo" src={toboot} alt=""/>
+            </div>
+          </div>
         </div>
-
-        <div className="logos-ticker">
-          <div className="logos-ticker-fade" aria-hidden="true"></div>
-          <div className="logos-ticker-container">
-            <div className="image-container">
-              <img style={{ height: `50%` }} src={spotify} alt="spotify-logo" />
-            </div>
-            <div className="image-container">
-              <img style={{ height: `100%` }} src={nike} alt="nike-logo" />
-            </div>
-            <div className="image-container">
-              <img src={mailchimp} alt="mailchimp-logo" />
-            </div>
-            <div className="image-container">
-              <img
-                style={{ height: `100%` }}
-                src={peloton}
-                alt="peloton-logo"
-              />
-            </div>
-            <div className="image-container">
-              <img src={lv} alt="louis-vuitton-logo" />
-            </div>
-            <div className="image-container">
-              <img style={{ height: `40%` }} src={verizon} alt="verizon-logo" />
-            </div>
-            <div className="image-container">
-              <img style={{ height: `50%` }} src={airbnb} alt="airbnb-logo" />
-            </div>
-          </div>
-          <div className="logos-ticker-container">
-            <div className="image-container">
-              <img
-                style={{ height: `40%` }}
-                src={sendGrid}
-                alt="sendgrid-logo"
-              />
-            </div>
-            <div className="image-container">
-              <img style={{ height: `50%` }} src={shopify} alt="shopify-logo" />
-            </div>
-            <div className="image-container">
-              <img style={{ height: `50%` }} src={twilio} alt="twilio-logo" />
-            </div>
-            <div className="image-container">
-              <img
-                style={{ height: `30%` }}
-                src={doordash}
-                alt="doordash-logo"
-              />
-            </div>
-            <div className="image-container">
-              <img src={danone} alt="danone-logo" />
-            </div>
-            <div className="image-container">
-              <img
-                style={{ height: `30%` }}
-                src={facebookLogo}
-                alt="facebook-logo"
-              />
-            </div>
-            <div className="image-container">
-              <img src={figma} alt="figma-logo" />
-            </div>
-          </div>
         </div>
       </section>
 
