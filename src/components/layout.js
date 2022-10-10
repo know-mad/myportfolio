@@ -29,14 +29,12 @@ const Layout = ({ children }) => {
               <Link style={linkStyle} to='/contact/'>contact</Link>
             </div>
             <div className='footer-top-center'>
-              <h3>SERVICES</h3>
-              <Link style={linkStyle} to='/services/web-design-services-nyc/'>web design</Link>
-              <Link style={linkStyle} to='/services/ecommerce-web-design-nyc/'>e-commerce</Link>
-              <Link style={linkStyle} to='/services/web-development-nyc/'>app development</Link>
-            </div>
-            <div className='footer-top-center'>
+
               <h3>SOCIALS</h3>
               <a href='https://github.com/know-mad' rel="noopener noreferrer" target="_blank">github</a>
+            </div>
+            <div className='footer-top-center'>
+
             </div>
           </div>
 
