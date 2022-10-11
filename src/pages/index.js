@@ -166,6 +166,60 @@ const IndexPage = () => {
       </section>
 
       <section>
+        <div className="service-cards-container">
+            <div className="service-card">
+              <div className="service-card-top">
+                <div className="service-card-icon">
+                  <img src={webDesign} alt="web-design-services" />
+                </div>
+                <h2>WEB DESIGN</h2>
+              </div>
+              <div className="service-card-bottom">
+                <p>
+                    No cookie cutter wordpress sites here! I design and create
+                    custom websites built on modern technology stacks that
+                    generate blazing fast page load speeds coupled with
+                    aesthetics to match.
+                </p>
+              </div>
+            </div>
+            <div className="service-card">
+              <div className="service-card-top">
+                <div className="service-card-icon">
+                  <img src={shoppingCart} alt="nyc-seo-services" />
+                </div>
+                <h2>E-COMMERCE</h2>
+              </div>
+              <div className="service-card-bottom">
+                <p>
+                    There's no way around it...doing business in the digital age
+                    means having to sell online. I provide robust and scalable
+                    e-commerce solutions that allow you or your business to sell
+                    products on the world wide web.
+                </p>
+              </div>
+            </div>
+            <div className="service-card">
+              <div className="service-card-top">
+                <div className="service-card-icon">
+                  <img src={coding} alt="web-developmen-code" />
+                </div>
+                <h2>APPLICATIONS</h2>
+              </div>
+              <div className="service-card-bottom">
+                <p>
+                    Web applications have become a necessary marketing tool for
+                    all businesses, regardless of the size of their industries.
+                    A mobile app can help a small business engage with and build
+                    their customer base, drive sales, and improve their
+                    reputation.
+                </p>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      {/* <section>
         <div className="section-md-column">
           <div className="services-container">
             <div className="individual-service">
@@ -254,7 +308,7 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section>
         <div className="web-banner">
@@ -384,6 +438,9 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
+        <Link id="project-link" to="/projects/">
+              VIEW ALL PROJECTS
+        </Link>
         </div>
       </section>
 

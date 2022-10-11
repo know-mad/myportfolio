@@ -107,6 +107,21 @@ light-purple #4026B6
    border-radius: 100px;
 }
 
+#project-link {
+  display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   font-weight: bold;
+   font-size: 0.75rem;
+   height: 4.5em;
+   width: 25em;
+   background: linear-gradient(45deg, #0984e3, #5ACBFA);
+   margin: 2em 0 2em;
+   border-radius: 100px;
+}
+
  /* ////////////// Components /////////////////// */
 
 .hero {
@@ -414,7 +429,7 @@ light-purple #4026B6
   color: #0984e3;
   font-size: 1.75rem;
   font-weight: bold;
-  margin: 0;
+  margin: 10px;
 }
 
 @keyframes slide {
@@ -1772,4 +1787,65 @@ light-purple #4026B6
     padding: 3px;
   }
 }
+
+/* New Services Cards UI */
+
+.service-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  /* background: gold; */
+  padding: 1rem;
+}
+
+.service-card {
+  height: 30em;
+  width: 25%;
+  border-radius: 20px;
+  padding: 1rem;
+  border: 1px solid #0984e3;
+}
+
+.service-card-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 30%;
+  width: 100%;
+  /* background: crimson; */
+}
+
+.service-card-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 70%;
+  width: 100%;
+  /* background: magenta; */
+}
+
+.service-card-bottom p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.service-card-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 4em;
+  width: 4em;
+  border-radius: 4em;
+  background: #0984e3;
+}
+
+.service-card-icon img {
+  width: 30px;
+  height: auto;
+}
+
 
