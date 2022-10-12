@@ -991,7 +991,7 @@ light-purple #4026B6
   }
   
   .partners-card {
-    height: 30%;
+    height: 13em;
     width: 45%;
   }
 
@@ -1473,10 +1473,6 @@ light-purple #4026B6
   .profile-intro {
     padding: 0 15em 0;
     text-align:justify;
-  }
-
-  .partners-list-desktop {
-    height: 50em;
   }
 
   .partners-list-desktop {

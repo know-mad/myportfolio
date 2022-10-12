@@ -11,7 +11,7 @@ const ProjectPage = () => (
   <SEO title='Website Developers NYC' />
     <div className='portfolio-page-container'>
       <section>
-        <div className='project-page-banner'>
+        <div className='portfolio-banner'>
           <div className='banner-inner'>
             <h1>WEBSITE</h1>
           </div>
